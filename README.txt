@@ -26,8 +26,8 @@ Ronald Hyatt
 
 Folders
 -------
-Initial_Startup_Documentation --> Holds all of the documentation developed during the
-                                  initial project startup.
+
+Project_Code <- The folder containing the projects code
 
 ---------------------------------------------------------------------------------------
 
