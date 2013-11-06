@@ -1,0 +1,14 @@
+Meeting Documentation
+---------------------
+
+Initial Source Code Meeting
+	- Search Algorithm Discussion And Development
+	- Input File Restructuring Discussion
+	- Repository Setup
+	* Date: 11/6/2013
+	* Time: 10:30 AM - 1:00 PM
+	* Members Present
+		-> Brian McCormick
+		-> Ronald Hyatt
+		-> Matt Bald
+		-> Vincenzo Marconi

@@ -27,7 +27,9 @@ Ronald Hyatt
 Folders
 -------
 
-Project_Code <- The folder containing the projects code
+Project_Code       <- The folder containing the projects code
+Code_Documentation <- Folder containing documentation for specific code segments that
+                        are important to the functionality of the project.
 
 ---------------------------------------------------------------------------------------
 
@@ -35,5 +37,6 @@ Files
 -----
 
 README.txt
+Meeting_Minutes.txt
 
 ---------------------------------------------------------------------------------------
