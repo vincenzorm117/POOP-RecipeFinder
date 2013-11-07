@@ -71,10 +71,6 @@ for (i = 0; i < recipeList.length(); i ++){
 			results[t].recipe = recipeList[i];
 			results[t].hitCounter = k;
 			t ++;
-			
-			//Here we should order the results list based on hit counter
-			//Or we could do it after this loop so we only have to sort it once...
-			
 		}
 	}
 	
@@ -83,3 +79,8 @@ for (i = 0; i < recipeList.length(); i ++){
 		continue;
 	}
 }
+
+//Here we should order the results list based on hit counter and return only the top ten items
+
+
+return results;
