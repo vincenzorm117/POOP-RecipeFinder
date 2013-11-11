@@ -1,0 +1,329 @@
+﻿<Ingredient ID>
+<Name>
+<Allergy ID> (if applicable)
+
+
+1
+small acorn squash
+
+
+2
+brown sugar
+
+
+3
+ground nutmeg
+
+
+4
+unsalted butter
+
+
+5
+packaged dried fettuccine
+
+
+6
+garlic, chopped
+
+
+7
+butter
+
+
+8
+whipping cream
+1
+
+
+9
+salt
+
+
+10
+black pepper
+
+
+11
+grated parmesan cheese
+1
+
+
+12
+Pillsbury pie crust
+
+
+13
+pumpkin
+
+
+14
+ground cinnamon
+
+
+15
+ground ginger
+
+
+16
+ground cloves
+
+
+17
+eggs
+
+
+18
+half-and-half
+
+
+19
+olive oil
+
+
+20
+ground allspice
+
+
+21
+rice
+
+
+22
+broth
+
+
+23
+potatoes
+
+
+24
+canola oil
+
+
+25
+blue cheese dressing
+
+
+26
+red onion
+
+
+27
+celery
+
+
+28
+cooked bacon pieces
+
+
+29
+yuca
+
+
+30
+water
+
+
+31
+salad olives
+
+
+32
+mojo marinade
+
+
+33
+sweet onion
+
+
+34
+green cabbage
+
+
+35
+baby portabello mushrooms, sliced
+
+
+36
+chopped pineapple
+
+
+37
+diced tomato
+
+
+38 
+chopped red pepper
+
+
+39
+lime
+
+
+40
+chopped cilantro
+
+
+41
+watermelon
+
+
+42
+medium whole tomato
+
+
+43
+salad greens
+
+
+44
+feta cheese
+
+
+45
+vinaigrette
+
+
+46
+plantains
+
+
+47
+mini sweet peppers
+
+
+48
+garlic, whole clove
+
+
+49
+stuffed green olives
+
+
+50
+orange juice
+
+
+51
+rice vinegar
+
+
+52
+corn kernels
+
+
+53
+sweet potato, cubed
+
+
+54
+jicama, cubed
+
+
+55
+diced tomatoes with chilies
+
+
+56
+zucchini squash, sliced
+
+
+57
+eggplant, sliced
+
+
+58
+apples, sliced
+
+
+59
+sugar
+
+
+60
+steak, 1-inch thick
+
+
+61
+steak seasoning
+
+
+62
+garlic, powder
+
+
+63
+basil, chopped
+
+
+64
+medium whole pears
+
+
+65
+sweet white wine
+
+
+66
+vanilla bean
+
+
+67
+zest of one lemon
+
+
+68
+mascarpone cheese
+
+
+69
+italian seasoning
+
+
+70
+tilapia fillets
+71
+italian parsley, chopped
+
+
+72
+teriyaki marinade
+73
+tuna steaks (3/4 inch-thick)
+74
+littleneck clams, rinsed
+75
+chicken broth
+76
+white wine
+77
+green bell pepper, thinly sliced
+78
+patagonian scallops
+79
+teriyaki sauce
+80
+medium lobster tails
+81
+lemon, halved
+82
+lemon, quartered
+83
+seafood seasoning
+84
+snow crab clusters
+85
+jumbo shrimp
+86
+long skewers
+87
+greek seasoning
+88
+linguine pasta
+89
+medium shrimp. peeled and deveined, tail off
+90
+blackening seasoning
+91
+can alfredo sauce

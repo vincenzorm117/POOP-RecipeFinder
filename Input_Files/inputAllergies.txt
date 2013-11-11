@@ -1,0 +1,13 @@
+﻿<Allergy ID>
+<Allergy Name>
+<Warning Message>
+
+
+0
+None
+None
+
+
+1
+Dairy
+This recipe contains ingredients with dairy.
