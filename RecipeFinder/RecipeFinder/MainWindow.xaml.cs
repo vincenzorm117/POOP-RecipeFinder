@@ -110,15 +110,29 @@ namespace RecipeFinder {
             //SearchPanel.Visibility = System.Windows.Visibility.Hidden;
             //ResultsPanel.Visibility = System.Windows.Visibility.Visible;
 
+            //List of parameters the user has searched for
             HashSet<String>.Enumerator list = checkedIngredients.GetEnumerator();
 
+            //Empty list each time
             Results.Items.Clear();
+
+            //Send the user parameters
+            searchForRecipies();
+
             while(list.MoveNext()){
                 String curr = list.Current;
                 Results.Items.Add(curr);
             }
                 
             
+
+        }
+
+
+        //Returns nothing for now
+        private void searchForRecipies() {
+
+
 
         }
 
