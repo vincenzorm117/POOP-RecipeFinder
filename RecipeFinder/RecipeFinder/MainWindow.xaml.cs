@@ -97,6 +97,9 @@ namespace RecipeFinder {
                 CheckBox c = new CheckBox();
                 c.Content = "Allergy"+i;
 
+                c.Checked += check_Box_Checked_Event;
+                c.Unchecked += check_Box_Unchecked_Event;
+
                 this.Allergies.Children.Add(c);
             }
         }
@@ -107,8 +110,9 @@ namespace RecipeFinder {
 
         private void SearchButton_Click(object sender, RoutedEventArgs e) { 
             //View Properties Dont touch
-            //SearchPanel.Visibility = System.Windows.Visibility.Hidden;
-            //ResultsPanel.Visibility = System.Windows.Visibility.Visible;
+            ControlTemp.Visibility = System.Windows.Visibility.Hidden;
+            SearchPanel.Visibility = System.Windows.Visibility.Hidden;
+            ResultsPanel.Visibility = System.Windows.Visibility.Visible;
 
             //List of parameters the user has searched for
             HashSet<String>.Enumerator list = checkedIngredients.GetEnumerator();
@@ -142,8 +146,9 @@ namespace RecipeFinder {
 
         private void Back_Click(object sender, RoutedEventArgs e) {
             //View Properties Dont Touch
-            //SearchPanel.Visibility = System.Windows.Visibility.Visible;
-            //ResultsPanel.Visibility = System.Windows.Visibility.Hidden;
+            ControlTemp.Visibility = System.Windows.Visibility.Visible;
+            SearchPanel.Visibility = System.Windows.Visibility.Visible;
+            ResultsPanel.Visibility = System.Windows.Visibility.Hidden;
 
         }
 
