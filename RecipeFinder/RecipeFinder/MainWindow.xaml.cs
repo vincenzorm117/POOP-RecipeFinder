@@ -13,48 +13,45 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Controls.Primitives;
+using System.IO;
 
-
-namespace RecipeFinder {
-    
-
-    
-
-    public partial class MainWindow : Window {
-
-
+namespace RecipeFinder
+{
+    public partial class MainWindow : Window
+    {
         private HashSet<String> checkedIngredients;
         
-        public MainWindow() {
+        public MainWindow()
+        {   
+            /*File Input Function Here*/
 
             checkedIngredients = new HashSet<String>();
-
             InitializeComponent();
             populateAllergies();
             populateFilterExpandersAndCheckBoxes();
         }
 
-
-
-        public void populateFilterExpandersAndCheckBoxes() {
-
+        public void populateFilterExpandersAndCheckBoxes()
+        {
             //First for loop creates the expanders with its corresponding UniformGrid
-            for(int i = 1; i < 11; i ++){
+            for(int i = 1; i < 11; i ++)
+            {
                 //Expanders are the collapsable panel
                 Expander e = new Expander();
-                e.Header = "Expander "+i; //Sets the name of the Expander
+                e.Header   = "Expander " + i; //Sets the name of the Expander
 
                 //Expanders have content but cannot store elements directly; it needs a grid to hold items
                 //UniformGrid is the Expanders items container; what is unique about this grid is that it can columns and rows
                 UniformGrid g = new UniformGrid();
-                g.Columns = 2;  // The number of columns are set to 2 so it has 2 columns of checkboxes
+                g.Columns     = 2;  // The number of columns are set to 2 so it has 2 columns of checkboxes
 
-                for (int j = 1; j < 11; j++) {
-                    CheckBox c = new CheckBox();    //CheckBox created
-                    c.Content = "CheckBox "+i+":" + j; //Its name is set
+                for (int j = 1; j < 11; j++)
+                {
+                    CheckBox c = new CheckBox();            //CheckBox created
+                    c.Content  = "CheckBox " + i + ":" + j; //Its name is set
 
                     //Adds actionlistener below (check_Box_Checked_Event) to current checkbox. So when the checkbox is selected that method is ran
-                    c.Checked += check_Box_Checked_Event;
+                    c.Checked   += check_Box_Checked_Event;
                     c.Unchecked += check_Box_Unchecked_Event;
 
                     //Checkbox is added to the UniformGrid so it can be inside the expander
@@ -66,98 +63,75 @@ namespace RecipeFinder {
                 e.Content = g;
                 //The Current loops expander is added to the SearchFilters panel where they are placed in a stack manner because the panel is a StackPanel
                 SearchFilters.Children.Add(e);
-            }
-
-            
+            }            
         }
 
-        void check_Box_Checked_Event(object sender, RoutedEventArgs e) {
-
+        void check_Box_Checked_Event(object sender, RoutedEventArgs e)
+        {
             CheckBox c = (CheckBox)e.Source;
-
             checkedIngredients.Add((String)c.Content);
-           
-
         }
 
-        void check_Box_Unchecked_Event(object sender, RoutedEventArgs e) {
-
+        void check_Box_Unchecked_Event(object sender, RoutedEventArgs e)
+        {
             CheckBox c = (CheckBox)e.Source;
-
             checkedIngredients.Remove((String)c.Content);
-        
-        
         }
 
-
-
-        public void populateAllergies() {
-
-            for (int i = 1; i < 11; i++) {
+        public void populateAllergies()
+        {
+            for (int i = 1; i < 11; i++)
+            {
                 CheckBox c = new CheckBox();
-                c.Content = "Allergy"+i;
+                c.Content  = "Allergy" + i;
 
-                c.Checked += check_Box_Checked_Event;
+                c.Checked   += check_Box_Checked_Event;
                 c.Unchecked += check_Box_Unchecked_Event;
 
                 this.Allergies.Children.Add(c);
             }
         }
 
-
-        
-
-
-        private void SearchButton_Click(object sender, RoutedEventArgs e) { 
+        private void SearchButton_Click(object sender, RoutedEventArgs e)
+        { 
             //View Properties Dont touch
-            ControlTemp.Visibility = System.Windows.Visibility.Hidden;
-            SearchPanel.Visibility = System.Windows.Visibility.Hidden;
+            ControlTemp.Visibility  = System.Windows.Visibility.Hidden;
+            SearchPanel.Visibility  = System.Windows.Visibility.Hidden;
             ResultsPanel.Visibility = System.Windows.Visibility.Visible;
 
             HashSet<String>.Enumerator list = checkedIngredients.GetEnumerator();
 
             Results.Items.Clear();
-            while(list.MoveNext()){
+            while(list.MoveNext())
+            {
                 String curr = list.Current;
                 Results.Items.Add(curr);
             }
-                
-            
-
         }
 
-
-        
-
-
-        private void Back_Click(object sender, RoutedEventArgs e) {
+        private void Back_Click(object sender, RoutedEventArgs e)
+        {
             //View Properties Dont Touch
-            ControlTemp.Visibility = System.Windows.Visibility.Visible;
-            SearchPanel.Visibility = System.Windows.Visibility.Visible;
+            ControlTemp.Visibility  = System.Windows.Visibility.Visible;
+            SearchPanel.Visibility  = System.Windows.Visibility.Visible;
             ResultsPanel.Visibility = System.Windows.Visibility.Hidden;
-
         }
 
-        private void updateRecipeSelection(object sender, SelectionChangedEventArgs e) {
-
-
+        private void updateRecipeSelection(object sender, SelectionChangedEventArgs e)
+        {
             RecipeDisplayed.Document.Blocks.Clear();
             ListBox s = (ListBox)e.Source;
+
             if(s != null)
-                if (s.Items.Count > 0) {
+                if (s.Items.Count > 0)
+                {
                     String x = s.SelectedItem.ToString();
                     RecipeDisplayed.Document.Blocks.Add(new Paragraph(new Run(x)));
                 }
-            
-
         }
 
        
-        private void print(object sender, RoutedEventArgs e) {
-            //Don't Touch this unless your handling view
-        }
-
-
-
+        private void print(object sender, RoutedEventArgs e)
+        { /*Don't Touch this unless your handling view*/ }
     }
 }
