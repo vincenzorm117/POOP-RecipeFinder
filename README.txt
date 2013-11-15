@@ -18,7 +18,7 @@ Group Members
 Brian McCormick
 Vincenzo Marconi
 Matt Bald
-Rachel Kinner -> Testing how to commit
+Rachel Kinner
 Josh Barnett
 Ronald Hyatt
 
