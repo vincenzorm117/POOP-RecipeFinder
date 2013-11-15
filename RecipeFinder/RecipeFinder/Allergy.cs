@@ -11,7 +11,7 @@ namespace RecipeFinder
      * \brief  Storage for a single Allergy
      * \author Brian McCormick
      **/
-    class Allergy
+    public class Allergy
     {
         private int    _ID;      ///< The associated ID number for the stored allergy
         private string _Name;    ///< The name of the allergy stored

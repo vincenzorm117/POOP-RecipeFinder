@@ -12,7 +12,7 @@ namespace RecipeFinder
      * \author Brian McCormick
      * \todo   Change the code for storing the ingredients
      **/
-    class Recipe
+    public class Recipe
     {
         private int     _TotalTime;                 ///< The total time for the recipe
         private int     _PrepTime;                  ///< The amount of time needed to prepare

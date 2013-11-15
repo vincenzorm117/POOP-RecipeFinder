@@ -11,7 +11,7 @@ namespace RecipeFinder
      * \brief  Storage for a single Ingredient
      * \author Brian McCormick
      **/
-    class Ingredient
+    public class Ingredient
     {
         private int    _ID;      ///< Holds the ID for the stored ingredient
         private int    _Allergy; ///< Holds the ID value of the associated allergy
