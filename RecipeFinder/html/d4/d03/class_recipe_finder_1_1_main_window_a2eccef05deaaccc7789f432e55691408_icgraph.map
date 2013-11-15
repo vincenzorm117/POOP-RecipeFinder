@@ -1,4 +1,5 @@
 <map id="RecipeFinder.MainWindow.check_Box_Unchecked_Event" name="RecipeFinder.MainWindow.check_Box_Unchecked_Event">
 <area shape="rect" id="node2" href="$d4/d03/class_recipe_finder_1_1_main_window.html#aca7f4813f57e3dea25073d6276bc5316" title="RecipeFinder.MainWindow.populate\lFilterExpandersAndCheckBoxes" alt="" coords="269,5,499,46"/>
-<area shape="rect" id="node3" href="$d4/d03/class_recipe_finder_1_1_main_window.html#a1600addde71917cf6e797958ea5fc532" title="RecipeFinder.MainWindow.\lMainWindow" alt="" coords="547,5,727,46"/>
+<area shape="rect" id="node4" href="$d4/d03/class_recipe_finder_1_1_main_window.html#a06f232f38b5055e654aaefdc231ccec9" title="RecipeFinder.MainWindow.populate\lAllergies" alt="" coords="269,70,499,111"/>
+<area shape="rect" id="node3" href="$d4/d03/class_recipe_finder_1_1_main_window.html#a1600addde71917cf6e797958ea5fc532" title="RecipeFinder.MainWindow.\lMainWindow" alt="" coords="547,38,727,79"/>
 </map>
