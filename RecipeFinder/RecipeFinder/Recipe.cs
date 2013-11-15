@@ -26,7 +26,7 @@ namespace RecipeFinder
         private int     _Protein;                   ///< How much protien per serving (g)
         private int     _NumberOfIngredients;       ///< The total number of ingredients for this recipe
 
-        //TODO: Replace this code with better storage code, probably use a smaller class with a vector system
+        //TODO: Replace this code with better storage code, probably use a smaller class or struct with a vector system
         private int    *_IngredientAmountList;      ///< An array of the amounts needed for each ingredient
         private int    *_IngredientMeasurementList; ///< An array of the measurements to use for each ingredient
         private int    *_IngredientIDList;          ///< An array of each of the ingredients ID values
