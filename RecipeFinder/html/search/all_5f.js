@@ -1,7 +1,24 @@
 var searchData=
 [
   ['_5fallergy',['_Allergy',['../d3/d10/class_recipe_finder_1_1_ingredient.html#a6af1a8429ade293aec91b60a4e5faa34',1,'RecipeFinder::Ingredient']]],
+  ['_5fcalories',['_Calories',['../db/de7/class_recipe_finder_1_1_recipe.html#ac4b391102ccd1320e5602e631c644982',1,'RecipeFinder::Recipe']]],
+  ['_5fcarbs',['_Carbs',['../db/de7/class_recipe_finder_1_1_recipe.html#af7fc4bd77ba3aec1cbcb34214b09bdb8',1,'RecipeFinder::Recipe']]],
+  ['_5fcholestorol',['_Cholestorol',['../db/de7/class_recipe_finder_1_1_recipe.html#a25b0fb8eb72de83868e17b1be74764d4',1,'RecipeFinder::Recipe']]],
   ['_5fcontentloaded',['_contentLoaded',['../d4/d03/class_recipe_finder_1_1_main_window.html#aad9e0e2d7b8912bddac27d5da1ba2dd1',1,'RecipeFinder::MainWindow']]],
-  ['_5fid',['_ID',['../d3/d10/class_recipe_finder_1_1_ingredient.html#a438a9c7c9da7f220de027e2e7b806797',1,'RecipeFinder::Ingredient']]],
-  ['_5fname',['_Name',['../d3/d10/class_recipe_finder_1_1_ingredient.html#a8d92e88d88240ea28f19c05cdccaa5a7',1,'RecipeFinder::Ingredient']]]
+  ['_5ffat',['_Fat',['../db/de7/class_recipe_finder_1_1_recipe.html#a550bd929b9758d96480b934c76676872',1,'RecipeFinder::Recipe']]],
+  ['_5ffiber',['_Fiber',['../db/de7/class_recipe_finder_1_1_recipe.html#a1f9aed93b9abc0404cee51850428308c',1,'RecipeFinder::Recipe']]],
+  ['_5fid',['_ID',['../d0/d44/class_recipe_finder_1_1_allergy.html#a6b986d38fa5bf479f2016474475582d0',1,'RecipeFinder.Allergy._ID()'],['../d3/d10/class_recipe_finder_1_1_ingredient.html#a438a9c7c9da7f220de027e2e7b806797',1,'RecipeFinder.Ingredient._ID()']]],
+  ['_5fingredientamountlist',['_IngredientAmountList',['../db/de7/class_recipe_finder_1_1_recipe.html#afecc1ff414e4f9ef35e414e5d8e13291',1,'RecipeFinder::Recipe']]],
+  ['_5fingredientidlist',['_IngredientIDList',['../db/de7/class_recipe_finder_1_1_recipe.html#a43c51b6e4dd3990b6d456919bda48ef1',1,'RecipeFinder::Recipe']]],
+  ['_5fingredientmeasurementlist',['_IngredientMeasurementList',['../db/de7/class_recipe_finder_1_1_recipe.html#a62fa2ba3db5e69330f3a4b14be6ccb95',1,'RecipeFinder::Recipe']]],
+  ['_5finstructions',['_Instructions',['../db/de7/class_recipe_finder_1_1_recipe.html#a51dbefded8bd1522b427046a829e785d',1,'RecipeFinder::Recipe']]],
+  ['_5fmessage',['_Message',['../d0/d44/class_recipe_finder_1_1_allergy.html#ab50162778b20c802971c75f878f112a1',1,'RecipeFinder::Allergy']]],
+  ['_5fname',['_Name',['../d0/d44/class_recipe_finder_1_1_allergy.html#a6be16b6c3f8e9179945734f694a86b0d',1,'RecipeFinder.Allergy._Name()'],['../d3/d10/class_recipe_finder_1_1_ingredient.html#a8d92e88d88240ea28f19c05cdccaa5a7',1,'RecipeFinder.Ingredient._Name()']]],
+  ['_5fnumberofingredients',['_NumberOfIngredients',['../db/de7/class_recipe_finder_1_1_recipe.html#a7d5023ec5eb027bd6ef6d17eb7afba8d',1,'RecipeFinder::Recipe']]],
+  ['_5fpreptime',['_PrepTime',['../db/de7/class_recipe_finder_1_1_recipe.html#a13b85c3d1ec5eb5e800ae5da9e0698c2',1,'RecipeFinder::Recipe']]],
+  ['_5fprotein',['_Protein',['../db/de7/class_recipe_finder_1_1_recipe.html#a16a43a6ebc1d03d664ab2c8fbd3a9144',1,'RecipeFinder::Recipe']]],
+  ['_5fservings',['_Servings',['../db/de7/class_recipe_finder_1_1_recipe.html#ac0d3e6dad76c773c84644a539666c3cc',1,'RecipeFinder::Recipe']]],
+  ['_5fsodium',['_Sodium',['../db/de7/class_recipe_finder_1_1_recipe.html#a5dff1cfa9e1a93c4cbbb4d70a38af34b',1,'RecipeFinder::Recipe']]],
+  ['_5ftitle',['_Title',['../db/de7/class_recipe_finder_1_1_recipe.html#af69b155fa8e8baad2f5f13f48dff33c5',1,'RecipeFinder::Recipe']]],
+  ['_5ftotaltime',['_TotalTime',['../db/de7/class_recipe_finder_1_1_recipe.html#a6020a164eca0f3e99a7130ee5a9284fc',1,'RecipeFinder::Recipe']]]
 ];
