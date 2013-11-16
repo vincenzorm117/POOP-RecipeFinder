@@ -7,10 +7,14 @@ using RecipeFinder;
 
 namespace Unit_Test
 {
-    class UnitTest_Main
+    public partial class UnitTest_Main
     {
         static void Main(string[] args)
         {
+            Console.Write("Testing Allergy Class...");
+            Allergy_BasicTest();
+            Console.WriteLine("{0} of {1} tests failed.", _allergyBasicResult[1], _allergyBasicResult[0]);
+
         }
     }
 }
