@@ -1,0 +1,29 @@
+Allergy Input Function Documentation
+
+This file contains psudo code for reading in allergy data from file.
+All psudo code is in a english sentence structure and doesn't use actual code.
+------------------------------------
+
+if( file exists )
+{
+    Store all lines from input file into string array
+
+    loop through all lines read in from file
+    {
+        1st runthrough -> Store allergy ID number
+        2nd runthrough -> Store allergy name
+        3rd runthrough -> Create a new allergy object
+                          Use stored data from last two runthroughs and current runthrough for constructor
+                          Add new allergy object to the allergy object list
+
+        Increment the runthrough counter
+        If the runthrough counter >= 3 then reset it to zero (A.K.A. 1st runthrough)
+    }
+
+    return true to signal successful file input
+}
+else
+{
+    send an error message to the console (If there is time to do this I would like to have it sent to a log
+    return false to signal failed file input
+}

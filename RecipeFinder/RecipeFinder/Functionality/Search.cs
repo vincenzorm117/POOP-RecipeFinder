@@ -14,9 +14,10 @@ namespace RecipeFinder
         //          a bool array representing the different allergens
         //TODO: Remove hardcoded values from this function
         //TODO: Testing needs to be performed for this method once final touches have been added in
-        public Recipe[] searchForRecipies(bool userSearchParams[][], Recipe recipeList[], int cookingMode,  bool alergens[])
+        public Recipe[] searchForRecipies(bool[][] userSearchParams, Recipe[] recipeList, int cookingMode,  bool[] alergens)
         {
-            
+            return new Recipe[0];
+            /*
             //Recipe needs to be some sort of accessable object
             //Struct to keep track of the correct hits each recipe gets based on the search
             struct recipeMatches 
@@ -31,12 +32,13 @@ namespace RecipeFinder
 
             //Array of the structs
             // Based on 100 recipe input
-            recipeMatches recipeResults[] = new recipeMatches[100];
+            recipeMatches[] recipeResults = new recipeMatches[100];
             //The return for the results for the top 10 of the search
-            Recipe results[] = new Recipe[10];
+            Recipe[] results = new Recipe[10];
 
             //Grab each ingrediant list from each recipe
-            bool recipeIngrediants[][] = new bool [categories][ingrediants];
+            //TODO: Redo this code for proper memory allocation
+            bool[][] recipeIngrediants = new bool[9][]; //[categories][ingrediants];
             
             int k;
 
@@ -88,7 +90,7 @@ namespace RecipeFinder
             Array.Copy(recipeResults, results, 10);
 
             //return the top 10
-            return results;
+            return results;*/
         }
     }
 }

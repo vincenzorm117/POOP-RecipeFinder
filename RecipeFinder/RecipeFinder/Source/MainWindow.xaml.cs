@@ -18,9 +18,14 @@ using System.IO;
 namespace RecipeFinder
 {
     //Enum declarations for use on ingredient categories, measurements
+    //TODO: Add comment documentation once finally filled out
     enum IngredientCategory {None};
     enum Measurements       {None};
 
+    /**
+     * \class MainWindow
+     * \brief The class for the main program and it's main execution
+     **/
     public partial class MainWindow : Window
     {
         private HashSet<String> checkedIngredients;
@@ -112,7 +117,7 @@ namespace RecipeFinder
             {
                 //Send the user parameters
                 //TODO: Update function call so that it fits with updated data storage methods
-                searchForRecipies(userSearchParams[][], recipeList[], cookingMode,  alergens[]);
+                //searchForRecipies(userSearchParams, recipeList, cookingMode,  alergens);
 
                 while(list.MoveNext())
                 {
