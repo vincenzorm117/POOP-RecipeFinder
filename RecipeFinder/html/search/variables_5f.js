@@ -1,6 +1,7 @@
 var searchData=
 [
   ['_5fallergy',['_Allergy',['../d3/d10/class_recipe_finder_1_1_ingredient.html#a6af1a8429ade293aec91b60a4e5faa34',1,'RecipeFinder::Ingredient']]],
+  ['_5fallergybasicresult',['_allergyBasicResult',['../df/d8d/class_unit___test_1_1_unit_test___main.html#ac002ea298d79fbf774e41ed7eee85003',1,'Unit_Test::UnitTest_Main']]],
   ['_5fallergylist',['_allergyList',['../d4/d03/class_recipe_finder_1_1_main_window.html#ac8103eecd01283da9a4b179171650cdf',1,'RecipeFinder::MainWindow']]],
   ['_5fcalories',['_Calories',['../db/de7/class_recipe_finder_1_1_recipe.html#ac4b391102ccd1320e5602e631c644982',1,'RecipeFinder::Recipe']]],
   ['_5fcarbs',['_Carbs',['../db/de7/class_recipe_finder_1_1_recipe.html#af7fc4bd77ba3aec1cbcb34214b09bdb8',1,'RecipeFinder::Recipe']]],
@@ -17,12 +18,14 @@ var searchData=
   ['_5fnumberofingredients',['_NumberOfIngredients',['../db/de7/class_recipe_finder_1_1_recipe.html#a7d5023ec5eb027bd6ef6d17eb7afba8d',1,'RecipeFinder::Recipe']]],
   ['_5fpreptime',['_PrepTime',['../db/de7/class_recipe_finder_1_1_recipe.html#a13b85c3d1ec5eb5e800ae5da9e0698c2',1,'RecipeFinder::Recipe']]],
   ['_5fprotein',['_Protein',['../db/de7/class_recipe_finder_1_1_recipe.html#a16a43a6ebc1d03d664ab2c8fbd3a9144',1,'RecipeFinder::Recipe']]],
+  ['_5fresults',['_results',['../df/d8d/class_unit___test_1_1_unit_test___main.html#af940b7a2fe144919cfac6c7a812677b9',1,'Unit_Test::UnitTest_Main']]],
   ['_5fservings',['_Servings',['../db/de7/class_recipe_finder_1_1_recipe.html#ac0d3e6dad76c773c84644a539666c3cc',1,'RecipeFinder::Recipe']]],
   ['_5fsodium',['_Sodium',['../db/de7/class_recipe_finder_1_1_recipe.html#a5dff1cfa9e1a93c4cbbb4d70a38af34b',1,'RecipeFinder::Recipe']]],
   ['_5ftempallergy',['_tempAllergy',['../d4/d03/class_recipe_finder_1_1_main_window.html#a8bff0ae227a02ee2623aa8d455a3451f',1,'RecipeFinder::MainWindow']]],
   ['_5ftempid',['_tempID',['../d4/d03/class_recipe_finder_1_1_main_window.html#a2a3bd71f1cbdc8cb74c4903565d90458',1,'RecipeFinder::MainWindow']]],
   ['_5ftempmessage',['_tempMessage',['../d4/d03/class_recipe_finder_1_1_main_window.html#ace9358d647c825828b4a04d23637fae3',1,'RecipeFinder::MainWindow']]],
   ['_5ftempname',['_tempName',['../d4/d03/class_recipe_finder_1_1_main_window.html#a13281b259e6bd5688b04041b5874722c',1,'RecipeFinder::MainWindow']]],
+  ['_5ftestallergy',['_testAllergy',['../df/d8d/class_unit___test_1_1_unit_test___main.html#afc8d557d3630265d496978afd977f13c',1,'Unit_Test::UnitTest_Main']]],
   ['_5ftitle',['_Title',['../db/de7/class_recipe_finder_1_1_recipe.html#af69b155fa8e8baad2f5f13f48dff33c5',1,'RecipeFinder::Recipe']]],
   ['_5ftotaltime',['_TotalTime',['../db/de7/class_recipe_finder_1_1_recipe.html#a6020a164eca0f3e99a7130ee5a9284fc',1,'RecipeFinder::Recipe']]]
 ];

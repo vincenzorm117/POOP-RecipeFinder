@@ -1,0 +1,8 @@
+<map id="Unit_Test.UnitTest_Main.Main" name="Unit_Test.UnitTest_Main.Main">
+<area shape="rect" id="node2" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#a72eef5cb55327780eb3ef2c43be77c4d" title="Function for testing the basic functionality of the allergy class. " alt="" coords="185,74,351,115"/>
+<area shape="rect" id="node3" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#aac30b4f8b7dd5e7ba6e9745b03b1d775" title="Function used for testing a single allergy object. " alt="" coords="400,74,565,115"/>
+<area shape="rect" id="node4" href="$d0/d44/class_recipe_finder_1_1_allergy.html#a23428b5d4bc0bd050425aa98ede6b0f3" title="Used for accessing the allergy ID value. " alt="" coords="625,5,801,32"/>
+<area shape="rect" id="node5" href="$d0/d44/class_recipe_finder_1_1_allergy.html#ae75abe347dc6c912ce69f0316033dd95" title="Used for accessing the name of the allergy. " alt="" coords="614,56,813,83"/>
+<area shape="rect" id="node6" href="$d0/d44/class_recipe_finder_1_1_allergy.html#a6faae49b119fe30e79f86e919fa27a14" title="Used for accessing the stored allergies warning message. " alt="" coords="619,107,808,133"/>
+<area shape="rect" id="node7" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#a55a7d2031b06e4b032a317ea9aa5f264" title="Function for storing a result to the results array. " alt="" coords="643,158,783,199"/>
+</map>

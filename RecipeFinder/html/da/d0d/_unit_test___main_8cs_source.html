@@ -95,21 +95,27 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="keyword">using</span> System.Threading.Tasks;</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">using</span> RecipeFinder;</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
-<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="../../d6/d59/namespace_unit___test.html">    8</a></span>&#160;<span class="keyword">namespace </span>Unit_Test</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">namespace </span>Unit_Test</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div>
-<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html">   10</a></span>&#160;    <span class="keyword">class </span><a class="code" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html">UnitTest_Main</a></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    {</div>
-<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#a6534f997f0f93d025ef6abd41fcf99c4">   12</a></span>&#160;        <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#a6534f997f0f93d025ef6abd41fcf99c4">Main</a>(<span class="keywordtype">string</span>[] args)</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        {</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        }</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    }</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;}</div>
-<div class="ttc" id="class_unit___test_1_1_unit_test___main_html_a6534f997f0f93d025ef6abd41fcf99c4"><div class="ttname"><a href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#a6534f997f0f93d025ef6abd41fcf99c4">Unit_Test.UnitTest_Main.Main</a></div><div class="ttdeci">static void Main(string[] args)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d0d/_unit_test___main_8cs_source.html#l00012">UnitTest_Main.cs:12</a></div></div>
-<div class="ttc" id="class_unit___test_1_1_unit_test___main_html"><div class="ttname"><a href="../../df/d8d/class_unit___test_1_1_unit_test___main.html">Unit_Test.UnitTest_Main</a></div><div class="ttdef"><b>Definition:</b> <a href="../../da/d0d/_unit_test___main_8cs_source.html#l00010">UnitTest_Main.cs:10</a></div></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keyword">public</span> <span class="keyword">partial class </span>UnitTest_Main</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    {</div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#a395592b7f229d27be4353c95f7457185">   22</a></span>&#160;        <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#a395592b7f229d27be4353c95f7457185">Main</a>()</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        {</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;            <span class="comment">//Test the basic operations of the allergy class</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;            Console.Write(<span class="stringliteral">&quot;Testing Allergy Class...&quot;</span>);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;            <a class="code" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#a72eef5cb55327780eb3ef2c43be77c4d">Allergy_BasicTest</a>();</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            Console.WriteLine(<span class="stringliteral">&quot;{0} of {1} tests failed.&quot;</span>, <a class="code" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#ac002ea298d79fbf774e41ed7eee85003">_allergyBasicResult</a>[1], _allergyBasicResult[0]);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        }</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    }</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;}</div>
+<div class="ttc" id="class_unit___test_1_1_unit_test___main_html_a72eef5cb55327780eb3ef2c43be77c4d"><div class="ttname"><a href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#a72eef5cb55327780eb3ef2c43be77c4d">Unit_Test.UnitTest_Main.Allergy_BasicTest</a></div><div class="ttdeci">static void Allergy_BasicTest()</div><div class="ttdoc">Function for testing the basic functionality of the allergy class. </div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d37/_allergy_tests_8cs_source.html#l00025">AllergyTests.cs:25</a></div></div>
+<div class="ttc" id="class_unit___test_1_1_unit_test___main_html_ac002ea298d79fbf774e41ed7eee85003"><div class="ttname"><a href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#ac002ea298d79fbf774e41ed7eee85003">Unit_Test.UnitTest_Main._allergyBasicResult</a></div><div class="ttdeci">static int[] _allergyBasicResult</div><div class="ttdoc">Variable used for holding the number of failed tests and the total number of tests. </div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d37/_allergy_tests_8cs_source.html#l00013">AllergyTests.cs:13</a></div></div>
+<div class="ttc" id="class_unit___test_1_1_unit_test___main_html_a395592b7f229d27be4353c95f7457185"><div class="ttname"><a href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#a395592b7f229d27be4353c95f7457185">Unit_Test.UnitTest_Main.Main</a></div><div class="ttdeci">static void Main()</div><div class="ttdoc">The main function used for running all of the unit tests. </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d0d/_unit_test___main_8cs_source.html#l00022">UnitTest_Main.cs:22</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Nov 15 2013 23:38:42 for Recipe Finder by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Nov 16 2013 01:03:03 for Recipe Finder by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.5
 </small></address>
