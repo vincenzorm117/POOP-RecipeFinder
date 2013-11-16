@@ -1,5 +1,6 @@
 <map id="Unit_Test.UnitTest_Main.Main" name="Unit_Test.UnitTest_Main.Main">
-<area shape="rect" id="node2" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#a72eef5cb55327780eb3ef2c43be77c4d" title="Function for testing the basic functionality of the allergy class. " alt="" coords="185,74,351,115"/>
+<area shape="rect" id="node2" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#a72eef5cb55327780eb3ef2c43be77c4d" title="Function for testing the basic functionality of the allergy class. " alt="" coords="185,41,351,82"/>
+<area shape="rect" id="node8" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#aabbb204481e8457d3c2e360594c4b692" title="Function for testing reading in allergy from file. " alt="" coords="187,106,349,147"/>
 <area shape="rect" id="node3" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#aac30b4f8b7dd5e7ba6e9745b03b1d775" title="Function used for testing a single allergy object. " alt="" coords="400,74,565,115"/>
 <area shape="rect" id="node4" href="$d0/d44/class_recipe_finder_1_1_allergy.html#a23428b5d4bc0bd050425aa98ede6b0f3" title="Used for accessing the allergy ID value. " alt="" coords="625,5,801,32"/>
 <area shape="rect" id="node5" href="$d0/d44/class_recipe_finder_1_1_allergy.html#ae75abe347dc6c912ce69f0316033dd95" title="Used for accessing the name of the allergy. " alt="" coords="614,56,813,83"/>

@@ -7,53 +7,72 @@ namespace RecipeFinder
 {
     public partial class MainWindow : Window
     {
-        //Values used for controlling file input
-        private string[]      _lines;
-        private int           _counter;
+        private static List<Allergy> _allergyList;     ///< The list used to hold the allergy list read in from file.
+        public  static List<Allergy> _testAllergyList; ///< List used so that the unit test can have access to the data. Never gets called in the main program.
 
-        //Lists for storing file input data
-        private List<Allergy> _allergyList;
-
-        //Variables for temporarily storing allergy input before calling an objects constructor
-        private int           _tempID;
-        private string        _tempName;
-        private string        _tempMessage;
-        private Allergy       _tempAllergy;
-
-        public bool AllergyInput()
+        /**
+         * \fn         public static bool AllergyInput(string path)
+         * \brief      Function for reading allergy data in from file.
+         * \author     Brian McCormick
+         * \param path The path to the input file.
+         * \return     A boolean value representing if the process was successful or not.
+         **/
+        public static bool AllergyInput(string path)
         {
-            _counter     = 0;
-            _allergyList = new List<Allergy>();
+            //Variables used for controlling the input process
+            int      _counter  = 0;
+            int      _tempID   = 0;
+            string   _tempName = "";
+            string[] _lines;
+            Allergy  _tempAllergy;
 
-            if(File.Exists("allergy.txt"))
+            //Creates a new list of allergy objects
+            _allergyList     = new List<Allergy>();
+            _testAllergyList = new List<Allergy>();
+
+            //If the file at the target path exists then proceed with the input from file
+            if(File.Exists(path))
             {
-                _lines = File.ReadAllLines("allergy.txt");
+                //Read in all the lines from file
+                _lines = File.ReadAllLines(path);
 
+                //Iterate through all the lines read in from the file
                 foreach(string line in _lines)
                 {
-                    if(_counter == 0)
-                        int.TryParse(line, out _tempID);
-                    else if(_counter == 1)
-                        _tempName = line;
-                    else if(_counter == 2)
+                    //Test for unwanted lines from the input file: Empty Strings
+                    if(line != "")
                     {
-                        _tempAllergy = new Allergy(_tempID, _tempName, line);
-                        _allergyList.Add(_tempAllergy);
-                    }
+                        //Store the data based on the runthrough, on every third iteration create a new allergy object
+                        if(_counter == 0)
+                            int.TryParse(line, out _tempID);
+                        else if(_counter == 1)
+                            _tempName = line;
+                        else if(_counter == 2)
+                        {
+                            _tempAllergy = new Allergy(_tempID, _tempName, line);
+                            _allergyList.Add(_tempAllergy);
+                            _testAllergyList.Add(_tempAllergy);
+                        }
 
-                    _counter++;
-                    if(_counter >= 3)
-                        _counter = 0;
+                        //Reset the counter after each allergy object creation
+                        _counter++;
+                        if(_counter >= 3)
+                            _counter = 0;
+                    }
                 }
 
+                //Clean up any extra space not needed
+                _allergyList.TrimExcess();
+
+                //Return a success
                 return true;
             }
             else
             {
-                Console.Write("ERROR: Allergy File Not Found!");
+                //Print an error message to the console and return a failed result
+                Console.WriteLine("ERROR: Allergy File Not Found!");
                 return false;
             }
         }
-
     }
 }

@@ -1,4 +1,5 @@
 <map id="Unit_Test.UnitTest_Main.testCurrentAllergy" name="Unit_Test.UnitTest_Main.testCurrentAllergy">
 <area shape="rect" id="node2" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#a72eef5cb55327780eb3ef2c43be77c4d" title="Function for testing the basic functionality of the allergy class. " alt="" coords="219,5,386,46"/>
-<area shape="rect" id="node3" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#a395592b7f229d27be4353c95f7457185" title="The main function used for running all of the unit tests. " alt="" coords="435,5,565,46"/>
+<area shape="rect" id="node4" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#aabbb204481e8457d3c2e360594c4b692" title="Function for testing reading in allergy from file. " alt="" coords="222,70,383,111"/>
+<area shape="rect" id="node3" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#a395592b7f229d27be4353c95f7457185" title="The main function used for running all of the unit tests. " alt="" coords="435,38,565,79"/>
 </map>

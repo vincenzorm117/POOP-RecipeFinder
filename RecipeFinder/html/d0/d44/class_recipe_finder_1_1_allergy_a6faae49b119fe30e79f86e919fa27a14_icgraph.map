@@ -1,5 +1,6 @@
 <map id="RecipeFinder.Allergy.getMsg" name="RecipeFinder.Allergy.getMsg">
-<area shape="rect" id="node2" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#aac30b4f8b7dd5e7ba6e9745b03b1d775" title="Function used for testing a single allergy object. " alt="" coords="243,5,408,46"/>
+<area shape="rect" id="node2" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#aac30b4f8b7dd5e7ba6e9745b03b1d775" title="Function used for testing a single allergy object. " alt="" coords="243,38,408,79"/>
 <area shape="rect" id="node3" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#a72eef5cb55327780eb3ef2c43be77c4d" title="Function for testing the basic functionality of the allergy class. " alt="" coords="457,5,623,46"/>
-<area shape="rect" id="node4" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#a395592b7f229d27be4353c95f7457185" title="The main function used for running all of the unit tests. " alt="" coords="673,5,802,46"/>
+<area shape="rect" id="node5" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#aabbb204481e8457d3c2e360594c4b692" title="Function for testing reading in allergy from file. " alt="" coords="459,70,621,111"/>
+<area shape="rect" id="node4" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#a395592b7f229d27be4353c95f7457185" title="The main function used for running all of the unit tests. " alt="" coords="673,38,802,79"/>
 </map>

@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using RecipeFinder;
+using System;
 
 namespace Unit_Test
 {
@@ -10,7 +11,8 @@ namespace Unit_Test
 
         //Boolean array used for storing test results
         private static bool[]  _results;            ///< Variable used for storing all of the results for a particular test
-        private static int[]   _allergyBasicResult; ///< Variable used for holding the number of failed tests and the total number of tests
+        private static int[]   _allergyBasicResult; ///< Variable used for holding the number of passed tests and the total number of tests for the basic test
+        private static int[]   _allergyInputResult; ///< Variable used for holding the number of passed tests and the total number of tests for the input file test
 
         /**
          * \fn     private static void Allergy_BasicTest()
@@ -24,8 +26,13 @@ namespace Unit_Test
          **/
         private static void Allergy_BasicTest()
         {
+            //Sets up some test parameters
+            int iterations    = 5000;
+            int numberTests   = 9;
+            int numberResults = iterations * numberTests;
+
             //Sets up the memory needed for the results
-            _results       = new bool[45000];
+            _results = new bool[numberResults];
 
             //Set up string values for testing allergy name and message
             string _singleChar = "T";
@@ -33,46 +40,112 @@ namespace Unit_Test
             string _multiWord  = "Testing the allergy class";
 
             //Run through the constructor tests
-            for(int i = 0; i < 5000; i++)
+            for(int i = 0; i < iterations; i++)
             {
                 _testAllergy = new Allergy(i, _singleChar, _singleChar);
-                testCurrentAllergy(i, _singleChar, _singleChar, 0, 9);
+                testCurrentAllergy(i, _singleChar, _singleChar, 0, numberTests);
                 
                 _testAllergy = new Allergy(i, _singleChar, _singleWord);
-                testCurrentAllergy(i, _singleChar, _singleWord, 1, 9);
+                testCurrentAllergy(i, _singleChar, _singleWord, 1, numberTests);
 
                 _testAllergy = new Allergy(i, _singleChar, _multiWord);
-                testCurrentAllergy(i, _singleChar, _multiWord, 2, 9);
+                testCurrentAllergy(i, _singleChar, _multiWord, 2, numberTests);
 
                 _testAllergy = new Allergy(i, _singleWord, _singleChar);
-                testCurrentAllergy(i, _singleWord, _singleChar, 3, 9);
+                testCurrentAllergy(i, _singleWord, _singleChar, 3, numberTests);
 
                 _testAllergy = new Allergy(i, _singleWord, _singleWord);
-                testCurrentAllergy(i, _singleWord, _singleWord, 4, 9);
+                testCurrentAllergy(i, _singleWord, _singleWord, 4, numberTests);
 
                 _testAllergy = new Allergy(i, _singleWord, _multiWord);
-                testCurrentAllergy(i, _singleWord, _multiWord, 5, 9);
+                testCurrentAllergy(i, _singleWord, _multiWord, 5, numberTests);
 
                 _testAllergy = new Allergy(i, _multiWord, _singleChar);
-                testCurrentAllergy(i, _multiWord, _singleChar, 6, 9);
+                testCurrentAllergy(i, _multiWord, _singleChar, 6, numberTests);
 
                 _testAllergy = new Allergy(i, _multiWord, _singleWord);
-                testCurrentAllergy(i, _multiWord, _singleWord, 7, 9);
+                testCurrentAllergy(i, _multiWord, _singleWord, 7, numberTests);
 
                 _testAllergy = new Allergy(i, _multiWord, _multiWord);
-                testCurrentAllergy(i, _multiWord, _multiWord, 8, 9);
+                testCurrentAllergy(i, _multiWord, _multiWord, 8, numberTests);
             }
 
             //Tally up the failed tests
             int _resultCounter = 0;
-            for(int i = 0; i < 45000; i++)
-                if(_results[i] == false)
+            for(int i = 0; i < numberResults; i++)
+                if(_results[i] == true)
                     _resultCounter++;
 
             //Store the results for display later
             _allergyBasicResult = new int[2];
-            _allergyBasicResult[0] = 45000;
+            _allergyBasicResult[0] = numberResults;
             _allergyBasicResult[1] = _resultCounter;
+        }
+
+        /**
+         * \fn     private static void Allergy_InputTest()
+         * \brief  Function for testing reading in allergy from file.
+         * \author Brian McCormick
+         **/
+        private static void Allergy_InputTest()
+        {
+            //Sets up some test parameters
+            int iterations    = 9;
+            int numberTests   = 1;
+            int numberResults = iterations * numberTests;
+
+            //Set up string values for testing allergy name and message
+            string _singleChar = "T";
+            string _singleWord = "Test";
+            string _multiWord  = "Testing the input file code";
+
+            //Used as variables to help swap out values for testing
+            string n;
+            string m;
+
+            //Sets up the memory needed for the results
+            _results = new bool[numberResults];
+
+            //Sets up the counter for tracking the iterations
+            int  i     = 0;
+
+            //Tries to fetch the data from file
+            bool input = false;
+            input = MainWindow.AllergyInput("../../Test_Input/Test_Allergy_Input.txt");
+
+            //Test the data read in from the file
+            foreach(Allergy test in MainWindow._testAllergyList)
+            {
+                _testAllergy = test;
+                
+                if(i < 3)
+                    n = _singleChar;
+                else if(i > 2 && i < 6)
+                    n = _singleWord;
+                else
+                    n = _multiWord;
+
+                if(i % 3 == 0)
+                    m = _singleChar;
+                else if(i % 3 == 1)
+                    m = _singleWord;
+                else
+                    m = _multiWord;
+
+                testCurrentAllergy(i, n, m, 0, numberTests);
+                i++;
+            }
+
+            //Tally up the failed tests
+            int _resultCounter = 0;
+            for(int j = 0; j < numberResults; j++)
+                if(_results[j] == true)
+                    _resultCounter++;
+
+            //Store the results for display later
+            _allergyInputResult = new int[2];
+            _allergyInputResult[0] = numberResults;
+            _allergyInputResult[1] = _resultCounter;
         }
 
         /**
