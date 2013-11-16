@@ -1,0 +1,5 @@
+<map id="RecipeFinder.MainWindow.check_Box_Checked_Event" name="RecipeFinder.MainWindow.check_Box_Checked_Event">
+<area shape="rect" id="node2" href="$d4/d03/class_recipe_finder_1_1_main_window.html#ae4c1c8fcf840aac193a12c91aab21a01" title="Used to add allergies to the GUI. " alt="" coords="269,5,499,46"/>
+<area shape="rect" id="node4" href="$d4/d03/class_recipe_finder_1_1_main_window.html#ab17f31c6993f3e7a8637df5269226319" title="Used for creating the expanders and their check boxes. " alt="" coords="269,70,499,111"/>
+<area shape="rect" id="node3" href="$d4/d03/class_recipe_finder_1_1_main_window.html#aefd79bfbaeb2b5ca87ce79418af77a21" title="Class constructor for initializing the program. " alt="" coords="547,38,727,79"/>
+</map>

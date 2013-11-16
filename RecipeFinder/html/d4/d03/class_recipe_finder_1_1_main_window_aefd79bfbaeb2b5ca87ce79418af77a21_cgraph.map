@@ -1,0 +1,7 @@
+<map id="RecipeFinder.MainWindow.MainWindow" name="RecipeFinder.MainWindow.MainWindow">
+<area shape="rect" id="node2" href="$d4/d03/class_recipe_finder_1_1_main_window.html#ae8b58f18f603b662c579b117e312958c" title="InitializeComponent " alt="" coords="259,5,439,46"/>
+<area shape="rect" id="node3" href="$d4/d03/class_recipe_finder_1_1_main_window.html#ae4c1c8fcf840aac193a12c91aab21a01" title="Used to add allergies to the GUI. " alt="" coords="235,135,464,177"/>
+<area shape="rect" id="node6" href="$d4/d03/class_recipe_finder_1_1_main_window.html#ab17f31c6993f3e7a8637df5269226319" title="Used for creating the expanders and their check boxes. " alt="" coords="235,70,464,111"/>
+<area shape="rect" id="node4" href="$d4/d03/class_recipe_finder_1_1_main_window.html#a60707a221262b0cc3b68d42bc9cfd21a" title="Function for handling the functionality of when a check box is checked by the user. " alt="" coords="513,70,727,111"/>
+<area shape="rect" id="node5" href="$d4/d03/class_recipe_finder_1_1_main_window.html#aea7af700cbdc9e9759d745873c460fea" title="Function for handling the functionality of when a check box is unchecked by the user. " alt="" coords="513,135,727,177"/>
+</map>

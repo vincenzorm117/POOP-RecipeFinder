@@ -53,6 +53,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="GUI\Button_Interface.cs" />
+    <Compile Include="GUI\AllergySelector_Interface.cs" />
+    <Compile Include="GUI\CheckBox_Interface.cs" />
     <Compile Include="Functionality\FileInput.cs" />
     <Compile Include="Functionality\Search.cs" />
     <Page Include="MainWindow.xaml">
@@ -60,7 +63,7 @@
       <SubType>Designer</SubType>
     </Page>
     <Compile Include="Classes\Allergy.cs" />
-    <Compile Include="IngredientInterface.cs" />
+    <Compile Include="GUI\IngredientSelector_Interface.cs" />
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>

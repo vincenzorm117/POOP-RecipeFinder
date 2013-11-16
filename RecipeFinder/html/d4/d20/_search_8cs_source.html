@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.5"/>
-<title>Recipe Finder: RecipeFinder/Search.cs Source File</title>
+<title>Recipe Finder: RecipeFinder/Functionality/Search.cs Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -69,7 +69,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -80,7 +80,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="../../dir_0fbbbb577b0591d7aa914214a003de10.html">RecipeFinder</a></li>  </ul>
+<li class="navelem"><a class="el" href="../../dir_0fbbbb577b0591d7aa914214a003de10.html">RecipeFinder</a></li><li class="navelem"><a class="el" href="../../dir_b3235e7f3aa0928e0db2c77b9202398a.html">Functionality</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -88,97 +88,108 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div class="title">Search.cs</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d4/d20/_search_8cs.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">namespace </span>RecipeFinder</div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;{</div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;    <span class="comment">//TODO: Rework this code to function from a separate file</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno"><a class="line" href="../../db/de8/namespace_recipe_finder.html#a00e87926572be10e48054b0dfb89fa02">    4</a></span>&#160;    <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code" href="../../db/de8/namespace_recipe_finder.html#a00e87926572be10e48054b0dfb89fa02">searchForRecipies</a>()</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    {</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;        <span class="comment">//Returns nothing for now</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;        <span class="comment">//Based on discussion from 11/13/13</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;        <span class="comment">//Input: take in the user&#39;s search parameters and the list of recipes.</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        <span class="comment">//          each recipe should have it&#39;s own 2d array of bools,</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        <span class="comment">//          an array of recipes,</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        <span class="comment">//          an integer representing the cooking mode,</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        <span class="comment">//          a bool array representing the different allergens</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <span class="keyword">private</span> recipe[] <a class="code" href="../../db/de8/namespace_recipe_finder.html#a00e87926572be10e48054b0dfb89fa02">searchForRecipies</a>(<span class="keywordtype">bool</span> userSearchParams[][], recipe recipeList[], <span class="keywordtype">int</span> cookingMode,  <span class="keywordtype">bool</span> alergens[])</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        {</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;            </div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;            <span class="comment">//Recipe needs to be some sort of accessable object</span></div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;            <span class="comment">//Struct to keep track of the correct hits each recipe gets based on the search</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;            <span class="keyword">struct </span>recipeMatches </div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;            {</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                recipe result;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                <span class="keywordtype">int</span> hitCounter;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;            }</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;            <span class="comment">//Hard code in the number of catagories of ingrediants and the number per each</span></div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;            <span class="keywordtype">int</span> categories  = 8;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;            <span class="keywordtype">int</span> ingrediants = 12;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;            <span class="comment">//Array of the structs</span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            <span class="comment">// Based on 100 recipe input</span></div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;            recipeMatches recipeResults[] = <span class="keyword">new</span> recipeMatches[100];</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;            <span class="comment">//The return for the results for the top 10 of the search</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            recipe results[] = <span class="keyword">new</span> recipe[10];</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;            <span class="comment">//Grab each ingrediant list from each recipe</span></div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;            <span class="keywordtype">bool</span> recipeIngrediants[][] = <span class="keyword">new</span> <span class="keywordtype">bool</span> [categories][ingrediants];</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            </div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            <span class="keywordtype">int</span> i, j, k, s, t;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            <span class="comment">//First use the filters to remove any that match (i.e. milk alergy skip that record</span></div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            <span class="comment">//Loop throughout the list of recipes</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            <span class="keywordflow">for</span>(i = 0; i &lt; 100; i++)</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            {</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                <span class="comment">//Reset counter</span></div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                k = 0;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                <span class="comment">//Check if the recipe has the alergen</span></div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;                <span class="keywordflow">if</span> (recipeList[i].alergen == <span class="keyword">true</span>) </div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                    <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                <span class="comment">//Check to see if the recipe meets the correct &#39;mode&#39;</span></div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                <span class="keywordflow">else</span> <span class="keywordflow">if</span> (recipeList[i].mode.containsEqualIgnoreCase(mode))</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                {</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                    <span class="comment">//Grab the current recipe&#39;s list of ingredientes (again full list with true/false)</span></div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                    recipeIngredients = recipeList[i].ingrediantList;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;                    <span class="comment">//As we have flitered out hte recipes that we didn&#39;t want so we continue of filtering</span></div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;                    <span class="keywordflow">for</span>(j = 0; j &lt; categories; j ++ )</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;                        <span class="comment">//Checing that both the user&#39;s and the recipie have the same category</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;                        <span class="keywordflow">if</span> ((recipeIngredients[j][] == 1) &amp;&amp; (userSeachParams[j][] == 1))</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                            <span class="keywordflow">for</span> (s = 0; s &lt; ingrediants; s++)</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                                <span class="keywordflow">if</span> ((recipeIngredients[j][s] == 1) &amp;&amp; (userSeachParams[j][s] == 1))</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                                    k = k + 1;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                    <span class="comment">//Add the recipe to the results array setting the hit counter</span></div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                    recipeResults[i].recipe = recipeList[i].recipeId;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                    recipeResults[i].hitCounter = k;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                }</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                <span class="comment">//We have hit things we don&#39;t want so continue</span></div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                    <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;            }</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;            <span class="comment">//Here we would order the results based on each recipe&#39;s hit counter</span></div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;            Array.Sort(recipeResults);</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            </div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;            <span class="comment">//Reverse the results as it is in ascending order</span></div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;            Array.Reverse(recipeResults);</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;            <span class="comment">//Grab the first 10</span></div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;            Array.Copy(recipeResults, results, 10);</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;            <span class="comment">//return the top 10</span></div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;            <span class="keywordflow">return</span> results;</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        }</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    }</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;}</div>
-<div class="ttc" id="namespace_recipe_finder_html_a00e87926572be10e48054b0dfb89fa02"><div class="ttname"><a href="../../db/de8/namespace_recipe_finder.html#a00e87926572be10e48054b0dfb89fa02">RecipeFinder.searchForRecipies</a></div><div class="ttdeci">void searchForRecipies()</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d20/_search_8cs_source.html#l00004">Search.cs:4</a></div></div>
+<a href="../../d4/d20/_search_8cs.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">using</span> System;</div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">using</span> System.Windows;</div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">namespace </span>RecipeFinder</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keyword">public</span> <span class="keyword">partial class </span>MainWindow : Window</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    {</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;        <span class="comment">//Returns nothing for now</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        <span class="comment">//Based on discussion from 11/13/13</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        <span class="comment">//Input: take in the user&#39;s search parameters and the list of recipes.</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        <span class="comment">//          each recipe should have it&#39;s own 2d array of bools,</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        <span class="comment">//          an array of recipes,</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <span class="comment">//          an integer representing the cooking mode,</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <span class="comment">//          a bool array representing the different allergens</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <span class="comment">//TODO: Remove hardcoded values from this function</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <span class="comment">//TODO: Testing needs to be performed for this method once final touches have been added in</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#a925f548a507c01e1cea1bae0dfff00ed">   17</a></span>&#160;        <span class="keyword">public</span> <a class="code" href="../../db/de7/class_recipe_finder_1_1_recipe.html">Recipe</a>[] <a class="code" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#a925f548a507c01e1cea1bae0dfff00ed">searchForRecipies</a>(<span class="keywordtype">bool</span>[][] userSearchParams, <a class="code" href="../../db/de7/class_recipe_finder_1_1_recipe.html">Recipe</a>[] recipeList, <span class="keywordtype">int</span> cookingMode,  <span class="keywordtype">bool</span>[] alergens)</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        {</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">new</span> <a class="code" href="../../db/de7/class_recipe_finder_1_1_recipe.html">Recipe</a>[0];</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;            <span class="comment">/*</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="comment">            //Recipe needs to be some sort of accessable object</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment">            //Struct to keep track of the correct hits each recipe gets based on the search</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment">            struct recipeMatches </span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment">            {</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment">                Recipe result;</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment">                int hitCounter;</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment">            }</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment">            //Hard code in the number of catagories of ingrediants and the number per each</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment">            int categories  = 8;</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="comment">            int ingrediants = 12;</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment">            //Array of the structs</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment">            // Based on 100 recipe input</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment">            recipeMatches[] recipeResults = new recipeMatches[100];</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment">            //The return for the results for the top 10 of the search</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment">            Recipe[] results = new Recipe[10];</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="comment">            //Grab each ingrediant list from each recipe</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="comment">            //TODO: Redo this code for proper memory allocation</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="comment">            bool[][] recipeIngrediants = new bool[9][]; //[categories][ingrediants];</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="comment">            </span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="comment">            int k;</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="comment">            //First use the filters to remove any that match (i.e. milk alergy skip that record</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="comment">            //Loop throughout the list of recipes</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="comment">            for(int i = 0; i &lt; 100; i++)</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="comment">            {</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="comment">                //Reset counter</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="comment">                k = 0;</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="comment">                //Check if the recipe has the alergen</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="comment">                if (recipeList[i].alergen == true) </span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="comment">                    continue;</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="comment">                //Check to see if the recipe meets the correct &#39;mode&#39;</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="comment">                else if (recipeList[i].mode.containsEqualIgnoreCase(mode))</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="comment">                {</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="comment">                    //Grab the current recipe&#39;s list of ingredientes (again full list with true/false)</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="comment">                    recipeIngredients = recipeList[i].ingrediantList;</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="comment">                    //As we have flitered out hte recipes that we didn&#39;t want so we continue of filtering</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="comment">                    for(int j = 0; j &lt; categories; j++)</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="comment">                    {</span></div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="comment">                        //Checing that both the user&#39;s and the recipie have the same category</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="comment">                        if ((recipeIngredients[j][] == 1) &amp;&amp; (userSeachParams[j][] == 1))</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="comment">                            for (int s = 0; s &lt; ingrediants; s++)</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="comment">                            {</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="comment">                                if ((recipeIngredients[j][s] == 1) &amp;&amp; (userSeachParams[j][s] == 1))</span></div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="comment">                                    k = k + 1;</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="comment">                            }</span></div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="comment">                    }</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="comment">                    //Add the recipe to the results array setting the hit counter</span></div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="comment">                    recipeResults[i].recipe = recipeList[i].recipeId;</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="comment">                    recipeResults[i].hitCounter = k;</span></div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="comment">                }</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="comment">                //We have hit things we don&#39;t want so continue</span></div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="comment">                else</span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="comment">                    continue;</span></div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="comment">            }</span></div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="comment">            //Here we would order the results based on each recipe&#39;s hit counter</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="comment">            Array.Sort(recipeResults);</span></div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="comment">            </span></div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="comment">            //Reverse the results as it is in ascending order</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="comment">            Array.Reverse(recipeResults);</span></div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="comment">            //Grab the first 10</span></div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="comment">            Array.Copy(recipeResults, results, 10);</span></div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="comment">            //return the top 10</span></div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="comment">            return results;*/</span></div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        }</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    }</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;}</div>
+<div class="ttc" id="class_recipe_finder_1_1_main_window_html_a925f548a507c01e1cea1bae0dfff00ed"><div class="ttname"><a href="../../d4/d03/class_recipe_finder_1_1_main_window.html#a925f548a507c01e1cea1bae0dfff00ed">RecipeFinder.MainWindow.searchForRecipies</a></div><div class="ttdeci">Recipe[] searchForRecipies(bool[][] userSearchParams, Recipe[] recipeList, int cookingMode, bool[] alergens)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d20/_search_8cs_source.html#l00017">Search.cs:17</a></div></div>
+<div class="ttc" id="class_recipe_finder_1_1_recipe_html"><div class="ttname"><a href="../../db/de7/class_recipe_finder_1_1_recipe.html">RecipeFinder.Recipe</a></div><div class="ttdoc">Storage for a single Recipe. </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d84/_recipe_8cs_source.html#l00015">Recipe.cs:15</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Nov 15 2013 01:39:14 for Recipe Finder by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Nov 15 2013 23:38:42 for Recipe Finder by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.5
 </small></address>

@@ -72,7 +72,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -101,6 +101,8 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 Collaboration diagram for RecipeFinder.Recipe:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d6/d27/class_recipe_finder_1_1_recipe__coll__graph.png" border="0" usemap="#_recipe_finder_8_recipe_coll__map" alt="Collaboration graph"/></div>
+<map name="_recipe_finder_8_recipe_coll__map" id="_recipe_finder_8_recipe_coll__map">
+</map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
@@ -138,15 +140,6 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a7d5023ec5eb027bd6ef6d17eb7afba8d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de7/class_recipe_finder_1_1_recipe.html#a7d5023ec5eb027bd6ef6d17eb7afba8d">_NumberOfIngredients</a></td></tr>
 <tr class="memdesc:a7d5023ec5eb027bd6ef6d17eb7afba8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The total number of ingredients for this recipe.  <a href="#a7d5023ec5eb027bd6ef6d17eb7afba8d">More...</a><br/></td></tr>
 <tr class="separator:a7d5023ec5eb027bd6ef6d17eb7afba8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afecc1ff414e4f9ef35e414e5d8e13291"><td class="memItemLeft" align="right" valign="top">int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de7/class_recipe_finder_1_1_recipe.html#afecc1ff414e4f9ef35e414e5d8e13291">_IngredientAmountList</a></td></tr>
-<tr class="memdesc:afecc1ff414e4f9ef35e414e5d8e13291"><td class="mdescLeft">&#160;</td><td class="mdescRight">An array of the amounts needed for each ingredient.  <a href="#afecc1ff414e4f9ef35e414e5d8e13291">More...</a><br/></td></tr>
-<tr class="separator:afecc1ff414e4f9ef35e414e5d8e13291"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62fa2ba3db5e69330f3a4b14be6ccb95"><td class="memItemLeft" align="right" valign="top">int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de7/class_recipe_finder_1_1_recipe.html#a62fa2ba3db5e69330f3a4b14be6ccb95">_IngredientMeasurementList</a></td></tr>
-<tr class="memdesc:a62fa2ba3db5e69330f3a4b14be6ccb95"><td class="mdescLeft">&#160;</td><td class="mdescRight">An array of the measurements to use for each ingredient.  <a href="#a62fa2ba3db5e69330f3a4b14be6ccb95">More...</a><br/></td></tr>
-<tr class="separator:a62fa2ba3db5e69330f3a4b14be6ccb95"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43c51b6e4dd3990b6d456919bda48ef1"><td class="memItemLeft" align="right" valign="top">int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de7/class_recipe_finder_1_1_recipe.html#a43c51b6e4dd3990b6d456919bda48ef1">_IngredientIDList</a></td></tr>
-<tr class="memdesc:a43c51b6e4dd3990b6d456919bda48ef1"><td class="mdescLeft">&#160;</td><td class="mdescRight">An array of each of the ingredients ID values.  <a href="#a43c51b6e4dd3990b6d456919bda48ef1">More...</a><br/></td></tr>
-<tr class="separator:a43c51b6e4dd3990b6d456919bda48ef1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af69b155fa8e8baad2f5f13f48dff33c5"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de7/class_recipe_finder_1_1_recipe.html#af69b155fa8e8baad2f5f13f48dff33c5">_Title</a></td></tr>
 <tr class="memdesc:af69b155fa8e8baad2f5f13f48dff33c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">The title of the recipe being stored.  <a href="#af69b155fa8e8baad2f5f13f48dff33c5">More...</a><br/></td></tr>
 <tr class="separator:af69b155fa8e8baad2f5f13f48dff33c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -278,78 +271,6 @@ Private Attributes</h2></td></tr>
 <p>How much fiber per serving (g) </p>
 
 <p>Definition at line <a class="el" href="../../d0/d84/_recipe_8cs_source.html#l00025">25</a> of file <a class="el" href="../../d0/d84/_recipe_8cs_source.html">Recipe.cs</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="afecc1ff414e4f9ef35e414e5d8e13291"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int* RecipeFinder.Recipe._IngredientAmountList</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>An array of the amounts needed for each ingredient. </p>
-
-<p>Definition at line <a class="el" href="../../d0/d84/_recipe_8cs_source.html#l00030">30</a> of file <a class="el" href="../../d0/d84/_recipe_8cs_source.html">Recipe.cs</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a43c51b6e4dd3990b6d456919bda48ef1"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int* RecipeFinder.Recipe._IngredientIDList</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>An array of each of the ingredients ID values. </p>
-
-<p>Definition at line <a class="el" href="../../d0/d84/_recipe_8cs_source.html#l00032">32</a> of file <a class="el" href="../../d0/d84/_recipe_8cs_source.html">Recipe.cs</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a62fa2ba3db5e69330f3a4b14be6ccb95"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int* RecipeFinder.Recipe._IngredientMeasurementList</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>An array of the measurements to use for each ingredient. </p>
-
-<p>Definition at line <a class="el" href="../../d0/d84/_recipe_8cs_source.html#l00031">31</a> of file <a class="el" href="../../d0/d84/_recipe_8cs_source.html">Recipe.cs</a>.</p>
 
 </div>
 </div>
@@ -546,12 +467,12 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>RecipeFinder/<a class="el" href="../../d0/d84/_recipe_8cs_source.html">Recipe.cs</a></li>
+<li>RecipeFinder/Classes/<a class="el" href="../../d0/d84/_recipe_8cs_source.html">Recipe.cs</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Nov 15 2013 01:59:52 for Recipe Finder by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Nov 15 2013 23:38:43 for Recipe Finder by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="../../doxygen.png" alt="doxygen"/>
 </a> 1.8.5
 </small></address>
