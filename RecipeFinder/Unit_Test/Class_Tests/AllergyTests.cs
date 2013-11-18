@@ -10,7 +10,6 @@ namespace Unit_Test
         private static Allergy _testAllergy;        ///< Variable used for storing a single allergy object
 
         //Boolean array used for storing test results
-        private static bool[]  _results;            ///< Variable used for storing all of the results for a particular test
         private static int[]   _allergyBasicResult; ///< Variable used for holding the number of passed tests and the total number of tests for the basic test
         private static int[]   _allergyInputResult; ///< Variable used for holding the number of passed tests and the total number of tests for the input file test
 
@@ -70,16 +69,10 @@ namespace Unit_Test
                 testCurrentAllergy(i, _multiWord, _multiWord, 8, numberTests);
             }
 
-            //Tally up the failed tests
-            int _resultCounter = 0;
-            for(int i = 0; i < numberResults; i++)
-                if(_results[i] == true)
-                    _resultCounter++;
-
             //Store the results for display later
             _allergyBasicResult = new int[2];
             _allergyBasicResult[0] = numberResults;
-            _allergyBasicResult[1] = _resultCounter;
+            _allergyBasicResult[1] = passCount(numberResults);
         }
 
         /**
@@ -136,30 +129,10 @@ namespace Unit_Test
                 i++;
             }
 
-            //Tally up the failed tests
-            int _resultCounter = 0;
-            for(int j = 0; j < numberResults; j++)
-                if(_results[j] == true)
-                    _resultCounter++;
-
             //Store the results for display later
             _allergyInputResult = new int[2];
             _allergyInputResult[0] = numberResults;
-            _allergyInputResult[1] = _resultCounter;
-        }
-
-        /**
-         * \fn      private static void addToResults(int i, int o, bool r)
-         * \brief   Function for storing a result to the results array.
-         * \author  Brian McCormick
-         * \param i The index value from the loop changing the values being tested.
-         * \param o The offset used if there is more than one test performed in an iteration.
-         * \param t The value of how many tests there are for each iteration.
-         * \param r The boolean value resulting from testing an allergy object.
-         **/
-        private static void addToResults(int i, int o, int t, bool r)
-        {
-            _results[(i * t) + o] = r;
+            _allergyInputResult[1] = passCount(numberResults);
         }
 
         /**

@@ -1,5 +1,6 @@
 <map id="Unit_Test.UnitTest_Main.Allergy_BasicTest" name="Unit_Test.UnitTest_Main.Allergy_BasicTest">
 <area shape="rect" id="node2" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#aac30b4f8b7dd5e7ba6e9745b03b1d775" title="Function used for testing a single allergy object. " alt="" coords="221,74,387,115"/>
+<area shape="rect" id="node7" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#a11e3c0d0eef12579dc428718adeac867" title="Function for tallying up the number of passed tests. " alt="" coords="239,139,369,181"/>
 <area shape="rect" id="node3" href="$d0/d44/class_recipe_finder_1_1_allergy.html#a23428b5d4bc0bd050425aa98ede6b0f3" title="Used for accessing the allergy ID value. " alt="" coords="447,5,623,32"/>
 <area shape="rect" id="node4" href="$d0/d44/class_recipe_finder_1_1_allergy.html#ae75abe347dc6c912ce69f0316033dd95" title="Used for accessing the name of the allergy. " alt="" coords="435,56,634,83"/>
 <area shape="rect" id="node5" href="$d0/d44/class_recipe_finder_1_1_allergy.html#a6faae49b119fe30e79f86e919fa27a14" title="Used for accessing the stored allergies warning message. " alt="" coords="440,107,629,133"/>
