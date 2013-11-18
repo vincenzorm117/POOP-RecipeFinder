@@ -1,7 +1,0 @@
-<map id="RecipeFinder.MainWindow.MainWindow" name="RecipeFinder.MainWindow.MainWindow">
-<area shape="rect" id="node2" href="$d4/d03/class_recipe_finder_1_1_main_window.html#ae8b58f18f603b662c579b117e312958c" title="InitializeComponent " alt="" coords="259,5,439,46"/>
-<area shape="rect" id="node3" href="$d4/d03/class_recipe_finder_1_1_main_window.html#a06f232f38b5055e654aaefdc231ccec9" title="RecipeFinder.MainWindow.populate\lAllergies" alt="" coords="235,135,464,177"/>
-<area shape="rect" id="node6" href="$d4/d03/class_recipe_finder_1_1_main_window.html#aca7f4813f57e3dea25073d6276bc5316" title="RecipeFinder.MainWindow.populate\lFilterExpandersAndCheckBoxes" alt="" coords="235,70,464,111"/>
-<area shape="rect" id="node4" href="$d4/d03/class_recipe_finder_1_1_main_window.html#a499d47fc20c755693cf226c143259b92" title="RecipeFinder.MainWindow.check\l_Box_Checked_Event" alt="" coords="513,70,727,111"/>
-<area shape="rect" id="node5" href="$d4/d03/class_recipe_finder_1_1_main_window.html#a2eccef05deaaccc7789f432e55691408" title="RecipeFinder.MainWindow.check\l_Box_Unchecked_Event" alt="" coords="513,135,727,177"/>
-</map>
