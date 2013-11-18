@@ -1,0 +1,6 @@
+<map id="Unit_Test.UnitTest_Main.testCurrentIngredient" name="Unit_Test.UnitTest_Main.testCurrentIngredient">
+<area shape="rect" id="node2" href="$d3/d10/class_recipe_finder_1_1_ingredient.html#a5f9a97032c210a28f4d14a004e2b28dd" title="Used for accessing the ingredients ID value. " alt="" coords="247,5,439,32"/>
+<area shape="rect" id="node3" href="$d3/d10/class_recipe_finder_1_1_ingredient.html#ae9174e748ae009f6fe0565190d68d183" title="Used for accessing the ingredients allergy ID value. " alt="" coords="253,57,433,98"/>
+<area shape="rect" id="node4" href="$d3/d10/class_recipe_finder_1_1_ingredient.html#acdc59515b280ed4e73593b3099ee4012" title="Used for accessing the ingredients name. " alt="" coords="235,123,450,149"/>
+<area shape="rect" id="node5" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#aa1e6ba872dbcdc2c1a4a282cd717a9dc" title="Function for storing a result to the results array. " alt="" coords="273,174,413,215"/>
+</map>

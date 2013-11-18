@@ -83,6 +83,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li class="current"><a href="functions_vars.html"><span>Variables</span></a></li>
     </ul>
   </div>
+  <div id="navrow4" class="tabs3">
+    <ul class="tablist">
+      <li><a href="#index__"><span>_</span></a></li>
+      <li><a href="#index_c"><span>c</span></a></li>
+    </ul>
+  </div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -113,7 +119,9 @@ $(document).ready(function(){initNavTree('functions_vars.html','');});
 </div>
 
 <div class="contents">
-&#160;<ul>
+&#160;
+
+<h3><a class="anchor" id="index__"></a>- _ -</h3><ul>
 <li>_Allergy
 : <a class="el" href="d3/d10/class_recipe_finder_1_1_ingredient.html#a6af1a8429ade293aec91b60a4e5faa34">RecipeFinder.Ingredient</a>
 </li>
@@ -132,6 +140,12 @@ $(document).ready(function(){initNavTree('functions_vars.html','');});
 <li>_Carbs
 : <a class="el" href="db/de7/class_recipe_finder_1_1_recipe.html#af7fc4bd77ba3aec1cbcb34214b09bdb8">RecipeFinder.Recipe</a>
 </li>
+<li>_Category
+: <a class="el" href="d3/d10/class_recipe_finder_1_1_ingredient.html#a2776d1d33426c91f5a7e717f768aa6f7">RecipeFinder.Ingredient</a>
+</li>
+<li>_CategoryID
+: <a class="el" href="d3/d10/class_recipe_finder_1_1_ingredient.html#ac75fefceafe7b8581dc1f3a808b2a8a5">RecipeFinder.Ingredient</a>
+</li>
 <li>_Cholestorol
 : <a class="el" href="db/de7/class_recipe_finder_1_1_recipe.html#a25b0fb8eb72de83868e17b1be74764d4">RecipeFinder.Recipe</a>
 </li>
@@ -144,6 +158,12 @@ $(document).ready(function(){initNavTree('functions_vars.html','');});
 <li>_ID
 : <a class="el" href="d0/d44/class_recipe_finder_1_1_allergy.html#a6b986d38fa5bf479f2016474475582d0">RecipeFinder.Allergy</a>
 , <a class="el" href="d3/d10/class_recipe_finder_1_1_ingredient.html#a438a9c7c9da7f220de027e2e7b806797">RecipeFinder.Ingredient</a>
+</li>
+<li>_ingredientBasicResults
+: <a class="el" href="df/d8d/class_unit___test_1_1_unit_test___main.html#a8a33dd44d7887bdfc1a2f232831723ee">Unit_Test.UnitTest_Main</a>
+</li>
+<li>_ingredientList
+: <a class="el" href="d4/d03/class_recipe_finder_1_1_main_window.html#aa79a1019150c858ce1f2b8429fcf5f0c">RecipeFinder.MainWindow</a>
 </li>
 <li>_Instructions
 : <a class="el" href="db/de7/class_recipe_finder_1_1_recipe.html#a51dbefded8bd1522b427046a829e785d">RecipeFinder.Recipe</a>
@@ -164,6 +184,9 @@ $(document).ready(function(){initNavTree('functions_vars.html','');});
 <li>_Protein
 : <a class="el" href="db/de7/class_recipe_finder_1_1_recipe.html#a16a43a6ebc1d03d664ab2c8fbd3a9144">RecipeFinder.Recipe</a>
 </li>
+<li>_recipeList
+: <a class="el" href="d4/d03/class_recipe_finder_1_1_main_window.html#a951de2ac80b3bc09af7bfec93359f275">RecipeFinder.MainWindow</a>
+</li>
 <li>_results
 : <a class="el" href="df/d8d/class_unit___test_1_1_unit_test___main.html#af940b7a2fe144919cfac6c7a812677b9">Unit_Test.UnitTest_Main</a>
 </li>
@@ -179,12 +202,25 @@ $(document).ready(function(){initNavTree('functions_vars.html','');});
 <li>_testAllergyList
 : <a class="el" href="d4/d03/class_recipe_finder_1_1_main_window.html#abd7170e25a155da070891e5f02632341">RecipeFinder.MainWindow</a>
 </li>
+<li>_testIngredient
+: <a class="el" href="df/d8d/class_unit___test_1_1_unit_test___main.html#a60df1c3a5b144d997cfa1d06308a8d64">Unit_Test.UnitTest_Main</a>
+</li>
+<li>_testIngredientList
+: <a class="el" href="d4/d03/class_recipe_finder_1_1_main_window.html#a302e258a9d74bf139acb4500a18f7b10">RecipeFinder.MainWindow</a>
+</li>
+<li>_testRecipeList
+: <a class="el" href="d4/d03/class_recipe_finder_1_1_main_window.html#a57fb1a9a039242f1beb320dc3ba2f5b0">RecipeFinder.MainWindow</a>
+</li>
 <li>_Title
 : <a class="el" href="db/de7/class_recipe_finder_1_1_recipe.html#af69b155fa8e8baad2f5f13f48dff33c5">RecipeFinder.Recipe</a>
 </li>
 <li>_TotalTime
 : <a class="el" href="db/de7/class_recipe_finder_1_1_recipe.html#a6020a164eca0f3e99a7130ee5a9284fc">RecipeFinder.Recipe</a>
 </li>
+</ul>
+
+
+<h3><a class="anchor" id="index_c"></a>- c -</h3><ul>
 <li>checkedIngredients
 : <a class="el" href="d4/d03/class_recipe_finder_1_1_main_window.html#a83a71a0e7b6ffcaecd3be15e317cea01">RecipeFinder.MainWindow</a>
 </li>
@@ -194,7 +230,7 @@ $(document).ready(function(){initNavTree('functions_vars.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Nov 17 2013 23:04:24 for Recipe Finder by
+    <li class="footer">Generated on Mon Nov 18 2013 12:09:05 for Recipe Finder by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

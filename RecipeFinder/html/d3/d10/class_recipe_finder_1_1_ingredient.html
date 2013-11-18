@@ -121,6 +121,8 @@ $(document).ready(function(){initNavTree('d3/d10/class_recipe_finder_1_1_ingredi
 Collaboration diagram for RecipeFinder.Ingredient:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../dc/d7a/class_recipe_finder_1_1_ingredient__coll__graph.png" border="0" usemap="#_recipe_finder_8_ingredient_coll__map" alt="Collaboration graph"/></div>
+<map name="_recipe_finder_8_ingredient_coll__map" id="_recipe_finder_8_ingredient_coll__map">
+</map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -128,27 +130,42 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a68f0057c1d81b80fee88f462019080b5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a68f0057c1d81b80fee88f462019080b5">Ingredient</a> ()</td></tr>
 <tr class="memdesc:a68f0057c1d81b80fee88f462019080b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base class constructor.  <a href="#a68f0057c1d81b80fee88f462019080b5">More...</a><br/></td></tr>
 <tr class="separator:a68f0057c1d81b80fee88f462019080b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa30cfff66f34213ec820650f6439ebb8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#aa30cfff66f34213ec820650f6439ebb8">Ingredient</a> (int i, int a, string n)</td></tr>
-<tr class="memdesc:aa30cfff66f34213ec820650f6439ebb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class constructor that initializes all values.  <a href="#aa30cfff66f34213ec820650f6439ebb8">More...</a><br/></td></tr>
-<tr class="separator:aa30cfff66f34213ec820650f6439ebb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f8a495a13bcc9e1959ec68a2c9d7952"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a4f8a495a13bcc9e1959ec68a2c9d7952">Ingredient</a> (int i, string n)</td></tr>
-<tr class="memdesc:a4f8a495a13bcc9e1959ec68a2c9d7952"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class constructor used when no allergy ID is present.  <a href="#a4f8a495a13bcc9e1959ec68a2c9d7952">More...</a><br/></td></tr>
-<tr class="separator:a4f8a495a13bcc9e1959ec68a2c9d7952"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a71a9ed5b314930bf282b9e5cebe871"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a6a71a9ed5b314930bf282b9e5cebe871">Ingredient</a> (int i, int a, string n, <a class="el" href="../../db/de8/namespace_recipe_finder.html#a8e86ba5e03b3d76e0bff566820e57826">IngredientCategory</a> c)</td></tr>
+<tr class="memdesc:a6a71a9ed5b314930bf282b9e5cebe871"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class constructor that initializes all values except for the category ID.  <a href="#a6a71a9ed5b314930bf282b9e5cebe871">More...</a><br/></td></tr>
+<tr class="separator:a6a71a9ed5b314930bf282b9e5cebe871"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67f71cf434e302bb627bf5ffdeb1f75b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a67f71cf434e302bb627bf5ffdeb1f75b">Ingredient</a> (int i, string n, <a class="el" href="../../db/de8/namespace_recipe_finder.html#a8e86ba5e03b3d76e0bff566820e57826">IngredientCategory</a> c)</td></tr>
+<tr class="memdesc:a67f71cf434e302bb627bf5ffdeb1f75b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class constructor used when no allergy ID is present and doesn't initialize the category ID.  <a href="#a67f71cf434e302bb627bf5ffdeb1f75b">More...</a><br/></td></tr>
+<tr class="separator:a67f71cf434e302bb627bf5ffdeb1f75b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9174e748ae009f6fe0565190d68d183"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#ae9174e748ae009f6fe0565190d68d183">getAllergy</a> ()</td></tr>
 <tr class="memdesc:ae9174e748ae009f6fe0565190d68d183"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used for accessing the ingredients allergy ID value.  <a href="#ae9174e748ae009f6fe0565190d68d183">More...</a><br/></td></tr>
 <tr class="separator:ae9174e748ae009f6fe0565190d68d183"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60574785e926eeabf16c14ae020e7cfc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/de8/namespace_recipe_finder.html#a8e86ba5e03b3d76e0bff566820e57826">IngredientCategory</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a60574785e926eeabf16c14ae020e7cfc">getCategory</a> ()</td></tr>
+<tr class="memdesc:a60574785e926eeabf16c14ae020e7cfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used for accessing the ingredients category value.  <a href="#a60574785e926eeabf16c14ae020e7cfc">More...</a><br/></td></tr>
+<tr class="separator:a60574785e926eeabf16c14ae020e7cfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a380c51d45270369e9c625b86ba0a5efc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a380c51d45270369e9c625b86ba0a5efc">getCategoryID</a> ()</td></tr>
+<tr class="memdesc:a380c51d45270369e9c625b86ba0a5efc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used for accessing the ingredients category id.  <a href="#a380c51d45270369e9c625b86ba0a5efc">More...</a><br/></td></tr>
+<tr class="separator:a380c51d45270369e9c625b86ba0a5efc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f9a97032c210a28f4d14a004e2b28dd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a5f9a97032c210a28f4d14a004e2b28dd">getID</a> ()</td></tr>
 <tr class="memdesc:a5f9a97032c210a28f4d14a004e2b28dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used for accessing the ingredients ID value.  <a href="#a5f9a97032c210a28f4d14a004e2b28dd">More...</a><br/></td></tr>
 <tr class="separator:a5f9a97032c210a28f4d14a004e2b28dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acdc59515b280ed4e73593b3099ee4012"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#acdc59515b280ed4e73593b3099ee4012">getName</a> ()</td></tr>
 <tr class="memdesc:acdc59515b280ed4e73593b3099ee4012"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used for accessing the ingredients name.  <a href="#acdc59515b280ed4e73593b3099ee4012">More...</a><br/></td></tr>
 <tr class="separator:acdc59515b280ed4e73593b3099ee4012"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecffc37b24c19b514f1147d8707b79c6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#aecffc37b24c19b514f1147d8707b79c6">setCategoryID</a> (int cid)</td></tr>
+<tr class="memdesc:aecffc37b24c19b514f1147d8707b79c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used for setting the category id value for the ingredient.  <a href="#aecffc37b24c19b514f1147d8707b79c6">More...</a><br/></td></tr>
+<tr class="separator:aecffc37b24c19b514f1147d8707b79c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a6af1a8429ade293aec91b60a4e5faa34"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a6af1a8429ade293aec91b60a4e5faa34">_Allergy</a></td></tr>
 <tr class="memdesc:a6af1a8429ade293aec91b60a4e5faa34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds the ID value of the associated allergy.  <a href="#a6af1a8429ade293aec91b60a4e5faa34">More...</a><br/></td></tr>
 <tr class="separator:a6af1a8429ade293aec91b60a4e5faa34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2776d1d33426c91f5a7e717f768aa6f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/de8/namespace_recipe_finder.html#a8e86ba5e03b3d76e0bff566820e57826">IngredientCategory</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a2776d1d33426c91f5a7e717f768aa6f7">_Category</a></td></tr>
+<tr class="memdesc:a2776d1d33426c91f5a7e717f768aa6f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds the category that the ingredient belongs to.  <a href="#a2776d1d33426c91f5a7e717f768aa6f7">More...</a><br/></td></tr>
+<tr class="separator:a2776d1d33426c91f5a7e717f768aa6f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac75fefceafe7b8581dc1f3a808b2a8a5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#ac75fefceafe7b8581dc1f3a808b2a8a5">_CategoryID</a></td></tr>
+<tr class="memdesc:ac75fefceafe7b8581dc1f3a808b2a8a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds the position within the category list indicated by the _category value.  <a href="#ac75fefceafe7b8581dc1f3a808b2a8a5">More...</a><br/></td></tr>
+<tr class="separator:ac75fefceafe7b8581dc1f3a808b2a8a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a438a9c7c9da7f220de027e2e7b806797"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a438a9c7c9da7f220de027e2e7b806797">_ID</a></td></tr>
 <tr class="memdesc:a438a9c7c9da7f220de027e2e7b806797"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds the ID for the stored ingredient.  <a href="#a438a9c7c9da7f220de027e2e7b806797">More...</a><br/></td></tr>
 <tr class="separator:a438a9c7c9da7f220de027e2e7b806797"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -186,19 +203,23 @@ Private Attributes</h2></td></tr>
 <p>Base class constructor. </p>
 <dl class="section author"><dt>Author</dt><dd>Brian McCormick </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d5/d21/_ingredient_8cs_source.html#l00025">25</a> of file <a class="el" href="../../d5/d21/_ingredient_8cs_source.html">Ingredient.cs</a>.</p>
-<div class="fragment"><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        {</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            <a class="code" href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a438a9c7c9da7f220de027e2e7b806797">_ID</a>      = -1;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;            <a class="code" href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a6af1a8429ade293aec91b60a4e5faa34">_Allergy</a> = -1;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            <a class="code" href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a8d92e88d88240ea28f19c05cdccaa5a7">_Name</a>    = <span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        }</div>
+<p>Definition at line <a class="el" href="../../d5/d21/_ingredient_8cs_source.html#l00027">27</a> of file <a class="el" href="../../d5/d21/_ingredient_8cs_source.html">Ingredient.cs</a>.</p>
+<div class="fragment"><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        {</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            <a class="code" href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a438a9c7c9da7f220de027e2e7b806797">_ID</a>         = -1;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;            <a class="code" href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a6af1a8429ade293aec91b60a4e5faa34">_Allergy</a>    = -1;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;            <a class="code" href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a8d92e88d88240ea28f19c05cdccaa5a7">_Name</a>       = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            <a class="code" href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a2776d1d33426c91f5a7e717f768aa6f7">_Category</a>   = IngredientCategory.NONE;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;            <a class="code" href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#ac75fefceafe7b8581dc1f3a808b2a8a5">_CategoryID</a> = -1;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        }</div>
 <div class="ttc" id="class_recipe_finder_1_1_ingredient_html_a6af1a8429ade293aec91b60a4e5faa34"><div class="ttname"><a href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a6af1a8429ade293aec91b60a4e5faa34">RecipeFinder.Ingredient._Allergy</a></div><div class="ttdeci">int _Allergy</div><div class="ttdoc">Holds the ID value of the associated allergy. </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d21/_ingredient_8cs_source.html#l00017">Ingredient.cs:17</a></div></div>
 <div class="ttc" id="class_recipe_finder_1_1_ingredient_html_a8d92e88d88240ea28f19c05cdccaa5a7"><div class="ttname"><a href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a8d92e88d88240ea28f19c05cdccaa5a7">RecipeFinder.Ingredient._Name</a></div><div class="ttdeci">string _Name</div><div class="ttdoc">Holds the name of the stored ingredient. </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d21/_ingredient_8cs_source.html#l00018">Ingredient.cs:18</a></div></div>
 <div class="ttc" id="class_recipe_finder_1_1_ingredient_html_a438a9c7c9da7f220de027e2e7b806797"><div class="ttname"><a href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a438a9c7c9da7f220de027e2e7b806797">RecipeFinder.Ingredient._ID</a></div><div class="ttdeci">int _ID</div><div class="ttdoc">Holds the ID for the stored ingredient. </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d21/_ingredient_8cs_source.html#l00016">Ingredient.cs:16</a></div></div>
+<div class="ttc" id="class_recipe_finder_1_1_ingredient_html_ac75fefceafe7b8581dc1f3a808b2a8a5"><div class="ttname"><a href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#ac75fefceafe7b8581dc1f3a808b2a8a5">RecipeFinder.Ingredient._CategoryID</a></div><div class="ttdeci">int _CategoryID</div><div class="ttdoc">Holds the position within the category list indicated by the _category value. </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d21/_ingredient_8cs_source.html#l00020">Ingredient.cs:20</a></div></div>
+<div class="ttc" id="class_recipe_finder_1_1_ingredient_html_a2776d1d33426c91f5a7e717f768aa6f7"><div class="ttname"><a href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a2776d1d33426c91f5a7e717f768aa6f7">RecipeFinder.Ingredient._Category</a></div><div class="ttdeci">IngredientCategory _Category</div><div class="ttdoc">Holds the category that the ingredient belongs to. </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d21/_ingredient_8cs_source.html#l00019">Ingredient.cs:19</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a class="anchor" id="aa30cfff66f34213ec820650f6439ebb8"></a>
+<a class="anchor" id="a6a71a9ed5b314930bf282b9e5cebe871"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -221,7 +242,13 @@ Private Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">string&#160;</td>
-          <td class="paramname"><em>n</em>&#160;</td>
+          <td class="paramname"><em>n</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../db/de8/namespace_recipe_finder.html#a8e86ba5e03b3d76e0bff566820e57826">IngredientCategory</a>&#160;</td>
+          <td class="paramname"><em>c</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -236,30 +263,35 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Class constructor that initializes all values. </p>
+<p>Class constructor that initializes all values except for the category ID. </p>
 <dl class="section author"><dt>Author</dt><dd>Brian McCormick </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">i</td><td>The ingredient ID value. </td></tr>
     <tr><td class="paramname">a</td><td>The ingredients allergy ID value. </td></tr>
     <tr><td class="paramname">n</td><td>The ingredients name. </td></tr>
+    <tr><td class="paramname">c</td><td>The category that the ingredient belongs to. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d5/d21/_ingredient_8cs_source.html#l00040">40</a> of file <a class="el" href="../../d5/d21/_ingredient_8cs_source.html">Ingredient.cs</a>.</p>
-<div class="fragment"><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        {</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            <a class="code" href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a438a9c7c9da7f220de027e2e7b806797">_ID</a>      = i;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            <a class="code" href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a6af1a8429ade293aec91b60a4e5faa34">_Allergy</a> = a;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            <a class="code" href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a8d92e88d88240ea28f19c05cdccaa5a7">_Name</a>    = n;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        }</div>
+<p>Definition at line <a class="el" href="../../d5/d21/_ingredient_8cs_source.html#l00045">45</a> of file <a class="el" href="../../d5/d21/_ingredient_8cs_source.html">Ingredient.cs</a>.</p>
+<div class="fragment"><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        {</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;            <a class="code" href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a438a9c7c9da7f220de027e2e7b806797">_ID</a>         = i;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            <a class="code" href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a6af1a8429ade293aec91b60a4e5faa34">_Allergy</a>    = a;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;            <a class="code" href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a8d92e88d88240ea28f19c05cdccaa5a7">_Name</a>       = n;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;            <a class="code" href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a2776d1d33426c91f5a7e717f768aa6f7">_Category</a>   = c;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;            <a class="code" href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#ac75fefceafe7b8581dc1f3a808b2a8a5">_CategoryID</a> = -1;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        }</div>
 <div class="ttc" id="class_recipe_finder_1_1_ingredient_html_a6af1a8429ade293aec91b60a4e5faa34"><div class="ttname"><a href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a6af1a8429ade293aec91b60a4e5faa34">RecipeFinder.Ingredient._Allergy</a></div><div class="ttdeci">int _Allergy</div><div class="ttdoc">Holds the ID value of the associated allergy. </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d21/_ingredient_8cs_source.html#l00017">Ingredient.cs:17</a></div></div>
 <div class="ttc" id="class_recipe_finder_1_1_ingredient_html_a8d92e88d88240ea28f19c05cdccaa5a7"><div class="ttname"><a href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a8d92e88d88240ea28f19c05cdccaa5a7">RecipeFinder.Ingredient._Name</a></div><div class="ttdeci">string _Name</div><div class="ttdoc">Holds the name of the stored ingredient. </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d21/_ingredient_8cs_source.html#l00018">Ingredient.cs:18</a></div></div>
 <div class="ttc" id="class_recipe_finder_1_1_ingredient_html_a438a9c7c9da7f220de027e2e7b806797"><div class="ttname"><a href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a438a9c7c9da7f220de027e2e7b806797">RecipeFinder.Ingredient._ID</a></div><div class="ttdeci">int _ID</div><div class="ttdoc">Holds the ID for the stored ingredient. </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d21/_ingredient_8cs_source.html#l00016">Ingredient.cs:16</a></div></div>
+<div class="ttc" id="class_recipe_finder_1_1_ingredient_html_ac75fefceafe7b8581dc1f3a808b2a8a5"><div class="ttname"><a href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#ac75fefceafe7b8581dc1f3a808b2a8a5">RecipeFinder.Ingredient._CategoryID</a></div><div class="ttdeci">int _CategoryID</div><div class="ttdoc">Holds the position within the category list indicated by the _category value. </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d21/_ingredient_8cs_source.html#l00020">Ingredient.cs:20</a></div></div>
+<div class="ttc" id="class_recipe_finder_1_1_ingredient_html_a2776d1d33426c91f5a7e717f768aa6f7"><div class="ttname"><a href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a2776d1d33426c91f5a7e717f768aa6f7">RecipeFinder.Ingredient._Category</a></div><div class="ttdeci">IngredientCategory _Category</div><div class="ttdoc">Holds the category that the ingredient belongs to. </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d21/_ingredient_8cs_source.html#l00019">Ingredient.cs:19</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a class="anchor" id="a4f8a495a13bcc9e1959ec68a2c9d7952"></a>
+<a class="anchor" id="a67f71cf434e302bb627bf5ffdeb1f75b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -276,7 +308,13 @@ Private Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">string&#160;</td>
-          <td class="paramname"><em>n</em>&#160;</td>
+          <td class="paramname"><em>n</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../db/de8/namespace_recipe_finder.html#a8e86ba5e03b3d76e0bff566820e57826">IngredientCategory</a>&#160;</td>
+          <td class="paramname"><em>c</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -291,25 +329,30 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Class constructor used when no allergy ID is present. </p>
+<p>Class constructor used when no allergy ID is present and doesn't initialize the category ID. </p>
 <dl class="section author"><dt>Author</dt><dd>Brian McCormick </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">i</td><td>The ingredient ID value. </td></tr>
     <tr><td class="paramname">n</td><td>The ingredients name. </td></tr>
+    <tr><td class="paramname">c</td><td>The category that the ingredient belongs to. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d5/d21/_ingredient_8cs_source.html#l00054">54</a> of file <a class="el" href="../../d5/d21/_ingredient_8cs_source.html">Ingredient.cs</a>.</p>
-<div class="fragment"><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        {</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            <a class="code" href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a438a9c7c9da7f220de027e2e7b806797">_ID</a>      = i;</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            <a class="code" href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a6af1a8429ade293aec91b60a4e5faa34">_Allergy</a> = -1;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            <a class="code" href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a8d92e88d88240ea28f19c05cdccaa5a7">_Name</a>    = n;</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        }</div>
+<p>Definition at line <a class="el" href="../../d5/d21/_ingredient_8cs_source.html#l00062">62</a> of file <a class="el" href="../../d5/d21/_ingredient_8cs_source.html">Ingredient.cs</a>.</p>
+<div class="fragment"><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        {</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;            <a class="code" href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a438a9c7c9da7f220de027e2e7b806797">_ID</a>         = i;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            <a class="code" href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a6af1a8429ade293aec91b60a4e5faa34">_Allergy</a>    = -1;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            <a class="code" href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a8d92e88d88240ea28f19c05cdccaa5a7">_Name</a>       = n;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;            <a class="code" href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a2776d1d33426c91f5a7e717f768aa6f7">_Category</a>   = c;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;            <a class="code" href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#ac75fefceafe7b8581dc1f3a808b2a8a5">_CategoryID</a> = -1;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        }</div>
 <div class="ttc" id="class_recipe_finder_1_1_ingredient_html_a6af1a8429ade293aec91b60a4e5faa34"><div class="ttname"><a href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a6af1a8429ade293aec91b60a4e5faa34">RecipeFinder.Ingredient._Allergy</a></div><div class="ttdeci">int _Allergy</div><div class="ttdoc">Holds the ID value of the associated allergy. </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d21/_ingredient_8cs_source.html#l00017">Ingredient.cs:17</a></div></div>
 <div class="ttc" id="class_recipe_finder_1_1_ingredient_html_a8d92e88d88240ea28f19c05cdccaa5a7"><div class="ttname"><a href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a8d92e88d88240ea28f19c05cdccaa5a7">RecipeFinder.Ingredient._Name</a></div><div class="ttdeci">string _Name</div><div class="ttdoc">Holds the name of the stored ingredient. </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d21/_ingredient_8cs_source.html#l00018">Ingredient.cs:18</a></div></div>
 <div class="ttc" id="class_recipe_finder_1_1_ingredient_html_a438a9c7c9da7f220de027e2e7b806797"><div class="ttname"><a href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a438a9c7c9da7f220de027e2e7b806797">RecipeFinder.Ingredient._ID</a></div><div class="ttdeci">int _ID</div><div class="ttdoc">Holds the ID for the stored ingredient. </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d21/_ingredient_8cs_source.html#l00016">Ingredient.cs:16</a></div></div>
+<div class="ttc" id="class_recipe_finder_1_1_ingredient_html_ac75fefceafe7b8581dc1f3a808b2a8a5"><div class="ttname"><a href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#ac75fefceafe7b8581dc1f3a808b2a8a5">RecipeFinder.Ingredient._CategoryID</a></div><div class="ttdeci">int _CategoryID</div><div class="ttdoc">Holds the position within the category list indicated by the _category value. </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d21/_ingredient_8cs_source.html#l00020">Ingredient.cs:20</a></div></div>
+<div class="ttc" id="class_recipe_finder_1_1_ingredient_html_a2776d1d33426c91f5a7e717f768aa6f7"><div class="ttname"><a href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a2776d1d33426c91f5a7e717f768aa6f7">RecipeFinder.Ingredient._Category</a></div><div class="ttdeci">IngredientCategory _Category</div><div class="ttdoc">Holds the category that the ingredient belongs to. </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d21/_ingredient_8cs_source.html#l00019">Ingredient.cs:19</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -339,9 +382,80 @@ Private Attributes</h2></td></tr>
 <dl class="section author"><dt>Author</dt><dd>Brian McCormick </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>The ingredients allergy ID value. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d5/d21/_ingredient_8cs_source.html#l00076">76</a> of file <a class="el" href="../../d5/d21/_ingredient_8cs_source.html">Ingredient.cs</a>.</p>
-<div class="fragment"><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        { <span class="keywordflow">return</span> <a class="code" href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a6af1a8429ade293aec91b60a4e5faa34">_Allergy</a>; }</div>
+<p>Definition at line <a class="el" href="../../d5/d21/_ingredient_8cs_source.html#l00097">97</a> of file <a class="el" href="../../d5/d21/_ingredient_8cs_source.html">Ingredient.cs</a>.</p>
+<div class="fragment"><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        { <span class="keywordflow">return</span> <a class="code" href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a6af1a8429ade293aec91b60a4e5faa34">_Allergy</a>;    }</div>
 <div class="ttc" id="class_recipe_finder_1_1_ingredient_html_a6af1a8429ade293aec91b60a4e5faa34"><div class="ttname"><a href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a6af1a8429ade293aec91b60a4e5faa34">RecipeFinder.Ingredient._Allergy</a></div><div class="ttdeci">int _Allergy</div><div class="ttdoc">Holds the ID value of the associated allergy. </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d21/_ingredient_8cs_source.html#l00017">Ingredient.cs:17</a></div></div>
+</div><!-- fragment -->
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d3/d10/class_recipe_finder_1_1_ingredient_ae9174e748ae009f6fe0565190d68d183_icgraph.png" border="0" usemap="#d3/d10/class_recipe_finder_1_1_ingredient_ae9174e748ae009f6fe0565190d68d183_icgraph" alt=""/></div>
+<map name="d3/d10/class_recipe_finder_1_1_ingredient_ae9174e748ae009f6fe0565190d68d183_icgraph" id="d3/d10/class_recipe_finder_1_1_ingredient_ae9174e748ae009f6fe0565190d68d183_icgraph">
+<area shape="rect" id="node2" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#ae8bac67511e9ffcbe4578dd2d789f1f1" title="Unit_Test.UnitTest\l_Main.testCurrentIngredient" alt="" coords="235,5,416,46"/><area shape="rect" id="node3" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#a92b88554af7460346ef662990f38868b" title="Function for testing the basic functionality of the ingredient class. " alt="" coords="465,5,647,46"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a60574785e926eeabf16c14ae020e7cfc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">public <a class="el" href="../../db/de8/namespace_recipe_finder.html#a8e86ba5e03b3d76e0bff566820e57826">IngredientCategory</a> RecipeFinder.Ingredient.getCategory </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Used for accessing the ingredients category value. </p>
+<dl class="section author"><dt>Author</dt><dd>Brian McCormick </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The ingredients category value. </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d5/d21/_ingredient_8cs_source.html#l00115">115</a> of file <a class="el" href="../../d5/d21/_ingredient_8cs_source.html">Ingredient.cs</a>.</p>
+<div class="fragment"><div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        { <span class="keywordflow">return</span> <a class="code" href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a2776d1d33426c91f5a7e717f768aa6f7">_Category</a>;   }</div>
+<div class="ttc" id="class_recipe_finder_1_1_ingredient_html_a2776d1d33426c91f5a7e717f768aa6f7"><div class="ttname"><a href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a2776d1d33426c91f5a7e717f768aa6f7">RecipeFinder.Ingredient._Category</a></div><div class="ttdeci">IngredientCategory _Category</div><div class="ttdoc">Holds the category that the ingredient belongs to. </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d21/_ingredient_8cs_source.html#l00019">Ingredient.cs:19</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a380c51d45270369e9c625b86ba0a5efc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">public int RecipeFinder.Ingredient.getCategoryID </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Used for accessing the ingredients category id. </p>
+<dl class="section author"><dt>Author</dt><dd>Brian McCormick </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The ingredients category id. </dd></dl>
+
+<p>Definition at line <a class="el" href="../../d5/d21/_ingredient_8cs_source.html#l00124">124</a> of file <a class="el" href="../../d5/d21/_ingredient_8cs_source.html">Ingredient.cs</a>.</p>
+<div class="fragment"><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        { <span class="keywordflow">return</span> <a class="code" href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#ac75fefceafe7b8581dc1f3a808b2a8a5">_CategoryID</a>; }</div>
+<div class="ttc" id="class_recipe_finder_1_1_ingredient_html_ac75fefceafe7b8581dc1f3a808b2a8a5"><div class="ttname"><a href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#ac75fefceafe7b8581dc1f3a808b2a8a5">RecipeFinder.Ingredient._CategoryID</a></div><div class="ttdeci">int _CategoryID</div><div class="ttdoc">Holds the position within the category list indicated by the _category value. </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d21/_ingredient_8cs_source.html#l00020">Ingredient.cs:20</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -370,10 +484,19 @@ Private Attributes</h2></td></tr>
 <dl class="section author"><dt>Author</dt><dd>Brian McCormick </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>The ingredients ID value. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d5/d21/_ingredient_8cs_source.html#l00067">67</a> of file <a class="el" href="../../d5/d21/_ingredient_8cs_source.html">Ingredient.cs</a>.</p>
-<div class="fragment"><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        { <span class="keywordflow">return</span> <a class="code" href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a438a9c7c9da7f220de027e2e7b806797">_ID</a>;      }</div>
+<p>Definition at line <a class="el" href="../../d5/d21/_ingredient_8cs_source.html#l00088">88</a> of file <a class="el" href="../../d5/d21/_ingredient_8cs_source.html">Ingredient.cs</a>.</p>
+<div class="fragment"><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        { <span class="keywordflow">return</span> <a class="code" href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a438a9c7c9da7f220de027e2e7b806797">_ID</a>;         }</div>
 <div class="ttc" id="class_recipe_finder_1_1_ingredient_html_a438a9c7c9da7f220de027e2e7b806797"><div class="ttname"><a href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a438a9c7c9da7f220de027e2e7b806797">RecipeFinder.Ingredient._ID</a></div><div class="ttdeci">int _ID</div><div class="ttdoc">Holds the ID for the stored ingredient. </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d21/_ingredient_8cs_source.html#l00016">Ingredient.cs:16</a></div></div>
 </div><!-- fragment -->
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d3/d10/class_recipe_finder_1_1_ingredient_a5f9a97032c210a28f4d14a004e2b28dd_icgraph.png" border="0" usemap="#d3/d10/class_recipe_finder_1_1_ingredient_a5f9a97032c210a28f4d14a004e2b28dd_icgraph" alt=""/></div>
+<map name="d3/d10/class_recipe_finder_1_1_ingredient_a5f9a97032c210a28f4d14a004e2b28dd_icgraph" id="d3/d10/class_recipe_finder_1_1_ingredient_a5f9a97032c210a28f4d14a004e2b28dd_icgraph">
+<area shape="rect" id="node2" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#ae8bac67511e9ffcbe4578dd2d789f1f1" title="Unit_Test.UnitTest\l_Main.testCurrentIngredient" alt="" coords="245,5,427,46"/><area shape="rect" id="node3" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#a92b88554af7460346ef662990f38868b" title="Function for testing the basic functionality of the ingredient class. " alt="" coords="475,5,658,46"/></map>
+</div>
+</p>
+
 </div>
 </div>
 <a class="anchor" id="acdc59515b280ed4e73593b3099ee4012"></a>
@@ -401,9 +524,58 @@ Private Attributes</h2></td></tr>
 <dl class="section author"><dt>Author</dt><dd>Brian McCormick </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>The ingredients name. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d5/d21/_ingredient_8cs_source.html#l00085">85</a> of file <a class="el" href="../../d5/d21/_ingredient_8cs_source.html">Ingredient.cs</a>.</p>
-<div class="fragment"><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        { <span class="keywordflow">return</span> <a class="code" href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a8d92e88d88240ea28f19c05cdccaa5a7">_Name</a>;    }</div>
+<p>Definition at line <a class="el" href="../../d5/d21/_ingredient_8cs_source.html#l00106">106</a> of file <a class="el" href="../../d5/d21/_ingredient_8cs_source.html">Ingredient.cs</a>.</p>
+<div class="fragment"><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        { <span class="keywordflow">return</span> <a class="code" href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a8d92e88d88240ea28f19c05cdccaa5a7">_Name</a>;       }</div>
 <div class="ttc" id="class_recipe_finder_1_1_ingredient_html_a8d92e88d88240ea28f19c05cdccaa5a7"><div class="ttname"><a href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#a8d92e88d88240ea28f19c05cdccaa5a7">RecipeFinder.Ingredient._Name</a></div><div class="ttdeci">string _Name</div><div class="ttdoc">Holds the name of the stored ingredient. </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d21/_ingredient_8cs_source.html#l00018">Ingredient.cs:18</a></div></div>
+</div><!-- fragment -->
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d3/d10/class_recipe_finder_1_1_ingredient_acdc59515b280ed4e73593b3099ee4012_icgraph.png" border="0" usemap="#d3/d10/class_recipe_finder_1_1_ingredient_acdc59515b280ed4e73593b3099ee4012_icgraph" alt=""/></div>
+<map name="d3/d10/class_recipe_finder_1_1_ingredient_acdc59515b280ed4e73593b3099ee4012_icgraph" id="d3/d10/class_recipe_finder_1_1_ingredient_acdc59515b280ed4e73593b3099ee4012_icgraph">
+<area shape="rect" id="node2" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#ae8bac67511e9ffcbe4578dd2d789f1f1" title="Unit_Test.UnitTest\l_Main.testCurrentIngredient" alt="" coords="269,5,451,46"/><area shape="rect" id="node3" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#a92b88554af7460346ef662990f38868b" title="Function for testing the basic functionality of the ingredient class. " alt="" coords="499,5,682,46"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="aecffc37b24c19b514f1147d8707b79c6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">public void RecipeFinder.Ingredient.setCategoryID </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>cid</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Used for setting the category id value for the ingredient. </p>
+<dl class="section author"><dt>Author</dt><dd>Brian McCormick </dd>
+<dd>
+Ronald Hyatt </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>Created Date: 11/8/2013 </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">cid</td><td>The category id to assign to the ingredient. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="../../d5/d21/_ingredient_8cs_source.html#l00079">79</a> of file <a class="el" href="../../d5/d21/_ingredient_8cs_source.html">Ingredient.cs</a>.</p>
+<div class="fragment"><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        { <a class="code" href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#ac75fefceafe7b8581dc1f3a808b2a8a5">_CategoryID</a> = cid;  }</div>
+<div class="ttc" id="class_recipe_finder_1_1_ingredient_html_ac75fefceafe7b8581dc1f3a808b2a8a5"><div class="ttname"><a href="../../d3/d10/class_recipe_finder_1_1_ingredient.html#ac75fefceafe7b8581dc1f3a808b2a8a5">RecipeFinder.Ingredient._CategoryID</a></div><div class="ttdeci">int _CategoryID</div><div class="ttdoc">Holds the position within the category list indicated by the _category value. </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d21/_ingredient_8cs_source.html#l00020">Ingredient.cs:20</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -429,6 +601,54 @@ Private Attributes</h2></td></tr>
 <p>Holds the ID value of the associated allergy. </p>
 
 <p>Definition at line <a class="el" href="../../d5/d21/_ingredient_8cs_source.html#l00017">17</a> of file <a class="el" href="../../d5/d21/_ingredient_8cs_source.html">Ingredient.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2776d1d33426c91f5a7e717f768aa6f7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/de8/namespace_recipe_finder.html#a8e86ba5e03b3d76e0bff566820e57826">IngredientCategory</a> RecipeFinder.Ingredient._Category</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Holds the category that the ingredient belongs to. </p>
+
+<p>Definition at line <a class="el" href="../../d5/d21/_ingredient_8cs_source.html#l00019">19</a> of file <a class="el" href="../../d5/d21/_ingredient_8cs_source.html">Ingredient.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac75fefceafe7b8581dc1f3a808b2a8a5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int RecipeFinder.Ingredient._CategoryID</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Holds the position within the category list indicated by the _category value. </p>
+
+<p>Definition at line <a class="el" href="../../d5/d21/_ingredient_8cs_source.html#l00020">20</a> of file <a class="el" href="../../d5/d21/_ingredient_8cs_source.html">Ingredient.cs</a>.</p>
 
 </div>
 </div>
@@ -489,7 +709,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/de8/namespace_recipe_finder.html">RecipeFinder</a></li><li class="navelem"><a class="el" href="../../d3/d10/class_recipe_finder_1_1_ingredient.html">Ingredient</a></li>
-    <li class="footer">Generated on Sun Nov 17 2013 23:04:24 for Recipe Finder by
+    <li class="footer">Generated on Mon Nov 18 2013 12:09:05 for Recipe Finder by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

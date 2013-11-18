@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows;
+using System.Collections.Generic;
 
 namespace RecipeFinder
 {
@@ -12,33 +13,34 @@ namespace RecipeFinder
         //          an array of recipes,
         //          an integer representing the cooking mode,
         //          a bool array representing the different allergens
-        //TODO: Remove hardcoded values from this function
-        //TODO: Testing needs to be performed for this method once final touches have been added in
-        public Recipe[] searchForRecipies(bool[][] userSearchParams, Recipe[] recipeList, int cookingMode,  bool[] alergens)
-        {
-            return new Recipe[0];
-            /*
+        //TODO: Update code documentation for entire file to match current documentation standard
+        public Recipe[] searchForRecipies(bool[][] userSearchParams, CookMode cookingMode,  bool[] userAlergens)
+        {   
             //Recipe needs to be some sort of accessable object
             //Struct to keep track of the correct hits each recipe gets based on the search
             struct recipeMatches 
             {
-                Recipe result;
+                int recipeIndex;
                 int hitCounter;
             }
 
             //Hard code in the number of catagories of ingrediants and the number per each
+            //TODO: Get length of array for number of categories
+            //TODO: Rework ingredient ammount to be fetched from the lists for each category
+            Array values    = Enum.GetValues( typeof(IngredientCategory) );
             int categories  = 8;
             int ingrediants = 12;
 
-            //Array of the structs
-            // Based on 100 recipe input
-            recipeMatches[] recipeResults = new recipeMatches[100];
-            //The return for the results for the top 10 of the search
+            //Create an array based on length of recipe list
+            //TODO: See about maybe reworking as a List<recipeMatches> to skip allocation process
+            recipeMatches[] recipeResults = new recipeMatches[_recipeList.ToArray().Length];
+
+            //TODO: Rework just to hold all results
+            //TODO: Use list to hold results
             Recipe[] results = new Recipe[10];
 
             //Grab each ingrediant list from each recipe
-            //TODO: Redo this code for proper memory allocation
-            bool[][] recipeIngrediants = new bool[9][]; //[categories][ingrediants];
+            bool[][] recipeIngrediants = new bool[categories][ingrediants];
             
             int k;
 
@@ -90,7 +92,7 @@ namespace RecipeFinder
             Array.Copy(recipeResults, results, 10);
 
             //return the top 10
-            return results;*/
+            return results;
         }
     }
 }

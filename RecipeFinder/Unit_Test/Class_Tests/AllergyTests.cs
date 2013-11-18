@@ -6,12 +6,12 @@ namespace Unit_Test
 {
     public partial class UnitTest_Main
     {
-        //Variables used for testing the allergy class
+        //Objects used for testing the allergy class
         private static Allergy _testAllergy;        ///< Variable used for storing a single allergy object
 
-        //Boolean array used for storing test results
-        private static int[]   _allergyBasicResult; ///< Variable used for holding the number of passed tests and the total number of tests for the basic test
-        private static int[]   _allergyInputResult; ///< Variable used for holding the number of passed tests and the total number of tests for the input file test
+        //Boolean arrays used for storing test results
+        private static int[] _allergyBasicResult; ///< Array used for holding the number of passed tests and the total number of tests for the basic test
+        private static int[] _allergyInputResult; ///< Array used for holding the number of passed tests and the total number of tests for the input file test
 
         /**
          * \fn     private static void Allergy_BasicTest()
@@ -34,39 +34,39 @@ namespace Unit_Test
             _results = new bool[numberResults];
 
             //Set up string values for testing allergy name and message
-            string _singleChar = "T";
-            string _singleWord = "Test";
-            string _multiWord  = "Testing the allergy class";
+            string singleChar = "T";
+            string singleWord = "Test";
+            string multiWord  = "Testing the allergy class";
 
             //Run through the constructor tests
             for(int i = 0; i < iterations; i++)
             {
-                _testAllergy = new Allergy(i, _singleChar, _singleChar);
-                testCurrentAllergy(i, _singleChar, _singleChar, 0, numberTests);
+                _testAllergy = new Allergy(i, singleChar, singleChar);
+                testCurrentAllergy(i, singleChar, singleChar, 0, numberTests);
                 
-                _testAllergy = new Allergy(i, _singleChar, _singleWord);
-                testCurrentAllergy(i, _singleChar, _singleWord, 1, numberTests);
+                _testAllergy = new Allergy(i, singleChar, singleWord);
+                testCurrentAllergy(i, singleChar, singleWord, 1, numberTests);
 
-                _testAllergy = new Allergy(i, _singleChar, _multiWord);
-                testCurrentAllergy(i, _singleChar, _multiWord, 2, numberTests);
+                _testAllergy = new Allergy(i, singleChar, multiWord);
+                testCurrentAllergy(i, singleChar, multiWord, 2, numberTests);
 
-                _testAllergy = new Allergy(i, _singleWord, _singleChar);
-                testCurrentAllergy(i, _singleWord, _singleChar, 3, numberTests);
+                _testAllergy = new Allergy(i, singleWord, singleChar);
+                testCurrentAllergy(i, singleWord, singleChar, 3, numberTests);
 
-                _testAllergy = new Allergy(i, _singleWord, _singleWord);
-                testCurrentAllergy(i, _singleWord, _singleWord, 4, numberTests);
+                _testAllergy = new Allergy(i, singleWord, singleWord);
+                testCurrentAllergy(i, singleWord, singleWord, 4, numberTests);
 
-                _testAllergy = new Allergy(i, _singleWord, _multiWord);
-                testCurrentAllergy(i, _singleWord, _multiWord, 5, numberTests);
+                _testAllergy = new Allergy(i, singleWord, multiWord);
+                testCurrentAllergy(i, singleWord, multiWord, 5, numberTests);
 
-                _testAllergy = new Allergy(i, _multiWord, _singleChar);
-                testCurrentAllergy(i, _multiWord, _singleChar, 6, numberTests);
+                _testAllergy = new Allergy(i, multiWord, singleChar);
+                testCurrentAllergy(i, multiWord, singleChar, 6, numberTests);
 
-                _testAllergy = new Allergy(i, _multiWord, _singleWord);
-                testCurrentAllergy(i, _multiWord, _singleWord, 7, numberTests);
+                _testAllergy = new Allergy(i, multiWord, singleWord);
+                testCurrentAllergy(i, multiWord, singleWord, 7, numberTests);
 
-                _testAllergy = new Allergy(i, _multiWord, _multiWord);
-                testCurrentAllergy(i, _multiWord, _multiWord, 8, numberTests);
+                _testAllergy = new Allergy(i, multiWord, multiWord);
+                testCurrentAllergy(i, multiWord, multiWord, 8, numberTests);
             }
 
             //Store the results for display later
@@ -88,9 +88,9 @@ namespace Unit_Test
             int numberResults = iterations * numberTests;
 
             //Set up string values for testing allergy name and message
-            string _singleChar = "T";
-            string _singleWord = "Test";
-            string _multiWord  = "Testing the input file code";
+            string singleChar = "T";
+            string singleWord = "Test";
+            string multiWord  = "Testing the input file code";
 
             //Used as variables to help swap out values for testing
             string n;
@@ -112,18 +112,18 @@ namespace Unit_Test
                 _testAllergy = test;
                 
                 if(i < 3)
-                    n = _singleChar;
+                    n = singleChar;
                 else if(i > 2 && i < 6)
-                    n = _singleWord;
+                    n = singleWord;
                 else
-                    n = _multiWord;
+                    n = multiWord;
 
                 if(i % 3 == 0)
-                    m = _singleChar;
+                    m = singleChar;
                 else if(i % 3 == 1)
-                    m = _singleWord;
+                    m = singleWord;
                 else
-                    m = _multiWord;
+                    m = multiWord;
 
                 testCurrentAllergy(i, n, m, 0, numberTests);
                 i++;
@@ -147,18 +147,19 @@ namespace Unit_Test
          **/
         private static void testCurrentAllergy(int i, string n, string m, int o, int t)
         {
-            bool _tempControl = true;
+            bool tempControl = true;
+            int  index       = (i * t) + o;
 
             //Tests the three values of an allergy object
             if(_testAllergy.getID() != i)
-                _tempControl = false;
+                tempControl = false;
             if(_testAllergy.getName() != n)
-                _tempControl = false;
+                tempControl = false;
             if(_testAllergy.getMsg() != m)
-                _tempControl = false;
+                tempControl = false;
 
             //Adds the result to the results array
-            addToResults(i, o, t, _tempControl);
+            addToResults(index, tempControl);
         }
     }
 }

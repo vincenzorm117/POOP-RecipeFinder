@@ -7,8 +7,14 @@ namespace RecipeFinder
 {
     public partial class MainWindow : Window
     {
-        private static List<Allergy> _allergyList;     ///< The list used to hold the allergy list read in from file.
-        public  static List<Allergy> _testAllergyList; ///< List used so that the unit test can have access to the data. Never gets called in the main program.
+        private static List<Allergy>    _allergyList;        ///< The list used to hold the allergy list read in from file.
+        public  static List<Allergy>    _testAllergyList;    ///< List used so that the unit test can have access to the data. Never gets called in the main program.
+
+        private static List<Ingredient> _ingredientList;     ///< The list used to hold the ingredient list read in from file.
+        public  static List<Ingredient> _testIngredientList; ///< List used so that the unit test can have access to the data. Never gets called in the main program.
+
+        private static List<Recipe>     _recipeList;         ///< The list used to hold the recipe list read in from file.
+        public  static List<Recipe>     _testRecipeList;     ///< List used so that the unit test can have access to the data. Never gets called in the main program.
 
         /**
          * \fn         public static bool AllergyInput(string path)
@@ -74,5 +80,7 @@ namespace RecipeFinder
                 return false;
             }
         }
+    
+
     }
 }

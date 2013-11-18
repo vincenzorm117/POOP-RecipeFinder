@@ -13,9 +13,11 @@ namespace RecipeFinder
      **/
     public class Ingredient
     {
-        private int    _ID;      ///< Holds the ID for the stored ingredient
-        private int    _Allergy; ///< Holds the ID value of the associated allergy
-        private string _Name;    ///< Holds the name of the stored ingredient
+        private int                _ID;         ///< Holds the ID for the stored ingredient
+        private int                _Allergy;    ///< Holds the ID value of the associated allergy
+        private string             _Name;       ///< Holds the name of the stored ingredient
+        private IngredientCategory _Category;   ///< Holds the category that the ingredient belongs to
+        private int                _CategoryID; ///< Holds the position within the category list indicated by the _category value
 
         /**
          * \fn     public Ingredient()
@@ -24,39 +26,58 @@ namespace RecipeFinder
          **/
         public Ingredient()
         {
-            _ID      = -1;
-            _Allergy = -1;
-            _Name    = "";
+            _ID         = -1;
+            _Allergy    = -1;
+            _Name       = "";
+            _Category   = IngredientCategory.NONE;
+            _CategoryID = -1;
         }
 
         /**
-         * \fn      public Ingredient(int i, int a, string n)
-         * \brief   Class constructor that initializes all values.
+         * \fn      public Ingredient(int i, int a, string n, IngredientCategory c)
+         * \brief   Class constructor that initializes all values except for the category ID.
          * \author  Brian McCormick
          * \param i The ingredient ID value.
          * \param a The ingredients allergy ID value.
          * \param n The ingredients name.
+         * \param c The category that the ingredient belongs to.
          **/
-        public Ingredient(int i, int a, string n)
+        public Ingredient(int i, int a, string n, IngredientCategory c)
         {
-            _ID      = i;
-            _Allergy = a;
-            _Name    = n;
+            _ID         = i;
+            _Allergy    = a;
+            _Name       = n;
+            _Category   = c;
+            _CategoryID = -1;
         }
 
         /**
-         * \fn      public Ingredient(int i, string n)
-         * \brief   Class constructor used when no allergy ID is present.
+         * \fn      public Ingredient(int i, string n, IngredientCategory c)
+         * \brief   Class constructor used when no allergy ID is present and doesn't initialize the category ID.
          * \author  Brian McCormick
          * \param i The ingredient ID value.
          * \param n The ingredients name.
+         * \param c The category that the ingredient belongs to.
          **/
-        public Ingredient(int i, string n)
+        public Ingredient(int i, string n, IngredientCategory c)
         {
-            _ID      = i;
-            _Allergy = -1;
-            _Name    = n;
+            _ID         = i;
+            _Allergy    = -1;
+            _Name       = n;
+            _Category   = c;
+            _CategoryID = -1;
         }
+
+        /**
+         * \fn             public void setCategoryID(int cid)
+         * \brief          Used for setting the category id value for the ingredient.
+         * \author         Brian McCormick
+         * \author         Ronald Hyatt
+         * \date           Created Date: 11/18/2013
+         * \param [in] cid The category id to assign to the ingredient.
+         **/
+        public void setCategoryID(int cid)
+        { _CategoryID = cid;  }
 
         /**
          * \fn     public int getID()
@@ -65,7 +86,7 @@ namespace RecipeFinder
          * \return The ingredients ID value.
          **/
         public int getID()
-        { return _ID;      }
+        { return _ID;         }
 
         /**
          * \fn     public int getAllergy()
@@ -74,7 +95,7 @@ namespace RecipeFinder
          * \return The ingredients allergy ID value.
          **/
         public int getAllergy()
-        { return _Allergy; }
+        { return _Allergy;    }
 
         /**
          * \fn     public string getName()
@@ -83,6 +104,24 @@ namespace RecipeFinder
          * \return The ingredients name.
          **/
         public string getName()
-        { return _Name;    }
+        { return _Name;       }
+
+        /**
+         * \fn     public IngredientCategory getCategory()
+         * \brief  Used for accessing the ingredients category value.
+         * \author Brian McCormick
+         * \return The ingredients category value.
+         **/
+        public IngredientCategory getCategory()
+        { return _Category;   }
+
+        /**
+         * \fn     public int getCategoryID()
+         * \brief  Used for accessing the ingredients category id.
+         * \author Brian McCormick
+         * \return The ingredients category id.
+         **/
+        public int getCategoryID()
+        { return _CategoryID; }
     }
 }

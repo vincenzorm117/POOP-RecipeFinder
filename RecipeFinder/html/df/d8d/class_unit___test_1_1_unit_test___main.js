@@ -1,13 +1,17 @@
 var class_unit___test_1_1_unit_test___main =
 [
-    [ "addToResults", "df/d8d/class_unit___test_1_1_unit_test___main.html#a55a7d2031b06e4b032a317ea9aa5f264", null ],
+    [ "addToResults", "df/d8d/class_unit___test_1_1_unit_test___main.html#aa1e6ba872dbcdc2c1a4a282cd717a9dc", null ],
     [ "Allergy_BasicTest", "df/d8d/class_unit___test_1_1_unit_test___main.html#a72eef5cb55327780eb3ef2c43be77c4d", null ],
     [ "Allergy_InputTest", "df/d8d/class_unit___test_1_1_unit_test___main.html#aabbb204481e8457d3c2e360594c4b692", null ],
+    [ "Ingredient_BasicTest", "df/d8d/class_unit___test_1_1_unit_test___main.html#a92b88554af7460346ef662990f38868b", null ],
     [ "Main", "df/d8d/class_unit___test_1_1_unit_test___main.html#a395592b7f229d27be4353c95f7457185", null ],
     [ "passCount", "df/d8d/class_unit___test_1_1_unit_test___main.html#a11e3c0d0eef12579dc428718adeac867", null ],
     [ "testCurrentAllergy", "df/d8d/class_unit___test_1_1_unit_test___main.html#aac30b4f8b7dd5e7ba6e9745b03b1d775", null ],
+    [ "testCurrentIngredient", "df/d8d/class_unit___test_1_1_unit_test___main.html#ae8bac67511e9ffcbe4578dd2d789f1f1", null ],
     [ "_allergyBasicResult", "df/d8d/class_unit___test_1_1_unit_test___main.html#ac002ea298d79fbf774e41ed7eee85003", null ],
     [ "_allergyInputResult", "df/d8d/class_unit___test_1_1_unit_test___main.html#afd0c708a4163f238bb77cf3dcbe79d8b", null ],
+    [ "_ingredientBasicResults", "df/d8d/class_unit___test_1_1_unit_test___main.html#a8a33dd44d7887bdfc1a2f232831723ee", null ],
     [ "_results", "df/d8d/class_unit___test_1_1_unit_test___main.html#af940b7a2fe144919cfac6c7a812677b9", null ],
-    [ "_testAllergy", "df/d8d/class_unit___test_1_1_unit_test___main.html#afc8d557d3630265d496978afd977f13c", null ]
+    [ "_testAllergy", "df/d8d/class_unit___test_1_1_unit_test___main.html#afc8d557d3630265d496978afd977f13c", null ],
+    [ "_testIngredient", "df/d8d/class_unit___test_1_1_unit_test___main.html#a60df1c3a5b144d997cfa1d06308a8d64", null ]
 ];

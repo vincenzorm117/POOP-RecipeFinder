@@ -28,17 +28,14 @@ namespace Unit_Test
         }
 
         /**
-         * \fn      private static void addToResults(int i, int o, bool r)
+         * \fn      private static void addToResults(int i, bool r)
          * \brief   Function for storing a result to the results array.
          * \author  Brian McCormick
          * \param i The index value from the loop changing the values being tested.
-         * \param o The offset used if there is more than one test performed in an iteration.
-         * \param t The value of how many tests there are for each iteration.
-         * \param r The boolean value resulting from testing an allergy object.
          **/
-        private static void addToResults(int i, int o, int t, bool r)
+        private static void addToResults(int i, bool r)
         {
-            _results[(i * t) + o] = r;
+            _results[i] = r;
         }
     }
 }

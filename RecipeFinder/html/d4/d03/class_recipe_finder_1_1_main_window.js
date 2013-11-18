@@ -9,9 +9,13 @@ var class_recipe_finder_1_1_main_window =
     [ "populateFilterExpandersAndCheckBoxes", "d4/d03/class_recipe_finder_1_1_main_window.html#ab17f31c6993f3e7a8637df5269226319", null ],
     [ "print", "d4/d03/class_recipe_finder_1_1_main_window.html#a89ce3ccc4ef4eb78ca631a2ac5430b27", null ],
     [ "SearchButton_Click", "d4/d03/class_recipe_finder_1_1_main_window.html#ac4b366f48d7b23c7d906fbc1d07fba7e", null ],
-    [ "searchForRecipies", "d4/d03/class_recipe_finder_1_1_main_window.html#a925f548a507c01e1cea1bae0dfff00ed", null ],
+    [ "searchForRecipies", "d4/d03/class_recipe_finder_1_1_main_window.html#a6a87c840edc415f71e4dbe1fa64d4e3b", null ],
     [ "updateRecipeSelection", "d4/d03/class_recipe_finder_1_1_main_window.html#add0479e2e358ea70e78960a90693c83a", null ],
     [ "_allergyList", "d4/d03/class_recipe_finder_1_1_main_window.html#ac8103eecd01283da9a4b179171650cdf", null ],
+    [ "_ingredientList", "d4/d03/class_recipe_finder_1_1_main_window.html#aa79a1019150c858ce1f2b8429fcf5f0c", null ],
+    [ "_recipeList", "d4/d03/class_recipe_finder_1_1_main_window.html#a951de2ac80b3bc09af7bfec93359f275", null ],
     [ "_testAllergyList", "d4/d03/class_recipe_finder_1_1_main_window.html#abd7170e25a155da070891e5f02632341", null ],
+    [ "_testIngredientList", "d4/d03/class_recipe_finder_1_1_main_window.html#a302e258a9d74bf139acb4500a18f7b10", null ],
+    [ "_testRecipeList", "d4/d03/class_recipe_finder_1_1_main_window.html#a57fb1a9a039242f1beb320dc3ba2f5b0", null ],
     [ "checkedIngredients", "d4/d03/class_recipe_finder_1_1_main_window.html#a83a71a0e7b6ffcaecd3be15e317cea01", null ]
 ];
