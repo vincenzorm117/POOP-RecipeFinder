@@ -1,0 +1,23 @@
+﻿<Allergy ID>
+<Allergy Name>
+<Warning Message>
+
+
+0
+None
+None
+
+
+1
+Dairy
+This recipe contains ingredients with dairy.
+
+
+2
+Shellfish
+This recipe contains shellfish.
+
+
+3
+Nuts
+This recipe contains nuts.
