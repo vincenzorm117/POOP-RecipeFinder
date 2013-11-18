@@ -1,4 +1,4 @@
-﻿<Ingredient ID>
+<Ingredient ID>
 <Name>
 <Allergy ID> (if applicable)
 
@@ -283,47 +283,208 @@ italian seasoning
 
 70
 tilapia fillets
+
 71
 italian parsley, chopped
 
 
 72
 teriyaki marinade
+
 73
 tuna steaks (3/4 inch-thick)
+
 74
 littleneck clams, rinsed
+
 75
 chicken broth
+
 76
 white wine
+
 77
 green bell pepper, thinly sliced
+
 78
 patagonian scallops
+
 79
 teriyaki sauce
+
 80
 medium lobster tails
+
 81
 lemon, halved
+
 82
 lemon, quartered
+
 83
 seafood seasoning
+
 84
 snow crab clusters
+
 85
 jumbo shrimp
+
 86
 long skewers
+
 87
 greek seasoning
+
 88
 linguine pasta
+
 89
 medium shrimp. peeled and deveined, tail off
+
 90
 blackening seasoning
+
 91
 can alfredo sauce
+
+92
+beef cubed steak
+
+93
+flour
+
+94
+beaten large egg
+
+95
+crushed saltine crackers (or cracker meal)
+
+96
+kosher salt
+
+97
+pepper
+
+98
+1-inch thick braising steaks
+
+99
+seasoned salt
+
+100
+all-purpose flour
+
+101
+sliced onion
+
+102
+tomato puree
+
+103
+beef broth
+
+104
+ground beef
+
+105
+chopped onion
+
+106
+Italian bread crumbs
+
+107
+Tomato sauce
+
+108
+Veal Chops
+
+109
+peeled and thinly sliced apples
+
+110
+Beef stew meat
+
+111
+Medium chopped onion
+
+112
+Diced large potato
+
+113
+Sliced carrots
+
+114
+Sliced celery
+
+115
+Beef stock
+
+116
+Tenderloin
+
+117
+Mesquite seasoning
+
+118
+Minced garlic
+
+119
+Barbecue sauce
+
+120
+Boneless pork chops (about 1/2-inch thick)
+
+121
+Ginger paste
+
+122
+light beer
+
+123
+extra-virgin olive oil
+
+124
+dried rosemary
+
+125
+Dried thyme
+
+126
+1 1/4-inch-thick lamb loin chops
+
+127
+1/2-2 chuck steak (1-inch-thick)
+
+128
+Oven roast
+
+129
+Montreal steak seasoning
+
+130
+Sliced leeks
+
+131
+Chopped fresh thyme leaves
+
+132
+Halved red potatoes
+
+133
+Reduced-sodium beef broth
+
+134
+Beef skirt steak
+
+135
+Fajita seasoning
+
+136
+Package frozen stir-fry peppers and onions
+
+137
+Juice of lime
+
+138
+Flour tortillas
