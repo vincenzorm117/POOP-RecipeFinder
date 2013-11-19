@@ -8,6 +8,9 @@ using System.Windows;
 
 namespace RecipeFinder
 {
+    /**
+     * \class  App
+     **/
     public partial class App : Application
     {
     }
