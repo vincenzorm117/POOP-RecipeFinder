@@ -14,8 +14,39 @@ namespace RecipeFinder
         //          an integer representing the cooking mode,
         //          a bool array representing the different allergens
         //TODO: Update code documentation for entire file to match current documentation standard
-        public Recipe[] searchForRecipies(bool[][] userSearchParams, CookMode cookingMode,  bool[] userAlergens)
-        {   
+
+        //Create struct for the recipes
+        struct recipeMaches
+        {
+            int recipeIndex;
+            int hitCounter;
+        }
+
+        public List<Recipe> searchForRecipies(List<List<bool>> userSearchParams, CookMode cookingMode, List<bool> userAlergens)
+        {
+
+            //Create a new List for the results
+            List<Recipe> results = new List<Recipe>();
+
+            //Get the number of categories
+            int categories = Enum.GetNames(typeof(IngredientCategory)).Length;
+            int ingredients;
+
+            for(Recipe current in _recipeList){
+
+            }
+
+
+
+
+
+            return results;
+        }
+    }
+}
+
+/*
+{   
             //Recipe needs to be some sort of accessable object
             //Struct to keep track of the correct hits each recipe gets based on the search
             struct recipeMatches 
@@ -24,29 +55,22 @@ namespace RecipeFinder
                 int hitCounter;
             }
 
-            //Hard code in the number of catagories of ingrediants and the number per each
-            //TODO: Get length of array for number of categories
+
+//            //Hard code in the number of catagories of ingrediants and the number per each
+//            int categories  = Enum.GetNames( typeof(IngredientCategory) ).Length;
+
             //TODO: Rework ingredient ammount to be fetched from the lists for each category
-            Array values    = Enum.GetValues( typeof(IngredientCategory) );
-            int categories  = 8;
-            int ingrediants = 12;
-
-            //Create an array based on length of recipe list
-            //TODO: See about maybe reworking as a List<recipeMatches> to skip allocation process
-            recipeMatches[] recipeResults = new recipeMatches[_recipeList.ToArray().Length];
-
-            //TODO: Rework just to hold all results
-            //TODO: Use list to hold results
-            Recipe[] results = new Recipe[10];
+            int ingrediants = Enum.GetNames( typeof(IngredientCategory) ).Length;
 
             //Grab each ingrediant list from each recipe
-            bool[][] recipeIngrediants = new bool[categories][ingrediants];
+            List<List<bool>> recipeIngrediants = new List<List<bool>>();
             
             int k;
 
             //First use the filters to remove any that match (i.e. milk alergy skip that record
             //Loop throughout the list of recipes
-            for(int i = 0; i < 100; i++)
+            _recipeList = new List<Recipe>();
+            for(Recipe current : _recipeList)
             {
                 //Reset counter
                 k = 0;
@@ -94,5 +118,4 @@ namespace RecipeFinder
             //return the top 10
             return results;
         }
-    }
-}
+*/

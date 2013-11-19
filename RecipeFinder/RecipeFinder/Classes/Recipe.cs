@@ -41,6 +41,7 @@ namespace RecipeFinder
 
         private string               _Title;               ///< The title of the recipe being stored
         private string               _Instructions;        ///< The instructions for the recipe being stored
+        private Enum                 _CookMode;            ///<The mode that this recipe belongs
 
         private List<ingredientData> _ingredients;         ///< The list of ingredients for the recipe being stored
 
@@ -61,10 +62,11 @@ namespace RecipeFinder
          * \param n The number of ingredients for the recipe.
          * \param i The title of the recipe.
          * \param u The instructions for the recipe.
+         * \param m The mode for the recipe.
          * \param lst The ingredients for the recipe.
          **/
          //TODO: Rework functionality of list parameter
-        public Recipe(int t, int p, int s, int c, int f, int h, int o, int a, int b, int r, int n, string i, string u)
+        public Recipe(int t, int p, int s, int c, int f, int h, int o, int a, int b, int r, int n, string i, string u, Enum m)
         {
             _TotalTime           = t;
             _PrepTime            = p;
@@ -79,6 +81,7 @@ namespace RecipeFinder
             _NumberOfIngredients = n;
             _Title               = i;
             _Instructions        = u;
+            _CookMode            = m;
         }
     }
 }
