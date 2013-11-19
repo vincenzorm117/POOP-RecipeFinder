@@ -1,0 +1,17 @@
+<map id="Main" name="Main">
+<area shape="rect" id="node2" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#a2e79bfbe83626c0a870ab1d0d5cb8ee3" title="Function for testing the basic functionality of the allergy class. " alt="" coords="113,157,239,184"/>
+<area shape="rect" id="node9" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#a6c5deabe801e2d5f1da3ff081f3e9e95" title="Function for testing reading in allergy from file. " alt="" coords="115,107,237,133"/>
+<area shape="rect" id="node10" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#a8e7193c250537374fd0984beeb4508d0" title="Function for testing the basic functionality of the ingredient class. " alt="" coords="105,208,247,235"/>
+<area shape="rect" id="node3" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#aaaf4686cbdfd5a375a84fabad3f546f6" title="Function used for testing a single allergy object. " alt="" coords="305,107,431,133"/>
+<area shape="rect" id="node8" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#aa571087790b61ba2a418fbea641db2fd" title="Function for tallying up the number of passed tests. " alt="" coords="326,157,410,184"/>
+<area shape="rect" id="node4" href="$d0/d44/class_recipe_finder_1_1_allergy.html#aadf0f62cf1d2e89eaf79aa8b4e98a61e" title="Used for accessing the allergy ID value. " alt="" coords="508,5,684,32"/>
+<area shape="rect" id="node5" href="$d0/d44/class_recipe_finder_1_1_allergy.html#a30ef346e0fd02313d7fdb2bda10f9f1e" title="Used for accessing the name of the allergy. " alt="" coords="497,56,695,83"/>
+<area shape="rect" id="node6" href="$d0/d44/class_recipe_finder_1_1_allergy.html#a718a12063575796f8530790e010aff78" title="Used for accessing the stored allergies warning message. " alt="" coords="501,107,691,133"/>
+<area shape="rect" id="node7" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#a82150f0b73c575c4baca90693d5a0d3a" title="Function for storing a result to the results array. " alt="" coords="545,157,647,184"/>
+<area shape="rect" id="node11" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#a549ffaee0407bd9c69bc34280b41a5ba" title="Function for testing an ingredient object against given values. " alt="" coords="297,281,439,308"/>
+<area shape="rect" id="node12" href="$d3/d10/class_recipe_finder_1_1_ingredient.html#aadf0f62cf1d2e89eaf79aa8b4e98a61e" title="Used for accessing the ingredients ID value. " alt="" coords="500,340,692,367"/>
+<area shape="rect" id="node13" href="$d3/d10/class_recipe_finder_1_1_ingredient.html#a4ee6a845e50140f5743f72c7f8cf0d51" title="Used for accessing the ingredients allergy ID value. " alt="" coords="506,391,686,433"/>
+<area shape="rect" id="node14" href="$d3/d10/class_recipe_finder_1_1_ingredient.html#a30ef346e0fd02313d7fdb2bda10f9f1e" title="Used for accessing the ingredients name. " alt="" coords="489,457,703,484"/>
+<area shape="rect" id="node15" href="$d3/d10/class_recipe_finder_1_1_ingredient.html#a4a36dcafedd0fab0f958d78adeb3cd87" title="Used for accessing the ingredients category id. " alt="" coords="506,209,686,250"/>
+<area shape="rect" id="node16" href="$d3/d10/class_recipe_finder_1_1_ingredient.html#aabe81cab9249da54c6f8d9ca839be085" title="Used for accessing the ingredients category value. " alt="" coords="506,274,686,315"/>
+</map>

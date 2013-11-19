@@ -1,10 +1,10 @@
 var class_recipe_finder_1_1_allergy =
 [
-    [ "Allergy", "d0/d44/class_recipe_finder_1_1_allergy.html#af1f3532e27e17f67acea3b251a1b62e3", null ],
-    [ "getID", "d0/d44/class_recipe_finder_1_1_allergy.html#a23428b5d4bc0bd050425aa98ede6b0f3", null ],
-    [ "getMsg", "d0/d44/class_recipe_finder_1_1_allergy.html#a6faae49b119fe30e79f86e919fa27a14", null ],
-    [ "getName", "d0/d44/class_recipe_finder_1_1_allergy.html#ae75abe347dc6c912ce69f0316033dd95", null ],
-    [ "_ID", "d0/d44/class_recipe_finder_1_1_allergy.html#a6b986d38fa5bf479f2016474475582d0", null ],
-    [ "_Message", "d0/d44/class_recipe_finder_1_1_allergy.html#ab50162778b20c802971c75f878f112a1", null ],
-    [ "_Name", "d0/d44/class_recipe_finder_1_1_allergy.html#a6be16b6c3f8e9179945734f694a86b0d", null ]
+    [ "Allergy", "d0/d44/class_recipe_finder_1_1_allergy.html#a34f92e569c9f564b426c9f91fcef3ecb", null ],
+    [ "getID", "d0/d44/class_recipe_finder_1_1_allergy.html#aadf0f62cf1d2e89eaf79aa8b4e98a61e", null ],
+    [ "getMsg", "d0/d44/class_recipe_finder_1_1_allergy.html#a718a12063575796f8530790e010aff78", null ],
+    [ "getName", "d0/d44/class_recipe_finder_1_1_allergy.html#a30ef346e0fd02313d7fdb2bda10f9f1e", null ],
+    [ "_ID", "d0/d44/class_recipe_finder_1_1_allergy.html#a9abff1d47adf0b71068c739b8b485b3d", null ],
+    [ "_Message", "d0/d44/class_recipe_finder_1_1_allergy.html#acc0a64d1da65662b4b375926114d5e9b", null ],
+    [ "_Name", "d0/d44/class_recipe_finder_1_1_allergy.html#a34eafe957887db988e3ebb45a131033b", null ]
 ];

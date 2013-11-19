@@ -7,13 +7,13 @@ namespace RecipeFinder
      * \brief  Enum for ordering ingredient categories
      * \author Brian McCormick
      **/
-    public enum IngredientCategory { NONE,          ///< NONE          = 0
-                                     VEGITABLES,    ///< VEGITABLES    = 1
-                                     FRUITS,        ///< FRUITS        = 2
-                                     DAIRY,         ///< DAIRY         = 3
-                                     SEAFOOD,       ///< SEAFOOD       = 4
-                                     MEAT,          ///< MEAT          = 5
-                                     CARBOHYDRATES  ///< CARBOHYDRATES = 6
+    public enum IngredientCategory { NONE,          ///< 0
+                                     VEGITABLES,    ///< 1
+                                     FRUITS,        ///< 2
+                                     DAIRY,         ///< 3
+                                     SEAFOOD,       ///< 4
+                                     MEAT,          ///< 5
+                                     CARBOHYDRATES  ///< 6
                                    };
 
     /**
@@ -21,11 +21,11 @@ namespace RecipeFinder
      * \brief  Enum for ordering measurement id values
      * \author Brian McCormick
      **/
-    public enum Measurements { NONE,       ///< NONE       = 0
-                               TEASPOON,   ///< TEASPOON   = 1
-                               TABLESPOON, ///< TABLESPOON = 2
-                               CUP,        ///< CUP        = 3
-                               HALFCUP     ///< HALFCUP    = 4
+    public enum Measurements { NONE,       ///< 0
+                               TEASPOON,   ///< 1
+                               TABLESPOON, ///< 2
+                               CUP,        ///< 3
+                               HALFCUP     ///< 4
                              };
 
     /**
@@ -33,10 +33,10 @@ namespace RecipeFinder
      * \brief  Enum for ordering cooking mode types
      * \author Brian McCormick
      **/
-    public enum CookMode { NONE,   ///< NONE   = 0
-                           EASY,   ///< EASY   = 1
-                           MIDDLE, ///< MIDDLE = 2
-                           CHEF    ///< CHEF   = 3
+    public enum CookMode { NONE,   ///< 0
+                           EASY,   ///< 1
+                           MIDDLE, ///< 2
+                           CHEF    ///< 3
                          };
 
     public partial class MainWindow : Window

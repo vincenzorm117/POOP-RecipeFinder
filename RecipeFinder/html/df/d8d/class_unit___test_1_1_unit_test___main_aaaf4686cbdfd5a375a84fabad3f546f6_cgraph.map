@@ -1,0 +1,6 @@
+<map id="testCurrentAllergy" name="testCurrentAllergy">
+<area shape="rect" id="node2" href="$d0/d44/class_recipe_finder_1_1_allergy.html#aadf0f62cf1d2e89eaf79aa8b4e98a61e" title="Used for accessing the allergy ID value. " alt="" coords="193,5,369,32"/>
+<area shape="rect" id="node3" href="$d0/d44/class_recipe_finder_1_1_allergy.html#a30ef346e0fd02313d7fdb2bda10f9f1e" title="Used for accessing the name of the allergy. " alt="" coords="182,56,381,83"/>
+<area shape="rect" id="node4" href="$d0/d44/class_recipe_finder_1_1_allergy.html#a718a12063575796f8530790e010aff78" title="Used for accessing the stored allergies warning message. " alt="" coords="187,107,376,133"/>
+<area shape="rect" id="node5" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#a82150f0b73c575c4baca90693d5a0d3a" title="Function for storing a result to the results array. " alt="" coords="231,157,332,184"/>
+</map>

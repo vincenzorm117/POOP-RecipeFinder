@@ -6,5 +6,7 @@ var dir_0fbbbb577b0591d7aa914214a003de10 =
     [ "App.xaml.cs", "db/da1/_app_8xaml_8cs.html", [
       [ "App", "d5/de1/class_recipe_finder_1_1_app.html", null ]
     ] ],
-    [ "MainWindow.xaml.cs", "d6/d57/_main_window_8xaml_8cs.html", "d6/d57/_main_window_8xaml_8cs" ]
+    [ "MainWindow.xaml.cs", "d6/d57/_main_window_8xaml_8cs.html", [
+      [ "MainWindow", "d4/d03/class_recipe_finder_1_1_main_window.html", "d4/d03/class_recipe_finder_1_1_main_window" ]
+    ] ]
 ];

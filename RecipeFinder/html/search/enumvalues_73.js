@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['spices',['SPICES',['../db/de8/namespace_recipe_finder.html#a8e86ba5e03b3d76e0bff566820e57826a074519843edfe1105d1980a6ff46086a',1,'RecipeFinder']]]
+  ['seafood',['SEAFOOD',['../db/de8/namespace_recipe_finder.html#aaf7de33908dd1712e0950d770d83d074ae4f6dbf7199f3cd4618b88f5b2e3438d',1,'RecipeFinder']]]
 ];

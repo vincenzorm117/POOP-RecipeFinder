@@ -1,19 +1,21 @@
 var hierarchy =
 [
     [ "Application", null, [
-      [ "RecipeFinder.App", "d5/de1/class_recipe_finder_1_1_app.html", null ]
+      [ "App", "d5/de1/class_recipe_finder_1_1_app.html", null ]
     ] ],
-    [ "RecipeFinder.Allergy", "d0/d44/class_recipe_finder_1_1_allergy.html", null ],
-    [ "RecipeFinder.Ingredient", "d3/d10/class_recipe_finder_1_1_ingredient.html", null ],
-    [ "RecipeFinder.Recipe", "db/de7/class_recipe_finder_1_1_recipe.html", null ],
-    [ "Unit_Test.UnitTest_Main", "df/d8d/class_unit___test_1_1_unit_test___main.html", null ],
+    [ "Allergy", "d0/d44/class_recipe_finder_1_1_allergy.html", null ],
+    [ "Ingredient", "d3/d10/class_recipe_finder_1_1_ingredient.html", null ],
+    [ "Recipe", "db/de7/class_recipe_finder_1_1_recipe.html", null ],
+    [ "Recipe.ingredientData", "d5/d69/struct_recipe_finder_1_1_recipe_1_1ingredient_data.html", null ],
+    [ "UnitTest_Main", "df/d8d/class_unit___test_1_1_unit_test___main.html", null ],
     [ "Window", null, [
-      [ "RecipeFinder.MainWindow", "d4/d03/class_recipe_finder_1_1_main_window.html", null ],
-      [ "RecipeFinder.MainWindow", "d4/d03/class_recipe_finder_1_1_main_window.html", null ],
-      [ "RecipeFinder.MainWindow", "d4/d03/class_recipe_finder_1_1_main_window.html", null ],
-      [ "RecipeFinder.MainWindow", "d4/d03/class_recipe_finder_1_1_main_window.html", null ],
-      [ "RecipeFinder.MainWindow", "d4/d03/class_recipe_finder_1_1_main_window.html", null ],
-      [ "RecipeFinder.MainWindow", "d4/d03/class_recipe_finder_1_1_main_window.html", null ],
-      [ "RecipeFinder.MainWindow", "d4/d03/class_recipe_finder_1_1_main_window.html", null ]
+      [ "MainWindow", "d4/d03/class_recipe_finder_1_1_main_window.html", null ],
+      [ "MainWindow", "d4/d03/class_recipe_finder_1_1_main_window.html", null ],
+      [ "MainWindow", "d4/d03/class_recipe_finder_1_1_main_window.html", null ],
+      [ "MainWindow", "d4/d03/class_recipe_finder_1_1_main_window.html", null ],
+      [ "MainWindow", "d4/d03/class_recipe_finder_1_1_main_window.html", null ],
+      [ "MainWindow", "d4/d03/class_recipe_finder_1_1_main_window.html", null ],
+      [ "MainWindow", "d4/d03/class_recipe_finder_1_1_main_window.html", null ],
+      [ "MainWindow", "d4/d03/class_recipe_finder_1_1_main_window.html", null ]
     ] ]
 ];

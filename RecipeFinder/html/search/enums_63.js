@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['cookmode',['CookMode',['../db/de8/namespace_recipe_finder.html#addf97f58cde0494bf277f5f6647b972f',1,'RecipeFinder']]]
+  ['cookmode',['CookMode',['../db/de8/namespace_recipe_finder.html#ab71acea099a6fa440169f766b9e9bbe4',1,'RecipeFinder']]]
 ];

@@ -1,0 +1,6 @@
+<map id="getID" name="getID">
+<area shape="rect" id="node2" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#aaaf4686cbdfd5a375a84fabad3f546f6" title="Function used for testing a single allergy object. " alt="" coords="107,38,272,79"/>
+<area shape="rect" id="node3" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#a2e79bfbe83626c0a870ab1d0d5cb8ee3" title="Function for testing the basic functionality of the allergy class. " alt="" coords="321,5,487,46"/>
+<area shape="rect" id="node5" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#a6c5deabe801e2d5f1da3ff081f3e9e95" title="Function for testing reading in allergy from file. " alt="" coords="323,70,485,111"/>
+<area shape="rect" id="node4" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#a2e67222db1dca5be5f3731ada487dd0f" title="The main function used for running all of the unit tests. " alt="" coords="537,38,666,79"/>
+</map>

@@ -10,7 +10,8 @@ namespace Unit_Test
         private static Ingredient _testIngredient; ///< Used for holding a single ingredient object
 
         //Boolean arrays used for storing test results
-        private static int[] _ingredientBasicResults; ///< Array used for holding the number of passed tests and the total number of tests for the basic test
+        private static int[] _ingredientBasicResults; ///< Array used for holding the number of passed tests and the total number of tests for the basic functionality test for the ingredient class
+        private static int[] _ingredientInputResults; ///< Array used for holding the number of passed tests and the total number of tests for the input test for the ingredient class
 
         /**
          * \fn      private static void Ingredient_BasicTest()

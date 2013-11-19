@@ -1,0 +1,6 @@
+<map id="MainWindow" name="MainWindow">
+<area shape="rect" id="node2" href="$d4/d03/class_recipe_finder_1_1_main_window.html#a4a9a1a53eeccf0acf6cd77acdb6aba56" title="Used to add allergies to the GUI. " alt="" coords="182,5,303,32"/>
+<area shape="rect" id="node5" href="$d4/d03/class_recipe_finder_1_1_main_window.html#aa640b5e22836e77387de6a2f0f946aa6" title="Used for creating the expanders and their check boxes. " alt="" coords="150,57,335,98"/>
+<area shape="rect" id="node3" href="$d4/d03/class_recipe_finder_1_1_main_window.html#aa7b1f034e622294117faf809b084cfc6" title="Function for handling the functionality of when a check box is checked by the user. " alt="" coords="384,5,568,32"/>
+<area shape="rect" id="node4" href="$d4/d03/class_recipe_finder_1_1_main_window.html#ad9b6d20f083e9415282e5be9ffeac829" title="Function for handling the functionality of when a check box is unchecked by the user. " alt="" coords="397,57,555,98"/>
+</map>

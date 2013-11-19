@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['fruit',['FRUIT',['../db/de8/namespace_recipe_finder.html#a8e86ba5e03b3d76e0bff566820e57826a8b63448fe860cb7c69ec644e3f41736b',1,'RecipeFinder']]]
+  ['fruits',['FRUITS',['../db/de8/namespace_recipe_finder.html#aaf7de33908dd1712e0950d770d83d074a0e008a0ebc15fd0e979f32c8d1427874',1,'RecipeFinder']]]
 ];
