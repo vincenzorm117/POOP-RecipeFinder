@@ -17,12 +17,6 @@ using System.IO;
 
 namespace RecipeFinder
 {
-    //Enum declarations for use on ingredient categories, measurements
-    //TODO: Add comment documentation once finally filled out
-    public enum IngredientCategory {NONE, DAIRY, MEAT, VEGITABLES, FRUIT, SPICES};
-    public enum Measurements       {NONE, TEASPOON, TABLESPOON, CUP, HALFCUP};
-    public enum CookMode           {NONE, EASY, MIDDLE, CHEF};
-
     /**
      * \class MainWindow
      * \brief The class for the main program and it's main execution
@@ -45,6 +39,11 @@ namespace RecipeFinder
             populateFilterExpandersAndCheckBoxes();
         }
 
+        /**
+         * \fn private void updateRecipeSelection(object sender, SelectionChangedEventArgs e)
+         * \param sender
+         * \param e
+         **/
         private void updateRecipeSelection(object sender, SelectionChangedEventArgs e)
         {
             RecipeDisplayed.Document.Blocks.Clear();
@@ -58,6 +57,11 @@ namespace RecipeFinder
                 }
         }
 
+        /**
+         * \fn private void print(object sender, RoutedEventArgs e)
+         * \param sender
+         * \param e
+         **/
         private void print(object sender, RoutedEventArgs e)
         { /*Don't Touch this unless your handling view*/ }
     }

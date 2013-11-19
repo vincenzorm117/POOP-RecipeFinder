@@ -34,6 +34,11 @@ namespace Unit_Test
             Console.Write("Testing Reading Allergy Data In From File...");
             Allergy_InputTest();
             Console.WriteLine("{0} of {1} tests passed.", _allergyInputResult[1], _allergyInputResult[0]);
+
+            //Test the basic operations of the ingredient class
+            Console.Write("Testing Ingredient Class...");
+            Ingredient_BasicTest();
+            Console.WriteLine("{0} of {1} tests passed.", _ingredientBasicResults[1], _ingredientBasicResults[0]);
         }
     }
 }
