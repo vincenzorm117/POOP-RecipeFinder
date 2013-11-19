@@ -1,8 +1,10 @@
 <map id="addToResults" name="addToResults">
 <area shape="rect" id="node2" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#aaaf4686cbdfd5a375a84fabad3f546f6" title="Function used for testing a single allergy object. " alt="" coords="163,56,290,83"/>
 <area shape="rect" id="node6" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#a549ffaee0407bd9c69bc34280b41a5ba" title="Function for testing an ingredient object against given values. " alt="" coords="155,107,298,133"/>
-<area shape="rect" id="node3" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#a2e79bfbe83626c0a870ab1d0d5cb8ee3" title="Function for testing the basic functionality of the allergy class. " alt="" coords="355,5,482,32"/>
-<area shape="rect" id="node5" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#a6c5deabe801e2d5f1da3ff081f3e9e95" title="Function for testing reading in allergy from file. " alt="" coords="357,56,480,83"/>
-<area shape="rect" id="node4" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#a2e67222db1dca5be5f3731ada487dd0f" title="The main function used for running all of the unit tests. " alt="" coords="539,56,589,83"/>
-<area shape="rect" id="node7" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#a8e7193c250537374fd0984beeb4508d0" title="Function for testing the basic functionality of the ingredient class. " alt="" coords="347,107,490,133"/>
+<area shape="rect" id="node8" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#afe697ea23f1fcc8b0ec64a8cbe3c15ac" title="Function used for testing a single IngredientCategory value. " alt="" coords="157,157,296,184"/>
+<area shape="rect" id="node3" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#a2e79bfbe83626c0a870ab1d0d5cb8ee3" title="Function for testing the basic functionality of the allergy class. " alt="" coords="365,5,491,32"/>
+<area shape="rect" id="node5" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#a6c5deabe801e2d5f1da3ff081f3e9e95" title="Function for testing reading in allergy from file. " alt="" coords="367,56,489,83"/>
+<area shape="rect" id="node4" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#a2e67222db1dca5be5f3731ada487dd0f" title="The main function used for running all of the unit tests. " alt="" coords="557,81,608,108"/>
+<area shape="rect" id="node7" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#a8e7193c250537374fd0984beeb4508d0" title="Function for testing the basic functionality of the ingredient class. " alt="" coords="357,107,499,133"/>
+<area shape="rect" id="node9" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#af73078879a3ffdd7b19807e9cb0e0194" title="Function used to test the functionality of the Ingredient Category Enum and associated code..." alt="" coords="347,157,509,184"/>
 </map>

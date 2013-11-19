@@ -25,6 +25,11 @@ namespace Unit_Test
             Console.WriteLine("RECIPE FINDER UNIT TEST");
             Console.WriteLine("-----------------------");
 
+            //Test the Ingredeint Category enum
+            Console.Write("Testing the Ingredient Category Enum...");
+            IngredientCategory_Test();
+            Console.WriteLine("{0} of {1} tests passed.", _categoryEnumTestResults[1], _categoryEnumTestResults[0]);
+
             //Test the basic operations of the allergy class
             Console.Write("Testing Allergy Class...");
             Allergy_BasicTest();

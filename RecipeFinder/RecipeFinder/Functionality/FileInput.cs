@@ -22,15 +22,18 @@ namespace RecipeFinder
          * \author     Brian McCormick
          * \param path The path to the input file.
          * \return     A boolean value representing if the process was successful or not.
+         * \warning    If the path given is not either a hard-coded direct path or a path relative to where the executable is located
+         *             then the allergy input file will not be found.
+         * \todo       Add a means of removing and/or ignoring duplicate ID values from the allergy input file.
          **/
         public static bool AllergyInput(string path)
         {
             //Variables used for controlling the input process
-            int      _counter  = 0;
-            int      _tempID   = 0;
-            string   _tempName = "";
-            string[] _lines;
-            Allergy  _tempAllergy;
+            int      counter  = 0;
+            int      tempID   = 0;
+            string   tempName = "";
+            string[] lines;
+            Allergy  tempAllergy;
 
             //Creates a new list of allergy objects
             _allergyList     = new List<Allergy>();
@@ -40,47 +43,49 @@ namespace RecipeFinder
             if(File.Exists(path))
             {
                 //Read in all the lines from file
-                _lines = File.ReadAllLines(path);
+                lines = File.ReadAllLines(path);
 
                 //Iterate through all the lines read in from the file
-                foreach(string line in _lines)
+                foreach(string line in lines)
                 {
                     //Test for unwanted lines from the input file: Empty Strings
                     if(line != "")
                     {
                         //Store the data based on the runthrough, on every third iteration create a new allergy object
-                        if(_counter == 0)
-                            int.TryParse(line, out _tempID);
-                        else if(_counter == 1)
-                            _tempName = line;
-                        else if(_counter == 2)
+                        if(counter == 0)
+                            int.TryParse(line, out tempID);
+                        else if(counter == 1)
+                            tempName = line;
+                        else if(counter == 2)
                         {
-                            _tempAllergy = new Allergy(_tempID, _tempName, line);
-                            _allergyList.Add(_tempAllergy);
-                            _testAllergyList.Add(_tempAllergy);
+                            tempAllergy = new Allergy(tempID, tempName, line);
+                            _allergyList.Add(tempAllergy);
+                            _testAllergyList.Add(tempAllergy);
                         }
 
                         //Reset the counter after each allergy object creation
-                        _counter++;
-                        if(_counter >= 3)
-                            _counter = 0;
+                        counter++;
+                        if(counter >= 3)
+                            counter = 0;
                     }
                 }
 
                 //Clean up any extra space not needed
                 _allergyList.TrimExcess();
+                _testAllergyList.TrimExcess();
 
                 //Return a success
                 return true;
             }
             else
             {
-                //Print an error message to the console and return a failed result
+                /**
+                 * \todo Add implementation for adding the error on having a failed allergy input to a log file
+                 **/
                 Console.WriteLine("ERROR: Allergy File Not Found!");
                 return false;
             }
         }
-    
 
     }
 }

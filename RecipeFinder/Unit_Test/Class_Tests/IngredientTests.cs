@@ -106,6 +106,12 @@ namespace Unit_Test
             _ingredientBasicResults[1] = passCount();
         }
 
+        private static void Ingredient_InputTest()
+        {
+            //Constructs a new _results list object
+            _results = new List<bool>();
+        }
+        
         /**
          * \fn             private static void testCurrentIngredient(int i, int a, int cid, string n, IngredientCategory c)
          * \brief          Function for testing an ingredient object against given values.
