@@ -6,21 +6,21 @@ namespace Unit_Test
 {
     public partial class UnitTest_Main
     {
-        private static bool[] _results; ///< Variable used for storing all of the results for a particular test
+        private static List<bool> _results; ///< List for holding a tests results
 
         /**
-         * \fn                       private static int passCount(int numberResults)
+         * \fn                       private static int passCount()
          * \brief                    Function for tallying up the number of passed tests.
          * \author                   Brian McCormick
-         * \param [in] numberResults The total number of results to iterate through.
          * \return                   The number of passed tests.
          **/
-        private static int passCount(int numberResults)
+        private static int passCount()
         {
             //Tally up the failed tests
             int _resultCounter = 0;
 
-            for(int i = 0; i < numberResults; i++)
+            //Loop through all of the collected results
+            for(int i = 0; i < _results.ToArray().Length; i++)
                 if(_results[i] == true)
                     _resultCounter++;
 
@@ -28,14 +28,13 @@ namespace Unit_Test
         }
 
         /**
-         * \fn      private static void addToResults(int i, bool r)
+         * \fn      private static void addToResults(bool r)
          * \brief   Function for storing a result to the results array.
          * \author  Brian McCormick
-         * \param i The index value from the loop changing the values being tested.
          **/
-        private static void addToResults(int i, bool r)
+        private static void addToResults(bool r)
         {
-            _results[i] = r;
+            _results.Add(r);
         }
     }
 }

@@ -19,9 +19,9 @@ namespace RecipeFinder
 {
     //Enum declarations for use on ingredient categories, measurements
     //TODO: Add comment documentation once finally filled out
-    enum IngredientCategory {NONE, DAIRY, MEAT, VEGITABLES, FRUIT, SPICES};
-    enum Measurements       {NONE, TEASPOON, TABLESPOON, CUP, HALFCUP};
-    enum CookMode           {NONE, EASY, MIDDLE, CHEF};
+    public enum IngredientCategory {NONE, DAIRY, MEAT, VEGITABLES, FRUIT, SPICES};
+    public enum Measurements       {NONE, TEASPOON, TABLESPOON, CUP, HALFCUP};
+    public enum CookMode           {NONE, EASY, MIDDLE, CHEF};
 
     /**
      * \class MainWindow

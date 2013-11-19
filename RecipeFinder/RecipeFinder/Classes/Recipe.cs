@@ -64,7 +64,7 @@ namespace RecipeFinder
          * \param lst The ingredients for the recipe.
          **/
          //TODO: Rework functionality of list parameter
-        public Recipe(int t, int p, int s, int c, int f, int h, int o, int a, int b, int r, int n, string i, string u, List<ingredientData> lst)
+        public Recipe(int t, int p, int s, int c, int f, int h, int o, int a, int b, int r, int n, string i, string u)
         {
             _TotalTime           = t;
             _PrepTime            = p;
@@ -79,7 +79,6 @@ namespace RecipeFinder
             _NumberOfIngredients = n;
             _Title               = i;
             _Instructions        = u;
-            _ingredients         = lst;
         }
     }
 }

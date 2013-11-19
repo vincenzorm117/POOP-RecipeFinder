@@ -63,6 +63,7 @@
     <Compile Include="Class_Tests\AllergyTests.cs" />
     <Compile Include="Class_Tests\IngredientTests.cs" />
     <Compile Include="Lib\Results.cs" />
+    <Compile Include="Functionality_Tests\SearchTests.cs" />
     <Compile Include="UnitTest_Main.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
