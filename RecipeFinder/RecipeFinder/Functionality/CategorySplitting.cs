@@ -6,7 +6,8 @@ namespace RecipeFinder
 {
     public partial class MainWindow : Window
     {
-        private List<List<Ingredient>> _CategoryLists; ///< 2D List that holds the categorized ingredient lists
+        private List<List<Ingredient>> _CategoryLists;     ///< 2D List that holds the categorized ingredient lists
+        private List<List<bool>>       _CategoryBooleans;  ///< 2D List for holding user selections
 
         /**
          * \fn     public void IngredientSplit()
@@ -21,9 +22,13 @@ namespace RecipeFinder
             IngredientCategory t = IngredientCategory.NONE;
 
             //Create a new 2D list of ingredients
-            _CategoryLists = new List<List<Ingredient>>();
+            _CategoryLists    = new List<List<Ingredient>>();
+            _CategoryBooleans = new List<List<bool>>();
             for(int i = 0; i < Enum.GetValues( typeof(IngredientCategory) ).Length; i++)
+            {
                 _CategoryLists.Add(new List<Ingredient>());
+                _CategoryBooleans.Add(new List<bool>());
+            }
 
             //Loop through each category
             for(int i = 0; i < Enum.GetValues(typeof(IngredientCategory)).Length; i++)
@@ -45,11 +50,13 @@ namespace RecipeFinder
 
                         //Adds a new ingredient to the proper category list
                         _CategoryLists[i].Add(new Ingredient(d));
+                        _CategoryBooleans[i].Add(false);
                     }
                 }
 
                 //Remove excess memory
                 _CategoryLists[i].TrimExcess();
+                _CategoryBooleans[i].TrimExcess();
             }
         }
     }

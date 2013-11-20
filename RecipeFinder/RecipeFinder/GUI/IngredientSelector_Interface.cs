@@ -6,6 +6,29 @@ using System;
 
 namespace RecipeFinder
 {
+    public class IngredientCheckBox : CheckBox
+    {
+        private int column;
+        private int row;
+
+        public void OurCheckBox()
+        {
+            new CheckBox();
+        }
+
+        public void setColumn(int c)
+        { column = c; }
+
+        public void setRow(int r)
+        { row = r; }
+
+        public int getColumn()
+        { return column; }
+
+        public int getRow()
+        { return row; }
+    }
+
     public partial class MainWindow : Window
     {
         /**
@@ -31,8 +54,10 @@ namespace RecipeFinder
 
                 for(int j = 0; j < _CategoryLists[i].ToArray().Length; j++)
                 {
-                    CheckBox c = new CheckBox();            //CheckBox created
+                    IngredientCheckBox c = new IngredientCheckBox();            //CheckBox created
                     c.Content = _CategoryLists[i][j].getName(); //Its name is set
+                    c.setColumn(i);
+                    c.setRow(j);
 
                     //Adds actionlistener below (check_Box_Checked_Event) to current checkbox. So when the checkbox is selected that method is ran
                     c.Checked += check_Box_Checked_Event;

@@ -15,8 +15,10 @@ namespace RecipeFinder
          **/
         void check_Box_Checked_Event(object sender, RoutedEventArgs e)
         {
-            CheckBox c = (CheckBox)e.Source;
-            checkedIngredients.Add((String)c.Content);
+            IngredientCheckBox c = (IngredientCheckBox)e.Source;
+            int column = c.getColumn();
+            int row = c.getRow();
+            _CategoryBooleans[column][row] = true;
         }
 
         /**
@@ -27,8 +29,10 @@ namespace RecipeFinder
          **/
         void check_Box_Unchecked_Event(object sender, RoutedEventArgs e)
         {
-            CheckBox c = (CheckBox)e.Source;
-            checkedIngredients.Remove((String)c.Content);
+            IngredientCheckBox c = (IngredientCheckBox)e.Source;
+            int column = c.getColumn();
+            int row = c.getRow();
+            _CategoryBooleans[column][row] = false;
         }
     }
 }
