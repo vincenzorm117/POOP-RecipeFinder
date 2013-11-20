@@ -200,57 +200,66 @@ $(document).ready(function(){initNavTree('d9/d37/_allergy_tests_8cs_source.html'
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;            <span class="keywordtype">bool</span> input = <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;            input = MainWindow.AllergyInput(<span class="stringliteral">&quot;../../Test_Input/Test_Allergy_Input.txt&quot;</span>);</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;            <span class="comment">//Test the data read in from the file</span></div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;            <span class="keywordflow">foreach</span>(<a class="code" href="../../d0/d44/class_recipe_finder_1_1_allergy.html">Allergy</a> test <span class="keywordflow">in</span> <a class="code" href="../../d4/d03/class_recipe_finder_1_1_main_window.html">MainWindow</a>.<a class="code" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#a7a70b55840d374bfd73148ce88252646">_testAllergyList</a>)</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;            <span class="comment">//Stops the current test if the input file wasn&#39;t found</span></div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;            <span class="keywordflow">if</span>(!input)</div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;            {</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;                <a class="code" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#ad587eb368b077b709b87b71e5a6ab8c9">_testAllergy</a> = test;</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;                </div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;                <span class="keywordflow">if</span>(i &lt; 3)</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;                    n = singleChar;</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;                <span class="keywordflow">else</span> <span class="keywordflow">if</span>(i &gt; 2 &amp;&amp; i &lt; 6)</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;                    n = singleWord;</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;                <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;                    n = multiWord;</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;                <span class="keywordflow">if</span>(i % 3 == 0)</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;                    m = singleChar;</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;                <span class="keywordflow">else</span> <span class="keywordflow">if</span>(i % 3 == 1)</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;                    m = singleWord;</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;                <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;                    m = multiWord;</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;                <a class="code" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#aaaf4686cbdfd5a375a84fabad3f546f6">testCurrentAllergy</a>(i, n, m);</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;                i++;</div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;            }</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;            <span class="comment">//Store the results for display later</span></div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;            <a class="code" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#a1f220fc57805593ccc10227ab93d8942">_allergyInputResult</a> = <span class="keyword">new</span> <span class="keywordtype">int</span>[2];</div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;            <a class="code" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#a1f220fc57805593ccc10227ab93d8942">_allergyInputResult</a>[0] = numberResults;</div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;            <a class="code" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#a1f220fc57805593ccc10227ab93d8942">_allergyInputResult</a>[1] = <a class="code" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#aa571087790b61ba2a418fbea641db2fd">passCount</a>();</div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;        }</div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;</div>
-<div class="line"><a name="l00146"></a><span class="lineno"><a class="line" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#aaaf4686cbdfd5a375a84fabad3f546f6">  146</a></span>&#160;        <span class="keyword">private</span> <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#aaaf4686cbdfd5a375a84fabad3f546f6">testCurrentAllergy</a>(<span class="keywordtype">int</span> i, <span class="keywordtype">string</span> n, <span class="keywordtype">string</span> m)</div>
-<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;        {</div>
-<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;            <span class="keywordtype">bool</span> tempControl = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;</div>
-<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;            <span class="comment">//Tests the three values of an allergy object</span></div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#ad587eb368b077b709b87b71e5a6ab8c9">_testAllergy</a>.<a class="code" href="../../d0/d44/class_recipe_finder_1_1_allergy.html#aadf0f62cf1d2e89eaf79aa8b4e98a61e">getID</a>() != i)</div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;                tempControl = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#ad587eb368b077b709b87b71e5a6ab8c9">_testAllergy</a>.<a class="code" href="../../d0/d44/class_recipe_finder_1_1_allergy.html#a30ef346e0fd02313d7fdb2bda10f9f1e">getName</a>() != n)</div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;                tempControl = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#ad587eb368b077b709b87b71e5a6ab8c9">_testAllergy</a>.<a class="code" href="../../d0/d44/class_recipe_finder_1_1_allergy.html#a718a12063575796f8530790e010aff78">getMsg</a>() != m)</div>
-<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;                tempControl = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;</div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;            <span class="comment">//Adds the result to the results array</span></div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;            <a class="code" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#a82150f0b73c575c4baca90693d5a0d3a">addToResults</a>(tempControl);</div>
-<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        }</div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    }</div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;}</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;                <a class="code" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#a1f220fc57805593ccc10227ab93d8942">_allergyInputResult</a> = <span class="keyword">new</span> <span class="keywordtype">int</span>[2];</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;                <a class="code" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#a1f220fc57805593ccc10227ab93d8942">_allergyInputResult</a>[0] = numberResults;</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;                <a class="code" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#a1f220fc57805593ccc10227ab93d8942">_allergyInputResult</a>[1] = 0;</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;                <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;            }</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;            <span class="comment">//Test the data read in from the file</span></div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;            <span class="keywordflow">foreach</span>(<a class="code" href="../../d0/d44/class_recipe_finder_1_1_allergy.html">Allergy</a> test <span class="keywordflow">in</span> <a class="code" href="../../d4/d03/class_recipe_finder_1_1_main_window.html">MainWindow</a>.<a class="code" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#a7a70b55840d374bfd73148ce88252646">_testAllergyList</a>)</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;            {</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;                <a class="code" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#ad587eb368b077b709b87b71e5a6ab8c9">_testAllergy</a> = test;</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;                </div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;                <span class="keywordflow">if</span>(i &lt; 3)</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;                    n = singleChar;</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;                <span class="keywordflow">else</span> <span class="keywordflow">if</span>(i &gt; 2 &amp;&amp; i &lt; 6)</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;                    n = singleWord;</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;                <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;                    n = multiWord;</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;                <span class="keywordflow">if</span>(i % 3 == 0)</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;                    m = singleChar;</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;                <span class="keywordflow">else</span> <span class="keywordflow">if</span>(i % 3 == 1)</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;                    m = singleWord;</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;                <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;                    m = multiWord;</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;                <a class="code" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#aaaf4686cbdfd5a375a84fabad3f546f6">testCurrentAllergy</a>(i, n, m);</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;                i++;</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;            }</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;            <span class="comment">//Store the results for display later</span></div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;            <a class="code" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#a1f220fc57805593ccc10227ab93d8942">_allergyInputResult</a> = <span class="keyword">new</span> <span class="keywordtype">int</span>[2];</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;            <a class="code" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#a1f220fc57805593ccc10227ab93d8942">_allergyInputResult</a>[0] = numberResults;</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;            <a class="code" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#a1f220fc57805593ccc10227ab93d8942">_allergyInputResult</a>[1] = <a class="code" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#aa571087790b61ba2a418fbea641db2fd">passCount</a>();</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;        }</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;</div>
+<div class="line"><a name="l00155"></a><span class="lineno"><a class="line" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#aaaf4686cbdfd5a375a84fabad3f546f6">  155</a></span>&#160;        <span class="keyword">private</span> <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#aaaf4686cbdfd5a375a84fabad3f546f6">testCurrentAllergy</a>(<span class="keywordtype">int</span> i, <span class="keywordtype">string</span> n, <span class="keywordtype">string</span> m)</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        {</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;            <span class="keywordtype">bool</span> tempControl = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;            <span class="comment">//Tests the three values of an allergy object</span></div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#ad587eb368b077b709b87b71e5a6ab8c9">_testAllergy</a>.<a class="code" href="../../d0/d44/class_recipe_finder_1_1_allergy.html#aadf0f62cf1d2e89eaf79aa8b4e98a61e">getID</a>() != i)</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;                tempControl = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#ad587eb368b077b709b87b71e5a6ab8c9">_testAllergy</a>.<a class="code" href="../../d0/d44/class_recipe_finder_1_1_allergy.html#a30ef346e0fd02313d7fdb2bda10f9f1e">getName</a>() != n)</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;                tempControl = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#ad587eb368b077b709b87b71e5a6ab8c9">_testAllergy</a>.<a class="code" href="../../d0/d44/class_recipe_finder_1_1_allergy.html#a718a12063575796f8530790e010aff78">getMsg</a>() != m)</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;                tempControl = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;            <span class="comment">//Adds the result to the results array</span></div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;            <a class="code" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#a82150f0b73c575c4baca90693d5a0d3a">addToResults</a>(tempControl);</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;        }</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;    }</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;}</div>
 <div class="ttc" id="class_recipe_finder_1_1_allergy_html"><div class="ttname"><a href="../../d0/d44/class_recipe_finder_1_1_allergy.html">RecipeFinder.Allergy</a></div><div class="ttdoc">Storage for a single Allergy. </div><div class="ttdef"><b>Definition:</b> <a href="../../db/df3/_allergy_8cs_source.html#l00014">Allergy.cs:14</a></div></div>
 <div class="ttc" id="class_unit___test_1_1_unit_test___main_html_a82150f0b73c575c4baca90693d5a0d3a"><div class="ttname"><a href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#a82150f0b73c575c4baca90693d5a0d3a">Unit_Test.UnitTest_Main.addToResults</a></div><div class="ttdeci">static void addToResults(bool r)</div><div class="ttdoc">Function for storing a result to the results array. </div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d95/_results_8cs_source.html#l00035">Results.cs:35</a></div></div>
 <div class="ttc" id="class_recipe_finder_1_1_main_window_html_a7a70b55840d374bfd73148ce88252646"><div class="ttname"><a href="../../d4/d03/class_recipe_finder_1_1_main_window.html#a7a70b55840d374bfd73148ce88252646">RecipeFinder.MainWindow._testAllergyList</a></div><div class="ttdeci">static List&lt; Allergy &gt; _testAllergyList</div><div class="ttdoc">List used so that the unit test can have access to the data. Never gets called in the main program...</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ded/_file_input_8cs_source.html#l00011">FileInput.cs:11</a></div></div>
 <div class="ttc" id="class_recipe_finder_1_1_allergy_html_a30ef346e0fd02313d7fdb2bda10f9f1e"><div class="ttname"><a href="../../d0/d44/class_recipe_finder_1_1_allergy.html#a30ef346e0fd02313d7fdb2bda10f9f1e">RecipeFinder.Allergy.getName</a></div><div class="ttdeci">string getName()</div><div class="ttdoc">Used for accessing the name of the allergy. </div><div class="ttdef"><b>Definition:</b> <a href="../../db/df3/_allergy_8cs_source.html#l00050">Allergy.cs:50</a></div></div>
-<div class="ttc" id="class_unit___test_1_1_unit_test___main_html_aaaf4686cbdfd5a375a84fabad3f546f6"><div class="ttname"><a href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#aaaf4686cbdfd5a375a84fabad3f546f6">Unit_Test.UnitTest_Main.testCurrentAllergy</a></div><div class="ttdeci">static void testCurrentAllergy(int i, string n, string m)</div><div class="ttdoc">Function used for testing a single allergy object. </div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d37/_allergy_tests_8cs_source.html#l00146">AllergyTests.cs:146</a></div></div>
+<div class="ttc" id="class_unit___test_1_1_unit_test___main_html_aaaf4686cbdfd5a375a84fabad3f546f6"><div class="ttname"><a href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#aaaf4686cbdfd5a375a84fabad3f546f6">Unit_Test.UnitTest_Main.testCurrentAllergy</a></div><div class="ttdeci">static void testCurrentAllergy(int i, string n, string m)</div><div class="ttdoc">Function used for testing a single allergy object. </div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d37/_allergy_tests_8cs_source.html#l00155">AllergyTests.cs:155</a></div></div>
 <div class="ttc" id="class_unit___test_1_1_unit_test___main_html_a32a914a95d03daf46611d82d75492996"><div class="ttname"><a href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#a32a914a95d03daf46611d82d75492996">Unit_Test.UnitTest_Main._results</a></div><div class="ttdeci">static List&lt; bool &gt; _results</div><div class="ttdoc">List for holding a tests results. </div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d95/_results_8cs_source.html#l00009">Results.cs:9</a></div></div>
 <div class="ttc" id="class_unit___test_1_1_unit_test___main_html_a6c5deabe801e2d5f1da3ff081f3e9e95"><div class="ttname"><a href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#a6c5deabe801e2d5f1da3ff081f3e9e95">Unit_Test.UnitTest_Main.Allergy_InputTest</a></div><div class="ttdeci">static void Allergy_InputTest()</div><div class="ttdoc">Function for testing reading in allergy from file. </div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d37/_allergy_tests_8cs_source.html#l00083">AllergyTests.cs:83</a></div></div>
 <div class="ttc" id="class_recipe_finder_1_1_allergy_html_aadf0f62cf1d2e89eaf79aa8b4e98a61e"><div class="ttname"><a href="../../d0/d44/class_recipe_finder_1_1_allergy.html#aadf0f62cf1d2e89eaf79aa8b4e98a61e">RecipeFinder.Allergy.getID</a></div><div class="ttdeci">int getID()</div><div class="ttdoc">Used for accessing the allergy ID value. </div><div class="ttdef"><b>Definition:</b> <a href="../../db/df3/_allergy_8cs_source.html#l00041">Allergy.cs:41</a></div></div>
@@ -268,7 +277,7 @@ $(document).ready(function(){initNavTree('d9/d37/_allergy_tests_8cs_source.html'
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_8db9f4170b668b8324e420f7f2565ba6.html">Unit_Test</a></li><li class="navelem"><a class="el" href="../../dir_b5c49ff29dca2f676e765c700882c12b.html">Class_Tests</a></li><li class="navelem"><a class="el" href="../../d9/d37/_allergy_tests_8cs.html">AllergyTests.cs</a></li>
-    <li class="footer">Generated on Tue Nov 19 2013 18:29:56 for Recipe Finder by
+    <li class="footer">Generated on Tue Nov 19 2013 19:33:45 for Recipe Finder by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

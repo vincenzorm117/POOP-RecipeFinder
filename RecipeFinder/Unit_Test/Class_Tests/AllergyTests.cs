@@ -106,6 +106,15 @@ namespace Unit_Test
             bool input = false;
             input = MainWindow.AllergyInput("../../Test_Input/Test_Allergy_Input.txt");
 
+            //Stops the current test if the input file wasn't found
+            if(!input)
+            {
+                _allergyInputResult = new int[2];
+                _allergyInputResult[0] = numberResults;
+                _allergyInputResult[1] = 0;
+                return;
+            }
+
             //Test the data read in from the file
             foreach(Allergy test in MainWindow._testAllergyList)
             {

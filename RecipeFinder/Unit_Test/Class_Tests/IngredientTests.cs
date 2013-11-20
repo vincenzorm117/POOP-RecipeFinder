@@ -15,7 +15,7 @@ namespace Unit_Test
 
         /**
          * \fn      private static void Ingredient_BasicTest()
-         * \brief   Function for testing the basic functionality of the ingredient class
+         * \brief   Function for testing the basic functionality of the ingredient class.
          * \author  Brian McCormick
          **/
         private static void Ingredient_BasicTest()
@@ -106,10 +106,79 @@ namespace Unit_Test
             _ingredientBasicResults[1] = passCount();
         }
 
+        /*
+         * \fn     private static void Ingredient_InputTest()
+         * \brief  Function for testing the input functionality for ingredient data.
+         * \author Brian McCormick
+         **/
         private static void Ingredient_InputTest()
         {
+            //Setup variables for controlling the test process
+            int    i = 0;
+            int    j = 0;
+            string n = "";
+
             //Constructs a new _results list object
             _results = new List<bool>();
+
+            //Set up string values for testing allergy name and message
+            string singleChar = "T";
+            string singleWord = "Test";
+            string multiWord  = "Testing ingredient input file";
+
+            //Tries to fetch the data from file
+            bool input = false;
+            input = MainWindow.IngredientInput("../../Test_Input/Test_Ingredient_Input.txt");
+
+            //Stops the current test if the input file wasn't found
+            if(!input)
+            {
+                _ingredientInputResults = new int[2];
+                _ingredientInputResults[0] = 30;
+                _ingredientInputResults[1] = 0;
+                return;
+            }
+
+            //Test the data read in from the file
+            foreach(Ingredient test in MainWindow._testIngredientList)
+            {
+                _testIngredient = test;
+
+                if(i < 10)
+                    n = singleChar;
+                else if(i >= 10 && i < 20)
+                    n = singleWord;
+                else
+                    n = multiWord;
+
+                j = i % 10;
+                if(j == 0)
+                    testCurrentIngredient(0, -1, -1, n, IngredientCategory.NONE);
+                else if(j == 1)
+                    testCurrentIngredient(0, 1, -1, n, IngredientCategory.NONE);
+                else if(j == 2)
+                    testCurrentIngredient(6, -1, -1, n, IngredientCategory.SEAFOOD);
+                else if(j == 3)
+                    testCurrentIngredient(6, 3, -1, n, IngredientCategory.SEAFOOD);
+                else if(j == 4)
+                    testCurrentIngredient(0, -1, -1, n, IngredientCategory.NONE);
+                else if(j == 5)
+                    testCurrentIngredient(0, -1, -1, n, IngredientCategory.NONE);
+                else if(j == 6)
+                    testCurrentIngredient(0, 1, -1, n, IngredientCategory.NONE);
+                else if(j == 7)
+                    testCurrentIngredient(5, -1, -1, n, IngredientCategory.NONE);
+                else if(j == 8)
+                    testCurrentIngredient(234, -1, -1, n, IngredientCategory.NONE);
+                else if(j == 9)
+                    testCurrentIngredient(23, 1, -1, n, IngredientCategory.NONE);
+
+                i++;
+            }
+
+            _ingredientInputResults = new int[2];
+            _ingredientInputResults[0] = 30;
+            _ingredientInputResults[1] = passCount();
         }
         
         /**

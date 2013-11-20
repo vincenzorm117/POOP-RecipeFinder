@@ -18,6 +18,7 @@ namespace Unit_Test
          * \fn     static void Main()
          * \brief  The main function used for running all of the unit tests.
          * \author Brian McCormick
+         * \todo   There needs to be a log file implemented for the test results.
          **/
         static void Main()
         {
@@ -44,6 +45,11 @@ namespace Unit_Test
             Console.Write("Testing Ingredient Class...");
             Ingredient_BasicTest();
             Console.WriteLine("{0} of {1} tests passed.", _ingredientBasicResults[1], _ingredientBasicResults[0]);
+
+            //Test the operations of reading in ingredient data from file
+            Console.Write("Testing Reading Ingredient Data In From File...");
+            Ingredient_InputTest();
+            Console.WriteLine("{0} of {1} tests passed.", _ingredientInputResults[1], _ingredientInputResults[0]);
         }
     }
 }

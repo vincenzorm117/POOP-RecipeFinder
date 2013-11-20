@@ -2,6 +2,7 @@
 <area shape="rect" id="node2" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#a2e79bfbe83626c0a870ab1d0d5cb8ee3" title="Function for testing the basic functionality of the allergy class. " alt="" coords="157,5,283,32"/>
 <area shape="rect" id="node4" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#a6c5deabe801e2d5f1da3ff081f3e9e95" title="Function for testing reading in allergy from file. " alt="" coords="159,56,281,83"/>
 <area shape="rect" id="node5" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#a8e7193c250537374fd0984beeb4508d0" title="Function for testing the basic functionality of the ingredient class. " alt="" coords="149,107,291,133"/>
-<area shape="rect" id="node6" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#af73078879a3ffdd7b19807e9cb0e0194" title="Function used to test the functionality of the Ingredient Category Enum and associated code..." alt="" coords="139,157,301,184"/>
-<area shape="rect" id="node3" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#a2e67222db1dca5be5f3731ada487dd0f" title="The main function used for running all of the unit tests. " alt="" coords="349,81,400,108"/>
+<area shape="rect" id="node6" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#a91643b1341f7a7520ee0beca96e4413d" title="Ingredient_InputTest" alt="" coords="151,157,289,184"/>
+<area shape="rect" id="node7" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#af73078879a3ffdd7b19807e9cb0e0194" title="Function used to test the functionality of the Ingredient Category Enum and associated code..." alt="" coords="139,208,301,235"/>
+<area shape="rect" id="node3" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#a2e67222db1dca5be5f3731ada487dd0f" title="The main function used for running all of the unit tests. " alt="" coords="349,107,400,133"/>
 </map>
