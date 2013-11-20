@@ -5,6 +5,7 @@ var class_unit___test_1_1_unit_test___main =
     [ "Allergy_InputTest", "df/d8d/class_unit___test_1_1_unit_test___main.html#a6c5deabe801e2d5f1da3ff081f3e9e95", null ],
     [ "Ingredient_BasicTest", "df/d8d/class_unit___test_1_1_unit_test___main.html#a8e7193c250537374fd0984beeb4508d0", null ],
     [ "Ingredient_InputTest", "df/d8d/class_unit___test_1_1_unit_test___main.html#a91643b1341f7a7520ee0beca96e4413d", null ],
+    [ "Ingredient_SplittingTest", "df/d8d/class_unit___test_1_1_unit_test___main.html#a7f10a8c0ec8f411c5857318e9c731abf", null ],
     [ "IngredientCategory_Test", "df/d8d/class_unit___test_1_1_unit_test___main.html#af73078879a3ffdd7b19807e9cb0e0194", null ],
     [ "Main", "df/d8d/class_unit___test_1_1_unit_test___main.html#a2e67222db1dca5be5f3731ada487dd0f", null ],
     [ "passCount", "df/d8d/class_unit___test_1_1_unit_test___main.html#aa571087790b61ba2a418fbea641db2fd", null ],

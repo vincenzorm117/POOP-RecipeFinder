@@ -11,16 +11,13 @@ namespace RecipeFinder
         private int column;
         private int row;
 
-        public void OurCheckBox()
+        public IngredientCheckBox(int c, int r)
         {
             new CheckBox();
+
+            column = c;
+            row    = r;
         }
-
-        public void setColumn(int c)
-        { column = c; }
-
-        public void setRow(int r)
-        { row = r; }
 
         public int getColumn()
         { return column; }
@@ -54,10 +51,8 @@ namespace RecipeFinder
 
                 for(int j = 0; j < _CategoryLists[i].ToArray().Length; j++)
                 {
-                    IngredientCheckBox c = new IngredientCheckBox();            //CheckBox created
+                    IngredientCheckBox c = new IngredientCheckBox(i, j);            //CheckBox created
                     c.Content = _CategoryLists[i][j].getName(); //Its name is set
-                    c.setColumn(i);
-                    c.setRow(j);
 
                     //Adds actionlistener below (check_Box_Checked_Event) to current checkbox. So when the checkbox is selected that method is ran
                     c.Checked += check_Box_Checked_Event;

@@ -72,7 +72,7 @@ namespace RecipeFinder
          **/
         public Recipe(int d, int t, int p, int s, int c, int f, int h, int o, int a, int b, int r, int n, string i, string u, CookMode m)
         {
-            _RecipeID            = d;
+            _RecipeID            = d; //Assigned based on a counter in the input function
             _TotalTime           = t;
             _PrepTime            = p;
             _Servings            = s;

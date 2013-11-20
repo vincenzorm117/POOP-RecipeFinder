@@ -21,6 +21,7 @@ var class_recipe_finder_1_1_main_window =
     [ "_ingredientList", "d4/d03/class_recipe_finder_1_1_main_window.html#ab4fb87a18069a1846f19f7cbb3c70a8c", null ],
     [ "_recipeList", "d4/d03/class_recipe_finder_1_1_main_window.html#acf0e20770bdc2331e6fa227f4b97d3d2", null ],
     [ "_testAllergyList", "d4/d03/class_recipe_finder_1_1_main_window.html#a7a70b55840d374bfd73148ce88252646", null ],
+    [ "_TestCategoryLists", "d4/d03/class_recipe_finder_1_1_main_window.html#ae0e90cb333c1e3705a6db529eae49fe7", null ],
     [ "_testIngredientList", "d4/d03/class_recipe_finder_1_1_main_window.html#a6eb269e23ed1008e56288fb4c78dcad5", null ],
     [ "_testRecipeList", "d4/d03/class_recipe_finder_1_1_main_window.html#ab927fee630f572eaf9d0a5cad64d0423", null ],
     [ "checkedIngredients", "d4/d03/class_recipe_finder_1_1_main_window.html#a9241ac6da35b9de7da64aa85f8790f6a", null ]

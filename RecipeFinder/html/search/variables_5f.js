@@ -35,6 +35,7 @@ var searchData=
   ['_5fsodium',['_Sodium',['../db/de7/class_recipe_finder_1_1_recipe.html#a6737c171025e32c049e70979302cca54',1,'RecipeFinder::Recipe']]],
   ['_5ftestallergy',['_testAllergy',['../df/d8d/class_unit___test_1_1_unit_test___main.html#ad587eb368b077b709b87b71e5a6ab8c9',1,'Unit_Test::UnitTest_Main']]],
   ['_5ftestallergylist',['_testAllergyList',['../d4/d03/class_recipe_finder_1_1_main_window.html#a7a70b55840d374bfd73148ce88252646',1,'RecipeFinder::MainWindow']]],
+  ['_5ftestcategorylists',['_TestCategoryLists',['../d4/d03/class_recipe_finder_1_1_main_window.html#ae0e90cb333c1e3705a6db529eae49fe7',1,'RecipeFinder::MainWindow']]],
   ['_5ftestcetegoryenum',['_testCetegoryEnum',['../df/d8d/class_unit___test_1_1_unit_test___main.html#ac7182191ed5ff94dad2f7ee78552b47d',1,'Unit_Test::UnitTest_Main']]],
   ['_5ftestingredient',['_testIngredient',['../df/d8d/class_unit___test_1_1_unit_test___main.html#a0323cd8b9650e1a253bbcadeaa2624a0',1,'Unit_Test::UnitTest_Main']]],
   ['_5ftestingredientlist',['_testIngredientList',['../d4/d03/class_recipe_finder_1_1_main_window.html#a6eb269e23ed1008e56288fb4c78dcad5',1,'RecipeFinder::MainWindow']]],
