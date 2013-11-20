@@ -252,11 +252,24 @@ $(document).ready(function(){initNavTree('dc/ded/_file_input_8cs_source.html','.
 <div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;            }</div>
 <div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;        }</div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    }</div>
-<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;}</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;</div>
+<div class="line"><a name="l00183"></a><span class="lineno"><a class="line" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#a9fb2df2cf8378e0d66f52b56b7261804">  183</a></span>&#160;        <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#a9fb2df2cf8378e0d66f52b56b7261804">RecipeInput</a>(<span class="keywordtype">string</span> path)</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;        {</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;            <span class="keywordflow">if</span>(File.Exists(path))</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;            {</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;            }</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;            <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;            {</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;            }</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;        }</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    }</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;}</div>
 <div class="ttc" id="class_recipe_finder_1_1_allergy_html"><div class="ttname"><a href="../../d0/d44/class_recipe_finder_1_1_allergy.html">RecipeFinder.Allergy</a></div><div class="ttdoc">Storage for a single Allergy. </div><div class="ttdef"><b>Definition:</b> <a href="../../db/df3/_allergy_8cs_source.html#l00014">Allergy.cs:14</a></div></div>
 <div class="ttc" id="class_recipe_finder_1_1_main_window_html_a7a70b55840d374bfd73148ce88252646"><div class="ttname"><a href="../../d4/d03/class_recipe_finder_1_1_main_window.html#a7a70b55840d374bfd73148ce88252646">RecipeFinder.MainWindow._testAllergyList</a></div><div class="ttdeci">static List&lt; Allergy &gt; _testAllergyList</div><div class="ttdoc">List used so that the unit test can have access to the data. Never gets called in the main program...</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ded/_file_input_8cs_source.html#l00011">FileInput.cs:11</a></div></div>
 <div class="ttc" id="class_recipe_finder_1_1_main_window_html_a2a533838f5a30b6348f17594211094ca"><div class="ttname"><a href="../../d4/d03/class_recipe_finder_1_1_main_window.html#a2a533838f5a30b6348f17594211094ca">RecipeFinder.MainWindow._allergyList</a></div><div class="ttdeci">static List&lt; Allergy &gt; _allergyList</div><div class="ttdoc">The list used to hold the allergy list read in from file. </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ded/_file_input_8cs_source.html#l00010">FileInput.cs:10</a></div></div>
+<div class="ttc" id="class_recipe_finder_1_1_main_window_html_a9fb2df2cf8378e0d66f52b56b7261804"><div class="ttname"><a href="../../d4/d03/class_recipe_finder_1_1_main_window.html#a9fb2df2cf8378e0d66f52b56b7261804">RecipeFinder.MainWindow.RecipeInput</a></div><div class="ttdeci">static bool RecipeInput(string path)</div><div class="ttdoc">Function for reading recipe data in from file. </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ded/_file_input_8cs_source.html#l00183">FileInput.cs:183</a></div></div>
 <div class="ttc" id="class_recipe_finder_1_1_main_window_html_a6eb269e23ed1008e56288fb4c78dcad5"><div class="ttname"><a href="../../d4/d03/class_recipe_finder_1_1_main_window.html#a6eb269e23ed1008e56288fb4c78dcad5">RecipeFinder.MainWindow._testIngredientList</a></div><div class="ttdeci">static List&lt; Ingredient &gt; _testIngredientList</div><div class="ttdoc">List used so that the unit test can have access to the data. Never gets called in the main program...</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ded/_file_input_8cs_source.html#l00014">FileInput.cs:14</a></div></div>
 <div class="ttc" id="class_recipe_finder_1_1_main_window_html_af85b4cb8a2d6f89b6587479ffc4ceb97"><div class="ttname"><a href="../../d4/d03/class_recipe_finder_1_1_main_window.html#af85b4cb8a2d6f89b6587479ffc4ceb97">RecipeFinder.MainWindow.getCategory</a></div><div class="ttdeci">static IngredientCategory getCategory(int i)</div><div class="ttdoc">Function for getting an enumerated value for the ingredient category based on index value...</div><div class="ttdef"><b>Definition:</b> <a href="../../de/df8/_enum_definitions_8cs_source.html#l00053">EnumDefinitions.cs:53</a></div></div>
 <div class="ttc" id="namespace_recipe_finder_html_aaf7de33908dd1712e0950d770d83d074"><div class="ttname"><a href="../../db/de8/namespace_recipe_finder.html#aaf7de33908dd1712e0950d770d83d074">RecipeFinder.IngredientCategory</a></div><div class="ttdeci">IngredientCategory</div><div class="ttdoc">Enum for ordering ingredient categories. </div><div class="ttdef"><b>Definition:</b> <a href="../../de/df8/_enum_definitions_8cs_source.html#l00010">EnumDefinitions.cs:10</a></div></div>
@@ -272,7 +285,7 @@ $(document).ready(function(){initNavTree('dc/ded/_file_input_8cs_source.html','.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_0fbbbb577b0591d7aa914214a003de10.html">RecipeFinder</a></li><li class="navelem"><a class="el" href="../../dir_b3235e7f3aa0928e0db2c77b9202398a.html">Functionality</a></li><li class="navelem"><a class="el" href="../../dc/ded/_file_input_8cs.html">FileInput.cs</a></li>
-    <li class="footer">Generated on Wed Nov 20 2013 18:03:25 for Recipe Finder by
+    <li class="footer">Generated on Wed Nov 20 2013 18:28:01 for Recipe Finder by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

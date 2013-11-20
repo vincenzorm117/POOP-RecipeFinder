@@ -12,6 +12,7 @@ var class_recipe_finder_1_1_main_window =
     [ "populateAllergies", "d4/d03/class_recipe_finder_1_1_main_window.html#a4a9a1a53eeccf0acf6cd77acdb6aba56", null ],
     [ "populateFilterExpandersAndCheckBoxes", "d4/d03/class_recipe_finder_1_1_main_window.html#aa640b5e22836e77387de6a2f0f946aa6", null ],
     [ "print", "d4/d03/class_recipe_finder_1_1_main_window.html#a102ddfa68f331019c4e0e9952a841ff4", null ],
+    [ "RecipeInput", "d4/d03/class_recipe_finder_1_1_main_window.html#a9fb2df2cf8378e0d66f52b56b7261804", null ],
     [ "SearchButton_Click", "d4/d03/class_recipe_finder_1_1_main_window.html#a56ec5bab27ac2263c7b4e7f9dd4033bd", null ],
     [ "searchForRecipies", "d4/d03/class_recipe_finder_1_1_main_window.html#a334dae46580f249f78d22b443e7b301f", null ],
     [ "updateRecipeSelection", "d4/d03/class_recipe_finder_1_1_main_window.html#abec128b54b625916781c462aaeb3ede8", null ],

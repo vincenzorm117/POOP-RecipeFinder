@@ -21,10 +21,10 @@ namespace RecipeFinder
          **/
         private struct ingredientData
         {
-            int                _ammount;     ///< Holds the ammount of the ingredient as pulled in from file
-            int                _categoryID;  ///< Holds the ID value for the ingredient as stored within it's associated category
-            Measurements       _measurement; ///< Holds the measurement ID for the ingredient
-            IngredientCategory _category;    ///< Holds the category that the ingredient is associated with
+            public int                _amount;     ///< Holds the ammount of the ingredient as pulled in from file
+            public int                _categoryID;  ///< Holds the ID value for the ingredient as stored within it's associated category
+            public Measurements       _measurement; ///< Holds the measurement ID for the ingredient
+            public IngredientCategory _category;    ///< Holds the category that the ingredient is associated with
         }
         
         private int                  _RecipeID;            ///< The ID number associated with the stored recipe
@@ -73,20 +73,23 @@ namespace RecipeFinder
         public Recipe(int d, int t, int p, int s, int c, int f, int h, int o, int a, int b, int r, int n, string i, string u, CookMode m)
         {
             _RecipeID            = d; //Assigned based on a counter in the input function
-            _TotalTime           = t;
-            _PrepTime            = p;
-            _Servings            = s;
-            _Calories            = c;
-            _Fat                 = f;
-            _Cholestorol         = h;
-            _Sodium              = o;
-            _Carbs               = a;
-            _Fiber               = b;
-            _Protein             = r;
-            _NumberOfIngredients = n;
-            _Title               = i;
-            _Instructions        = u;
-            _CookingMode         = m;
+            _TotalTime           = t; //From file
+            _PrepTime            = p; //From file
+            _Servings            = s; //From file
+            _Calories            = c; //From file
+            _Fat                 = f; //From file
+            _Cholestorol         = h; //From file
+            _Sodium              = o; //From file
+            _Carbs               = a; //From file
+            _Fiber               = b; //From file
+            _Protein             = r; //From file
+            _NumberOfIngredients = n; //Either from file or counted during input, Will only represent total number of ingredients and not ingredient per category
+            _Title               = i; //From file
+            _Instructions        = u; //From file
+            _CookingMode         = m; //From file (or at least it should be)
+
+            //Initialize the recipes list of ingredient data to the number of ingredients associated with the recipe
+            _Ingredients = new List<ingredientData>(_NumberOfIngredients);
         }
 
         /**
