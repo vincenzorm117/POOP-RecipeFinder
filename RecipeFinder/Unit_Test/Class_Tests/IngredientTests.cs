@@ -7,7 +7,8 @@ namespace Unit_Test
     public partial class UnitTest_Main
     {
         //Objects used for testing the ingredient class
-        private static Ingredient _testIngredient; ///< Used for holding a single ingredient object
+        private static Ingredient _testIngredient;    ///< Used for holding a single ingredient object
+        private static Ingredient _testIngredientTwo; ///< Used for holding a single ingredient object
 
         //Boolean arrays used for storing test results
         private static int[] _ingredientBasicResults; ///< Array used for holding the number of passed tests and the total number of tests for the basic functionality test for the ingredient class
@@ -24,7 +25,7 @@ namespace Unit_Test
             _results = new List<bool>();
 
             //Sets up some test parameters
-            int numIterations = 20;                                                  //The total number of iterations being performed for integer values within the class
+            int numIterations = 15;                                                  //The total number of iterations being performed for integer values within the class
             int numStrings    = 3;                                                   //The total number of string values being tested
             int numCategories = Enum.GetValues( typeof(IngredientCategory) ).Length; //The total number of enumerated values to test
             
@@ -38,8 +39,8 @@ namespace Unit_Test
 
             //Calculate the total number of results
             int testOne       = 1;
-            int testTwo       = (numIterations * numIterations * numCategories * numStrings);
-            int testThree     = (numIterations * numIterations * numIterations * numCategories * numStrings);
+            int testTwo       = (numIterations * numIterations * numCategories * numStrings * 2);
+            int testThree     = (numIterations * numIterations * numIterations * numCategories * numStrings * 2);
             int numberResults = testOne + testTwo + testThree;
 
 
@@ -61,12 +62,24 @@ namespace Unit_Test
                         _testIngredient.setCategoryID(j);
                         testCurrentIngredient(i, -1, j, singleChar, c);
 
+                        _testIngredientTwo = new Ingredient(_testIngredient);
+                        _testIngredient    = _testIngredientTwo;
+                        testCurrentIngredient(i, -1, j, singleChar, c);
+
                         _testIngredient = new Ingredient(i, singleWord, c);
                         _testIngredient.setCategoryID(j);
                         testCurrentIngredient(i, -1, j, singleWord, c);
 
+                        _testIngredientTwo = new Ingredient(_testIngredient);
+                        _testIngredient = _testIngredientTwo;
+                        testCurrentIngredient(i, -1, j, singleWord, c);
+
                         _testIngredient = new Ingredient(i, multiWord, c);
                         _testIngredient.setCategoryID(j);
+                        testCurrentIngredient(i, -1, j, multiWord, c);
+
+                        _testIngredientTwo = new Ingredient(_testIngredient);
+                        _testIngredient = _testIngredientTwo;
                         testCurrentIngredient(i, -1, j, multiWord, c);
                     }
                 }
@@ -88,12 +101,24 @@ namespace Unit_Test
                             _testIngredient.setCategoryID(j);
                             testCurrentIngredient(i, l, j, singleChar, c);
 
+                            _testIngredientTwo = new Ingredient(_testIngredient);
+                            _testIngredient = _testIngredientTwo;
+                            testCurrentIngredient(i, l, j, singleChar, c);
+
                             _testIngredient = new Ingredient(i, l, singleWord, c);
                             _testIngredient.setCategoryID(j);
                             testCurrentIngredient(i, l, j, singleWord, c);
 
+                            _testIngredientTwo = new Ingredient(_testIngredient);
+                            _testIngredient = _testIngredientTwo;
+                            testCurrentIngredient(i, l, j, singleWord, c);
+
                             _testIngredient = new Ingredient(i, l, multiWord, c);
                             _testIngredient.setCategoryID(j);
+                            testCurrentIngredient(i, l, j, multiWord, c);
+
+                            _testIngredientTwo = new Ingredient(_testIngredient);
+                            _testIngredient = _testIngredientTwo;
                             testCurrentIngredient(i, l, j, multiWord, c);
                         }
                     }
@@ -206,6 +231,13 @@ namespace Unit_Test
                 tempControl = false;
             if(_testIngredient.getCategory() != c)
                 tempControl = false;
+
+            //Prints the failed test case to the screen
+            if(!tempControl)
+            {
+                _testIngredient.printIngredient();
+                Console.WriteLine("\tExpected Results -> ID: {0}\tName: {1}\tAllergy: {2}\tCategory: {3}\t Category ID: {4}", i, n, a, c, cid);
+            }
 
             //Adds the result to the results array
             addToResults(tempControl);

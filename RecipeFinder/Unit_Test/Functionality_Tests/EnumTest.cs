@@ -69,6 +69,8 @@ namespace Unit_Test
                     break;
                 case 6: if(_testCetegoryEnum != IngredientCategory.CARBOHYDRATES) tempControl = false;
                     break;
+                case 7: if(_testCetegoryEnum != IngredientCategory.POULTRY) tempControl = false;
+                    break;
                 default: if(_testCetegoryEnum != IngredientCategory.NONE) tempControl = false;
                     break;
             }

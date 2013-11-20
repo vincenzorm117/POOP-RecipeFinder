@@ -73,7 +73,6 @@ namespace RecipeFinder
          * \brief            Class constructor used for creating an ingredient object from another ingredient object.
          * \author           Brian McCormick
          * \param [in] other The ingredient object used to create the new ingredient object.
-         * \todo             Add a test for this
          **/
         public Ingredient(Ingredient other)
         {
@@ -139,5 +138,12 @@ namespace RecipeFinder
          **/
         public int getCategoryID()
         { return _CategoryID; }
+
+
+        public void printIngredient()
+        {
+            Console.WriteLine();
+            Console.WriteLine("\tActual   Results -> ID: {0}\tName: {1}\tAllergy: {2}\tCategory: {3}\tCategory ID: {4}", _ID, _Name, _Allergy, _Category, _CategoryID);
+        }
     }
 }

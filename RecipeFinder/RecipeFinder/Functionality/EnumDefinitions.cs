@@ -49,7 +49,6 @@ namespace RecipeFinder
          * \param [in] i The index value being located.
          * \return       The enumerated value at the given index value.
          *               Returns the NONE value if the index given doesn't exist.
-         * \todo         Create a new updated test for the new category.
          **/
         public static IngredientCategory getCategory(int i)
         {
