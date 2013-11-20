@@ -1,0 +1,32 @@
+Ingredient Input Function Documentation
+
+This file contains pseudo code for reading in ingredient data from file.
+All pseudo code is in an English sentence structure and doesn't use actual code.
+---------------------------------------------------------------------
+
+if( file exists )
+{
+	Store all lines from the input file into a string array
+
+	Loop through all the lines read in from file
+	{
+		1st run-through -> Store ingredient ID number
+		2nd run-through -> Store ingredient name
+		3rd run-through -> Store ingredient category
+						   Fetch enum value based on stored category value
+		4th run-through -> Store ingredient allergy value
+						   Create a new ingredient object using previously stored data
+						   Add the new object to the list
+		
+		Increment the run-through counter
+		If the counter >= 4 then reset it to zero
+	}
+	
+	return a success value
+}
+
+If input file doesn't exist
+{
+	Send an error message
+	return a failure value
+}
