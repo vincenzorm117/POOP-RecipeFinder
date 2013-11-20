@@ -6,22 +6,48 @@ using System;
 
 namespace RecipeFinder
 {
+    /**
+     * \class  IngredientCheckBox
+     * \brief  An extension of the standard checkbox to include storage of 2D list locations.
+     * \author Brian McCormick
+     **/
     public class IngredientCheckBox : CheckBox
     {
-        private int column;
-        private int row;
+        private int column; ///< The category that the check box is associated with
+        private int row;    ///< The recipe within the category that the check box is associated with
 
+        /**
+         * \fn           public IngredientCheckBox(int c, int r)
+         * \brief        The constructor for the new check box class.
+         * \author       Brian McCormick
+         * \param [in] c The category the check box is associated with.
+         * \param [in] r The recipe within the category that the check box is associated with.
+         **/
         public IngredientCheckBox(int c, int r)
         {
+            //The call to the original check box class constructor
             new CheckBox();
 
+            //Set the values for mapping purposes
             column = c;
             row    = r;
         }
 
+        /**
+         * \fn     public int getColumn()
+         * \brief  Function for accessing the category mapping stored in the check box.
+         * \author Brian McCormick
+         * \return The category value that the check box is mapped to.
+         **/
         public int getColumn()
         { return column; }
 
+        /**
+         * \fn     public int getRow()
+         * \brief  Function for accessing the recipe mapping stored in the check box.
+         * \author Brian McCormick
+         * \return The recipe value that the check box is mapped to.
+         **/
         public int getRow()
         { return row; }
     }

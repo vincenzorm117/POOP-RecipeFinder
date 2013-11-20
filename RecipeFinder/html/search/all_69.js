@@ -9,6 +9,7 @@ var searchData=
   ['ingredientcategory',['IngredientCategory',['../db/de8/namespace_recipe_finder.html#aaf7de33908dd1712e0950d770d83d074',1,'RecipeFinder']]],
   ['ingredientcategory_5ftest',['IngredientCategory_Test',['../df/d8d/class_unit___test_1_1_unit_test___main.html#af73078879a3ffdd7b19807e9cb0e0194',1,'Unit_Test::UnitTest_Main']]],
   ['ingredientcheckbox',['IngredientCheckBox',['../d3/dbf/class_recipe_finder_1_1_ingredient_check_box.html',1,'RecipeFinder']]],
+  ['ingredientcheckbox',['IngredientCheckBox',['../d3/dbf/class_recipe_finder_1_1_ingredient_check_box.html#a39b325f372eba7238069aa6cc8610ffe',1,'RecipeFinder::IngredientCheckBox']]],
   ['ingredientdata',['ingredientData',['../d5/d69/struct_recipe_finder_1_1_recipe_1_1ingredient_data.html',1,'RecipeFinder::Recipe']]],
   ['ingredientinput',['IngredientInput',['../d4/d03/class_recipe_finder_1_1_main_window.html#a2708b2a683614340425139aa10b9197f',1,'RecipeFinder::MainWindow']]],
   ['ingredientselector_5finterface_2ecs',['IngredientSelector_Interface.cs',['../da/d2a/_ingredient_selector___interface_8cs.html',1,'']]],
