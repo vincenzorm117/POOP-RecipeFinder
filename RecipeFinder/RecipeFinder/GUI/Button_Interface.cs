@@ -22,6 +22,7 @@ namespace RecipeFinder
             ResultsPanel.Visibility = System.Windows.Visibility.Visible;
 
             //List of parameters the user has searched for
+            /// \todo: change to List<List<bool>>
             HashSet<String>.Enumerator list = checkedIngredients.GetEnumerator();
 
             //Empty list each time
