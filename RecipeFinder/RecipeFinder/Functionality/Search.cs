@@ -4,6 +4,7 @@ using System.Collections.Generic;
 
 namespace RecipeFinder
 {
+
     public partial class MainWindow : Window
     {
         //Returns nothing for now
@@ -15,107 +16,111 @@ namespace RecipeFinder
         //          a bool array representing the different allergens
         //TODO: Update code documentation for entire file to match current documentation standard
 
-        //Create struct for the recipes
-        struct recipeMaches
+        /**
+             * \struct recipeIndex
+             * \brief  Struct for holding the recipe and number of matching ingredients
+             * \author Ronald Hyatt
+             **/
+        public struct recipeMatches
         {
-            int recipeIndex;
-            int hitCounter;
-        }
+            private int recipeIndex;
+            public void setIndex (int index) {recipeIndex = index;}
+            private int hitCounter;
+            public void setHitCounter(int hits) {hitCounter = hits;}
+        }        
 
-        public List<Recipe> searchForRecipies(List<List<bool>> userSearchParams, CookMode cookingMode, List<bool> userAlergens)
+
+        /**
+         * \fn         public List<Recipe> searchForRecipies(List<List<bool>> userSearchParams, CookMode cookingMode, List<bool> userAlergens)
+         * \brief      Function for searching the recipes for users specifications
+         * \author     Ronald Hyatt.
+         * \return     A list of recipes that match the user's specifications
+         **/
+        public List<recipeMatches> searchForRecipies(List<List<bool>> userSearchParams, CookMode cookingMode, List<bool> userAllergens)
         {
 
             //Create a new List for the results
-            List<Recipe> results = new List<Recipe>();
+            List<recipeMatches> results = new List<recipeMatches>();
 
             //Get the number of categories
-            int categories = Enum.GetNames(typeof(IngredientCategory)).Length;
-            int ingredients;
+            int numCategories = Enum.GetNames(typeof(IngredientCategory)).Length;
+            int numAllergens  = Enum.GetNames(typeof(Allergy)).Length;
+            int numIngredients, i, j, hits;
+            bool skip;
+            recipeMatches newRecipe = new recipeMatches();
 
-            for(Recipe current in _recipeList){
+            //Loop through each recipe
+            foreach(Recipe current in _recipeList)
+            
+            {
+                skip = false;
+                hits = 0;
+
+                //If the cooking mode does not match the user's then move on
+                //TODO make a getter for recipe cooking mode
+                if (!(cookingMode.Equals(current.getCookingMode())))
+                {
+                    continue;
+                }
+
+                else
+                {
+                    //If one of the alergy flags matches what the user is allergic to move on
+                    for(i = 0; i < numAllergens; i ++)
+                    {
+                        //TODO make getter for recipe allergens
+                        if (current.getAllergen(i) == userAllergens[i])
+                        {
+                            skip = true;
+                            break;
+                        }
+                    }
+                    //If there is an allergen that matches then skip the recipe
+                    if (skip)
+                    {
+                        continue;
+                    }
+
+                    newRecipe = new recipeMatches();
+
+                    //Compare categories
+                    for (i = 0; i < numCategories; i++)
+                    {
+                        if (userSearchParams[i][0].Equals(true))
+                        {
+                            //Grab that number of ingrediants for this category
+                            //TODO grab the number of ingrediants from this specific category
+                            numIngredients = Enum.
+
+                            //If the category is true then loop through the ingredients within
+                            for (j = 0; j < numIngredients; j++)
+                            {
+                                if(userSearchParams[i][j].Equals(true))
+                                {
+                                    hits = hits + 1;
+                                }
+
+                            }
+                        }
+                    }
+                    //If there is at least one hit add it to the list
+                    if (hits >= 1)
+                    {
+                        //TODO getters for both recipe ID
+                        newRecipe.setIndex(current.getRecipeID());
+                        //TODO figure out why this is not accessing the struct
+                        newRecipe.setHitCounter(hits);
+                        
+                        results.Add(newRecipe);
+                    }
+                }
 
             }
 
-
-
-
+            //TODO Sort the results from the search
+            results.So
 
             return results;
         }
     }
 }
-
-/*
-{   
-            //Recipe needs to be some sort of accessable object
-            //Struct to keep track of the correct hits each recipe gets based on the search
-            struct recipeMatches 
-            {
-                int recipeIndex;
-                int hitCounter;
-            }
-
-
-//            //Hard code in the number of catagories of ingrediants and the number per each
-//            int categories  = Enum.GetNames( typeof(IngredientCategory) ).Length;
-
-            //TODO: Rework ingredient ammount to be fetched from the lists for each category
-            int ingrediants = Enum.GetNames( typeof(IngredientCategory) ).Length;
-
-            //Grab each ingrediant list from each recipe
-            List<List<bool>> recipeIngrediants = new List<List<bool>>();
-            
-            int k;
-
-            //First use the filters to remove any that match (i.e. milk alergy skip that record
-            //Loop throughout the list of recipes
-            _recipeList = new List<Recipe>();
-            for(Recipe current : _recipeList)
-            {
-                //Reset counter
-                k = 0;
-
-                //Check if the recipe has the alergen
-                if (recipeList[i].alergen == true) 
-                    continue;
-
-                //Check to see if the recipe meets the correct 'mode'
-                else if (recipeList[i].mode.containsEqualIgnoreCase(mode))
-                {
-                    //Grab the current recipe's list of ingredientes (again full list with true/false)
-                    recipeIngredients = recipeList[i].ingrediantList;
-
-                    //As we have flitered out hte recipes that we didn't want so we continue of filtering
-                    for(int j = 0; j < categories; j++)
-                    {
-                        //Checing that both the user's and the recipie have the same category
-                        if ((recipeIngredients[j][] == 1) && (userSeachParams[j][] == 1))
-                            for (int s = 0; s < ingrediants; s++)
-                            {
-                                if ((recipeIngredients[j][s] == 1) && (userSeachParams[j][s] == 1))
-                                    k = k + 1;
-                            }
-                    }
-
-                    //Add the recipe to the results array setting the hit counter
-                    recipeResults[i].recipe = recipeList[i].recipeId;
-                    recipeResults[i].hitCounter = k;
-                }
-                //We have hit things we don't want so continue
-                else
-                    continue;
-            }
-
-            //Here we would order the results based on each recipe's hit counter
-            Array.Sort(recipeResults);
-            
-            //Reverse the results as it is in ascending order
-            Array.Reverse(recipeResults);
-
-            //Grab the first 10
-            Array.Copy(recipeResults, results, 10);
-
-            //return the top 10
-            return results;
-        }
-*/

@@ -53,6 +53,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Functionality\CategorySplitting.cs" />
     <Compile Include="Functionality\EnumDefinitions.cs" />
     <Compile Include="GUI\Button_Interface.cs" />
     <Compile Include="GUI\AllergySelector_Interface.cs" />
