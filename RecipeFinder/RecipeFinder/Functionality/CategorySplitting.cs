@@ -47,6 +47,8 @@ namespace RecipeFinder
                         _CategoryLists[i].Add(new Ingredient(d));
                     }
                 }
+
+                _CategoryLists[i].TrimExcess();
             }
         }
     }

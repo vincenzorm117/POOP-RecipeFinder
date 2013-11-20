@@ -13,7 +13,8 @@ namespace RecipeFinder
                                      DAIRY,         ///< 3
                                      SEAFOOD,       ///< 4
                                      MEAT,          ///< 5
-                                     CARBOHYDRATES  ///< 6
+                                     CARBOHYDRATES, ///< 6
+                                     POULTRY        ///< 7
                                    };
 
     /**
