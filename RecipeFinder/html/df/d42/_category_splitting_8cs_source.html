@@ -107,13 +107,78 @@ $(document).ready(function(){initNavTree('df/d42/_category_splitting_8cs_source.
 <div class="title">CategorySplitting.cs</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../df/d42/_category_splitting_8cs.html">Go to the documentation of this file.</a><div class="fragment"></div><!-- fragment --></div><!-- contents -->
+<a href="../../df/d42/_category_splitting_8cs.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">using</span> System;</div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">using</span> System.Collections.Generic;</div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">using</span> System.Windows;</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="keyword">namespace </span>RecipeFinder</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
+<div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="../../d4/d03/class_recipe_finder_1_1_main_window.html">    7</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">partial class </span><a class="code" href="../../d4/d03/class_recipe_finder_1_1_main_window.html">MainWindow</a> : Window</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    {</div>
+<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#ac60eb53080d5e1b3d2bed1ca26c3d3c3">    9</a></span>&#160;        <span class="keyword">private</span> List&lt;List&lt;Ingredient&gt;&gt; <a class="code" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#ac60eb53080d5e1b3d2bed1ca26c3d3c3">_CategoryLists</a>;     </div>
+<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#ace6749476d6f1ad4a54fdf7f12121bcf">   10</a></span>&#160;        <span class="keyword">private</span> List&lt;List&lt;bool&gt;&gt;       <a class="code" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#ace6749476d6f1ad4a54fdf7f12121bcf">_CategoryBooleans</a>;  </div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#a2451d0d5d68779cb9beaa1d54245c27e">   18</a></span>&#160;        <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#a2451d0d5d68779cb9beaa1d54245c27e">IngredientSplit</a>()</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        {</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;            <span class="comment">//Variables used for controlling the splitting process</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;            <a class="code" href="../../db/de8/namespace_recipe_finder.html#aaf7de33908dd1712e0950d770d83d074">IngredientCategory</a> c = IngredientCategory.NONE;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;            <a class="code" href="../../db/de8/namespace_recipe_finder.html#aaf7de33908dd1712e0950d770d83d074">IngredientCategory</a> t = IngredientCategory.NONE;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;            <span class="comment">//Create a new 2D list of ingredients</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;            <a class="code" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#ac60eb53080d5e1b3d2bed1ca26c3d3c3">_CategoryLists</a>    = <span class="keyword">new</span> List&lt;List&lt;Ingredient&gt;&gt;();</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;            <a class="code" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#ace6749476d6f1ad4a54fdf7f12121bcf">_CategoryBooleans</a> = <span class="keyword">new</span> List&lt;List&lt;bool&gt;&gt;();</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; Enum.GetValues( typeof(<a class="code" href="../../db/de8/namespace_recipe_finder.html#aaf7de33908dd1712e0950d770d83d074">IngredientCategory</a>) ).Length; i++)</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;            {</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                _CategoryLists.Add(<span class="keyword">new</span> List&lt;Ingredient&gt;());</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                _CategoryBooleans.Add(<span class="keyword">new</span> List&lt;bool&gt;());</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;            }</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;            <span class="comment">//Loop through each category</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;            <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; Enum.GetValues(typeof(<a class="code" href="../../db/de8/namespace_recipe_finder.html#aaf7de33908dd1712e0950d770d83d074">IngredientCategory</a>)).Length; i++)</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;            {</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                <span class="comment">//Get the enumerated value for the current runthrough</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                t = <a class="code" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#af85b4cb8a2d6f89b6587479ffc4ceb97">getCategory</a>(i);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                <span class="comment">//Loop through each ingredient that was pulled in from file</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                <span class="keywordflow">foreach</span>(<a class="code" href="../../d3/d10/class_recipe_finder_1_1_ingredient.html">Ingredient</a> d <span class="keywordflow">in</span> <a class="code" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#ab4fb87a18069a1846f19f7cbb3c70a8c">_ingredientList</a>)</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                {</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                    <span class="comment">//Get the enumerated ingredient category for the current ingredient</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                    c = d.getCategory();</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                    <span class="comment">//Test if the current ingredient is to be placed into the category</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                    <span class="keywordflow">if</span>(c == t)</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;                    {   </div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                        <span class="comment">//Set the category id of the ingredient</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;                        d.setCategoryID(<a class="code" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#ac60eb53080d5e1b3d2bed1ca26c3d3c3">_CategoryLists</a>[i].Capacity);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                        <span class="comment">//Adds a new ingredient to the proper category list</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                        <a class="code" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#ac60eb53080d5e1b3d2bed1ca26c3d3c3">_CategoryLists</a>[i].Add(<span class="keyword">new</span> <a class="code" href="../../d3/d10/class_recipe_finder_1_1_ingredient.html">Ingredient</a>(d));</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                        _CategoryBooleans[i].Add(<span class="keyword">false</span>);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                    }</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;                }</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;                <span class="comment">//Remove excess memory</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;                <a class="code" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#ac60eb53080d5e1b3d2bed1ca26c3d3c3">_CategoryLists</a>[i].TrimExcess();</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;                _CategoryBooleans[i].TrimExcess();</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;            }</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        }</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    }</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;}</div>
+<div class="ttc" id="class_recipe_finder_1_1_main_window_html_a2451d0d5d68779cb9beaa1d54245c27e"><div class="ttname"><a href="../../d4/d03/class_recipe_finder_1_1_main_window.html#a2451d0d5d68779cb9beaa1d54245c27e">RecipeFinder.MainWindow.IngredientSplit</a></div><div class="ttdeci">void IngredientSplit()</div><div class="ttdoc">Function for splitting the ingredients into separate category list. </div><div class="ttdef"><b>Definition:</b> <a href="../../df/d42/_category_splitting_8cs_source.html#l00018">CategorySplitting.cs:18</a></div></div>
+<div class="ttc" id="class_recipe_finder_1_1_main_window_html_af85b4cb8a2d6f89b6587479ffc4ceb97"><div class="ttname"><a href="../../d4/d03/class_recipe_finder_1_1_main_window.html#af85b4cb8a2d6f89b6587479ffc4ceb97">RecipeFinder.MainWindow.getCategory</a></div><div class="ttdeci">static IngredientCategory getCategory(int i)</div><div class="ttdoc">Function for getting an enumerated value for the ingredient category based on index value...</div><div class="ttdef"><b>Definition:</b> <a href="../../de/df8/_enum_definitions_8cs_source.html#l00053">EnumDefinitions.cs:53</a></div></div>
+<div class="ttc" id="class_recipe_finder_1_1_main_window_html_ace6749476d6f1ad4a54fdf7f12121bcf"><div class="ttname"><a href="../../d4/d03/class_recipe_finder_1_1_main_window.html#ace6749476d6f1ad4a54fdf7f12121bcf">RecipeFinder.MainWindow._CategoryBooleans</a></div><div class="ttdeci">List&lt; List&lt; bool &gt; &gt; _CategoryBooleans</div><div class="ttdoc">2D List for holding user selections </div><div class="ttdef"><b>Definition:</b> <a href="../../df/d42/_category_splitting_8cs_source.html#l00010">CategorySplitting.cs:10</a></div></div>
+<div class="ttc" id="namespace_recipe_finder_html_aaf7de33908dd1712e0950d770d83d074"><div class="ttname"><a href="../../db/de8/namespace_recipe_finder.html#aaf7de33908dd1712e0950d770d83d074">RecipeFinder.IngredientCategory</a></div><div class="ttdeci">IngredientCategory</div><div class="ttdoc">Enum for ordering ingredient categories. </div><div class="ttdef"><b>Definition:</b> <a href="../../de/df8/_enum_definitions_8cs_source.html#l00010">EnumDefinitions.cs:10</a></div></div>
+<div class="ttc" id="class_recipe_finder_1_1_main_window_html_ab4fb87a18069a1846f19f7cbb3c70a8c"><div class="ttname"><a href="../../d4/d03/class_recipe_finder_1_1_main_window.html#ab4fb87a18069a1846f19f7cbb3c70a8c">RecipeFinder.MainWindow._ingredientList</a></div><div class="ttdeci">static List&lt; Ingredient &gt; _ingredientList</div><div class="ttdoc">The list used to hold the ingredient list read in from file. </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ded/_file_input_8cs_source.html#l00013">FileInput.cs:13</a></div></div>
+<div class="ttc" id="class_recipe_finder_1_1_ingredient_html"><div class="ttname"><a href="../../d3/d10/class_recipe_finder_1_1_ingredient.html">RecipeFinder.Ingredient</a></div><div class="ttdoc">Storage for a single Ingredient. </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d21/_ingredient_8cs_source.html#l00014">Ingredient.cs:14</a></div></div>
+<div class="ttc" id="class_recipe_finder_1_1_main_window_html_ac60eb53080d5e1b3d2bed1ca26c3d3c3"><div class="ttname"><a href="../../d4/d03/class_recipe_finder_1_1_main_window.html#ac60eb53080d5e1b3d2bed1ca26c3d3c3">RecipeFinder.MainWindow._CategoryLists</a></div><div class="ttdeci">List&lt; List&lt; Ingredient &gt; &gt; _CategoryLists</div><div class="ttdoc">2D List that holds the categorized ingredient lists </div><div class="ttdef"><b>Definition:</b> <a href="../../df/d42/_category_splitting_8cs_source.html#l00009">CategorySplitting.cs:9</a></div></div>
+<div class="ttc" id="class_recipe_finder_1_1_main_window_html"><div class="ttname"><a href="../../d4/d03/class_recipe_finder_1_1_main_window.html">RecipeFinder.MainWindow</a></div><div class="ttdoc">The class for the main program and it&amp;#39;s main execution. </div><div class="ttdef"><b>Definition:</b> <a href="../../df/d42/_category_splitting_8cs_source.html#l00007">CategorySplitting.cs:7</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_0fbbbb577b0591d7aa914214a003de10.html">RecipeFinder</a></li><li class="navelem"><a class="el" href="../../dir_b3235e7f3aa0928e0db2c77b9202398a.html">Functionality</a></li><li class="navelem"><a class="el" href="../../df/d42/_category_splitting_8cs.html">CategorySplitting.cs</a></li>
-    <li class="footer">Generated on Wed Nov 20 2013 11:01:32 for Recipe Finder by
+    <li class="footer">Generated on Wed Nov 20 2013 17:39:51 for Recipe Finder by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

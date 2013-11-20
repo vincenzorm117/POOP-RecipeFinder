@@ -1,0 +1,7 @@
+<map id="getColumn" name="getColumn">
+<area shape="rect" id="node2" href="$d4/d03/class_recipe_finder_1_1_main_window.html#aa7b1f034e622294117faf809b084cfc6" title="Function for handling the functionality of when a check box is checked by the user. " alt="" coords="139,5,354,46"/>
+<area shape="rect" id="node6" href="$d4/d03/class_recipe_finder_1_1_main_window.html#ad9b6d20f083e9415282e5be9ffeac829" title="Function for handling the functionality of when a check box is unchecked by the user. " alt="" coords="139,70,354,111"/>
+<area shape="rect" id="node3" href="$d4/d03/class_recipe_finder_1_1_main_window.html#a4a9a1a53eeccf0acf6cd77acdb6aba56" title="Used to add allergies to the GUI. " alt="" coords="403,5,632,46"/>
+<area shape="rect" id="node5" href="$d4/d03/class_recipe_finder_1_1_main_window.html#aa640b5e22836e77387de6a2f0f946aa6" title="Used for creating the expanders and their check boxes. " alt="" coords="403,70,632,111"/>
+<area shape="rect" id="node4" href="$d4/d03/class_recipe_finder_1_1_main_window.html#a3bb4fb6536e6b03d65fd66ae5f32d52c" title="Class constructor for initializing the program. " alt="" coords="681,38,861,79"/>
+</map>

@@ -19,5 +19,6 @@ var class_unit___test_1_1_unit_test___main =
     [ "_results", "df/d8d/class_unit___test_1_1_unit_test___main.html#a32a914a95d03daf46611d82d75492996", null ],
     [ "_testAllergy", "df/d8d/class_unit___test_1_1_unit_test___main.html#ad587eb368b077b709b87b71e5a6ab8c9", null ],
     [ "_testCetegoryEnum", "df/d8d/class_unit___test_1_1_unit_test___main.html#ac7182191ed5ff94dad2f7ee78552b47d", null ],
-    [ "_testIngredient", "df/d8d/class_unit___test_1_1_unit_test___main.html#a0323cd8b9650e1a253bbcadeaa2624a0", null ]
+    [ "_testIngredient", "df/d8d/class_unit___test_1_1_unit_test___main.html#a0323cd8b9650e1a253bbcadeaa2624a0", null ],
+    [ "_testIngredientTwo", "df/d8d/class_unit___test_1_1_unit_test___main.html#aaf1f366ce81f15146912e45aa2ffde92", null ]
 ];
