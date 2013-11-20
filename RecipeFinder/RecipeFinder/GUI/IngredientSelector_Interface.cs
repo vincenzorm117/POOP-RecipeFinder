@@ -1,6 +1,8 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Controls.Primitives;
+using System.Collections.Generic;
+using System;
 
 namespace RecipeFinder
 {
@@ -13,21 +15,24 @@ namespace RecipeFinder
         public void populateFilterExpandersAndCheckBoxes()
         {
             //First for loop creates the expanders with its corresponding UniformGrid
-            for(int i = 1; i < 11; i++)
+            for(int i = 0; i < Enum.GetNames(typeof(IngredientCategory)).Length; i++)
             {
                 //Expanders are the collapsable panel
                 Expander e = new Expander();
-                e.Header = "Expander " + i; //Sets the name of the Expander
-
+                e.Header = Enum.GetName(typeof(IngredientCategory), i);
+                if (e.Header.ToString().Equals("NONE"))
+                {
+                    e.Header = "OTHER";
+                }
                 //Expanders have content but cannot store elements directly; it needs a grid to hold items
                 //UniformGrid is the Expanders items container; what is unique about this grid is that it can columns and rows
                 UniformGrid g = new UniformGrid();
                 g.Columns = 2;  // The number of columns are set to 2 so it has 2 columns of checkboxes
 
-                for(int j = 1; j < 11; j++)
+                for(int j = 0; j < _CategoryLists[i].ToArray().Length; j++)
                 {
                     CheckBox c = new CheckBox();            //CheckBox created
-                    c.Content = "CheckBox " + i + ":" + j; //Its name is set
+                    c.Content = _CategoryLists[i][j].getName(); //Its name is set
 
                     //Adds actionlistener below (check_Box_Checked_Event) to current checkbox. So when the checkbox is selected that method is ran
                     c.Checked += check_Box_Checked_Event;

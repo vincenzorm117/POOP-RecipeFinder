@@ -12,10 +12,10 @@ namespace RecipeFinder
          **/
         public void populateAllergies()
         {
-            for(int i = 1; i < 11; i++)
+            for(int i = 1; i < _allergyList.Capacity; i++)
             {
                 CheckBox c = new CheckBox();
-                c.Content = "Allergy" + i;
+                c.Content = _allergyList[i].getName();
 
                 c.Checked += check_Box_Checked_Event;
                 c.Unchecked += check_Box_Unchecked_Event;
