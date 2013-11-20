@@ -69,6 +69,22 @@ namespace RecipeFinder
         }
 
         /**
+         * \fn               public Ingredient(Ingredient other)
+         * \brief            Class constructor used for creating an ingredient object from another ingredient object.
+         * \author           Brian McCormick
+         * \param [in] other The ingredient object used to create the new ingredient object.
+         * \todo             Add a test for this
+         **/
+        public Ingredient(Ingredient other)
+        {
+            _ID         = other._ID;
+            _Allergy    = other._Allergy;
+            _Name       = other._Name;
+            _Category   = other._Category;
+            _CategoryID = other._CategoryID;
+        }
+
+        /**
          * \fn             public void setCategoryID(int cid)
          * \brief          Used for setting the category id value for the ingredient.
          * \author         Brian McCormick

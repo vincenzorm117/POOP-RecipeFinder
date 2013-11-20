@@ -31,7 +31,18 @@ namespace RecipeFinder
          **/
         public MainWindow()
         {   
-            /*File Input Function Here*/
+            /*File Input Functionality Here*/
+            if(!AllergyInput("../../Inputs/inputAllergies.txt"))
+                return;
+
+            if(!IngredientInput("../../Inputs/inputIngredients.txt"))
+                return;
+            IngredientSplit();
+
+            //Recipe input functionality will be placed here.....WHEN I FUCKING FEEL LIKE IT.
+            //  Sincerely, The Coding Taskmaster!
+
+            /*End Input Functionality Here*/
 
             checkedIngredients = new HashSet<String>();
             InitializeComponent();

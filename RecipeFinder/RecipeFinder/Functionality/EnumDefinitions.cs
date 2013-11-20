@@ -33,10 +33,10 @@ namespace RecipeFinder
      * \brief  Enum for ordering cooking mode types
      * \author Brian McCormick
      **/
-    public enum CookMode { NONE,   ///< 0
-                           EASY,   ///< 1
-                           MIDDLE, ///< 2
-                           CHEF    ///< 3
+    public enum CookMode { NONE,         ///< 0
+                           ONTHEGO,      ///< 1
+                           QUICKANDEASY, ///< 2
+                           CHEF          ///< 3
                          };
 
     public partial class MainWindow : Window
