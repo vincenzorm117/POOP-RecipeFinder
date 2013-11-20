@@ -48,6 +48,7 @@ namespace RecipeFinder
                     }
                 }
 
+                //Remove excess memory
                 _CategoryLists[i].TrimExcess();
             }
         }

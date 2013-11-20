@@ -49,6 +49,7 @@ namespace RecipeFinder
          * \param [in] i The index value being located.
          * \return       The enumerated value at the given index value.
          *               Returns the NONE value if the index given doesn't exist.
+         * \todo         Create a new updated test for the new category.
          **/
         public static IngredientCategory getCategory(int i)
         {
@@ -61,6 +62,7 @@ namespace RecipeFinder
                 case 4: return IngredientCategory.SEAFOOD;
                 case 5: return IngredientCategory.MEAT;
                 case 6: return IngredientCategory.CARBOHYDRATES;
+                case 7: return IngredientCategory.POULTRY;
             }
 
             return IngredientCategory.NONE;
