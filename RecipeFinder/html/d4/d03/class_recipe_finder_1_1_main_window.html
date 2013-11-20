@@ -128,11 +128,13 @@ $(document).ready(function(){initNavTree('d4/d03/class_recipe_finder_1_1_main_wi
 Collaboration diagram for MainWindow:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../dc/d8e/class_recipe_finder_1_1_main_window__coll__graph.png" border="0" usemap="#_main_window_coll__map" alt="Collaboration graph"/></div>
+<map name="_main_window_coll__map" id="_main_window_coll__map">
+</map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7a/struct_recipe_finder_1_1_main_window_1_1recipe_maches.html">recipeMaches</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/df5/struct_recipe_finder_1_1_main_window_1_1recipe_matches.html">recipeMatches</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -146,6 +148,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa640b5e22836e77387de6a2f0f946aa6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#aa640b5e22836e77387de6a2f0f946aa6">populateFilterExpandersAndCheckBoxes</a> ()</td></tr>
 <tr class="memdesc:aa640b5e22836e77387de6a2f0f946aa6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used for creating the expanders and their check boxes.  <a href="#aa640b5e22836e77387de6a2f0f946aa6">More...</a><br/></td></tr>
 <tr class="separator:aa640b5e22836e77387de6a2f0f946aa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a334dae46580f249f78d22b443e7b301f"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="../../dc/df5/struct_recipe_finder_1_1_main_window_1_1recipe_matches.html">recipeMatches</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#a334dae46580f249f78d22b443e7b301f">searchForRecipies</a> (List&lt; List&lt; bool &gt;&gt; userSearchParams, <a class="el" href="../../db/de8/namespace_recipe_finder.html#ab71acea099a6fa440169f766b9e9bbe4">CookMode</a> cookingMode, List&lt; bool &gt; userAllergens)</td></tr>
+<tr class="memdesc:a334dae46580f249f78d22b443e7b301f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function for searching the recipes for users specifications.  <a href="#a334dae46580f249f78d22b443e7b301f">More...</a><br/></td></tr>
+<tr class="separator:a334dae46580f249f78d22b443e7b301f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -292,8 +297,8 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A boolean value representing if the process was successful or not. </dd></dl>
 <dl class="section warning"><dt>Warning</dt><dd>If the path given is not either a hard-coded direct path or a path relative to where the executable is located then the allergy input file will not be found. </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000002">Todo:</a></b></dt><dd>Add a means of removing and/or ignoring duplicate ID values from the allergy input file. </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000003">Todo:</a></b></dt><dd>Add implementation for adding the error on having a failed allergy input to a log file </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000004">Todo:</a></b></dt><dd>Add a means of removing and/or ignoring duplicate ID values from the allergy input file. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000005">Todo:</a></b></dt><dd>Add implementation for adding the error on having a failed allergy input to a log file </dd></dl>
 
 <p>Definition at line <a class="el" href="../../dc/ded/_file_input_8cs_source.html#l00029">29</a> of file <a class="el" href="../../dc/ded/_file_input_8cs_source.html">FileInput.cs</a>.</p>
 <div class="fragment"><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        {</div>
@@ -617,8 +622,8 @@ Here is the caller graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A boolean value representing if the process was successful or not. </dd></dl>
 <dl class="section warning"><dt>Warning</dt><dd>If the path given is not either a hard-coded direct path or a path relative to where the executable is located then the ingredient input file will not be found. </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000004">Todo:</a></b></dt><dd>Add a means of removing and/or ignoring duplicate ID values from the ingredient input file. </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000005">Todo:</a></b></dt><dd>Add implementation for adding the error on having a failed ingredient input to a log file </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000006">Todo:</a></b></dt><dd>Add a means of removing and/or ignoring duplicate ID values from the ingredient input file. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000007">Todo:</a></b></dt><dd>Add implementation for adding the error on having a failed ingredient input to a log file </dd></dl>
 
 <p>Definition at line <a class="el" href="../../dc/ded/_file_input_8cs_source.html#l00100">100</a> of file <a class="el" href="../../dc/ded/_file_input_8cs_source.html">FileInput.cs</a>.</p>
 <div class="fragment"><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        {</div>
@@ -957,6 +962,156 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment -->
 </div>
 </div>
+<a class="anchor" id="a334dae46580f249f78d22b443e7b301f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">public List&lt; <a class="el" href="../../db/de7/class_recipe_finder_1_1_recipe.html">Recipe</a> &gt; searchForRecipies </td>
+          <td>(</td>
+          <td class="paramtype">List&lt; List&lt; bool &gt;&gt;&#160;</td>
+          <td class="paramname"><em>userSearchParams</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../db/de8/namespace_recipe_finder.html#ab71acea099a6fa440169f766b9e9bbe4">CookMode</a>&#160;</td>
+          <td class="paramname"><em>cookingMode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">List&lt; bool &gt;&#160;</td>
+          <td class="paramname"><em>userAlergens</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Function for searching the recipes for users specifications. </p>
+<dl class="section author"><dt>Author</dt><dd>Ronald Hyatt. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">\param</td><td></td></tr>
+    <tr><td class="paramname">\return</td><td>A list of recipes that match the user's specifications </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="../../d4/d20/_search_8cs_source.html#l00040">40</a> of file <a class="el" href="../../d4/d20/_search_8cs_source.html">Search.cs</a>.</p>
+<div class="fragment"><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        {</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            <span class="comment">//Create a new List for the results</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            List&lt;recipeMatches&gt; results = <span class="keyword">new</span> List&lt;recipeMatches&gt;();</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            <span class="comment">//Get the number of categories</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;            <span class="keywordtype">int</span> numCategories = Enum.GetNames(typeof(<a class="code" href="../../db/de8/namespace_recipe_finder.html#aaf7de33908dd1712e0950d770d83d074">IngredientCategory</a>)).Length;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            <span class="keywordtype">int</span> numAllergens  = Enum.GetNames(typeof(Allergy)).Length;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;            <span class="keywordtype">int</span> numIngredients, i, j, hits;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;            <span class="keywordtype">bool</span> skip;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;            recipeMatches newRecipe = <span class="keyword">new</span> recipeMatches();</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            <span class="comment">//Loop through each recipe</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;            <span class="keywordflow">foreach</span>(Recipe current <span class="keywordflow">in</span> <a class="code" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#acf0e20770bdc2331e6fa227f4b97d3d2">_recipeList</a>)</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            </div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            {</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;                skip = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;                hits = 0;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                <span class="comment">//If the cooking mode does not match the user&#39;s then move on</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                <span class="comment">//TODO make a getter for recipe cooking mode</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                <span class="keywordflow">if</span> (!(cookingMode.Equals(current.getCookingMode())))</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                {</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                    <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                }</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                {</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                    <span class="comment">//If one of the alergy flags matches what the user is allergic to move on</span></div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                    <span class="keywordflow">for</span>(i = 0; i &lt; numAllergens; i ++)</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                    {</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                        <span class="comment">//TODO make getter for recipe allergens</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;                        <span class="keywordflow">if</span>(current.getAllergy(0) == <span class="keyword">false</span>)</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (current.getAllergy(i) == userAllergens[i])</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                        {</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                            skip = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                        }</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                    }</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                    <span class="comment">//If there is an allergen that matches then skip the recipe</span></div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                    <span class="keywordflow">if</span> (skip)</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;                    {</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                        <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                    }</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;                    newRecipe = <span class="keyword">new</span> recipeMatches();</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;                    <span class="comment">//Compare categories</span></div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;                    <span class="keywordflow">for</span> (i = 0; i &lt; numCategories; i++)</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                    {</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;                        <span class="keywordflow">if</span> (userSearchParams[i][0].Equals(<span class="keyword">true</span>))</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                        {</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;                            <span class="comment">//Grab that number of ingrediants for this category</span></div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;                            <span class="comment">//TODO: grab the number of ingrediants from this specific category</span></div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                            <span class="comment">//TODO: Redo when recipe has way of passing it&#39;s number of ingredients</span></div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                            numIngredients = 0;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;                            <span class="comment">//If the category is true then loop through the ingredients within</span></div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;                            <span class="comment">//TODO: Redo to actually compare</span></div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;                            <span class="keywordflow">for</span> (j = 0; j &lt; numIngredients; j++)</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;                            {</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;                                <span class="keywordflow">if</span>(userSearchParams[i][j].Equals(<span class="keyword">true</span>))</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;                                {</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;                                    hits = hits + 1;</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;                                }</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;                            }</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;                        }</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;                    }</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;                    <span class="comment">//If there is at least one hit add it to the list</span></div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;                    <span class="keywordflow">if</span> (hits &gt;= 1)</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;                    {</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;                        newRecipe.recipeIndex = current.getRecipeID();</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;                        newRecipe.hitCounter = hits;</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;                        </div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;                        results.Add(newRecipe);</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;                    }</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;                }</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;            }</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;            <span class="comment">//TODO Sort the results from the search</span></div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;            results.So</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;            <span class="keywordflow">return</span> results;</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        }</div>
+<div class="ttc" id="namespace_recipe_finder_html_aaf7de33908dd1712e0950d770d83d074"><div class="ttname"><a href="../../db/de8/namespace_recipe_finder.html#aaf7de33908dd1712e0950d770d83d074">RecipeFinder.IngredientCategory</a></div><div class="ttdeci">IngredientCategory</div><div class="ttdoc">Enum for ordering ingredient categories. </div><div class="ttdef"><b>Definition:</b> <a href="../../de/df8/_enum_definitions_8cs_source.html#l00010">EnumDefinitions.cs:10</a></div></div>
+<div class="ttc" id="class_recipe_finder_1_1_main_window_html_acf0e20770bdc2331e6fa227f4b97d3d2"><div class="ttname"><a href="../../d4/d03/class_recipe_finder_1_1_main_window.html#acf0e20770bdc2331e6fa227f4b97d3d2">RecipeFinder.MainWindow._recipeList</a></div><div class="ttdeci">static List&lt; Recipe &gt; _recipeList</div><div class="ttdoc">The list used to hold the recipe list read in from file. </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ded/_file_input_8cs_source.html#l00016">FileInput.cs:16</a></div></div>
+</div><!-- fragment -->
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d4/d03/class_recipe_finder_1_1_main_window_a334dae46580f249f78d22b443e7b301f_cgraph.png" border="0" usemap="#d4/d03/class_recipe_finder_1_1_main_window_a334dae46580f249f78d22b443e7b301f_cgraph" alt=""/></div>
+<map name="d4/d03/class_recipe_finder_1_1_main_window_a334dae46580f249f78d22b443e7b301f_cgraph" id="d4/d03/class_recipe_finder_1_1_main_window_a334dae46580f249f78d22b443e7b301f_cgraph">
+<area shape="rect" id="node2" href="../../db/de7/class_recipe_finder_1_1_recipe.html#a54925ca0f7e5afb5930eb9880414d1c3" title="RecipeFinder.Recipe.getCookingMode" alt="" coords="184,5,427,32"/><area shape="rect" id="node3" href="../../db/de7/class_recipe_finder_1_1_recipe.html#a7318841b4cbba257a7525358534a6d4d" title="RecipeFinder.Recipe.getAllergy" alt="" coords="203,56,407,83"/></map>
+</div>
+</p>
+
+</div>
+</div>
 <a class="anchor" id="abec128b54b625916781c462aaeb3ede8"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1182,6 +1337,7 @@ Here is the caller graph for this function:</div>
 <li>RecipeFinder/Functionality/<a class="el" href="../../de/df8/_enum_definitions_8cs_source.html">EnumDefinitions.cs</a></li>
 <li>RecipeFinder/Functionality/<a class="el" href="../../dc/ded/_file_input_8cs_source.html">FileInput.cs</a></li>
 <li>RecipeFinder/<a class="el" href="../../d6/d57/_main_window_8xaml_8cs_source.html">MainWindow.xaml.cs</a></li>
+<li>RecipeFinder/Functionality/<a class="el" href="../../d4/d20/_search_8cs_source.html">Search.cs</a></li>
 <li>RecipeFinder/GUI/<a class="el" href="../../d7/d5c/_allergy_selector___interface_8cs_source.html">AllergySelector_Interface.cs</a></li>
 <li>RecipeFinder/GUI/<a class="el" href="../../dd/d2b/_button___interface_8cs_source.html">Button_Interface.cs</a></li>
 <li>RecipeFinder/GUI/<a class="el" href="../../dd/d27/_check_box___interface_8cs_source.html">CheckBox_Interface.cs</a></li>
@@ -1193,7 +1349,7 @@ Here is the caller graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/de8/namespace_recipe_finder.html">RecipeFinder</a></li><li class="navelem"><a class="el" href="../../d4/d03/class_recipe_finder_1_1_main_window.html">MainWindow</a></li>
-    <li class="footer">Generated on Tue Nov 19 2013 19:33:46 for Recipe Finder by
+    <li class="footer">Generated on Wed Nov 20 2013 11:01:32 for Recipe Finder by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

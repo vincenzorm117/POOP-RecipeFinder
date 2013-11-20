@@ -23,10 +23,8 @@ namespace RecipeFinder
              **/
         public struct recipeMatches
         {
-            private int recipeIndex;
-            public void setIndex (int index) {recipeIndex = index;}
-            private int hitCounter;
-            public void setHitCounter(int hits) {hitCounter = hits;}
+            public int recipeIndex;
+            public int hitCounter;
         }        
 
 
@@ -34,6 +32,9 @@ namespace RecipeFinder
          * \fn         public List<Recipe> searchForRecipies(List<List<bool>> userSearchParams, CookMode cookingMode, List<bool> userAlergens)
          * \brief      Function for searching the recipes for users specifications
          * \author     Ronald Hyatt.
+         * \param
+         * \param
+         * \param
          * \return     A list of recipes that match the user's specifications
          **/
         public List<recipeMatches> searchForRecipies(List<List<bool>> userSearchParams, CookMode cookingMode, List<bool> userAllergens)
@@ -69,7 +70,9 @@ namespace RecipeFinder
                     for(i = 0; i < numAllergens; i ++)
                     {
                         //TODO make getter for recipe allergens
-                        if (current.getAllergen(i) == userAllergens[i])
+                        if(current.getAllergy(0) == false)
+                            break;
+                        else if (current.getAllergy(i) == userAllergens[i])
                         {
                             skip = true;
                             break;
@@ -89,10 +92,12 @@ namespace RecipeFinder
                         if (userSearchParams[i][0].Equals(true))
                         {
                             //Grab that number of ingrediants for this category
-                            //TODO grab the number of ingrediants from this specific category
-                            numIngredients = Enum.
+                            //TODO: grab the number of ingrediants from this specific category
+                            //TODO: Redo when recipe has way of passing it's number of ingredients
+                            numIngredients = 0;
 
                             //If the category is true then loop through the ingredients within
+                            //TODO: Redo to actually compare
                             for (j = 0; j < numIngredients; j++)
                             {
                                 if(userSearchParams[i][j].Equals(true))
@@ -106,10 +111,8 @@ namespace RecipeFinder
                     //If there is at least one hit add it to the list
                     if (hits >= 1)
                     {
-                        //TODO getters for both recipe ID
-                        newRecipe.setIndex(current.getRecipeID());
-                        //TODO figure out why this is not accessing the struct
-                        newRecipe.setHitCounter(hits);
+                        newRecipe.recipeIndex = current.getRecipeID();
+                        newRecipe.hitCounter = hits;
                         
                         results.Add(newRecipe);
                     }
@@ -118,7 +121,7 @@ namespace RecipeFinder
             }
 
             //TODO Sort the results from the search
-            results.So
+            results.Sort();
 
             return results;
         }

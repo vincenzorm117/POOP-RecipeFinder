@@ -26,7 +26,8 @@ namespace RecipeFinder
             Measurements       _measurement; ///< Holds the measurement ID for the ingredient
             IngredientCategory _category;    ///< Holds the category that the ingredient is associated with
         }
-
+        
+        private int                  _RecipeID;            ///< The ID number associated with the stored recipe
         private int                  _TotalTime;           ///< The total time for the recipe
         private int                  _PrepTime;            ///< The amount of time needed to prepare
         private int                  _Servings;            ///< How many servings the recipe makes
@@ -47,26 +48,31 @@ namespace RecipeFinder
         private CookMode             _CookingMode;         ///< The difficulty of the recipe
 
         /**
-         * \fn      public Recipe(int t, int p, int s, int c, int f, int h, int o, int a, int b, int r, int n, string i, string u, List<ingredientData> lst)
-         * \brief   Class constructor used to create a recipe
+         * \fn      public Recipe(int d, int t, int p, int s, int c, int f, int h, int o, int a, int b, int r, int n, string i, string u, List<ingredientData> lst)
+         * \brief   Class constructor used to create a recipe.
          * \author  Ronald Hyatt
-         * \param t The total time for the recipe.
-         * \param p The preptime for the recipe.
-         * \param s The servings for the recipe
-         * \param c The calorie content for the recipe.
-         * \param f The fat content for the recipe.
-         * \param h The cholesterol content for the recipe.
-         * \param o The sodium content for the recipe.
-         * \param a The carbs content for the recipe.
-         * \param b The fiber content for the recipe.
-         * \param r The protein content for the recipe.
-         * \param n The number of ingredients for the recipe.
-         * \param i The title of the recipe.
-         * \param u The instructions for the recipe.
-         * \param m The mode for the recipe.
+         * \param [in] d The associated ID for the recipe.
+         * \param [in] t The total time for the recipe.
+         * \param [in] p The preptime for the recipe.
+         * \param [in] s The servings for the recipe
+         * \param [in] c The calorie content for the recipe.
+         * \param [in] f The fat content for the recipe.
+         * \param [in] h The cholesterol content for the recipe.
+         * \param [in] o The sodium content for the recipe.
+         * \param [in] a The carbs content for the recipe.
+         * \param [in] b The fiber content for the recipe.
+         * \param [in] r The protein content for the recipe.
+         * \param [in] n The number of ingredients for the recipe.
+         * \param [in] i The title of the recipe.
+         * \param [in] u The instructions for the recipe.
+         * \param [in] m The mode for the recipe.
+         * \todo         Create a bool flag list systems for Ronnie.
+         * \todo         When splitting ingredient lists keep track of sizes if possible of those lists.
+         *               Alternate is setting up function to return the size of the selected list.
          **/
-        public Recipe(int t, int p, int s, int c, int f, int h, int o, int a, int b, int r, int n, string i, string u, CookMode m)
+        public Recipe(int d, int t, int p, int s, int c, int f, int h, int o, int a, int b, int r, int n, string i, string u, CookMode m)
         {
+            _RecipeID            = d;
             _TotalTime           = t;
             _PrepTime            = p;
             _Servings            = s;
@@ -82,5 +88,24 @@ namespace RecipeFinder
             _Instructions        = u;
             _CookingMode         = m;
         }
+
+        /**
+         * 
+         **/
+        public int getRecipeID()
+        { return _RecipeID;   }
+
+        /**
+         * 
+         **/
+        public CookMode getCookingMode()
+        { return _CookingMode; }
+
+        /**
+         * 
+         * \todo Fix to match allergy flag lists once complete.
+         **/
+        public bool getAllergy(int i)
+        { return false;        }
     }
 }

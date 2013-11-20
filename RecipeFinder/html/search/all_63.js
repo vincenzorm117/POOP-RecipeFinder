@@ -1,6 +1,7 @@
 var searchData=
 [
   ['carbohydrates',['CARBOHYDRATES',['../db/de8/namespace_recipe_finder.html#aaf7de33908dd1712e0950d770d83d074aad485c42286ee1e01ae3af30428fc57d',1,'RecipeFinder']]],
+  ['categorysplitting_2ecs',['CategorySplitting.cs',['../df/d42/_category_splitting_8cs.html',1,'']]],
   ['check_5fbox_5fchecked_5fevent',['check_Box_Checked_Event',['../d4/d03/class_recipe_finder_1_1_main_window.html#aa7b1f034e622294117faf809b084cfc6',1,'RecipeFinder::MainWindow']]],
   ['check_5fbox_5funchecked_5fevent',['check_Box_Unchecked_Event',['../d4/d03/class_recipe_finder_1_1_main_window.html#ad9b6d20f083e9415282e5be9ffeac829',1,'RecipeFinder::MainWindow']]],
   ['checkbox_5finterface_2ecs',['CheckBox_Interface.cs',['../dd/d27/_check_box___interface_8cs.html',1,'']]],
