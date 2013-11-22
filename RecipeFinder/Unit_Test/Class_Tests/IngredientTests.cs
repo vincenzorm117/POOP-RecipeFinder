@@ -135,6 +135,8 @@ namespace Unit_Test
          * \fn     private static void Ingredient_InputTest()
          * \brief  Function for testing the input functionality for ingredient data.
          * \author Brian McCormick
+         * \todo   Change the structure of this function if the input file is changed to give a better coverage of code functionality.
+         *         This will be likely since a unit test still needs to be created for the splitter function.
          **/
         private static void Ingredient_InputTest()
         {
@@ -204,6 +206,16 @@ namespace Unit_Test
             _ingredientInputResults = new int[2];
             _ingredientInputResults[0] = 30;
             _ingredientInputResults[1] = passCount();
+        }
+    
+        /**
+         * \todo    This function needs to be filled out with a unit test for the ingredient split function.
+         *          This function will need to process the same data as the ingredient input test.
+         * \warning This function will not work if called before the ingredient input test function.
+         **/
+        private static void Ingredient_SplittingTest()
+        {
+
         }
         
         /**

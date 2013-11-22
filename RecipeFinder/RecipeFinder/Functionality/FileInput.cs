@@ -17,14 +17,14 @@ namespace RecipeFinder
         public  static List<Recipe>     _testRecipeList;     ///< List used so that the unit test can have access to the data. Never gets called in the main program.
 
         /**
-         * \fn         public static bool AllergyInput(string path)
-         * \brief      Function for reading allergy data in from file.
-         * \author     Brian McCormick
-         * \param path The path to the input file.
-         * \return     A boolean value representing if the process was successful or not.
-         * \warning    If the path given is not either a hard-coded direct path or a path relative to where the executable is located
-         *             then the allergy input file will not be found.
-         * \todo       Add a means of removing and/or ignoring duplicate ID values from the allergy input file.
+         * \fn              public static bool AllergyInput(string path)
+         * \brief           Function for reading allergy data in from file.
+         * \author          Brian McCormick
+         * \param [in] path The path to the input file.
+         * \return          A boolean value representing if the process was successful or not.
+         * \warning         If the path given is not either a hard-coded direct path or a path relative to where the executable is located
+         *                  then the allergy input file will not be found.
+         * \todo            Add a means of removing and/or ignoring duplicate ID values from the allergy input file.
          **/
         public static bool AllergyInput(string path)
         {
@@ -88,14 +88,14 @@ namespace RecipeFinder
         }
 
         /**
-         * \fn         public static bool IngredientInput(string path)
-         * \brief      Function for reading ingredient data in from file.
-         * \author     Brian McCormick
-         * \param path The path to the input file.
-         * \return     A boolean value representing if the process was successful or not.
-         * \warning    If the path given is not either a hard-coded direct path or a path relative to where the executable is located
-         *             then the ingredient input file will not be found.
-         * \todo       Add a means of removing and/or ignoring duplicate ID values from the ingredient input file.
+         * \fn              public static bool IngredientInput(string path)
+         * \brief           Function for reading ingredient data in from file.
+         * \author          Brian McCormick
+         * \param [in] path The path to the input file.
+         * \return          A boolean value representing if the process was successful or not.
+         * \warning         If the path given is not either a hard-coded direct path or a path relative to where the executable is located
+         *                  then the ingredient input file will not be found.
+         * \todo            Add a means of removing and/or ignoring duplicate ID values from the ingredient input file.
          **/
         public static bool IngredientInput(string path)
         {
@@ -166,6 +166,28 @@ namespace RecipeFinder
                  * \todo Add implementation for adding the error on having a failed ingredient input to a log file
                  **/
                 Console.WriteLine("ERROR: Ingredient File Not Found!");
+                return false;
+            }
+        }
+
+        /**
+         * \fn              public static bool RecipeInput(string path)
+         * \brief           Function for reading recipe data in from file.
+         * \author          Brian McCormick
+         * \param [in] path The path to the input file.
+         * \return          A boolean value representing if the process was successful or not.
+         * \warning         If the path given is not either a hard-coded direct path or a path relative to where the executable is located
+         *                  then the ingredient input file will not be found.
+         * \todo            Add a means of removing and/or ignoring duplicate ID values from the ingredient input file.
+         **/
+        public static bool RecipeInput(string path)
+        {
+            if(File.Exists(path))
+            {
+                return true;
+            }
+            else
+            {
                 return false;
             }
         }

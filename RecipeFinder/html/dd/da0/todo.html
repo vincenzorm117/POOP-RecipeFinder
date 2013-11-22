@@ -103,14 +103,20 @@ $(document).ready(function(){initNavTree('dd/da0/todo.html','../../');});
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><dl class="reflist">
-<dt><a class="anchor" id="_todo000005"></a>Member <a class="el" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#a0fa27e9f6b68e3706d57e706d862bdf0">MainWindow.AllergyInput</a>  (string path)</dt>
+<dt><a class="anchor" id="_todo000006"></a>Member <a class="el" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#a0fa27e9f6b68e3706d57e706d862bdf0">MainWindow.AllergyInput</a>  (string path)</dt>
 <dd><p class="startdd">Add implementation for adding the error on having a failed allergy input to a log file </p>
 <p class="enddd">Add a means of removing and/or ignoring duplicate ID values from the allergy input file.  </p>
 </dd>
-<dt><a class="anchor" id="_todo000007"></a>Member <a class="el" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#a2708b2a683614340425139aa10b9197f">MainWindow.IngredientInput</a>  (string path)</dt>
+<dt><a class="anchor" id="_todo000008"></a>Member <a class="el" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#a2708b2a683614340425139aa10b9197f">MainWindow.IngredientInput</a>  (string path)</dt>
 <dd><p class="startdd">Add implementation for adding the error on having a failed ingredient input to a log file </p>
 <p class="enddd">Add a means of removing and/or ignoring duplicate ID values from the ingredient input file.  </p>
 </dd>
+<dt><a class="anchor" id="_todo000004"></a>Member <a class="el" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#a2451d0d5d68779cb9beaa1d54245c27e">MainWindow.IngredientSplit</a>  ()</dt>
+<dd>Add unit testing for this function. Only the unit test function is needed, there is a test list already set up to be created in this function. The test input file needs to be updated to give better test cases for this function.  </dd>
+<dt><a class="anchor" id="_todo000009"></a>Member <a class="el" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#a9fb2df2cf8378e0d66f52b56b7261804">MainWindow.RecipeInput</a>  (string path)</dt>
+<dd>Add a means of removing and/or ignoring duplicate ID values from the ingredient input file.  </dd>
+<dt><a class="anchor" id="_todo000010"></a>Member <a class="el" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#a56ec5bab27ac2263c7b4e7f9dd4033bd">MainWindow.SearchButton_Click</a>  (object sender, RoutedEventArgs e)</dt>
+<dd>: change to List&lt;List&lt;bool&gt;&gt;  </dd>
 <dt><a class="anchor" id="_todo000001"></a>Class <a class="el" href="../../db/de7/class_recipe_finder_1_1_recipe.html">Recipe</a>  </dt>
 <dd>Change the code for storing the ingredients  </dd>
 <dt><a class="anchor" id="_todo000003"></a>Member <a class="el" href="../../db/de7/class_recipe_finder_1_1_recipe.html#a7318841b4cbba257a7525358534a6d4d">Recipe.getAllergy</a>  (int i)</dt>
@@ -119,7 +125,9 @@ $(document).ready(function(){initNavTree('dd/da0/todo.html','../../');});
 <dd><p class="startdd">Create a bool flag list systems for Ronnie. </p>
 <p class="enddd">When splitting ingredient lists keep track of sizes if possible of those lists. Alternate is setting up function to return the size of the selected list.  </p>
 </dd>
-<dt><a class="anchor" id="_todo000008"></a>Member <a class="el" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#a2e67222db1dca5be5f3731ada487dd0f">UnitTest_Main.Main</a>  ()</dt>
+<dt><a class="anchor" id="_todo000011"></a>Member <a class="el" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#a7f10a8c0ec8f411c5857318e9c731abf">UnitTest_Main.Ingredient_SplittingTest</a>  ()</dt>
+<dd>This function needs to be filled out with a unit test for the ingredient split function. This function will need to process the same data as the ingredient input test.  </dd>
+<dt><a class="anchor" id="_todo000012"></a>Member <a class="el" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#a2e67222db1dca5be5f3731ada487dd0f">UnitTest_Main.Main</a>  ()</dt>
 <dd>There needs to be a log file implemented for the test results. </dd>
 </dl>
 </div></div><!-- contents -->
@@ -127,7 +135,7 @@ $(document).ready(function(){initNavTree('dd/da0/todo.html','../../');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Nov 20 2013 11:01:32 for Recipe Finder by
+    <li class="footer">Generated on Wed Nov 20 2013 18:28:01 for Recipe Finder by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

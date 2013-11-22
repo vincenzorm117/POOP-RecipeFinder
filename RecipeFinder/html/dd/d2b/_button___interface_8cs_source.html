@@ -125,42 +125,42 @@ $(document).ready(function(){initNavTree('dd/d2b/_button___interface_8cs_source.
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;            ResultsPanel.Visibility = System.Windows.Visibility.Visible;</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;            <span class="comment">//List of parameters the user has searched for</span></div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;            HashSet&lt;String&gt;.Enumerator list = checkedIngredients.GetEnumerator();</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            <span class="comment">//Empty list each time</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;            Results.Items.Clear();</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            <span class="keywordflow">while</span>(list.MoveNext())</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;            {</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                <span class="comment">//Send the user parameters</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                <span class="comment">//TODO: Update function call so that it fits with updated data storage methods</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                <span class="comment">//searchForRecipies(userSearchParams, recipeList, cookingMode,  alergens);</span></div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                <span class="keywordflow">while</span>(list.MoveNext())</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                {</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                    String curr = list.Current;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                    Results.Items.Add(curr);</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                }</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            }</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        }</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
-<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#ae542a7a7041c9e4ecafef3a6015fccb6">   49</a></span>&#160;        <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#ae542a7a7041c9e4ecafef3a6015fccb6">Back_Click</a>(<span class="keywordtype">object</span> sender, RoutedEventArgs e)</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        {</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;            <span class="comment">//View Properties Dont Touch</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            ControlTemp.Visibility = System.Windows.Visibility.Visible;</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            SearchPanel.Visibility = System.Windows.Visibility.Visible;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;            ResultsPanel.Visibility = System.Windows.Visibility.Hidden;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        }</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    }</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;}</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment"></span>            HashSet&lt;String&gt;.Enumerator list = checkedIngredients.GetEnumerator();</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;            <span class="comment">//Empty list each time</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            Results.Items.Clear();</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;            <span class="keywordflow">while</span>(list.MoveNext())</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;            {</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                <span class="comment">//Send the user parameters</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                <span class="comment">//TODO: Update function call so that it fits with updated data storage methods</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                <span class="comment">//searchForRecipies(userSearchParams, recipeList, cookingMode,  alergens);</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                <span class="keywordflow">while</span>(list.MoveNext())</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                {</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                    String curr = list.Current;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                    Results.Items.Add(curr);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                }</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            }</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        }</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
+<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#ae542a7a7041c9e4ecafef3a6015fccb6">   50</a></span>&#160;        <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#ae542a7a7041c9e4ecafef3a6015fccb6">Back_Click</a>(<span class="keywordtype">object</span> sender, RoutedEventArgs e)</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        {</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            <span class="comment">//View Properties Dont Touch</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            ControlTemp.Visibility = System.Windows.Visibility.Visible;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;            SearchPanel.Visibility = System.Windows.Visibility.Visible;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            ResultsPanel.Visibility = System.Windows.Visibility.Hidden;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        }</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    }</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;}</div>
 <div class="ttc" id="class_recipe_finder_1_1_main_window_html_a56ec5bab27ac2263c7b4e7f9dd4033bd"><div class="ttname"><a href="../../d4/d03/class_recipe_finder_1_1_main_window.html#a56ec5bab27ac2263c7b4e7f9dd4033bd">RecipeFinder.MainWindow.SearchButton_Click</a></div><div class="ttdeci">void SearchButton_Click(object sender, RoutedEventArgs e)</div><div class="ttdoc">Handles the functionality of when the search button is clicked. </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d2b/_button___interface_8cs_source.html#l00017">Button_Interface.cs:17</a></div></div>
-<div class="ttc" id="class_recipe_finder_1_1_main_window_html_ae542a7a7041c9e4ecafef3a6015fccb6"><div class="ttname"><a href="../../d4/d03/class_recipe_finder_1_1_main_window.html#ae542a7a7041c9e4ecafef3a6015fccb6">RecipeFinder.MainWindow.Back_Click</a></div><div class="ttdeci">void Back_Click(object sender, RoutedEventArgs e)</div><div class="ttdoc">Handles the functionality of when the back button is clicked. </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d2b/_button___interface_8cs_source.html#l00049">Button_Interface.cs:49</a></div></div>
+<div class="ttc" id="class_recipe_finder_1_1_main_window_html_ae542a7a7041c9e4ecafef3a6015fccb6"><div class="ttname"><a href="../../d4/d03/class_recipe_finder_1_1_main_window.html#ae542a7a7041c9e4ecafef3a6015fccb6">RecipeFinder.MainWindow.Back_Click</a></div><div class="ttdeci">void Back_Click(object sender, RoutedEventArgs e)</div><div class="ttdoc">Handles the functionality of when the back button is clicked. </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d2b/_button___interface_8cs_source.html#l00050">Button_Interface.cs:50</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_0fbbbb577b0591d7aa914214a003de10.html">RecipeFinder</a></li><li class="navelem"><a class="el" href="../../dir_dfaf1fb3ddc42a649901ff63c5106c52.html">GUI</a></li><li class="navelem"><a class="el" href="../../dd/d2b/_button___interface_8cs.html">Button_Interface.cs</a></li>
-    <li class="footer">Generated on Wed Nov 20 2013 11:01:32 for Recipe Finder by
+    <li class="footer">Generated on Wed Nov 20 2013 18:28:01 for Recipe Finder by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

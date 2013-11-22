@@ -6,25 +6,48 @@ using System;
 
 namespace RecipeFinder
 {
+    /**
+     * \class  IngredientCheckBox
+     * \brief  An extension of the standard checkbox to include storage of 2D list locations.
+     * \author Brian McCormick
+     **/
     public class IngredientCheckBox : CheckBox
     {
-        private int column;
-        private int row;
+        private int column; ///< The category that the check box is associated with
+        private int row;    ///< The recipe within the category that the check box is associated with
 
-        public void OurCheckBox()
+        /**
+         * \fn           public IngredientCheckBox(int c, int r)
+         * \brief        The constructor for the new check box class.
+         * \author       Brian McCormick
+         * \param [in] c The category the check box is associated with.
+         * \param [in] r The recipe within the category that the check box is associated with.
+         **/
+        public IngredientCheckBox(int c, int r)
         {
+            //The call to the original check box class constructor
             new CheckBox();
+
+            //Set the values for mapping purposes
+            column = c;
+            row    = r;
         }
 
-        public void setColumn(int c)
-        { column = c; }
-
-        public void setRow(int r)
-        { row = r; }
-
+        /**
+         * \fn     public int getColumn()
+         * \brief  Function for accessing the category mapping stored in the check box.
+         * \author Brian McCormick
+         * \return The category value that the check box is mapped to.
+         **/
         public int getColumn()
         { return column; }
 
+        /**
+         * \fn     public int getRow()
+         * \brief  Function for accessing the recipe mapping stored in the check box.
+         * \author Brian McCormick
+         * \return The recipe value that the check box is mapped to.
+         **/
         public int getRow()
         { return row; }
     }
@@ -54,10 +77,8 @@ namespace RecipeFinder
 
                 for(int j = 0; j < _CategoryLists[i].ToArray().Length; j++)
                 {
-                    IngredientCheckBox c = new IngredientCheckBox();            //CheckBox created
+                    IngredientCheckBox c = new IngredientCheckBox(i, j);            //CheckBox created
                     c.Content = _CategoryLists[i][j].getName(); //Its name is set
-                    c.setColumn(i);
-                    c.setRow(j);
 
                     //Adds actionlistener below (check_Box_Checked_Event) to current checkbox. So when the checkbox is selected that method is ran
                     c.Checked += check_Box_Checked_Event;
