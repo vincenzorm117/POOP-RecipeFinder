@@ -95,5 +95,24 @@ namespace RecipeFinder
                 default: return Measurements.NONE;
             }
         }
+
+        /**
+         * \fn
+         * \brief Function for getting an enumerated value for the measurement category based on index value.
+         * \author Brian McCormick
+         * \param [in] i The index value being located.
+         * \return       T
+         **/
+        public static CookMode getCookMode(int i)
+        {
+            switch(i)
+            {
+                case 0:  return CookMode.NONE;
+                case 1:  return CookMode.QUICKANDEASY;
+                case 2:  return CookMode.INTERMEDIATE;
+                case 3:  return CookMode.CHEF;
+                default: return CookMode.NONE;
+            }
+        }
     }
 }
