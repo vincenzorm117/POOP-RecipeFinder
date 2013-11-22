@@ -26,7 +26,11 @@ namespace RecipeFinder
                                TEASPOON,   ///< 1
                                TABLESPOON, ///< 2
                                CUP,        ///< 3
-                               HALFCUP     ///< 4
+                               CLOVES,     ///< 4
+                               OUNCE,      ///< 5
+                               POUND,      ///< 6
+                               M_LITRE,    ///< 7
+                               SLICES      ///< 8
                              };
 
     /**
@@ -35,8 +39,8 @@ namespace RecipeFinder
      * \author Brian McCormick
      **/
     public enum CookMode { NONE,         ///< 0
-                           ONTHEGO,      ///< 1
-                           QUICKANDEASY, ///< 2
+                           QUICKANDEASY, ///< 1
+                           INTERMEDIATE, ///< 2
                            CHEF          ///< 3
                          };
 
@@ -54,17 +58,42 @@ namespace RecipeFinder
         {
             switch(i)
             {
-                case 0: return IngredientCategory.NONE;
-                case 1: return IngredientCategory.VEGITABLES;
-                case 2: return IngredientCategory.FRUITS;
-                case 3: return IngredientCategory.DAIRY;
-                case 4: return IngredientCategory.SEAFOOD;
-                case 5: return IngredientCategory.MEAT;
-                case 6: return IngredientCategory.CARBOHYDRATES;
-                case 7: return IngredientCategory.POULTRY;
+                case 0:  return IngredientCategory.NONE;
+                case 1:  return IngredientCategory.VEGITABLES;
+                case 2:  return IngredientCategory.FRUITS;
+                case 3:  return IngredientCategory.DAIRY;
+                case 4:  return IngredientCategory.SEAFOOD;
+                case 5:  return IngredientCategory.MEAT;
+                case 6:  return IngredientCategory.CARBOHYDRATES;
+                case 7:  return IngredientCategory.POULTRY;
+                default: return IngredientCategory.NONE;
             }
+        }
 
-            return IngredientCategory.NONE;
+        /**
+         * \fn           public static Measurements getMeasurement(int i)
+         * \brief        Function for getting an enumerated value for the measurement category based on index value.
+         * \author       Brian McCormick
+         * \param [in] i The index value being located.
+         * \return       The enumerated value at the given index value.
+         *               Returns the NONE value if the index given doesn't exist.
+         * \todo         Add a unit test for this function.
+         **/
+        public static Measurements getMeasurement(int i)
+        {
+            switch(i)
+            {
+                case 0:  return Measurements.NONE;
+                case 1:  return Measurements.TEASPOON;
+                case 2:  return Measurements.TABLESPOON;
+                case 3:  return Measurements.CUP;
+                case 4:  return Measurements.CLOVES;
+                case 5:  return Measurements.OUNCE;
+                case 6:  return Measurements.POUND;
+                case 7:  return Measurements.M_LITRE;
+                case 8:  return Measurements.SLICES;
+                default: return Measurements.NONE;
+            }
         }
     }
 }

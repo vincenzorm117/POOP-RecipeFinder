@@ -21,7 +21,7 @@ namespace RecipeFinder
          **/
         private struct ingredientData
         {
-            public int                _amount;     ///< Holds the ammount of the ingredient as pulled in from file
+            public string             _amount;      ///< Holds the ammount of the ingredient as pulled in from file
             public int                _categoryID;  ///< Holds the ID value for the ingredient as stored within it's associated category
             public Measurements       _measurement; ///< Holds the measurement ID for the ingredient
             public IngredientCategory _category;    ///< Holds the category that the ingredient is associated with
@@ -48,48 +48,62 @@ namespace RecipeFinder
         private CookMode             _CookingMode;         ///< The difficulty of the recipe
 
         /**
-         * \fn      public Recipe(int d, int t, int p, int s, int c, int f, int h, int o, int a, int b, int r, int n, string i, string u, List<ingredientData> lst)
-         * \brief   Class constructor used to create a recipe.
-         * \author  Ronald Hyatt
-         * \param [in] d The associated ID for the recipe.
-         * \param [in] t The total time for the recipe.
-         * \param [in] p The preptime for the recipe.
-         * \param [in] s The servings for the recipe
-         * \param [in] c The calorie content for the recipe.
-         * \param [in] f The fat content for the recipe.
-         * \param [in] h The cholesterol content for the recipe.
-         * \param [in] o The sodium content for the recipe.
-         * \param [in] a The carbs content for the recipe.
-         * \param [in] b The fiber content for the recipe.
-         * \param [in] r The protein content for the recipe.
-         * \param [in] n The number of ingredients for the recipe.
-         * \param [in] i The title of the recipe.
-         * \param [in] u The instructions for the recipe.
-         * \param [in] m The mode for the recipe.
-         * \todo         Create a bool flag list systems for Ronnie.
-         * \todo         When splitting ingredient lists keep track of sizes if possible of those lists.
-         *               Alternate is setting up function to return the size of the selected list.
+         * \fn              public Recipe(int id, int t, int p, int srv, int c, int f, int h, int o, int a, int b, int r, int n, string l, string u, CookMode m, List<recipeIngredient> list)
+         * \brief           Class constructor used to create a recipe.
+         * \author          Ronald Hyatt
+         * \author          Brian McCormick
+         * \param [in] id   The associated ID for the recipe.
+         * \param [in] t    The total time for the recipe.
+         * \param [in] p    The preptime for the recipe.
+         * \param [in] srv  The servings for the recipe
+         * \param [in] c    The calorie content for the recipe.
+         * \param [in] f    The fat content for the recipe.
+         * \param [in] h    The cholesterol content for the recipe.
+         * \param [in] o    The sodium content for the recipe.
+         * \param [in] a    The carbs content for the recipe.
+         * \param [in] b    The fiber content for the recipe.
+         * \param [in] r    The protein content for the recipe.
+         * \param [in] n    The number of ingredients for the recipe.
+         * \param [in] l    The title of the recipe.
+         * \param [in] u    The instructions for the recipe.
+         * \param [in] m    The mode for the recipe.
+         * \param [in] list The list of ingredient data for the stored recipe.
+         * \todo            Create a bool flag list systems for Ronnie.
+         * \todo            When splitting ingredient lists keep track of sizes if possible of those lists.
+         *                  Alternate is setting up function to return the size of the selected list.
          **/
-        public Recipe(int d, int t, int p, int s, int c, int f, int h, int o, int a, int b, int r, int n, string i, string u, CookMode m)
+        public Recipe(int id, int t, int p, int srv, int c, int f, int h, int o, int a, int b, int r, int n, string l, string u, CookMode m, List<tempIngredientStorage> list)
         {
-            _RecipeID            = d; //Assigned based on a counter in the input function
-            _TotalTime           = t; //From file
-            _PrepTime            = p; //From file
-            _Servings            = s; //From file
-            _Calories            = c; //From file
-            _Fat                 = f; //From file
-            _Cholestorol         = h; //From file
-            _Sodium              = o; //From file
-            _Carbs               = a; //From file
-            _Fiber               = b; //From file
-            _Protein             = r; //From file
-            _NumberOfIngredients = n; //Either from file or counted during input, Will only represent total number of ingredients and not ingredient per category
-            _Title               = i; //From file
-            _Instructions        = u; //From file
-            _CookingMode         = m; //From file (or at least it should be)
+            ingredientData temporaryStorage;
 
-            //Initialize the recipes list of ingredient data to the number of ingredients associated with the recipe
-            _Ingredients = new List<ingredientData>(_NumberOfIngredients);
+            _RecipeID            = id;  //Assigned based on a counter in the input function
+            _TotalTime           = t;   //From file
+            _PrepTime            = p;   //From file
+            _Servings            = srv; //From file
+            _Calories            = c;   //From file
+            _Fat                 = f;   //From file
+            _Cholestorol         = h;   //From file
+            _Sodium              = o;   //From file
+            _Carbs               = a;   //From file
+            _Fiber               = b;   //From file
+            _Protein             = r;   //From file
+            _NumberOfIngredients = n;   //Either from file or counted during input, Will only represent total number of ingredients and not ingredient per category
+            _Title               = l;   //From file
+            _Instructions        = u;   //From file
+            _CookingMode         = m;   //From file (or at least it should be)
+
+            //Create the ingredients data list from raw data input
+            _Ingredients = new List<ingredientData>();
+            foreach(tempIngredientStorage temp in list)
+            {
+                temporaryStorage._amount      = temp.quantity;
+                temporaryStorage._measurement = MainWindow.getMeasurement(temp.measurementID);
+                temporaryStorage._category    = temp.ingredientCat;
+                temporaryStorage._categoryID  = temp.ingredientID;
+
+                _Ingredients.Add(temporaryStorage);
+            }
+            _Ingredients.TrimExcess();
         }
 
         /**
