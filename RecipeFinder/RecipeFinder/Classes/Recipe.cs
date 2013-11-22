@@ -125,7 +125,7 @@ namespace RecipeFinder
         /**
          * \fn      public bool getAllergy(int i)
          * \brief   Functin to grab boolean value
-         * \param   i The index of the allergy in the list. 
+         * \param   i The index of the allergy in the list.
          * \author  Brian McCormick
          * \todo Fix to match allergy flag lists once complete.
          **/
