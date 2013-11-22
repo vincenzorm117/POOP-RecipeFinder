@@ -72,7 +72,7 @@ namespace RecipeFinder
          * \todo            When splitting ingredient lists keep track of sizes if possible of those lists.
          *                  Alternate is setting up function to return the size of the selected list.
          **/
-        public Recipe(int id, int t, int p, int srv, int c, int f, int h, int o, int a, int b, int r, int n, string l, string u, CookMode m, List<tempIngredientStorage> list)
+        public Recipe(int id, int t, int p, int srv, int c, int f, int h, int o, int a, int b, int r, int n, string l, string u, List<tempIngredientStorage> list)
         {
             ingredientData temporaryStorage;
 
@@ -90,7 +90,6 @@ namespace RecipeFinder
             _NumberOfIngredients = n;   //Either from file or counted during input, Will only represent total number of ingredients and not ingredient per category
             _Title               = l;   //From file
             _Instructions        = u;   //From file
-            _CookingMode         = m;   //From file (or at least it should be)
 
             //Create the ingredients data list from raw data input
             _Ingredients = new List<ingredientData>();
@@ -104,6 +103,8 @@ namespace RecipeFinder
                 _Ingredients.Add(temporaryStorage);
             }
             _Ingredients.TrimExcess();
+
+            
         }
 
         /**

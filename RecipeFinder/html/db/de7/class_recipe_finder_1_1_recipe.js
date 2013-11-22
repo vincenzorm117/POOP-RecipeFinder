@@ -1,10 +1,10 @@
 var class_recipe_finder_1_1_recipe =
 [
     [ "ingredientData", "d5/d69/struct_recipe_finder_1_1_recipe_1_1ingredient_data.html", "d5/d69/struct_recipe_finder_1_1_recipe_1_1ingredient_data" ],
-    [ "Recipe", "db/de7/class_recipe_finder_1_1_recipe.html#ad71d4a1912ebd3d31e273477225d84f7", null ],
-    [ "getAllergy", "db/de7/class_recipe_finder_1_1_recipe.html#a7318841b4cbba257a7525358534a6d4d", null ],
-    [ "getCookingMode", "db/de7/class_recipe_finder_1_1_recipe.html#a54925ca0f7e5afb5930eb9880414d1c3", null ],
-    [ "getRecipeID", "db/de7/class_recipe_finder_1_1_recipe.html#a16fe467d570c571dc0c552796e168a7e", null ],
+    [ "Recipe", "db/de7/class_recipe_finder_1_1_recipe.html#a06581a4fc9c75b571648a20e62d8801c", null ],
+    [ "getAllergy", "db/de7/class_recipe_finder_1_1_recipe.html#a465dc6e5c5481c46d865ecc5785d8ad8", null ],
+    [ "getCookingMode", "db/de7/class_recipe_finder_1_1_recipe.html#a8855009393f1a06eade57e21d15c111a", null ],
+    [ "getRecipeID", "db/de7/class_recipe_finder_1_1_recipe.html#ac5ee88b2b4b544507a6bab3c19ee285c", null ],
     [ "_Calories", "db/de7/class_recipe_finder_1_1_recipe.html#a22fd6404b994095286516ed03c7e59a5", null ],
     [ "_Carbs", "db/de7/class_recipe_finder_1_1_recipe.html#a113d4c68405d9cbc8f86944a435c3a80", null ],
     [ "_Cholestorol", "db/de7/class_recipe_finder_1_1_recipe.html#aee122e84bfbc179b50bd09824ab9e1c8", null ],

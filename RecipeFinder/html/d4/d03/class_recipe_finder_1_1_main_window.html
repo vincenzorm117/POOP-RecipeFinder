@@ -129,8 +129,6 @@ $(document).ready(function(){initNavTree('d4/d03/class_recipe_finder_1_1_main_wi
 Collaboration diagram for MainWindow:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../dc/d8e/class_recipe_finder_1_1_main_window__coll__graph.png" border="0" usemap="#_main_window_coll__map" alt="Collaboration graph"/></div>
-<map name="_main_window_coll__map" id="_main_window_coll__map">
-</map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
@@ -206,7 +204,7 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a102ddfa68f331019c4e0e9952a841ff4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#a102ddfa68f331019c4e0e9952a841ff4">print</a> (object sender, RoutedEventArgs e)</td></tr>
 <tr class="separator:a102ddfa68f331019c4e0e9952a841ff4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56ec5bab27ac2263c7b4e7f9dd4033bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#a56ec5bab27ac2263c7b4e7f9dd4033bd">SearchButton_Click</a> (object sender, RoutedEventArgs e)</td></tr>
-<tr class="memdesc:a56ec5bab27ac2263c7b4e7f9dd4033bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles the functionality of when the search button is clicked.  <a href="#a56ec5bab27ac2263c7b4e7f9dd4033bd">More...</a><br/></td></tr>
+<tr class="memdesc:a56ec5bab27ac2263c7b4e7f9dd4033bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles the functionality of when the search button is clicked. \ author Vincenzo Marconi.  <a href="#a56ec5bab27ac2263c7b4e7f9dd4033bd">More...</a><br/></td></tr>
 <tr class="separator:a56ec5bab27ac2263c7b4e7f9dd4033bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abec128b54b625916781c462aaeb3ede8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#abec128b54b625916781c462aaeb3ede8">updateRecipeSelection</a> (object sender, SelectionChangedEventArgs e)</td></tr>
 <tr class="separator:abec128b54b625916781c462aaeb3ede8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -219,8 +217,8 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:ac60eb53080d5e1b3d2bed1ca26c3d3c3"><td class="memItemLeft" align="right" valign="top">List&lt; List&lt; <a class="el" href="../../d3/d10/class_recipe_finder_1_1_ingredient.html">Ingredient</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#ac60eb53080d5e1b3d2bed1ca26c3d3c3">_CategoryLists</a></td></tr>
 <tr class="memdesc:ac60eb53080d5e1b3d2bed1ca26c3d3c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">2D List that holds the categorized ingredient lists  <a href="#ac60eb53080d5e1b3d2bed1ca26c3d3c3">More...</a><br/></td></tr>
 <tr class="separator:ac60eb53080d5e1b3d2bed1ca26c3d3c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9241ac6da35b9de7da64aa85f8790f6a"><td class="memItemLeft" align="right" valign="top">HashSet&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#a9241ac6da35b9de7da64aa85f8790f6a">checkedIngredients</a></td></tr>
-<tr class="separator:a9241ac6da35b9de7da64aa85f8790f6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f1950e7fdd9d959ab570f636e2cbfb6"><td class="memItemLeft" align="right" valign="top">List&lt; List&lt; bool &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#a8f1950e7fdd9d959ab570f636e2cbfb6">checkedIngredients</a></td></tr>
+<tr class="separator:a8f1950e7fdd9d959ab570f636e2cbfb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
@@ -277,16 +275,16 @@ Static Private Attributes</h2></td></tr>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            <span class="comment">/*End Input Functionality Here*/</span></div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;            <a class="code" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#a9241ac6da35b9de7da64aa85f8790f6a">checkedIngredients</a> = <span class="keyword">new</span> HashSet&lt;String&gt;();</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;            <a class="code" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#a8f1950e7fdd9d959ab570f636e2cbfb6">checkedIngredients</a> = <span class="keyword">new</span> List&lt;List&lt;bool&gt;&gt;();</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            InitializeComponent();</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;            <a class="code" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#a4a9a1a53eeccf0acf6cd77acdb6aba56">populateAllergies</a>();</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;            <a class="code" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#aa640b5e22836e77387de6a2f0f946aa6">populateFilterExpandersAndCheckBoxes</a>();</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        }</div>
 <div class="ttc" id="class_recipe_finder_1_1_main_window_html_aa640b5e22836e77387de6a2f0f946aa6"><div class="ttname"><a href="../../d4/d03/class_recipe_finder_1_1_main_window.html#aa640b5e22836e77387de6a2f0f946aa6">RecipeFinder.MainWindow.populateFilterExpandersAndCheckBoxes</a></div><div class="ttdeci">void populateFilterExpandersAndCheckBoxes()</div><div class="ttdoc">Used for creating the expanders and their check boxes. </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d2a/_ingredient_selector___interface_8cs_source.html#l00061">IngredientSelector_Interface.cs:61</a></div></div>
 <div class="ttc" id="class_recipe_finder_1_1_main_window_html_a2451d0d5d68779cb9beaa1d54245c27e"><div class="ttname"><a href="../../d4/d03/class_recipe_finder_1_1_main_window.html#a2451d0d5d68779cb9beaa1d54245c27e">RecipeFinder.MainWindow.IngredientSplit</a></div><div class="ttdeci">void IngredientSplit()</div><div class="ttdoc">Function for splitting the ingredients into separate category list. </div><div class="ttdef"><b>Definition:</b> <a href="../../df/d42/_category_splitting_8cs_source.html#l00022">CategorySplitting.cs:22</a></div></div>
+<div class="ttc" id="class_recipe_finder_1_1_main_window_html_a8f1950e7fdd9d959ab570f636e2cbfb6"><div class="ttname"><a href="../../d4/d03/class_recipe_finder_1_1_main_window.html#a8f1950e7fdd9d959ab570f636e2cbfb6">RecipeFinder.MainWindow.checkedIngredients</a></div><div class="ttdeci">List&lt; List&lt; bool &gt; &gt; checkedIngredients</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d57/_main_window_8xaml_8cs_source.html#l00026">MainWindow.xaml.cs:26</a></div></div>
 <div class="ttc" id="class_recipe_finder_1_1_main_window_html_a4a9a1a53eeccf0acf6cd77acdb6aba56"><div class="ttname"><a href="../../d4/d03/class_recipe_finder_1_1_main_window.html#a4a9a1a53eeccf0acf6cd77acdb6aba56">RecipeFinder.MainWindow.populateAllergies</a></div><div class="ttdeci">void populateAllergies()</div><div class="ttdoc">Used to add allergies to the GUI. </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/_allergy_selector___interface_8cs_source.html#l00013">AllergySelector_Interface.cs:13</a></div></div>
 <div class="ttc" id="class_recipe_finder_1_1_main_window_html_a2708b2a683614340425139aa10b9197f"><div class="ttname"><a href="../../d4/d03/class_recipe_finder_1_1_main_window.html#a2708b2a683614340425139aa10b9197f">RecipeFinder.MainWindow.IngredientInput</a></div><div class="ttdeci">static bool IngredientInput(string path)</div><div class="ttdoc">Function for reading ingredient data in from file. </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ded/_file_input_8cs_source.html#l00113">FileInput.cs:113</a></div></div>
-<div class="ttc" id="class_recipe_finder_1_1_main_window_html_a9241ac6da35b9de7da64aa85f8790f6a"><div class="ttname"><a href="../../d4/d03/class_recipe_finder_1_1_main_window.html#a9241ac6da35b9de7da64aa85f8790f6a">RecipeFinder.MainWindow.checkedIngredients</a></div><div class="ttdeci">HashSet&lt; String &gt; checkedIngredients</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d57/_main_window_8xaml_8cs_source.html#l00026">MainWindow.xaml.cs:26</a></div></div>
 <div class="ttc" id="class_recipe_finder_1_1_main_window_html_a0fa27e9f6b68e3706d57e706d862bdf0"><div class="ttname"><a href="../../d4/d03/class_recipe_finder_1_1_main_window.html#a0fa27e9f6b68e3706d57e706d862bdf0">RecipeFinder.MainWindow.AllergyInput</a></div><div class="ttdeci">static bool AllergyInput(string path)</div><div class="ttdoc">Function for reading allergy data in from file. </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ded/_file_input_8cs_source.html#l00042">FileInput.cs:42</a></div></div>
 </div><!-- fragment -->
 <p><div class="dynheader">
@@ -448,13 +446,13 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../dd/d2b/_button___interface_8cs_source.html#l00050">50</a> of file <a class="el" href="../../dd/d2b/_button___interface_8cs_source.html">Button_Interface.cs</a>.</p>
-<div class="fragment"><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        {</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            <span class="comment">//View Properties Dont Touch</span></div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            ControlTemp.Visibility = System.Windows.Visibility.Visible;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;            SearchPanel.Visibility = System.Windows.Visibility.Visible;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            ResultsPanel.Visibility = System.Windows.Visibility.Hidden;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        }</div>
+<p>Definition at line <a class="el" href="../../dd/d2b/_button___interface_8cs_source.html#l00051">51</a> of file <a class="el" href="../../dd/d2b/_button___interface_8cs_source.html">Button_Interface.cs</a>.</p>
+<div class="fragment"><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        {</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            <span class="comment">//View Properties Dont Touch</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;            ControlTemp.Visibility = System.Windows.Visibility.Visible;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            SearchPanel.Visibility = System.Windows.Visibility.Visible;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            ResultsPanel.Visibility = System.Windows.Visibility.Hidden;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1127,8 +1125,8 @@ Here is the caller graph for this function:</div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="../../d6/d57/_main_window_8xaml_8cs_source.html#l00076">76</a> of file <a class="el" href="../../d6/d57/_main_window_8xaml_8cs_source.html">MainWindow.xaml.cs</a>.</p>
-<div class="fragment"><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        { <span class="comment">/*Don&#39;t Touch this unless your handling view*/</span> }</div>
+<p>Definition at line <a class="el" href="../../d6/d57/_main_window_8xaml_8cs_source.html#l00077">77</a> of file <a class="el" href="../../d6/d57/_main_window_8xaml_8cs_source.html">MainWindow.xaml.cs</a>.</p>
+<div class="fragment"><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        { <span class="comment">/*Don&#39;t Touch this unless your handling view*/</span> }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1199,82 +1197,89 @@ Here is the caller graph for this function:</div>
 <div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;                <span class="comment">//Read in the entire file</span></div>
 <div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;                lines = File.ReadAllLines(path);</div>
 <div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;</div>
-<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;                <span class="keywordflow">foreach</span>(<span class="keywordtype">string</span> l <span class="keywordflow">in</span> lines)</div>
-<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;                {</div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;                    <span class="keywordflow">if</span>(counter == 0)</div>
-<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;                        tempName = l;</div>
-<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;                    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(counter == 1)</div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;                        int.TryParse(l, out tempTime);</div>
-<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;                    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(counter == 2)</div>
-<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;                        int.TryParse(l, out tempPrep);</div>
-<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;                    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(counter == 3)</div>
-<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;                        int.TryParse(l, out tempServings);</div>
-<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;                    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(counter == 4)</div>
-<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;                        int.TryParse(l, out tempCalories);</div>
-<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;                    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(counter == 5)</div>
-<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;                        int.TryParse(l, out tempFat);</div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;                    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(counter == 6)</div>
-<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;                        int.TryParse(l, out tempChol);</div>
-<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;                    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(counter == 7)</div>
-<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;                        int.TryParse(l, out tempSodium);</div>
-<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;                    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(counter == 8)</div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;                        int.TryParse(l, out tempCarb);</div>
-<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;                    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(counter == 9)</div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;                        int.TryParse(l, out tempFiber);</div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;                    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(counter == 10)</div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;                        int.TryParse(l, out tempProtein);</div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;                    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(counter == 11)</div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;                        int.TryParse(l, out tempNumIngrd);</div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;                    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(counter == 12)</div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;                    {</div>
-<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;                        counterTwo = 0;</div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;                        parsedLine = l.Split(delimiters);</div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;</div>
-<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;                        <span class="keywordflow">foreach</span>(<span class="keywordtype">string</span> x <span class="keywordflow">in</span> parsedLine)</div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;                        {</div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;                            <span class="keywordflow">if</span>(counterTwo == 0)</div>
-<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;                                tempQuantity = x;</div>
-<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;                            <span class="keywordflow">else</span> <span class="keywordflow">if</span>(counterTwo == 1)</div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;                                int.TryParse(x, out tempMeasure);</div>
-<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;                            <span class="keywordflow">else</span> <span class="keywordflow">if</span>(counterTwo == 2)</div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;                            {</div>
-<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;                                int.TryParse(x, out tempID);</div>
-<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;</div>
-<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;                                stagedIngredient.quantity      = tempQuantity;</div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;                                stagedIngredient.measurementID = tempMeasure;</div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;                                stagedIngredient.ingredientID  = <a class="code" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#ab4fb87a18069a1846f19f7cbb3c70a8c">_ingredientList</a>[tempID].getCategoryID();</div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;                                stagedIngredient.ingredientCat = <a class="code" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#ab4fb87a18069a1846f19f7cbb3c70a8c">_ingredientList</a>[tempID].getCategory();</div>
-<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;                                tempIngredient.Add(stagedIngredient);</div>
-<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;                            }</div>
-<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;</div>
-<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;                            counterTwo++;</div>
-<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;                            <span class="keywordflow">if</span>(counterTwo &gt;= 3)</div>
-<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;                                counterTwo = 0;</div>
-<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;                        }</div>
-<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;                    }</div>
-<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;                    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(counter == 13)</div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;                    {</div>
-<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;                        tempInstr = l;</div>
-<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;</div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;                        <span class="comment">//Create a new recipe object</span></div>
-<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;                        <span class="comment">//Add the new recipe object to the recipe list</span></div>
-<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;                    }</div>
-<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;</div>
-<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;</div>
-<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;                    <span class="comment">//Increment the counter and reset it when needed</span></div>
-<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;                    counter++;</div>
-<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;                    <span class="keywordflow">if</span>(counter &gt;= 14)</div>
-<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;                        counter = 0;</div>
-<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;                }</div>
-<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;</div>
-<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;            }</div>
-<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;            <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;            {</div>
-<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;            }</div>
-<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;        }</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;                <span class="comment">//Reset the recipe ID counter</span></div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;                counterID = 0;</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;                <span class="keywordflow">foreach</span>(<span class="keywordtype">string</span> l <span class="keywordflow">in</span> lines)</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;                {</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;                    <span class="keywordflow">if</span>(counter == 0)</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;                        tempName = l;</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;                    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(counter == 1)</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;                        int.TryParse(l, out tempTime);</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;                    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(counter == 2)</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;                        int.TryParse(l, out tempPrep);</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;                    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(counter == 3)</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;                        int.TryParse(l, out tempServings);</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;                    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(counter == 4)</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;                        int.TryParse(l, out tempCalories);</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;                    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(counter == 5)</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;                        int.TryParse(l, out tempFat);</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;                    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(counter == 6)</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;                        int.TryParse(l, out tempChol);</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;                    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(counter == 7)</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;                        int.TryParse(l, out tempSodium);</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;                    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(counter == 8)</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;                        int.TryParse(l, out tempCarb);</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;                    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(counter == 9)</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;                        int.TryParse(l, out tempFiber);</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;                    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(counter == 10)</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;                        int.TryParse(l, out tempProtein);</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;                    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(counter == 11)</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;                    {</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;                        counterTwo = 0;</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;                        parsedLine = l.Split(delimiters);</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;                        <span class="keywordflow">foreach</span>(<span class="keywordtype">string</span> x <span class="keywordflow">in</span> parsedLine)</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;                        {</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;                            <span class="keywordflow">if</span>(counterTwo == 0)</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;                                tempQuantity = x;</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;                            <span class="keywordflow">else</span> <span class="keywordflow">if</span>(counterTwo == 1)</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;                                int.TryParse(x, out tempMeasure);</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;                            <span class="keywordflow">else</span> <span class="keywordflow">if</span>(counterTwo == 2)</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;                            {</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;                                int.TryParse(x, out tempID);</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;                                stagedIngredient.quantity      = tempQuantity;</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;                                stagedIngredient.measurementID = tempMeasure;</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;                                stagedIngredient.ingredientID  = <a class="code" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#ab4fb87a18069a1846f19f7cbb3c70a8c">_ingredientList</a>[tempID].getCategoryID();</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;                                stagedIngredient.ingredientCat = <a class="code" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#ab4fb87a18069a1846f19f7cbb3c70a8c">_ingredientList</a>[tempID].getCategory();</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;                                tempIngredient.Add(stagedIngredient);</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;                            }</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;                            counterTwo++;</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;                            <span class="keywordflow">if</span>(counterTwo &gt;= 3)</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;                                counterTwo = 0;</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;                        }</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;                    }</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;                    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(counter == 12)</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;                    {</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;                        tempInstr = l;</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;                        tempNumIngrd = tempIngredient.ToArray().Length;</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;                        _recipeList.Add(<span class="keyword">new</span> Recipe(counterID, tempTime, tempPrep, tempServings, tempCalories, tempFat, tempChol, tempSodium, tempCarb,</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;                                                   tempFiber, tempProtein, tempNumIngrd, tempName, tempInstr, tempIngredient));</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;                        _testRecipeList.Add(<a class="code" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#acf0e20770bdc2331e6fa227f4b97d3d2">_recipeList</a>[counterID]);</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;                    }</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;                    <span class="comment">//Increment the counter and reset it when needed</span></div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;                    counter++;</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;                    <span class="keywordflow">if</span>(counter &gt;= 13)</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;                        counter = 0;</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;                    <span class="comment">//Increment the counter being used </span></div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;                    counterID++;</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;                }</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;            }</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;            <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;            {</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;            }</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;        }</div>
 <div class="ttc" id="class_recipe_finder_1_1_main_window_html_ab4fb87a18069a1846f19f7cbb3c70a8c"><div class="ttname"><a href="../../d4/d03/class_recipe_finder_1_1_main_window.html#ab4fb87a18069a1846f19f7cbb3c70a8c">RecipeFinder.MainWindow._ingredientList</a></div><div class="ttdeci">static List&lt; Ingredient &gt; _ingredientList</div><div class="ttdoc">The list used to hold the ingredient list read in from file. </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ded/_file_input_8cs_source.html#l00026">FileInput.cs:26</a></div></div>
+<div class="ttc" id="class_recipe_finder_1_1_main_window_html_acf0e20770bdc2331e6fa227f4b97d3d2"><div class="ttname"><a href="../../d4/d03/class_recipe_finder_1_1_main_window.html#acf0e20770bdc2331e6fa227f4b97d3d2">RecipeFinder.MainWindow._recipeList</a></div><div class="ttdeci">static List&lt; Recipe &gt; _recipeList</div><div class="ttdoc">The list used to hold the recipe list read in from file. </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ded/_file_input_8cs_source.html#l00029">FileInput.cs:29</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1310,42 +1315,54 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Handles the functionality of when the search button is clicked. </p>
+<p>Handles the functionality of when the search button is clicked. \ author Vincenzo Marconi. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">sender</td><td></td></tr>
-    <tr><td class="paramname">e</td><td></td></tr>
+    <tr><td class="paramname">e</td><td>\ author Vincenzo Marconi </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000011">Todo:</a></b></dt><dd>: change to List&lt;List&lt;bool&gt;&gt; </dd></dl>
 
-<p>Definition at line <a class="el" href="../../dd/d2b/_button___interface_8cs_source.html#l00017">17</a> of file <a class="el" href="../../dd/d2b/_button___interface_8cs_source.html">Button_Interface.cs</a>.</p>
-<div class="fragment"><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        {</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;            <span class="comment">//View Properties Dont touch</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;            ControlTemp.Visibility = System.Windows.Visibility.Hidden;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;            SearchPanel.Visibility = System.Windows.Visibility.Hidden;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;            ResultsPanel.Visibility = System.Windows.Visibility.Visible;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;            <span class="comment">//List of parameters the user has searched for</span></div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment"></span>            HashSet&lt;String&gt;.Enumerator list = checkedIngredients.GetEnumerator();</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;            <span class="comment">//Empty list each time</span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            Results.Items.Clear();</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;            <span class="keywordflow">while</span>(list.MoveNext())</div>
+<p>Definition at line <a class="el" href="../../dd/d2b/_button___interface_8cs_source.html#l00019">19</a> of file <a class="el" href="../../dd/d2b/_button___interface_8cs_source.html">Button_Interface.cs</a>.</p>
+<div class="fragment"><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        {</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;            <span class="comment">//View Properties Dont touch</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;            ControlTemp.Visibility = System.Windows.Visibility.Hidden;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;            SearchPanel.Visibility = System.Windows.Visibility.Hidden;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;            ResultsPanel.Visibility = System.Windows.Visibility.Visible;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;            <span class="keywordtype">int</span> i, j;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            <span class="comment">//Empty list each time</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;            Results.Items.Clear();</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;            <span class="keywordflow">for</span> (i = 0; i &lt; Enum.GetNames(typeof(<a class="code" href="../../db/de8/namespace_recipe_finder.html#aaf7de33908dd1712e0950d770d83d074">IngredientCategory</a>)).Length; i++)</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;            {</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                <span class="comment">//Send the user parameters</span></div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                <span class="comment">//TODO: Update function call so that it fits with updated data storage methods</span></div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                <span class="comment">//searchForRecipies(userSearchParams, recipeList, cookingMode,  alergens);</span></div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                <span class="keywordflow">while</span>(list.MoveNext())</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                {</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                    String curr = list.Current;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                    Results.Items.Add(curr);</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                }</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            }</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        }</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                <span class="keywordflow">for</span> (j = 0; j &lt; <a class="code" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#ac60eb53080d5e1b3d2bed1ca26c3d3c3">_CategoryLists</a>[i].ToArray().Length; j++)</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                {</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                    <span class="keywordtype">bool</span> curr = <a class="code" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#a8f1950e7fdd9d959ab570f636e2cbfb6">checkedIngredients</a>.[i][j];</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                    Results.Items.Add(curr);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                }</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            }</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            <span class="comment">//TODO: find these values for input</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            <a class="code" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#a334dae46580f249f78d22b443e7b301f">searchForRecipies</a>(cookingMode,  allergens);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        }</div>
+<div class="ttc" id="class_recipe_finder_1_1_main_window_html_a8f1950e7fdd9d959ab570f636e2cbfb6"><div class="ttname"><a href="../../d4/d03/class_recipe_finder_1_1_main_window.html#a8f1950e7fdd9d959ab570f636e2cbfb6">RecipeFinder.MainWindow.checkedIngredients</a></div><div class="ttdeci">List&lt; List&lt; bool &gt; &gt; checkedIngredients</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d57/_main_window_8xaml_8cs_source.html#l00026">MainWindow.xaml.cs:26</a></div></div>
+<div class="ttc" id="namespace_recipe_finder_html_aaf7de33908dd1712e0950d770d83d074"><div class="ttname"><a href="../../db/de8/namespace_recipe_finder.html#aaf7de33908dd1712e0950d770d83d074">RecipeFinder.IngredientCategory</a></div><div class="ttdeci">IngredientCategory</div><div class="ttdoc">Enum for ordering ingredient categories. </div><div class="ttdef"><b>Definition:</b> <a href="../../de/df8/_enum_definitions_8cs_source.html#l00010">EnumDefinitions.cs:10</a></div></div>
+<div class="ttc" id="class_recipe_finder_1_1_main_window_html_a334dae46580f249f78d22b443e7b301f"><div class="ttname"><a href="../../d4/d03/class_recipe_finder_1_1_main_window.html#a334dae46580f249f78d22b443e7b301f">RecipeFinder.MainWindow.searchForRecipies</a></div><div class="ttdeci">List&lt; recipeMatches &gt; searchForRecipies(List&lt; List&lt; bool &gt;&gt; userSearchParams, CookMode cookingMode, List&lt; bool &gt; userAllergens)</div><div class="ttdoc">Function for searching the recipes for users specifications. </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d20/_search_8cs_source.html#l00040">Search.cs:40</a></div></div>
+<div class="ttc" id="class_recipe_finder_1_1_main_window_html_ac60eb53080d5e1b3d2bed1ca26c3d3c3"><div class="ttname"><a href="../../d4/d03/class_recipe_finder_1_1_main_window.html#ac60eb53080d5e1b3d2bed1ca26c3d3c3">RecipeFinder.MainWindow._CategoryLists</a></div><div class="ttdeci">List&lt; List&lt; Ingredient &gt; &gt; _CategoryLists</div><div class="ttdoc">2D List that holds the categorized ingredient lists </div><div class="ttdef"><b>Definition:</b> <a href="../../df/d42/_category_splitting_8cs_source.html#l00009">CategorySplitting.cs:9</a></div></div>
 </div><!-- fragment -->
+<p><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d4/d03/class_recipe_finder_1_1_main_window_a56ec5bab27ac2263c7b4e7f9dd4033bd_cgraph.png" border="0" usemap="#d4/d03/class_recipe_finder_1_1_main_window_a56ec5bab27ac2263c7b4e7f9dd4033bd_cgraph" alt=""/></div>
+<map name="d4/d03/class_recipe_finder_1_1_main_window_a56ec5bab27ac2263c7b4e7f9dd4033bd_cgraph" id="d4/d03/class_recipe_finder_1_1_main_window_a56ec5bab27ac2263c7b4e7f9dd4033bd_cgraph">
+<area shape="rect" id="node2" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#a334dae46580f249f78d22b443e7b301f" title="Function for searching the recipes for users specifications. " alt="" coords="192,31,323,57"/><area shape="rect" id="node3" href="../../db/de7/class_recipe_finder_1_1_recipe.html#a8855009393f1a06eade57e21d15c111a" title="RecipeFinder.Recipe.getCookingMode" alt="" coords="371,5,613,32"/><area shape="rect" id="node4" href="../../db/de7/class_recipe_finder_1_1_recipe.html#a465dc6e5c5481c46d865ecc5785d8ad8" title="Functin to grab boolean value. " alt="" coords="390,56,594,83"/></map>
+</div>
+</p>
+
 </div>
 </div>
 <a class="anchor" id="a334dae46580f249f78d22b443e7b301f"></a>
@@ -1492,7 +1509,16 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d4/d03/class_recipe_finder_1_1_main_window_a334dae46580f249f78d22b443e7b301f_cgraph.png" border="0" usemap="#d4/d03/class_recipe_finder_1_1_main_window_a334dae46580f249f78d22b443e7b301f_cgraph" alt=""/></div>
 <map name="d4/d03/class_recipe_finder_1_1_main_window_a334dae46580f249f78d22b443e7b301f_cgraph" id="d4/d03/class_recipe_finder_1_1_main_window_a334dae46580f249f78d22b443e7b301f_cgraph">
-<area shape="rect" id="node2" href="../../db/de7/class_recipe_finder_1_1_recipe.html#a54925ca0f7e5afb5930eb9880414d1c3" title="RecipeFinder.Recipe.getCookingMode" alt="" coords="184,5,427,32"/><area shape="rect" id="node3" href="../../db/de7/class_recipe_finder_1_1_recipe.html#a7318841b4cbba257a7525358534a6d4d" title="RecipeFinder.Recipe.getAllergy" alt="" coords="203,56,407,83"/></map>
+<area shape="rect" id="node2" href="../../db/de7/class_recipe_finder_1_1_recipe.html#a8855009393f1a06eade57e21d15c111a" title="RecipeFinder.Recipe.getCookingMode" alt="" coords="184,5,427,32"/><area shape="rect" id="node3" href="../../db/de7/class_recipe_finder_1_1_recipe.html#a465dc6e5c5481c46d865ecc5785d8ad8" title="Functin to grab boolean value. " alt="" coords="203,56,407,83"/></map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d4/d03/class_recipe_finder_1_1_main_window_a334dae46580f249f78d22b443e7b301f_icgraph.png" border="0" usemap="#d4/d03/class_recipe_finder_1_1_main_window_a334dae46580f249f78d22b443e7b301f_icgraph" alt=""/></div>
+<map name="d4/d03/class_recipe_finder_1_1_main_window_a334dae46580f249f78d22b443e7b301f_icgraph" id="d4/d03/class_recipe_finder_1_1_main_window_a334dae46580f249f78d22b443e7b301f_icgraph">
+<area shape="rect" id="node2" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#a56ec5bab27ac2263c7b4e7f9dd4033bd" title="Handles the functionality of when the search button is clicked. \ author Vincenzo Marconi..." alt="" coords="185,5,322,32"/></map>
 </div>
 </p>
 
@@ -1545,10 +1571,11 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            <span class="keywordflow">if</span>(s != null)</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                <span class="keywordflow">if</span> (s.Items.Count &gt; 0)</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                {</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                    String x = s.SelectedItem.ToString();</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                    RecipeDisplayed.Document.Blocks.Add(<span class="keyword">new</span> Paragraph(<span class="keyword">new</span> Run(x)));</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                }</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        }</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                    <span class="comment">//TODO: fix it so that if a box is selected make it true</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                    String x = s.SelectedItem.ToString();</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                    RecipeDisplayed.Document.Blocks.Add(<span class="keyword">new</span> Paragraph(<span class="keyword">new</span> Run(x)));</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                }</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1761,7 +1788,7 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a class="anchor" id="a9241ac6da35b9de7da64aa85f8790f6a"></a>
+<a class="anchor" id="a8f1950e7fdd9d959ab570f636e2cbfb6"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1769,7 +1796,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">HashSet&lt;String&gt; checkedIngredients</td>
+          <td class="memname">List&lt;List&lt;bool&gt; &gt; checkedIngredients</td>
         </tr>
       </table>
   </td>
@@ -1800,7 +1827,7 @@ Here is the call graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/de8/namespace_recipe_finder.html">RecipeFinder</a></li><li class="navelem"><a class="el" href="../../d4/d03/class_recipe_finder_1_1_main_window.html">MainWindow</a></li>
-    <li class="footer">Generated on Fri Nov 22 2013 01:28:43 for Recipe Finder by
+    <li class="footer">Generated on Fri Nov 22 2013 15:48:19 for Recipe Finder by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

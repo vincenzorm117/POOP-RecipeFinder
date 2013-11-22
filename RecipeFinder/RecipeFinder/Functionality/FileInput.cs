@@ -286,7 +286,8 @@ namespace RecipeFinder
                         tempNumIngrd = tempIngredient.ToArray().Length;
 
                         _recipeList.Add(new Recipe(counterID, tempTime, tempPrep, tempServings, tempCalories, tempFat, tempChol, tempSodium, tempCarb,
-                                                   tempFiber, tempProtein, tempNumIngrd, tempName, tempInstr, CookMode.NONE, tempIngredient));
+                                                   tempFiber, tempProtein, tempNumIngrd, tempName, tempInstr, tempIngredient));
+                        _testRecipeList.Add(_recipeList[counterID]);
                     }
 
 
