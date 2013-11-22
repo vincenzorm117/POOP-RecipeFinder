@@ -93,19 +93,26 @@ namespace RecipeFinder
         }
 
         /**
-         * 
+         * \fn      public int getRecipeID()
+         * \brief   Function to grab the unique recipe ID.
+         * \author  Brian McCormick
          **/
         public int getRecipeID()
         { return _RecipeID;   }
 
         /**
-         * 
+         * \fn      public CookMode getCookingMode()
+         * \ brief  Function to grab the cooking mode the recipe is classified under
+         * \author  Brian McCormick
          **/
         public CookMode getCookingMode()
         { return _CookingMode; }
 
         /**
-         * 
+         * \fn      public bool getAllergy(int i)
+         * \brief   Functin to grab boolean value
+         * \param   i The index of the allergy in the list. 
+         * \author  Brian McCormick
          * \todo Fix to match allergy flag lists once complete.
          **/
         public bool getAllergy(int i)
