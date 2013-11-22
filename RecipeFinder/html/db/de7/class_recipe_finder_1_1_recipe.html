@@ -122,6 +122,8 @@ $(document).ready(function(){initNavTree('db/de7/class_recipe_finder_1_1_recipe.
 Collaboration diagram for Recipe:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d6/d27/class_recipe_finder_1_1_recipe__coll__graph.png" border="0" usemap="#_recipe_coll__map" alt="Collaboration graph"/></div>
+<map name="_recipe_coll__map" id="_recipe_coll__map">
+</map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
@@ -140,6 +142,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a465dc6e5c5481c46d865ecc5785d8ad8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8855009393f1a06eade57e21d15c111a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/de8/namespace_recipe_finder.html#ab71acea099a6fa440169f766b9e9bbe4">CookMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de7/class_recipe_finder_1_1_recipe.html#a8855009393f1a06eade57e21d15c111a">getCookingMode</a> ()</td></tr>
 <tr class="separator:a8855009393f1a06eade57e21d15c111a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d4c005a71907aa3857c0a0ca76f816a"><td class="memItemLeft" align="right" valign="top">List&lt; List&lt; bool &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de7/class_recipe_finder_1_1_recipe.html#a6d4c005a71907aa3857c0a0ca76f816a">getIngredientFlags</a> ()</td></tr>
+<tr class="separator:a6d4c005a71907aa3857c0a0ca76f816a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5ee88b2b4b544507a6bab3c19ee285c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de7/class_recipe_finder_1_1_recipe.html#ac5ee88b2b4b544507a6bab3c19ee285c">getRecipeID</a> ()</td></tr>
 <tr class="memdesc:ac5ee88b2b4b544507a6bab3c19ee285c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function to grab the unique recipe ID.  <a href="#ac5ee88b2b4b544507a6bab3c19ee285c">More...</a><br/></td></tr>
 <tr class="separator:ac5ee88b2b4b544507a6bab3c19ee285c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -188,6 +192,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a6737c171025e32c049e70979302cca54"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de7/class_recipe_finder_1_1_recipe.html#a6737c171025e32c049e70979302cca54">_Sodium</a></td></tr>
 <tr class="memdesc:a6737c171025e32c049e70979302cca54"><td class="mdescLeft">&#160;</td><td class="mdescRight">How much sodium per serving (mg)  <a href="#a6737c171025e32c049e70979302cca54">More...</a><br/></td></tr>
 <tr class="separator:a6737c171025e32c049e70979302cca54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2058037f5d9efd54c54ef35607e7a39"><td class="memItemLeft" align="right" valign="top">List&lt; List&lt; bool &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de7/class_recipe_finder_1_1_recipe.html#ab2058037f5d9efd54c54ef35607e7a39">_Temporary</a></td></tr>
+<tr class="memdesc:ab2058037f5d9efd54c54ef35607e7a39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Temporarily taking the place of the 2D bool array.  <a href="#ab2058037f5d9efd54c54ef35607e7a39">More...</a><br/></td></tr>
+<tr class="separator:ab2058037f5d9efd54c54ef35607e7a39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a993460bebf0e6be6a9a7f04ec733b229"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de7/class_recipe_finder_1_1_recipe.html#a993460bebf0e6be6a9a7f04ec733b229">_Title</a></td></tr>
 <tr class="memdesc:a993460bebf0e6be6a9a7f04ec733b229"><td class="mdescLeft">&#160;</td><td class="mdescRight">The title of the recipe being stored.  <a href="#a993460bebf0e6be6a9a7f04ec733b229">More...</a><br/></td></tr>
 <tr class="separator:a993460bebf0e6be6a9a7f04ec733b229"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -341,43 +348,54 @@ Brian McCormick </dd></dl>
 <p class="enddd">When splitting ingredient lists keep track of sizes if possible of those lists. Alternate is setting up function to return the size of the selected list. </p>
 </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d0/d84/_recipe_8cs_source.html#l00075">75</a> of file <a class="el" href="../../d0/d84/_recipe_8cs_source.html">Recipe.cs</a>.</p>
-<div class="fragment"><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        {</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;            ingredientData temporaryStorage;</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;            <a class="code" href="../../db/de7/class_recipe_finder_1_1_recipe.html#ad972a22e1446c6d3e028beba09ffcf52">_RecipeID</a>            = id;  <span class="comment">//Assigned based on a counter in the input function</span></div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;            <a class="code" href="../../db/de7/class_recipe_finder_1_1_recipe.html#a81ede87eddf0f15a0bc271820bb87fad">_TotalTime</a>           = t;   <span class="comment">//From file</span></div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;            <a class="code" href="../../db/de7/class_recipe_finder_1_1_recipe.html#ab16fddf8b6de939bd1d20a86f971b255">_PrepTime</a>            = p;   <span class="comment">//From file</span></div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;            <a class="code" href="../../db/de7/class_recipe_finder_1_1_recipe.html#a64277918eefa691e3485c1cd1cc0934f">_Servings</a>            = srv; <span class="comment">//From file</span></div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;            <a class="code" href="../../db/de7/class_recipe_finder_1_1_recipe.html#a22fd6404b994095286516ed03c7e59a5">_Calories</a>            = c;   <span class="comment">//From file</span></div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;            <a class="code" href="../../db/de7/class_recipe_finder_1_1_recipe.html#a57379214ae4c2bf4cb30a0866db169bc">_Fat</a>                 = f;   <span class="comment">//From file</span></div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;            <a class="code" href="../../db/de7/class_recipe_finder_1_1_recipe.html#aee122e84bfbc179b50bd09824ab9e1c8">_Cholestorol</a>         = h;   <span class="comment">//From file</span></div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;            <a class="code" href="../../db/de7/class_recipe_finder_1_1_recipe.html#a6737c171025e32c049e70979302cca54">_Sodium</a>              = o;   <span class="comment">//From file</span></div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;            <a class="code" href="../../db/de7/class_recipe_finder_1_1_recipe.html#a113d4c68405d9cbc8f86944a435c3a80">_Carbs</a>               = a;   <span class="comment">//From file</span></div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;            <a class="code" href="../../db/de7/class_recipe_finder_1_1_recipe.html#af03910779e0f33a51671fd4aef2b8a9d">_Fiber</a>               = b;   <span class="comment">//From file</span></div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            <a class="code" href="../../db/de7/class_recipe_finder_1_1_recipe.html#aec5d220e62353c9c1cc3ab0ae96a8de7">_Protein</a>             = r;   <span class="comment">//From file</span></div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;            <a class="code" href="../../db/de7/class_recipe_finder_1_1_recipe.html#a5364340abec7282a2d04e105c8f78ad1">_NumberOfIngredients</a> = n;   <span class="comment">//Either from file or counted during input, Will only represent total number of ingredients and not ingredient per category</span></div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;            <a class="code" href="../../db/de7/class_recipe_finder_1_1_recipe.html#a993460bebf0e6be6a9a7f04ec733b229">_Title</a>               = l;   <span class="comment">//From file</span></div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;            <a class="code" href="../../db/de7/class_recipe_finder_1_1_recipe.html#af6d2f7abb6c2120cdaac2d6578a0be83">_Instructions</a>        = u;   <span class="comment">//From file</span></div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;            <span class="comment">//Create the ingredients data list from raw data input</span></div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;            <a class="code" href="../../db/de7/class_recipe_finder_1_1_recipe.html#a65911dd2d6baea7102dc3f01a9afc04d">_Ingredients</a> = <span class="keyword">new</span> List&lt;ingredientData&gt;();</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;            <span class="keywordflow">foreach</span>(tempIngredientStorage temp <span class="keywordflow">in</span> list)</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;            {</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;                temporaryStorage._amount      = temp.quantity;</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;                temporaryStorage._measurement = MainWindow.getMeasurement(temp.measurementID);</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;                temporaryStorage._category    = temp.ingredientCat;</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;                temporaryStorage._categoryID  = temp.ingredientID;</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;                _Ingredients.Add(temporaryStorage);</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;            }</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;            _Ingredients.TrimExcess();</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;            </div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        }</div>
+<p>Definition at line <a class="el" href="../../d0/d84/_recipe_8cs_source.html#l00077">77</a> of file <a class="el" href="../../d0/d84/_recipe_8cs_source.html">Recipe.cs</a>.</p>
+<div class="fragment"><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        {</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;            ingredientData temporaryStorage;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;            <a class="code" href="../../db/de7/class_recipe_finder_1_1_recipe.html#ad972a22e1446c6d3e028beba09ffcf52">_RecipeID</a>            = id;  <span class="comment">//Assigned based on a counter in the input function</span></div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;            <a class="code" href="../../db/de7/class_recipe_finder_1_1_recipe.html#a81ede87eddf0f15a0bc271820bb87fad">_TotalTime</a>           = t;   <span class="comment">//From file</span></div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;            <a class="code" href="../../db/de7/class_recipe_finder_1_1_recipe.html#ab16fddf8b6de939bd1d20a86f971b255">_PrepTime</a>            = p;   <span class="comment">//From file</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;            <a class="code" href="../../db/de7/class_recipe_finder_1_1_recipe.html#a64277918eefa691e3485c1cd1cc0934f">_Servings</a>            = srv; <span class="comment">//From file</span></div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;            <a class="code" href="../../db/de7/class_recipe_finder_1_1_recipe.html#a22fd6404b994095286516ed03c7e59a5">_Calories</a>            = c;   <span class="comment">//From file</span></div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;            <a class="code" href="../../db/de7/class_recipe_finder_1_1_recipe.html#a57379214ae4c2bf4cb30a0866db169bc">_Fat</a>                 = f;   <span class="comment">//From file</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;            <a class="code" href="../../db/de7/class_recipe_finder_1_1_recipe.html#aee122e84bfbc179b50bd09824ab9e1c8">_Cholestorol</a>         = h;   <span class="comment">//From file</span></div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;            <a class="code" href="../../db/de7/class_recipe_finder_1_1_recipe.html#a6737c171025e32c049e70979302cca54">_Sodium</a>              = o;   <span class="comment">//From file</span></div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            <a class="code" href="../../db/de7/class_recipe_finder_1_1_recipe.html#a113d4c68405d9cbc8f86944a435c3a80">_Carbs</a>               = a;   <span class="comment">//From file</span></div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;            <a class="code" href="../../db/de7/class_recipe_finder_1_1_recipe.html#af03910779e0f33a51671fd4aef2b8a9d">_Fiber</a>               = b;   <span class="comment">//From file</span></div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;            <a class="code" href="../../db/de7/class_recipe_finder_1_1_recipe.html#aec5d220e62353c9c1cc3ab0ae96a8de7">_Protein</a>             = r;   <span class="comment">//From file</span></div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;            <a class="code" href="../../db/de7/class_recipe_finder_1_1_recipe.html#a5364340abec7282a2d04e105c8f78ad1">_NumberOfIngredients</a> = n;   <span class="comment">//Either from file or counted during input, Will only represent total number of ingredients and not ingredient per category</span></div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;            <a class="code" href="../../db/de7/class_recipe_finder_1_1_recipe.html#a993460bebf0e6be6a9a7f04ec733b229">_Title</a>               = l;   <span class="comment">//From file</span></div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;            <a class="code" href="../../db/de7/class_recipe_finder_1_1_recipe.html#af6d2f7abb6c2120cdaac2d6578a0be83">_Instructions</a>        = u;   <span class="comment">//From file</span></div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;            <span class="comment">//Create the ingredients data list from raw data input</span></div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;            <a class="code" href="../../db/de7/class_recipe_finder_1_1_recipe.html#a65911dd2d6baea7102dc3f01a9afc04d">_Ingredients</a> = <span class="keyword">new</span> List&lt;ingredientData&gt;();</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;            <span class="keywordflow">foreach</span>(tempIngredientStorage temp <span class="keywordflow">in</span> list)</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;            {</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;                temporaryStorage._amount      = temp.quantity;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;                temporaryStorage._measurement = MainWindow.getMeasurement(temp.measurementID);</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;                temporaryStorage._category    = temp.ingredientCat;</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;                temporaryStorage._categoryID  = temp.ingredientID;</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;                _Ingredients.Add(temporaryStorage);</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;            }</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;            _Ingredients.TrimExcess();</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;            <span class="comment">//Apply the cooking mode for the recipe</span></div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../db/de7/class_recipe_finder_1_1_recipe.html#a81ede87eddf0f15a0bc271820bb87fad">_TotalTime</a> &lt; 20)</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;                <a class="code" href="../../db/de7/class_recipe_finder_1_1_recipe.html#abd63c35d5fc0f58e4dd636d25a0243e3">_CookingMode</a> = MainWindow.getCookMode(1);</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span>(<a class="code" href="../../db/de7/class_recipe_finder_1_1_recipe.html#a81ede87eddf0f15a0bc271820bb87fad">_TotalTime</a> &lt;= 60)</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;                <a class="code" href="../../db/de7/class_recipe_finder_1_1_recipe.html#abd63c35d5fc0f58e4dd636d25a0243e3">_CookingMode</a> = MainWindow.getCookMode(2);</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;            <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;                <a class="code" href="../../db/de7/class_recipe_finder_1_1_recipe.html#abd63c35d5fc0f58e4dd636d25a0243e3">_CookingMode</a> = MainWindow.getCookMode(3);</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;            <span class="comment">//TEST CODE</span></div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;            <a class="code" href="../../db/de7/class_recipe_finder_1_1_recipe.html#ab2058037f5d9efd54c54ef35607e7a39">_Temporary</a> = <span class="keyword">new</span> List&lt;List&lt;bool&gt;&gt;();</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        }</div>
+<div class="ttc" id="class_recipe_finder_1_1_recipe_html_abd63c35d5fc0f58e4dd636d25a0243e3"><div class="ttname"><a href="../../db/de7/class_recipe_finder_1_1_recipe.html#abd63c35d5fc0f58e4dd636d25a0243e3">RecipeFinder.Recipe._CookingMode</a></div><div class="ttdeci">CookMode _CookingMode</div><div class="ttdoc">The difficulty of the recipe. </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d84/_recipe_8cs_source.html#l00050">Recipe.cs:50</a></div></div>
 <div class="ttc" id="class_recipe_finder_1_1_recipe_html_a22fd6404b994095286516ed03c7e59a5"><div class="ttname"><a href="../../db/de7/class_recipe_finder_1_1_recipe.html#a22fd6404b994095286516ed03c7e59a5">RecipeFinder.Recipe._Calories</a></div><div class="ttdeci">int _Calories</div><div class="ttdoc">How many calories per serving (kcal) </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d84/_recipe_8cs_source.html#l00034">Recipe.cs:34</a></div></div>
 <div class="ttc" id="class_recipe_finder_1_1_recipe_html_a65911dd2d6baea7102dc3f01a9afc04d"><div class="ttname"><a href="../../db/de7/class_recipe_finder_1_1_recipe.html#a65911dd2d6baea7102dc3f01a9afc04d">RecipeFinder.Recipe._Ingredients</a></div><div class="ttdeci">List&lt; ingredientData &gt; _Ingredients</div><div class="ttdoc">The list of ingredients for the recipe being stored. </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d84/_recipe_8cs_source.html#l00046">Recipe.cs:46</a></div></div>
 <div class="ttc" id="class_recipe_finder_1_1_recipe_html_a5364340abec7282a2d04e105c8f78ad1"><div class="ttname"><a href="../../db/de7/class_recipe_finder_1_1_recipe.html#a5364340abec7282a2d04e105c8f78ad1">RecipeFinder.Recipe._NumberOfIngredients</a></div><div class="ttdeci">int _NumberOfIngredients</div><div class="ttdoc">The total number of ingredients for this recipe. </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d84/_recipe_8cs_source.html#l00041">Recipe.cs:41</a></div></div>
+<div class="ttc" id="class_recipe_finder_1_1_recipe_html_ab2058037f5d9efd54c54ef35607e7a39"><div class="ttname"><a href="../../db/de7/class_recipe_finder_1_1_recipe.html#ab2058037f5d9efd54c54ef35607e7a39">RecipeFinder.Recipe._Temporary</a></div><div class="ttdeci">List&lt; List&lt; bool &gt; &gt; _Temporary</div><div class="ttdoc">Temporarily taking the place of the 2D bool array. </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d84/_recipe_8cs_source.html#l00048">Recipe.cs:48</a></div></div>
 <div class="ttc" id="class_recipe_finder_1_1_recipe_html_af6d2f7abb6c2120cdaac2d6578a0be83"><div class="ttname"><a href="../../db/de7/class_recipe_finder_1_1_recipe.html#af6d2f7abb6c2120cdaac2d6578a0be83">RecipeFinder.Recipe._Instructions</a></div><div class="ttdeci">string _Instructions</div><div class="ttdoc">The instructions for the recipe being stored. </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d84/_recipe_8cs_source.html#l00044">Recipe.cs:44</a></div></div>
 <div class="ttc" id="class_recipe_finder_1_1_recipe_html_aec5d220e62353c9c1cc3ab0ae96a8de7"><div class="ttname"><a href="../../db/de7/class_recipe_finder_1_1_recipe.html#aec5d220e62353c9c1cc3ab0ae96a8de7">RecipeFinder.Recipe._Protein</a></div><div class="ttdeci">int _Protein</div><div class="ttdoc">How much protien per serving (g) </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d84/_recipe_8cs_source.html#l00040">Recipe.cs:40</a></div></div>
 <div class="ttc" id="class_recipe_finder_1_1_recipe_html_a64277918eefa691e3485c1cd1cc0934f"><div class="ttname"><a href="../../db/de7/class_recipe_finder_1_1_recipe.html#a64277918eefa691e3485c1cd1cc0934f">RecipeFinder.Recipe._Servings</a></div><div class="ttdeci">int _Servings</div><div class="ttdoc">How many servings the recipe makes. </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d84/_recipe_8cs_source.html#l00033">Recipe.cs:33</a></div></div>
@@ -426,15 +444,15 @@ Brian McCormick </dd></dl>
 <dl class="section author"><dt>Author</dt><dd>Brian McCormick </dd></dl>
 <dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.html#_todo000003">Todo:</a></b></dt><dd>Fix to match allergy flag lists once complete. </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d0/d84/_recipe_8cs_source.html#l00133">133</a> of file <a class="el" href="../../d0/d84/_recipe_8cs_source.html">Recipe.cs</a>.</p>
-<div class="fragment"><div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;        { <span class="keywordflow">return</span> <span class="keyword">false</span>;        }</div>
+<p>Definition at line <a class="el" href="../../d0/d84/_recipe_8cs_source.html#l00144">144</a> of file <a class="el" href="../../d0/d84/_recipe_8cs_source.html">Recipe.cs</a>.</p>
+<div class="fragment"><div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;        { <span class="keywordflow">return</span> <span class="keyword">false</span>;        }</div>
 </div><!-- fragment -->
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../db/de7/class_recipe_finder_1_1_recipe_a465dc6e5c5481c46d865ecc5785d8ad8_icgraph.png" border="0" usemap="#db/de7/class_recipe_finder_1_1_recipe_a465dc6e5c5481c46d865ecc5785d8ad8_icgraph" alt=""/></div>
 <map name="db/de7/class_recipe_finder_1_1_recipe_a465dc6e5c5481c46d865ecc5785d8ad8_icgraph" id="db/de7/class_recipe_finder_1_1_recipe_a465dc6e5c5481c46d865ecc5785d8ad8_icgraph">
-<area shape="rect" id="node2" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#a334dae46580f249f78d22b443e7b301f" title="Function for searching the recipes for users specifications. " alt="" coords="133,5,352,46"/><area shape="rect" id="node3" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#a56ec5bab27ac2263c7b4e7f9dd4033bd" title="Handles the functionality of when the search button is clicked. \ author Vincenzo Marconi..." alt="" coords="401,5,581,46"/></map>
+<area shape="rect" id="node2" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#a334dae46580f249f78d22b443e7b301f" title="Function for searching the recipes for users specifications. " alt="" coords="133,5,352,46"/></map>
 </div>
 </p>
 
@@ -463,19 +481,46 @@ Here is the caller graph for this function:</div>
 <p>\ brief Function to grab the cooking mode the recipe is classified under </p>
 <dl class="section author"><dt>Author</dt><dd>Brian McCormick </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d0/d84/_recipe_8cs_source.html#l00123">123</a> of file <a class="el" href="../../d0/d84/_recipe_8cs_source.html">Recipe.cs</a>.</p>
-<div class="fragment"><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        { <span class="keywordflow">return</span> <a class="code" href="../../db/de7/class_recipe_finder_1_1_recipe.html#abd63c35d5fc0f58e4dd636d25a0243e3">_CookingMode</a>; }</div>
-<div class="ttc" id="class_recipe_finder_1_1_recipe_html_abd63c35d5fc0f58e4dd636d25a0243e3"><div class="ttname"><a href="../../db/de7/class_recipe_finder_1_1_recipe.html#abd63c35d5fc0f58e4dd636d25a0243e3">RecipeFinder.Recipe._CookingMode</a></div><div class="ttdeci">CookMode _CookingMode</div><div class="ttdoc">The difficulty of the recipe. </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d84/_recipe_8cs_source.html#l00048">Recipe.cs:48</a></div></div>
+<p>Definition at line <a class="el" href="../../d0/d84/_recipe_8cs_source.html#l00134">134</a> of file <a class="el" href="../../d0/d84/_recipe_8cs_source.html">Recipe.cs</a>.</p>
+<div class="fragment"><div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        { <span class="keywordflow">return</span> <a class="code" href="../../db/de7/class_recipe_finder_1_1_recipe.html#abd63c35d5fc0f58e4dd636d25a0243e3">_CookingMode</a>; }</div>
+<div class="ttc" id="class_recipe_finder_1_1_recipe_html_abd63c35d5fc0f58e4dd636d25a0243e3"><div class="ttname"><a href="../../db/de7/class_recipe_finder_1_1_recipe.html#abd63c35d5fc0f58e4dd636d25a0243e3">RecipeFinder.Recipe._CookingMode</a></div><div class="ttdeci">CookMode _CookingMode</div><div class="ttdoc">The difficulty of the recipe. </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d84/_recipe_8cs_source.html#l00050">Recipe.cs:50</a></div></div>
 </div><!-- fragment -->
 <p><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../db/de7/class_recipe_finder_1_1_recipe_a8855009393f1a06eade57e21d15c111a_icgraph.png" border="0" usemap="#db/de7/class_recipe_finder_1_1_recipe_a8855009393f1a06eade57e21d15c111a_icgraph" alt=""/></div>
 <map name="db/de7/class_recipe_finder_1_1_recipe_a8855009393f1a06eade57e21d15c111a_icgraph" id="db/de7/class_recipe_finder_1_1_recipe_a8855009393f1a06eade57e21d15c111a_icgraph">
-<area shape="rect" id="node2" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#a334dae46580f249f78d22b443e7b301f" title="Function for searching the recipes for users specifications. " alt="" coords="173,5,392,46"/><area shape="rect" id="node3" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#a56ec5bab27ac2263c7b4e7f9dd4033bd" title="Handles the functionality of when the search button is clicked. \ author Vincenzo Marconi..." alt="" coords="441,5,621,46"/></map>
+<area shape="rect" id="node2" href="../../d4/d03/class_recipe_finder_1_1_main_window.html#a334dae46580f249f78d22b443e7b301f" title="Function for searching the recipes for users specifications. " alt="" coords="173,5,392,46"/></map>
 </div>
 </p>
 
+</div>
+</div>
+<a class="anchor" id="a6d4c005a71907aa3857c0a0ca76f816a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;List&lt;bool&gt; &gt; getIngredientFlags </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d0/d84/_recipe_8cs_source.html#l00150">150</a> of file <a class="el" href="../../d0/d84/_recipe_8cs_source.html">Recipe.cs</a>.</p>
+<div class="fragment"><div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        { <span class="keywordflow">return</span> <a class="code" href="../../db/de7/class_recipe_finder_1_1_recipe.html#ab2058037f5d9efd54c54ef35607e7a39">_Temporary</a>;   }</div>
+<div class="ttc" id="class_recipe_finder_1_1_recipe_html_ab2058037f5d9efd54c54ef35607e7a39"><div class="ttname"><a href="../../db/de7/class_recipe_finder_1_1_recipe.html#ab2058037f5d9efd54c54ef35607e7a39">RecipeFinder.Recipe._Temporary</a></div><div class="ttdeci">List&lt; List&lt; bool &gt; &gt; _Temporary</div><div class="ttdoc">Temporarily taking the place of the 2D bool array. </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d84/_recipe_8cs_source.html#l00048">Recipe.cs:48</a></div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a class="anchor" id="ac5ee88b2b4b544507a6bab3c19ee285c"></a>
@@ -502,8 +547,8 @@ Here is the caller graph for this function:</div>
 <p>Function to grab the unique recipe ID. </p>
 <dl class="section author"><dt>Author</dt><dd>Brian McCormick </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d0/d84/_recipe_8cs_source.html#l00115">115</a> of file <a class="el" href="../../d0/d84/_recipe_8cs_source.html">Recipe.cs</a>.</p>
-<div class="fragment"><div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        { <span class="keywordflow">return</span> <a class="code" href="../../db/de7/class_recipe_finder_1_1_recipe.html#ad972a22e1446c6d3e028beba09ffcf52">_RecipeID</a>;   }</div>
+<p>Definition at line <a class="el" href="../../d0/d84/_recipe_8cs_source.html#l00126">126</a> of file <a class="el" href="../../d0/d84/_recipe_8cs_source.html">Recipe.cs</a>.</p>
+<div class="fragment"><div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        { <span class="keywordflow">return</span> <a class="code" href="../../db/de7/class_recipe_finder_1_1_recipe.html#ad972a22e1446c6d3e028beba09ffcf52">_RecipeID</a>;   }</div>
 <div class="ttc" id="class_recipe_finder_1_1_recipe_html_ad972a22e1446c6d3e028beba09ffcf52"><div class="ttname"><a href="../../db/de7/class_recipe_finder_1_1_recipe.html#ad972a22e1446c6d3e028beba09ffcf52">RecipeFinder.Recipe._RecipeID</a></div><div class="ttdeci">int _RecipeID</div><div class="ttdoc">The ID number associated with the stored recipe. </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d84/_recipe_8cs_source.html#l00030">Recipe.cs:30</a></div></div>
 </div><!-- fragment -->
 </div>
@@ -601,7 +646,7 @@ Here is the caller graph for this function:</div>
 
 <p>The difficulty of the recipe. </p>
 
-<p>Definition at line <a class="el" href="../../d0/d84/_recipe_8cs_source.html#l00048">48</a> of file <a class="el" href="../../d0/d84/_recipe_8cs_source.html">Recipe.cs</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d84/_recipe_8cs_source.html#l00050">50</a> of file <a class="el" href="../../d0/d84/_recipe_8cs_source.html">Recipe.cs</a>.</p>
 
 </div>
 </div>
@@ -845,6 +890,30 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a class="anchor" id="ab2058037f5d9efd54c54ef35607e7a39"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;List&lt;bool&gt; &gt; _Temporary</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Temporarily taking the place of the 2D bool array. </p>
+
+<p>Definition at line <a class="el" href="../../d0/d84/_recipe_8cs_source.html#l00048">48</a> of file <a class="el" href="../../d0/d84/_recipe_8cs_source.html">Recipe.cs</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a993460bebf0e6be6a9a7f04ec733b229"></a>
 <div class="memitem">
 <div class="memproto">
@@ -902,7 +971,7 @@ Here is the caller graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/de8/namespace_recipe_finder.html">RecipeFinder</a></li><li class="navelem"><a class="el" href="../../db/de7/class_recipe_finder_1_1_recipe.html">Recipe</a></li>
-    <li class="footer">Generated on Fri Nov 22 2013 15:48:19 for Recipe Finder by
+    <li class="footer">Generated on Fri Nov 22 2013 17:04:30 for Recipe Finder by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

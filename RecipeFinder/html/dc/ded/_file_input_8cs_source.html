@@ -367,16 +367,22 @@ $(document).ready(function(){initNavTree('dc/ded/_file_input_8cs_source.html','.
 <div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;                    <span class="comment">//Increment the counter being used </span></div>
 <div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;                    counterID++;</div>
 <div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;                }</div>
-<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;</div>
-<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;            }</div>
-<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;            <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;            {</div>
-<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;            }</div>
-<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;        }</div>
-<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;    }</div>
-<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;}</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;                </div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;                <span class="comment">//Clean up excess memory</span></div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;                _recipeList.TrimExcess();</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;                _testRecipeList.TrimExcess();</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;                <span class="comment">//Return a success signal</span></div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;            }</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;            <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;            {</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;                Console.WriteLine(<span class="stringliteral">&quot;ERROR: Recipe File Not Found!&quot;</span>);</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;            }</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;        }</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;    }</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;}</div>
 <div class="ttc" id="class_recipe_finder_1_1_allergy_html"><div class="ttname"><a href="../../d0/d44/class_recipe_finder_1_1_allergy.html">RecipeFinder.Allergy</a></div><div class="ttdoc">Storage for a single Allergy. </div><div class="ttdef"><b>Definition:</b> <a href="../../db/df3/_allergy_8cs_source.html#l00014">Allergy.cs:14</a></div></div>
 <div class="ttc" id="class_recipe_finder_1_1_main_window_html_a7a70b55840d374bfd73148ce88252646"><div class="ttname"><a href="../../d4/d03/class_recipe_finder_1_1_main_window.html#a7a70b55840d374bfd73148ce88252646">RecipeFinder.MainWindow._testAllergyList</a></div><div class="ttdeci">static List&lt; Allergy &gt; _testAllergyList</div><div class="ttdoc">List used so that the unit test can have access to the data. Never gets called in the main program...</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ded/_file_input_8cs_source.html#l00024">FileInput.cs:24</a></div></div>
 <div class="ttc" id="class_recipe_finder_1_1_main_window_html_a2a533838f5a30b6348f17594211094ca"><div class="ttname"><a href="../../d4/d03/class_recipe_finder_1_1_main_window.html#a2a533838f5a30b6348f17594211094ca">RecipeFinder.MainWindow._allergyList</a></div><div class="ttdeci">static List&lt; Allergy &gt; _allergyList</div><div class="ttdoc">The list used to hold the allergy list read in from file. </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ded/_file_input_8cs_source.html#l00023">FileInput.cs:23</a></div></div>
@@ -403,7 +409,7 @@ $(document).ready(function(){initNavTree('dc/ded/_file_input_8cs_source.html','.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_0fbbbb577b0591d7aa914214a003de10.html">RecipeFinder</a></li><li class="navelem"><a class="el" href="../../dir_b3235e7f3aa0928e0db2c77b9202398a.html">Functionality</a></li><li class="navelem"><a class="el" href="../../dc/ded/_file_input_8cs.html">FileInput.cs</a></li>
-    <li class="footer">Generated on Fri Nov 22 2013 15:48:19 for Recipe Finder by
+    <li class="footer">Generated on Fri Nov 22 2013 17:04:30 for Recipe Finder by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

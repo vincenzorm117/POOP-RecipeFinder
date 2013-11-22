@@ -7,6 +7,7 @@ var class_recipe_finder_1_1_main_window =
     [ "check_Box_Checked_Event", "d4/d03/class_recipe_finder_1_1_main_window.html#aa7b1f034e622294117faf809b084cfc6", null ],
     [ "check_Box_Unchecked_Event", "d4/d03/class_recipe_finder_1_1_main_window.html#ad9b6d20f083e9415282e5be9ffeac829", null ],
     [ "getCategory", "d4/d03/class_recipe_finder_1_1_main_window.html#af85b4cb8a2d6f89b6587479ffc4ceb97", null ],
+    [ "getCookMode", "d4/d03/class_recipe_finder_1_1_main_window.html#a50edd07294f5e7fd7f93c069e1d02509", null ],
     [ "getMeasurement", "d4/d03/class_recipe_finder_1_1_main_window.html#a0348c9536d46af751a0ea96e262e0017", null ],
     [ "IngredientInput", "d4/d03/class_recipe_finder_1_1_main_window.html#a2708b2a683614340425139aa10b9197f", null ],
     [ "IngredientSplit", "d4/d03/class_recipe_finder_1_1_main_window.html#a2451d0d5d68779cb9beaa1d54245c27e", null ],
@@ -26,5 +27,6 @@ var class_recipe_finder_1_1_main_window =
     [ "_TestCategoryLists", "d4/d03/class_recipe_finder_1_1_main_window.html#ae0e90cb333c1e3705a6db529eae49fe7", null ],
     [ "_testIngredientList", "d4/d03/class_recipe_finder_1_1_main_window.html#a6eb269e23ed1008e56288fb4c78dcad5", null ],
     [ "_testRecipeList", "d4/d03/class_recipe_finder_1_1_main_window.html#ab927fee630f572eaf9d0a5cad64d0423", null ],
-    [ "checkedIngredients", "d4/d03/class_recipe_finder_1_1_main_window.html#a8f1950e7fdd9d959ab570f636e2cbfb6", null ]
+    [ "checkedIngredients", "d4/d03/class_recipe_finder_1_1_main_window.html#a8f1950e7fdd9d959ab570f636e2cbfb6", null ],
+    [ "selectedMode", "d4/d03/class_recipe_finder_1_1_main_window.html#a56fd08a4c55b86d6f025e0fc96a93a5c", null ]
 ];

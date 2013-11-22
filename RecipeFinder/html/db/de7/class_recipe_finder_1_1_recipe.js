@@ -4,6 +4,7 @@ var class_recipe_finder_1_1_recipe =
     [ "Recipe", "db/de7/class_recipe_finder_1_1_recipe.html#a06581a4fc9c75b571648a20e62d8801c", null ],
     [ "getAllergy", "db/de7/class_recipe_finder_1_1_recipe.html#a465dc6e5c5481c46d865ecc5785d8ad8", null ],
     [ "getCookingMode", "db/de7/class_recipe_finder_1_1_recipe.html#a8855009393f1a06eade57e21d15c111a", null ],
+    [ "getIngredientFlags", "db/de7/class_recipe_finder_1_1_recipe.html#a6d4c005a71907aa3857c0a0ca76f816a", null ],
     [ "getRecipeID", "db/de7/class_recipe_finder_1_1_recipe.html#ac5ee88b2b4b544507a6bab3c19ee285c", null ],
     [ "_Calories", "db/de7/class_recipe_finder_1_1_recipe.html#a22fd6404b994095286516ed03c7e59a5", null ],
     [ "_Carbs", "db/de7/class_recipe_finder_1_1_recipe.html#a113d4c68405d9cbc8f86944a435c3a80", null ],
@@ -19,6 +20,7 @@ var class_recipe_finder_1_1_recipe =
     [ "_RecipeID", "db/de7/class_recipe_finder_1_1_recipe.html#ad972a22e1446c6d3e028beba09ffcf52", null ],
     [ "_Servings", "db/de7/class_recipe_finder_1_1_recipe.html#a64277918eefa691e3485c1cd1cc0934f", null ],
     [ "_Sodium", "db/de7/class_recipe_finder_1_1_recipe.html#a6737c171025e32c049e70979302cca54", null ],
+    [ "_Temporary", "db/de7/class_recipe_finder_1_1_recipe.html#ab2058037f5d9efd54c54ef35607e7a39", null ],
     [ "_Title", "db/de7/class_recipe_finder_1_1_recipe.html#a993460bebf0e6be6a9a7f04ec733b229", null ],
     [ "_TotalTime", "db/de7/class_recipe_finder_1_1_recipe.html#a81ede87eddf0f15a0bc271820bb87fad", null ]
 ];
