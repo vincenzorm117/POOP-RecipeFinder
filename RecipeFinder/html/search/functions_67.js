@@ -6,6 +6,7 @@ var searchData=
   ['getcolumn',['getColumn',['../d3/dbf/class_recipe_finder_1_1_ingredient_check_box.html#ab2f9fce5ee9001b54a925284057b34c6',1,'RecipeFinder::IngredientCheckBox']]],
   ['getcookingmode',['getCookingMode',['../db/de7/class_recipe_finder_1_1_recipe.html#a54925ca0f7e5afb5930eb9880414d1c3',1,'RecipeFinder::Recipe']]],
   ['getid',['getID',['../d0/d44/class_recipe_finder_1_1_allergy.html#aadf0f62cf1d2e89eaf79aa8b4e98a61e',1,'RecipeFinder.Allergy.getID()'],['../d3/d10/class_recipe_finder_1_1_ingredient.html#aadf0f62cf1d2e89eaf79aa8b4e98a61e',1,'RecipeFinder.Ingredient.getID()']]],
+  ['getmeasurement',['getMeasurement',['../d4/d03/class_recipe_finder_1_1_main_window.html#a0348c9536d46af751a0ea96e262e0017',1,'RecipeFinder::MainWindow']]],
   ['getmsg',['getMsg',['../d0/d44/class_recipe_finder_1_1_allergy.html#a718a12063575796f8530790e010aff78',1,'RecipeFinder::Allergy']]],
   ['getname',['getName',['../d0/d44/class_recipe_finder_1_1_allergy.html#a30ef346e0fd02313d7fdb2bda10f9f1e',1,'RecipeFinder.Allergy.getName()'],['../d3/d10/class_recipe_finder_1_1_ingredient.html#a30ef346e0fd02313d7fdb2bda10f9f1e',1,'RecipeFinder.Ingredient.getName()']]],
   ['getrecipeid',['getRecipeID',['../db/de7/class_recipe_finder_1_1_recipe.html#a16fe467d570c571dc0c552796e168a7e',1,'RecipeFinder::Recipe']]],

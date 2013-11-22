@@ -94,6 +94,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="#index_i"><span>i</span></a></li>
       <li><a href="#index_m"><span>m</span></a></li>
       <li><a href="#index_p"><span>p</span></a></li>
+      <li><a href="#index_q"><span>q</span></a></li>
       <li><a href="#index_r"><span>r</span></a></li>
       <li><a href="#index_s"><span>s</span></a></li>
       <li><a href="#index_t"><span>t</span></a></li>
@@ -146,7 +147,7 @@ $(document).ready(function(){initNavTree('functions.html','');});
 : <a class="el" href="d4/d03/class_recipe_finder_1_1_main_window.html#a2a533838f5a30b6348f17594211094ca">MainWindow</a>
 </li>
 <li>_amount
-: <a class="el" href="d5/d69/struct_recipe_finder_1_1_recipe_1_1ingredient_data.html#ac0cf28db3b4c6b9d8d1b3850056c8209">Recipe.ingredientData</a>
+: <a class="el" href="d5/d69/struct_recipe_finder_1_1_recipe_1_1ingredient_data.html#a30cc37161d475e3342ae308487d586ec">Recipe.ingredientData</a>
 </li>
 <li>_Calories
 : <a class="el" href="db/de7/class_recipe_finder_1_1_recipe.html#a22fd6404b994095286516ed03c7e59a5">Recipe</a>
@@ -337,12 +338,15 @@ $(document).ready(function(){initNavTree('functions.html','');});
 : <a class="el" href="d0/d44/class_recipe_finder_1_1_allergy.html#aadf0f62cf1d2e89eaf79aa8b4e98a61e">Allergy</a>
 , <a class="el" href="d3/d10/class_recipe_finder_1_1_ingredient.html#aadf0f62cf1d2e89eaf79aa8b4e98a61e">Ingredient</a>
 </li>
+<li>getMeasurement()
+: <a class="el" href="d4/d03/class_recipe_finder_1_1_main_window.html#a0348c9536d46af751a0ea96e262e0017">MainWindow</a>
+</li>
 <li>getMsg()
 : <a class="el" href="d0/d44/class_recipe_finder_1_1_allergy.html#a718a12063575796f8530790e010aff78">Allergy</a>
 </li>
 <li>getName()
-: <a class="el" href="d3/d10/class_recipe_finder_1_1_ingredient.html#a30ef346e0fd02313d7fdb2bda10f9f1e">Ingredient</a>
-, <a class="el" href="d0/d44/class_recipe_finder_1_1_allergy.html#a30ef346e0fd02313d7fdb2bda10f9f1e">Allergy</a>
+: <a class="el" href="d0/d44/class_recipe_finder_1_1_allergy.html#a30ef346e0fd02313d7fdb2bda10f9f1e">Allergy</a>
+, <a class="el" href="d3/d10/class_recipe_finder_1_1_ingredient.html#a30ef346e0fd02313d7fdb2bda10f9f1e">Ingredient</a>
 </li>
 <li>getRecipeID()
 : <a class="el" href="db/de7/class_recipe_finder_1_1_recipe.html#a16fe467d570c571dc0c552796e168a7e">Recipe</a>
@@ -373,11 +377,17 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <li>Ingredient_SplittingTest()
 : <a class="el" href="df/d8d/class_unit___test_1_1_unit_test___main.html#a7f10a8c0ec8f411c5857318e9c731abf">UnitTest_Main</a>
 </li>
+<li>ingredientCat
+: <a class="el" href="d9/d79/struct_recipe_finder_1_1temp_ingredient_storage.html#a613229e2d34dc1b70fc591177f9396be">tempIngredientStorage</a>
+</li>
 <li>IngredientCategory_Test()
 : <a class="el" href="df/d8d/class_unit___test_1_1_unit_test___main.html#af73078879a3ffdd7b19807e9cb0e0194">UnitTest_Main</a>
 </li>
 <li>IngredientCheckBox()
 : <a class="el" href="d3/dbf/class_recipe_finder_1_1_ingredient_check_box.html#a39b325f372eba7238069aa6cc8610ffe">IngredientCheckBox</a>
+</li>
+<li>ingredientID
+: <a class="el" href="d9/d79/struct_recipe_finder_1_1temp_ingredient_storage.html#a4804343f2b21f98df87d306ca0504b4b">tempIngredientStorage</a>
 </li>
 <li>IngredientInput()
 : <a class="el" href="d4/d03/class_recipe_finder_1_1_main_window.html#a2708b2a683614340425139aa10b9197f">MainWindow</a>
@@ -394,6 +404,9 @@ $(document).ready(function(){initNavTree('functions.html','');});
 </li>
 <li>MainWindow()
 : <a class="el" href="d4/d03/class_recipe_finder_1_1_main_window.html#a3bb4fb6536e6b03d65fd66ae5f32d52c">MainWindow</a>
+</li>
+<li>measurementID
+: <a class="el" href="d9/d79/struct_recipe_finder_1_1temp_ingredient_storage.html#a838fda1dc87ae52615245e3700388e06">tempIngredientStorage</a>
 </li>
 </ul>
 
@@ -417,9 +430,16 @@ $(document).ready(function(){initNavTree('functions.html','');});
 </ul>
 
 
+<h3><a class="anchor" id="index_q"></a>- q -</h3><ul>
+<li>quantity
+: <a class="el" href="d9/d79/struct_recipe_finder_1_1temp_ingredient_storage.html#ad3b1ae172f7efb68d2bf00adf7b3b784">tempIngredientStorage</a>
+</li>
+</ul>
+
+
 <h3><a class="anchor" id="index_r"></a>- r -</h3><ul>
 <li>Recipe()
-: <a class="el" href="db/de7/class_recipe_finder_1_1_recipe.html#ac992090c6f3d84e24a5612cc7f492b0b">Recipe</a>
+: <a class="el" href="db/de7/class_recipe_finder_1_1_recipe.html#ad71d4a1912ebd3d31e273477225d84f7">Recipe</a>
 </li>
 <li>recipeIndex
 : <a class="el" href="dc/df5/struct_recipe_finder_1_1_main_window_1_1recipe_matches.html#ab668a8d1b9bb5ff2677dc5e84b34f257">MainWindow.recipeMatches</a>
@@ -469,7 +489,7 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Nov 20 2013 18:28:02 for Recipe Finder by
+    <li class="footer">Generated on Fri Nov 22 2013 01:28:43 for Recipe Finder by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

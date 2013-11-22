@@ -131,12 +131,14 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de7/class_recipe_finder_1_1_recipe.html">Recipe</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Storage for a single <a class="el" href="../../db/de7/class_recipe_finder_1_1_recipe.html" title="Storage for a single Recipe. ">Recipe</a>.  <a href="../../db/de7/class_recipe_finder_1_1_recipe.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d79/struct_recipe_finder_1_1temp_ingredient_storage.html">tempIngredientStorage</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
 <tr class="memitem:ab71acea099a6fa440169f766b9e9bbe4"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de8/namespace_recipe_finder.html#ab71acea099a6fa440169f766b9e9bbe4">CookMode</a> { <a class="el" href="../../db/de8/namespace_recipe_finder.html#ab71acea099a6fa440169f766b9e9bbe4ab50339a10e1de285ac99d4c3990b8693">NONE</a>, 
-<a class="el" href="../../db/de8/namespace_recipe_finder.html#ab71acea099a6fa440169f766b9e9bbe4aa58945f963512b2f530c0e5fa58ce15d">ONTHEGO</a>, 
 <a class="el" href="../../db/de8/namespace_recipe_finder.html#ab71acea099a6fa440169f766b9e9bbe4a4ae4d836586b8b1f88d630d266c83813">QUICKANDEASY</a>, 
+<a class="el" href="../../db/de8/namespace_recipe_finder.html#ab71acea099a6fa440169f766b9e9bbe4a41dc7c9e385c4d2b6c1f7836973951bf">INTERMEDIATE</a>, 
 <a class="el" href="../../db/de8/namespace_recipe_finder.html#ab71acea099a6fa440169f766b9e9bbe4a3a36b513e63e14a1355896711a093623">CHEF</a>
  }</td></tr>
 <tr class="memdesc:ab71acea099a6fa440169f766b9e9bbe4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enum for ordering cooking mode types.  <a href="../../db/de8/namespace_recipe_finder.html#ab71acea099a6fa440169f766b9e9bbe4">More...</a><br/></td></tr>
@@ -161,7 +163,12 @@ Enumerations</h2></td></tr>
 <a class="el" href="../../db/de8/namespace_recipe_finder.html#a1eb801ce77a3bcebbbb9b1c885f0b819ab3bdc9b5d7423eb5ba350a81d70d734f">TABLESPOON</a>, 
 <a class="el" href="../../db/de8/namespace_recipe_finder.html#a1eb801ce77a3bcebbbb9b1c885f0b819a5b11962dcbe85de55770d22d3e5fb85a">CUP</a>, 
 <br/>
-&#160;&#160;<a class="el" href="../../db/de8/namespace_recipe_finder.html#a1eb801ce77a3bcebbbb9b1c885f0b819aacce99c1f5f144722df5982de220973f">HALFCUP</a>
+&#160;&#160;<a class="el" href="../../db/de8/namespace_recipe_finder.html#a1eb801ce77a3bcebbbb9b1c885f0b819aef9e233d9deb05002427ccbaea243c34">CLOVES</a>, 
+<a class="el" href="../../db/de8/namespace_recipe_finder.html#a1eb801ce77a3bcebbbb9b1c885f0b819a29984396d7b472a3bff1f118938092f9">OUNCE</a>, 
+<a class="el" href="../../db/de8/namespace_recipe_finder.html#a1eb801ce77a3bcebbbb9b1c885f0b819ab7759d7f7e254ec48628af1511c85e4f">POUND</a>, 
+<a class="el" href="../../db/de8/namespace_recipe_finder.html#a1eb801ce77a3bcebbbb9b1c885f0b819a24ababd7751110cf583203ce9292a065">M_LITRE</a>, 
+<br/>
+&#160;&#160;<a class="el" href="../../db/de8/namespace_recipe_finder.html#a1eb801ce77a3bcebbbb9b1c885f0b819afdf85d91b38f0d0c393b498f5af9f4db">SLICES</a>
 <br/>
  }</td></tr>
 <tr class="memdesc:a1eb801ce77a3bcebbbb9b1c885f0b819"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enum for ordering measurement id values.  <a href="../../db/de8/namespace_recipe_finder.html#a1eb801ce77a3bcebbbb9b1c885f0b819">More...</a><br/></td></tr>
@@ -184,10 +191,10 @@ Enumerations</h2></td></tr>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><em><a class="anchor" id="ab71acea099a6fa440169f766b9e9bbe4ab50339a10e1de285ac99d4c3990b8693"></a>NONE</em>&nbsp;</td><td class="fielddoc">
 <p>0 </p>
 </td></tr>
-<tr><td class="fieldname"><em><a class="anchor" id="ab71acea099a6fa440169f766b9e9bbe4aa58945f963512b2f530c0e5fa58ce15d"></a>ONTHEGO</em>&nbsp;</td><td class="fielddoc">
+<tr><td class="fieldname"><em><a class="anchor" id="ab71acea099a6fa440169f766b9e9bbe4a4ae4d836586b8b1f88d630d266c83813"></a>QUICKANDEASY</em>&nbsp;</td><td class="fielddoc">
 <p>1 </p>
 </td></tr>
-<tr><td class="fieldname"><em><a class="anchor" id="ab71acea099a6fa440169f766b9e9bbe4a4ae4d836586b8b1f88d630d266c83813"></a>QUICKANDEASY</em>&nbsp;</td><td class="fielddoc">
+<tr><td class="fieldname"><em><a class="anchor" id="ab71acea099a6fa440169f766b9e9bbe4a41dc7c9e385c4d2b6c1f7836973951bf"></a>INTERMEDIATE</em>&nbsp;</td><td class="fielddoc">
 <p>2 </p>
 </td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="ab71acea099a6fa440169f766b9e9bbe4a3a36b513e63e14a1355896711a093623"></a>CHEF</em>&nbsp;</td><td class="fielddoc">
@@ -195,15 +202,15 @@ Enumerations</h2></td></tr>
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="../../de/df8/_enum_definitions_8cs_source.html#l00037">37</a> of file <a class="el" href="../../de/df8/_enum_definitions_8cs_source.html">EnumDefinitions.cs</a>.</p>
-<div class="fragment"><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                         { <a class="code" href="../../db/de8/namespace_recipe_finder.html#aaf7de33908dd1712e0950d770d83d074ab50339a10e1de285ac99d4c3990b8693">NONE</a>,         </div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                           <a class="code" href="../../db/de8/namespace_recipe_finder.html#ab71acea099a6fa440169f766b9e9bbe4aa58945f963512b2f530c0e5fa58ce15d">ONTHEGO</a>,      </div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                           <a class="code" href="../../db/de8/namespace_recipe_finder.html#ab71acea099a6fa440169f766b9e9bbe4a4ae4d836586b8b1f88d630d266c83813">QUICKANDEASY</a>, </div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                           <a class="code" href="../../db/de8/namespace_recipe_finder.html#ab71acea099a6fa440169f766b9e9bbe4a3a36b513e63e14a1355896711a093623">CHEF</a>          </div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                         };</div>
-<div class="ttc" id="namespace_recipe_finder_html_ab71acea099a6fa440169f766b9e9bbe4a4ae4d836586b8b1f88d630d266c83813"><div class="ttname"><a href="../../db/de8/namespace_recipe_finder.html#ab71acea099a6fa440169f766b9e9bbe4a4ae4d836586b8b1f88d630d266c83813">RecipeFinder.QUICKANDEASY</a></div><div class="ttdoc">2 </div></div>
+<p>Definition at line <a class="el" href="../../de/df8/_enum_definitions_8cs_source.html#l00041">41</a> of file <a class="el" href="../../de/df8/_enum_definitions_8cs_source.html">EnumDefinitions.cs</a>.</p>
+<div class="fragment"><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                         { <a class="code" href="../../db/de8/namespace_recipe_finder.html#aaf7de33908dd1712e0950d770d83d074ab50339a10e1de285ac99d4c3990b8693">NONE</a>,         </div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                           <a class="code" href="../../db/de8/namespace_recipe_finder.html#ab71acea099a6fa440169f766b9e9bbe4a4ae4d836586b8b1f88d630d266c83813">QUICKANDEASY</a>, </div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                           <a class="code" href="../../db/de8/namespace_recipe_finder.html#ab71acea099a6fa440169f766b9e9bbe4a41dc7c9e385c4d2b6c1f7836973951bf">INTERMEDIATE</a>, </div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                           <a class="code" href="../../db/de8/namespace_recipe_finder.html#ab71acea099a6fa440169f766b9e9bbe4a3a36b513e63e14a1355896711a093623">CHEF</a>          </div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                         };</div>
+<div class="ttc" id="namespace_recipe_finder_html_ab71acea099a6fa440169f766b9e9bbe4a41dc7c9e385c4d2b6c1f7836973951bf"><div class="ttname"><a href="../../db/de8/namespace_recipe_finder.html#ab71acea099a6fa440169f766b9e9bbe4a41dc7c9e385c4d2b6c1f7836973951bf">RecipeFinder.INTERMEDIATE</a></div><div class="ttdoc">2 </div></div>
+<div class="ttc" id="namespace_recipe_finder_html_ab71acea099a6fa440169f766b9e9bbe4a4ae4d836586b8b1f88d630d266c83813"><div class="ttname"><a href="../../db/de8/namespace_recipe_finder.html#ab71acea099a6fa440169f766b9e9bbe4a4ae4d836586b8b1f88d630d266c83813">RecipeFinder.QUICKANDEASY</a></div><div class="ttdoc">1 </div></div>
 <div class="ttc" id="namespace_recipe_finder_html_ab71acea099a6fa440169f766b9e9bbe4a3a36b513e63e14a1355896711a093623"><div class="ttname"><a href="../../db/de8/namespace_recipe_finder.html#ab71acea099a6fa440169f766b9e9bbe4a3a36b513e63e14a1355896711a093623">RecipeFinder.CHEF</a></div><div class="ttdoc">3 </div></div>
-<div class="ttc" id="namespace_recipe_finder_html_ab71acea099a6fa440169f766b9e9bbe4aa58945f963512b2f530c0e5fa58ce15d"><div class="ttname"><a href="../../db/de8/namespace_recipe_finder.html#ab71acea099a6fa440169f766b9e9bbe4aa58945f963512b2f530c0e5fa58ce15d">RecipeFinder.ONTHEGO</a></div><div class="ttdoc">1 </div></div>
 <div class="ttc" id="namespace_recipe_finder_html_aaf7de33908dd1712e0950d770d83d074ab50339a10e1de285ac99d4c3990b8693"><div class="ttname"><a href="../../db/de8/namespace_recipe_finder.html#aaf7de33908dd1712e0950d770d83d074ab50339a10e1de285ac99d4c3990b8693">RecipeFinder.NONE</a></div><div class="ttdoc">0 </div></div>
 </div><!-- fragment -->
 </div>
@@ -293,8 +300,20 @@ Enumerations</h2></td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="a1eb801ce77a3bcebbbb9b1c885f0b819a5b11962dcbe85de55770d22d3e5fb85a"></a>CUP</em>&nbsp;</td><td class="fielddoc">
 <p>3 </p>
 </td></tr>
-<tr><td class="fieldname"><em><a class="anchor" id="a1eb801ce77a3bcebbbb9b1c885f0b819aacce99c1f5f144722df5982de220973f"></a>HALFCUP</em>&nbsp;</td><td class="fielddoc">
+<tr><td class="fieldname"><em><a class="anchor" id="a1eb801ce77a3bcebbbb9b1c885f0b819aef9e233d9deb05002427ccbaea243c34"></a>CLOVES</em>&nbsp;</td><td class="fielddoc">
 <p>4 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a1eb801ce77a3bcebbbb9b1c885f0b819a29984396d7b472a3bff1f118938092f9"></a>OUNCE</em>&nbsp;</td><td class="fielddoc">
+<p>5 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a1eb801ce77a3bcebbbb9b1c885f0b819ab7759d7f7e254ec48628af1511c85e4f"></a>POUND</em>&nbsp;</td><td class="fielddoc">
+<p>6 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a1eb801ce77a3bcebbbb9b1c885f0b819a24ababd7751110cf583203ce9292a065"></a>M_LITRE</em>&nbsp;</td><td class="fielddoc">
+<p>7 </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a1eb801ce77a3bcebbbb9b1c885f0b819afdf85d91b38f0d0c393b498f5af9f4db"></a>SLICES</em>&nbsp;</td><td class="fielddoc">
+<p>8 </p>
 </td></tr>
 </table>
 
@@ -303,12 +322,20 @@ Enumerations</h2></td></tr>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                               <a class="code" href="../../db/de8/namespace_recipe_finder.html#a1eb801ce77a3bcebbbb9b1c885f0b819aa3744e6fb27c31f82ce749d6abb475d5">TEASPOON</a>,   </div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                               <a class="code" href="../../db/de8/namespace_recipe_finder.html#a1eb801ce77a3bcebbbb9b1c885f0b819ab3bdc9b5d7423eb5ba350a81d70d734f">TABLESPOON</a>, </div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                               <a class="code" href="../../db/de8/namespace_recipe_finder.html#a1eb801ce77a3bcebbbb9b1c885f0b819a5b11962dcbe85de55770d22d3e5fb85a">CUP</a>,        </div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                               <a class="code" href="../../db/de8/namespace_recipe_finder.html#a1eb801ce77a3bcebbbb9b1c885f0b819aacce99c1f5f144722df5982de220973f">HALFCUP</a>     </div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                             };</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                               <a class="code" href="../../db/de8/namespace_recipe_finder.html#a1eb801ce77a3bcebbbb9b1c885f0b819aef9e233d9deb05002427ccbaea243c34">CLOVES</a>,     </div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                               <a class="code" href="../../db/de8/namespace_recipe_finder.html#a1eb801ce77a3bcebbbb9b1c885f0b819a29984396d7b472a3bff1f118938092f9">OUNCE</a>,      </div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                               <a class="code" href="../../db/de8/namespace_recipe_finder.html#a1eb801ce77a3bcebbbb9b1c885f0b819ab7759d7f7e254ec48628af1511c85e4f">POUND</a>,      </div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                               <a class="code" href="../../db/de8/namespace_recipe_finder.html#a1eb801ce77a3bcebbbb9b1c885f0b819a24ababd7751110cf583203ce9292a065">M_LITRE</a>,    </div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                               <a class="code" href="../../db/de8/namespace_recipe_finder.html#a1eb801ce77a3bcebbbb9b1c885f0b819afdf85d91b38f0d0c393b498f5af9f4db">SLICES</a>      </div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                             };</div>
+<div class="ttc" id="namespace_recipe_finder_html_a1eb801ce77a3bcebbbb9b1c885f0b819aef9e233d9deb05002427ccbaea243c34"><div class="ttname"><a href="../../db/de8/namespace_recipe_finder.html#a1eb801ce77a3bcebbbb9b1c885f0b819aef9e233d9deb05002427ccbaea243c34">RecipeFinder.CLOVES</a></div><div class="ttdoc">4 </div></div>
 <div class="ttc" id="namespace_recipe_finder_html_a1eb801ce77a3bcebbbb9b1c885f0b819ab3bdc9b5d7423eb5ba350a81d70d734f"><div class="ttname"><a href="../../db/de8/namespace_recipe_finder.html#a1eb801ce77a3bcebbbb9b1c885f0b819ab3bdc9b5d7423eb5ba350a81d70d734f">RecipeFinder.TABLESPOON</a></div><div class="ttdoc">2 </div></div>
+<div class="ttc" id="namespace_recipe_finder_html_a1eb801ce77a3bcebbbb9b1c885f0b819ab7759d7f7e254ec48628af1511c85e4f"><div class="ttname"><a href="../../db/de8/namespace_recipe_finder.html#a1eb801ce77a3bcebbbb9b1c885f0b819ab7759d7f7e254ec48628af1511c85e4f">RecipeFinder.POUND</a></div><div class="ttdoc">6 </div></div>
+<div class="ttc" id="namespace_recipe_finder_html_a1eb801ce77a3bcebbbb9b1c885f0b819afdf85d91b38f0d0c393b498f5af9f4db"><div class="ttname"><a href="../../db/de8/namespace_recipe_finder.html#a1eb801ce77a3bcebbbb9b1c885f0b819afdf85d91b38f0d0c393b498f5af9f4db">RecipeFinder.SLICES</a></div><div class="ttdoc">8 </div></div>
 <div class="ttc" id="namespace_recipe_finder_html_a1eb801ce77a3bcebbbb9b1c885f0b819aa3744e6fb27c31f82ce749d6abb475d5"><div class="ttname"><a href="../../db/de8/namespace_recipe_finder.html#a1eb801ce77a3bcebbbb9b1c885f0b819aa3744e6fb27c31f82ce749d6abb475d5">RecipeFinder.TEASPOON</a></div><div class="ttdoc">1 </div></div>
-<div class="ttc" id="namespace_recipe_finder_html_a1eb801ce77a3bcebbbb9b1c885f0b819aacce99c1f5f144722df5982de220973f"><div class="ttname"><a href="../../db/de8/namespace_recipe_finder.html#a1eb801ce77a3bcebbbb9b1c885f0b819aacce99c1f5f144722df5982de220973f">RecipeFinder.HALFCUP</a></div><div class="ttdoc">4 </div></div>
+<div class="ttc" id="namespace_recipe_finder_html_a1eb801ce77a3bcebbbb9b1c885f0b819a29984396d7b472a3bff1f118938092f9"><div class="ttname"><a href="../../db/de8/namespace_recipe_finder.html#a1eb801ce77a3bcebbbb9b1c885f0b819a29984396d7b472a3bff1f118938092f9">RecipeFinder.OUNCE</a></div><div class="ttdoc">5 </div></div>
 <div class="ttc" id="namespace_recipe_finder_html_a1eb801ce77a3bcebbbb9b1c885f0b819a5b11962dcbe85de55770d22d3e5fb85a"><div class="ttname"><a href="../../db/de8/namespace_recipe_finder.html#a1eb801ce77a3bcebbbb9b1c885f0b819a5b11962dcbe85de55770d22d3e5fb85a">RecipeFinder.CUP</a></div><div class="ttdoc">3 </div></div>
+<div class="ttc" id="namespace_recipe_finder_html_a1eb801ce77a3bcebbbb9b1c885f0b819a24ababd7751110cf583203ce9292a065"><div class="ttname"><a href="../../db/de8/namespace_recipe_finder.html#a1eb801ce77a3bcebbbb9b1c885f0b819a24ababd7751110cf583203ce9292a065">RecipeFinder.M_LITRE</a></div><div class="ttdoc">7 </div></div>
 <div class="ttc" id="namespace_recipe_finder_html_aaf7de33908dd1712e0950d770d83d074ab50339a10e1de285ac99d4c3990b8693"><div class="ttname"><a href="../../db/de8/namespace_recipe_finder.html#aaf7de33908dd1712e0950d770d83d074ab50339a10e1de285ac99d4c3990b8693">RecipeFinder.NONE</a></div><div class="ttdoc">0 </div></div>
 </div><!-- fragment -->
 </div>
@@ -319,7 +346,7 @@ Enumerations</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/de8/namespace_recipe_finder.html">RecipeFinder</a></li>
-    <li class="footer">Generated on Wed Nov 20 2013 18:28:01 for Recipe Finder by
+    <li class="footer">Generated on Fri Nov 22 2013 01:28:42 for Recipe Finder by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

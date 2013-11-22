@@ -7,6 +7,7 @@ var class_recipe_finder_1_1_main_window =
     [ "check_Box_Checked_Event", "d4/d03/class_recipe_finder_1_1_main_window.html#aa7b1f034e622294117faf809b084cfc6", null ],
     [ "check_Box_Unchecked_Event", "d4/d03/class_recipe_finder_1_1_main_window.html#ad9b6d20f083e9415282e5be9ffeac829", null ],
     [ "getCategory", "d4/d03/class_recipe_finder_1_1_main_window.html#af85b4cb8a2d6f89b6587479ffc4ceb97", null ],
+    [ "getMeasurement", "d4/d03/class_recipe_finder_1_1_main_window.html#a0348c9536d46af751a0ea96e262e0017", null ],
     [ "IngredientInput", "d4/d03/class_recipe_finder_1_1_main_window.html#a2708b2a683614340425139aa10b9197f", null ],
     [ "IngredientSplit", "d4/d03/class_recipe_finder_1_1_main_window.html#a2451d0d5d68779cb9beaa1d54245c27e", null ],
     [ "populateAllergies", "d4/d03/class_recipe_finder_1_1_main_window.html#a4a9a1a53eeccf0acf6cd77acdb6aba56", null ],
