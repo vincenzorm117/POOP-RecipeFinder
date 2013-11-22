@@ -45,9 +45,9 @@ namespace RecipeFinder
             /*End Input Functionality Here*/
 
             checkedIngredients = new HashSet<String>();
-            InitializeComponent();
-            populateAllergies();
-            populateFilterExpandersAndCheckBoxes();
+            InitializeComponent();                   //Initializes the UI
+            populateAllergies();                     //Adds the allergy check boxes to the UI
+            populateFilterExpandersAndCheckBoxes();  //Adds the category expanders and the ingredient check boxes to the UI
         }
 
         /**
