@@ -39,7 +39,7 @@ namespace RecipeFinder
             }
 
             //TODO: find these values for input
-            //searchForRecipies(cookingMode,  allergens);
+            searchForRecipies(selectedMode,  allergens);
         }
 
         /**
