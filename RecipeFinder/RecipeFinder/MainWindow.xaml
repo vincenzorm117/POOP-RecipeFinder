@@ -12,10 +12,10 @@
                 
                 <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="97" VerticalAlignment="Top" Width="209"/>
                 <Label Content="Modes" Width="56" Canvas.Left="75"/>
-                <RadioButton x:Name="MODEONTHEGO" Content="None" Canvas.Top="27" Canvas.Left="17"/>
-                <RadioButton x:Name="MODEQUICKANDEASY" Content="Quick and Easy" Canvas.Top="43" Canvas.Left="17"/>
-                <RadioButton x:Name="MODEINTERMEDIATE" Content="Intermediate" Canvas.Top="60" Canvas.Left="17"/>
-                <RadioButton x:Name="MODECHEF" Content="Chef" Canvas.Top="75" Canvas.Left="17"/>
+                <RadioButton x:Name="MODEONTHEGO" Content="None" Canvas.Top="27" Canvas.Left="17" Checked="MODEONTHEGO_Checked"/>
+                <RadioButton x:Name="MODEQUICKANDEASY" Content="Quick and Easy" Canvas.Top="43" Canvas.Left="17" Checked="MODEQUICKANDEASY_Checked"/>
+                <RadioButton x:Name="MODEINTERMEDIATE" Content="Intermediate" Canvas.Top="60" Canvas.Left="17" Checked="MODEINTERMEDIATE_Checked"/>
+                <RadioButton x:Name="MODECHEF" Content="Chef" Canvas.Top="75" Canvas.Left="17" Checked="MODECHEF_Checked"/>
                 
                 
                 <Border BorderBrush="Black" BorderThickness="1" Height="304" Width="209" Canvas.Top="106">

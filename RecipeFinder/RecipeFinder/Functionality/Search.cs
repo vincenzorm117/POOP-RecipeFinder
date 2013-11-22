@@ -23,8 +23,8 @@ namespace RecipeFinder
              **/
         public struct recipeMatches
         {
-            public int recipeIndex;
             public int hitCounter;
+            public int recipeIndex;
         }        
 
 
@@ -32,22 +32,22 @@ namespace RecipeFinder
          * \fn         public List<Recipe> searchForRecipies(List<List<bool>> userSearchParams, CookMode cookingMode, List<bool> userAlergens)
          * \brief      Function for searching the recipes for users specifications
          * \author     Ronald Hyatt.
-         * \param
-         * \param
-         * \param
+         * \param      cookingMode       The cooking mode that the user has selected.
+         * \param      userAllergens     The user allergens that they have selected
          * \return     A list of recipes that match the user's specifications
          **/
-        public List<recipeMatches> searchForRecipies(List<List<bool>> userSearchParams, CookMode cookingMode, List<bool> userAllergens)
+        public List<recipeMatches> searchForRecipies(CookMode cookingMode, List<bool> userAllergens)
         {
 
             //Create a new List for the results
-            List<recipeMatches> results = new List<recipeMatches>();
+            List<recipeMatches> results = new List<recipeMatches>();                ///< This is the list created to hold the results
 
             //Get the number of categories
-            int numCategories = Enum.GetNames(typeof(IngredientCategory)).Length;
-            int numAllergens  = Enum.GetNames(typeof(Allergy)).Length;
-            int numIngredients, i, j, hits;
+            int numCategories = Enum.GetNames(typeof(IngredientCategory)).Length;   
+            int numAllergens  = Enum.GetNames(typeof(Allergy)).Length;              
+            int i, j, hits;
             bool skip;
+            List<List<bool>> recipeIngredients;
             recipeMatches newRecipe = new recipeMatches();
 
             //Loop through each recipe
@@ -56,9 +56,9 @@ namespace RecipeFinder
             {
                 skip = false;
                 hits = 0;
+                recipeIngredients = current.getIngredientFlags();
 
                 //If the cooking mode does not match the user's then move on
-                //TODO make a getter for recipe cooking mode
                 if (!(cookingMode.Equals(current.getCookingMode())))
                 {
                     continue;
@@ -89,18 +89,17 @@ namespace RecipeFinder
                     //Compare categories
                     for (i = 0; i < numCategories; i++)
                     {
-                        if (userSearchParams[i][0].Equals(true))
+                        if ((_CategoryBooleans[i][0].Equals(true)) && (recipeIngredients[i][0].Equals(true)))
                         {
                             //Grab that number of ingrediants for this category
                             //TODO: grab the number of ingrediants from this specific category
                             //TODO: Redo when recipe has way of passing it's number of ingredients
-                            numIngredients = 0;
 
                             //If the category is true then loop through the ingredients within
                             //TODO: Redo to actually compare
-                            for (j = 0; j < numIngredients; j++)
+                            for (j = 0; j < recipeIngredients[i].ToArray().Length; j++)
                             {
-                                if(userSearchParams[i][j].Equals(true))
+                                if ((_CategoryBooleans[i][j].Equals(true)) && (recipeIngredients[i][j].Equals(true)))
                                 {
                                     hits = hits + 1;
                                 }
