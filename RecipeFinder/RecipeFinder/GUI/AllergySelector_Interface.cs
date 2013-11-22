@@ -14,7 +14,7 @@ namespace RecipeFinder
         {
             for(int i = 1; i < _allergyList.Capacity; i++)
             {
-                CheckBox c = new CheckBox();
+                IngredientCheckBox c = new IngredientCheckBox(i, i);
                 c.Content = _allergyList[i].getName();
 
                 c.Checked += check_Box_Checked_Event;
