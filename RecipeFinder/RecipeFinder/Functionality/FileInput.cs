@@ -182,8 +182,17 @@ namespace RecipeFinder
          **/
         public static bool RecipeInput(string path)
         {
+
+            string[] lines;
+
+
             if(File.Exists(path))
             {
+                //Read in all the lines from file
+                lines = File.ReadAllLines(path);
+                
+
+
                 return true;
             }
             else
