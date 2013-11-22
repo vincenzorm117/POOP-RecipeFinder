@@ -27,7 +27,7 @@ namespace RecipeFinder
         {
             //The call to the original check box class constructor
             new CheckBox();
-
+            
             //Set the values for mapping purposes
             column = c;
             row    = r;
