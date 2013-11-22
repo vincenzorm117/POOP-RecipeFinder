@@ -44,6 +44,8 @@ namespace RecipeFinder
         private string               _Instructions;        ///< The instructions for the recipe being stored
 
         private List<ingredientData> _Ingredients;         ///< The list of ingredients for the recipe being stored
+        
+        private List<List<bool>>     _Temporary;           ///< Temporarily taking the place of the 2D bool array
 
         private CookMode             _CookingMode;         ///< The difficulty of the recipe
 
@@ -104,7 +106,15 @@ namespace RecipeFinder
             }
             _Ingredients.TrimExcess();
 
-            
+            if(_TotalTime < 20)
+            {}
+            else if(_TotalTime <= 60)
+            {}
+            else
+            {}
+
+            //TEST CODE
+            _Temporary = new List<List<bool>>();
         }
 
         /**
@@ -132,5 +142,11 @@ namespace RecipeFinder
          **/
         public bool getAllergy(int i)
         { return false;        }
+
+        /**
+         * 
+         **/
+        public List<List<bool>> getIngredientFlags()
+        { return _Temporary;   }
     }
 }
