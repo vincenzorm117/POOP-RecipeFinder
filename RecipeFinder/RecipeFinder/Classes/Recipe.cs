@@ -106,12 +106,13 @@ namespace RecipeFinder
             }
             _Ingredients.TrimExcess();
 
+            //Apply the cooking mode for the recipe
             if(_TotalTime < 20)
-            {}
+                _CookingMode = MainWindow.getCookMode(1);
             else if(_TotalTime <= 60)
-            {}
+                _CookingMode = MainWindow.getCookMode(2);
             else
-            {}
+                _CookingMode = MainWindow.getCookMode(3);
 
             //TEST CODE
             _Temporary = new List<List<bool>>();

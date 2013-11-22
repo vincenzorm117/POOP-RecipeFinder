@@ -97,11 +97,13 @@ namespace RecipeFinder
         }
 
         /**
-         * \fn
-         * \brief Function for getting an enumerated value for the measurement category based on index value.
-         * \author Brian McCormick
+         * \fn           public static CookMode getCookMode(int i)
+         * \brief        Function for getting an enumerated value for the measurement category based on index value.
+         * \author       Brian McCormick
          * \param [in] i The index value being located.
-         * \return       T
+         * \return       The enumerated value at the given index.
+         *               Returns the NONE value if the index given doesn't exist.
+         * \todo         Add a unit test for this function.
          **/
         public static CookMode getCookMode(int i)
         {
