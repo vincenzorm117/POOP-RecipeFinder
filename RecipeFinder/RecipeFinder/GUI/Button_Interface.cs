@@ -11,8 +11,10 @@ namespace RecipeFinder
         /**
          * \fn    private void SearchButton_Click(object sender, RoutedEventArgs e)
          * \brief Handles the functionality of when the search button is clicked.
+         * \ author Vincenzo Marconi
          * \param sender
          * \param e
+         * \ author Vincenzo Marconi
          **/
         private void SearchButton_Click(object sender, RoutedEventArgs e)
         {
@@ -20,25 +22,24 @@ namespace RecipeFinder
             ControlTemp.Visibility = System.Windows.Visibility.Hidden;
             SearchPanel.Visibility = System.Windows.Visibility.Hidden;
             ResultsPanel.Visibility = System.Windows.Visibility.Visible;
-
-            //List of parameters the user has searched for
-            /// \todo: change to List<List<bool>>
-            HashSet<String>.Enumerator list = checkedIngredients.GetEnumerator();
+            int i, j;
 
             //Empty list each time
             Results.Items.Clear();
-            while(list.MoveNext())
+
+            for (i = 0; i < Enum.GetNames(typeof(IngredientCategory)).Length; i++)
             {
                 //Send the user parameters
                 //TODO: Update function call so that it fits with updated data storage methods
-                //searchForRecipies(userSearchParams, recipeList, cookingMode,  alergens);
-
-                while(list.MoveNext())
+                for (j = 0; j < _CategoryLists[i].ToArray().Length; j++)
                 {
-                    String curr = list.Current;
+                    bool curr = checkedIngredients.[i][j];
                     Results.Items.Add(curr);
                 }
             }
+
+            //TODO: find these values for input
+            searchForRecipies(cookingMode,  allergens);
         }
 
         /**

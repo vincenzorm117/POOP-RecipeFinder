@@ -23,7 +23,7 @@ namespace RecipeFinder
      **/
     public partial class MainWindow : Window
     {
-        private HashSet<String> checkedIngredients;
+        private List<List<bool>> checkedIngredients;
 
         /**
          * \fn      public MainWindow()
@@ -44,7 +44,7 @@ namespace RecipeFinder
 
             /*End Input Functionality Here*/
 
-            checkedIngredients = new HashSet<String>();
+            checkedIngredients = new List<List<bool>>();
             InitializeComponent();
             populateAllergies();
             populateFilterExpandersAndCheckBoxes();
@@ -63,6 +63,7 @@ namespace RecipeFinder
             if(s != null)
                 if (s.Items.Count > 0)
                 {
+                    //TODO: fix it so that if a box is selected make it true
                     String x = s.SelectedItem.ToString();
                     RecipeDisplayed.Document.Blocks.Add(new Paragraph(new Run(x)));
                 }
