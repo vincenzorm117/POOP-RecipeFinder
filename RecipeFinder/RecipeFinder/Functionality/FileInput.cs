@@ -182,21 +182,124 @@ namespace RecipeFinder
          **/
         public static bool RecipeInput(string path)
         {
-
-            string[] lines;
-
+            //Declare variables used in controlling the input process
+            int                         counter        = 0;
+            int                         counterTwo     = 0;
+            int                         counterID      = 0;
+            int                         tempTime       = 0;
+            int                         tempPrep       = 0;
+            int                         tempServings   = 0;
+            int                         tempCalories   = 0;
+            int                         tempFat        = 0;
+            int                         tempChol       = 0;
+            int                         tempSodium     = 0;
+            int                         tempCarb       = 0;
+            int                         tempFiber      = 0;
+            int                         tempProtein    = 0;
+            int                         tempNumIngrd   = 0;
+            int                         tempMeasure    = 0;
+            int                         tempID         = 0;
+            List<tempIngredientStorage> tempIngredient = new List<tempIngredientStorage>();
+            char[]                      delimiters     = { ' ' };
+            string                      tempQuantity   = "";
+            string                      tempName       = "";
+            string                      tempInstr      = "";
+            string[]                    lines;
+            string[]                    parsedLine;
+            tempIngredientStorage       stagedIngredient;
 
             if(File.Exists(path))
             {
-                //Read in all the lines from file
+                //Read in the entire file
                 lines = File.ReadAllLines(path);
+
+                //Reset the recipe ID counter
+                counterID = 0;
+
+                foreach(string l in lines)
+                {
+                    if(counter == 0)
+                        tempName = l;
+                    else if(counter == 1)
+                        int.TryParse(l, out tempTime);
+                    else if(counter == 2)
+                        int.TryParse(l, out tempPrep);
+                    else if(counter == 3)
+                        int.TryParse(l, out tempServings);
+                    else if(counter == 4)
+                        int.TryParse(l, out tempCalories);
+                    else if(counter == 5)
+                        int.TryParse(l, out tempFat);
+                    else if(counter == 6)
+                        int.TryParse(l, out tempChol);
+                    else if(counter == 7)
+                        int.TryParse(l, out tempSodium);
+                    else if(counter == 8)
+                        int.TryParse(l, out tempCarb);
+                    else if(counter == 9)
+                        int.TryParse(l, out tempFiber);
+                    else if(counter == 10)
+                        int.TryParse(l, out tempProtein);
+                    else if(counter == 11)
+                    {
+                        counterTwo = 0;
+                        parsedLine = l.Split(delimiters);
+
+                        foreach(string x in parsedLine)
+                        {
+                            if(counterTwo == 0)
+                                tempQuantity = x;
+                            else if(counterTwo == 1)
+                                int.TryParse(x, out tempMeasure);
+                            else if(counterTwo == 2)
+                            {
+                                int.TryParse(x, out tempID);
+
+                                stagedIngredient.quantity      = tempQuantity;
+                                stagedIngredient.measurementID = tempMeasure;
+                                stagedIngredient.ingredientID  = _ingredientList[tempID].getCategoryID();
+                                stagedIngredient.ingredientCat = _ingredientList[tempID].getCategory();
+                                tempIngredient.Add(stagedIngredient);
+                            }
+
+                            counterTwo++;
+                            if(counterTwo >= 3)
+                                counterTwo = 0;
+                        }
+                    }
+                    else if(counter == 12)
+                    {
+                        tempInstr = l;
+                        tempNumIngrd = tempIngredient.ToArray().Length;
+
+                        _recipeList.Add(new Recipe(counterID, tempTime, tempPrep, tempServings, tempCalories, tempFat, tempChol, tempSodium, tempCarb,
+                                                   tempFiber, tempProtein, tempNumIngrd, tempName, tempInstr, tempIngredient));
+                        _testRecipeList.Add(_recipeList[counterID]);
+                    }
+
+
+                    //Increment the counter and reset it when needed
+                    counter++;
+                    if(counter >= 13)
+                        counter = 0;
+
+                    //Increment the counter being used 
+                    counterID++;
+                }
                 
+                //Clean up excess memory
+                _recipeList.TrimExcess();
+                _testRecipeList.TrimExcess();
 
-
+                //Return a success signal
                 return true;
             }
             else
             {
+                /**
+                 * \todo Add implementation for adding the error on having a failed recipe input to a log file
+                 **/
+                Console.WriteLine("ERROR: Recipe File Not Found!");
                 return false;
             }
         }
