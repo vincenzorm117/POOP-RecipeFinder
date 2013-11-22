@@ -299,11 +299,20 @@ namespace RecipeFinder
                     //Increment the counter being used 
                     counterID++;
                 }
+                
+                //Clean up excess memory
+                _recipeList.TrimExcess();
+                _testRecipeList.TrimExcess();
 
+                //Return a success signal
                 return true;
             }
             else
             {
+                /**
+                 * \todo Add implementation for adding the error on having a failed recipe input to a log file
+                 **/
+                Console.WriteLine("ERROR: Recipe File Not Found!");
                 return false;
             }
         }
