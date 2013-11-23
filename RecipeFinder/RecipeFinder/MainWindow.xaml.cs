@@ -23,8 +23,6 @@ namespace RecipeFinder
      **/
     public partial class MainWindow : Window
     {
-        private CookMode _selectedMode;
-
         /**
          * \fn      public MainWindow()
          * \brief   Class constructor for initializing the program.

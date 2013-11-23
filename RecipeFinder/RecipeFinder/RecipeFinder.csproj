@@ -53,10 +53,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Lib\Definitions.cs" />
     <Compile Include="GUI\CookMode_Interface.cs" />
     <Compile Include="Classes\BaseClass.cs" />
     <Compile Include="Functionality\CategorySplitting.cs" />
-    <Compile Include="Functionality\EnumDefinitions.cs" />
+    <Compile Include="Functionality\Enumerations.cs" />
     <Compile Include="GUI\SearchButton_Interface.cs" />
     <Compile Include="GUI\CheckBox_Interface.cs" />
     <Compile Include="Functionality\FileInput.cs" />

@@ -7,14 +7,14 @@ namespace RecipeFinder
      * \brief  Enum for ordering ingredient categories
      * \author Brian McCormick
      **/
-    public enum IngredientCategory { NONE,          ///< 0
-                                     VEGITABLES,    ///< 1
-                                     FRUITS,        ///< 2
-                                     DAIRY,         ///< 3
-                                     SEAFOOD,       ///< 4
-                                     MEAT,          ///< 5
-                                     CARBOHYDRATES, ///< 6
-                                     POULTRY        ///< 7
+    public enum IngredientCategory { NONE,          ///< Index: 0
+                                     VEGITABLES,    ///< Index: 1
+                                     FRUITS,        ///< Index: 2
+                                     DAIRY,         ///< Index: 3
+                                     SEAFOOD,       ///< Index: 4
+                                     MEAT,          ///< Index: 5
+                                     CARBOHYDRATES, ///< Index: 6
+                                     POULTRY        ///< Index: 7
                                    };
 
     /**
@@ -22,15 +22,15 @@ namespace RecipeFinder
      * \brief  Enum for ordering measurement id values
      * \author Brian McCormick
      **/
-    public enum Measurements { NONE,       ///< 0
-                               TEASPOON,   ///< 1
-                               TABLESPOON, ///< 2
-                               CUP,        ///< 3
-                               CLOVES,     ///< 4
-                               OUNCE,      ///< 5
-                               POUND,      ///< 6
-                               M_LITRE,    ///< 7
-                               SLICES      ///< 8
+    public enum Measurements { NONE,       ///< Index: 0
+                               TEASPOON,   ///< Index: 1
+                               TABLESPOON, ///< Index: 2
+                               CUP,        ///< Index: 3
+                               CLOVES,     ///< Index: 4
+                               OUNCE,      ///< Index: 5
+                               POUND,      ///< Index: 6
+                               M_LITRE,    ///< Index: 7
+                               SLICES      ///< Index: 8
                              };
 
     /**
@@ -38,10 +38,10 @@ namespace RecipeFinder
      * \brief  Enum for ordering cooking mode types
      * \author Brian McCormick
      **/
-    public enum CookMode { NONE,         ///< 0
-                           QUICKANDEASY, ///< 1
-                           INTERMEDIATE, ///< 2
-                           CHEF          ///< 3
+    public enum CookMode { NONE,         ///< Index: 0
+                           QUICKANDEASY, ///< Index: 1
+                           INTERMEDIATE, ///< Index: 2
+                           CHEF          ///< Index: 3
                          };
 
     public partial class MainWindow : Window

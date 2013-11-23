@@ -6,11 +6,6 @@ namespace RecipeFinder
 {
     public partial class MainWindow : Window
     {
-        private static List<List<Ingredient>> _CategoryLists;     ///< 2D List that holds the categorized ingredient lists
-        public  static List<List<Ingredient>> _TestCategoryLists; ///< 2D List that holds categorized ingredients for testing
-
-        private static List<List<bool>>       _UserSelections;    ///< 2D List for holding user selections
-
         /**
          * \fn     public void IngredientSplit()
          * \brief  Function for splitting the ingredients into separate category list.
