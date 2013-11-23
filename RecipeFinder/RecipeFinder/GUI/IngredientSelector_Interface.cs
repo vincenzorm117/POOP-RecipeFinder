@@ -23,11 +23,8 @@ namespace RecipeFinder
          * \param [in] c The category the check box is associated with.
          * \param [in] r The recipe within the category that the check box is associated with.
          **/
-        public IngredientCheckBox(int c, int r)
+        public IngredientCheckBox(int c, int r) : base()
         {
-            //The call to the original check box class constructor
-            new CheckBox();
-            
             //Set the values for mapping purposes
             column = c;
             row    = r;
@@ -75,7 +72,7 @@ namespace RecipeFinder
                 UniformGrid g = new UniformGrid();
                 g.Columns = 2;  // The number of columns are set to 2 so it has 2 columns of checkboxes
 
-                for(int j = 0; j < _CategoryLists[i].ToArray().Length; j++)
+                for(int j = 1; j < _CategoryLists[i].ToArray().Length; j++)
                 {
                     IngredientCheckBox c = new IngredientCheckBox(i, j);            //CheckBox created
                     c.Content = _CategoryLists[i][j].getName(); //Its name is set

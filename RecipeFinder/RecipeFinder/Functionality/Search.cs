@@ -110,7 +110,7 @@ namespace RecipeFinder
                     //If there is at least one hit add it to the list
                     if (hits >= 1)
                     {
-                        newRecipe.recipeIndex = current.getRecipeID();
+                        newRecipe.recipeIndex = current.getID();
                         newRecipe.hitCounter = hits;
                         
                         results.Add(newRecipe);

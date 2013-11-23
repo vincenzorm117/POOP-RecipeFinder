@@ -134,6 +134,9 @@ $(document).ready(function(){initNavTree('functions_vars.html','');});
 <li>_allergyBasicResult
 : <a class="el" href="df/d8d/class_unit___test_1_1_unit_test___main.html#a964afbeb123744aa70395125e1a60f92">UnitTest_Main</a>
 </li>
+<li>_AllergyBools
+: <a class="el" href="db/de7/class_recipe_finder_1_1_recipe.html#a70c26f5b28a0ed76bc875a8c18c644bc">Recipe</a>
+</li>
 <li>_allergyInputResult
 : <a class="el" href="df/d8d/class_unit___test_1_1_unit_test___main.html#a1f220fc57805593ccc10227ab93d8942">UnitTest_Main</a>
 </li>
@@ -142,6 +145,9 @@ $(document).ready(function(){initNavTree('functions_vars.html','');});
 </li>
 <li>_amount
 : <a class="el" href="d5/d69/struct_recipe_finder_1_1_recipe_1_1ingredient_data.html#a30cc37161d475e3342ae308487d586ec">Recipe.ingredientData</a>
+</li>
+<li>_BoolList
+: <a class="el" href="db/de7/class_recipe_finder_1_1_recipe.html#aea08e2654ac5ec1897493b87e00152d6">Recipe</a>
 </li>
 <li>_Calories
 : <a class="el" href="db/de7/class_recipe_finder_1_1_recipe.html#a22fd6404b994095286516ed03c7e59a5">Recipe</a>
@@ -183,8 +189,7 @@ $(document).ready(function(){initNavTree('functions_vars.html','');});
 : <a class="el" href="db/de7/class_recipe_finder_1_1_recipe.html#af03910779e0f33a51671fd4aef2b8a9d">Recipe</a>
 </li>
 <li>_ID
-: <a class="el" href="d0/d44/class_recipe_finder_1_1_allergy.html#a9abff1d47adf0b71068c739b8b485b3d">Allergy</a>
-, <a class="el" href="d3/d10/class_recipe_finder_1_1_ingredient.html#a9abff1d47adf0b71068c739b8b485b3d">Ingredient</a>
+: <a class="el" href="d1/dec/class_recipe_finder_1_1_base_class.html#a9abff1d47adf0b71068c739b8b485b3d">BaseClass</a>
 </li>
 <li>_ingredientBasicResults
 : <a class="el" href="df/d8d/class_unit___test_1_1_unit_test___main.html#abc68a4d8ee510eb3fe136d5399b5b3a7">UnitTest_Main</a>
@@ -208,8 +213,7 @@ $(document).ready(function(){initNavTree('functions_vars.html','');});
 : <a class="el" href="d0/d44/class_recipe_finder_1_1_allergy.html#acc0a64d1da65662b4b375926114d5e9b">Allergy</a>
 </li>
 <li>_Name
-: <a class="el" href="d0/d44/class_recipe_finder_1_1_allergy.html#a34eafe957887db988e3ebb45a131033b">Allergy</a>
-, <a class="el" href="d3/d10/class_recipe_finder_1_1_ingredient.html#a34eafe957887db988e3ebb45a131033b">Ingredient</a>
+: <a class="el" href="d1/dec/class_recipe_finder_1_1_base_class.html#a34eafe957887db988e3ebb45a131033b">BaseClass</a>
 </li>
 <li>_NumberOfIngredients
 : <a class="el" href="db/de7/class_recipe_finder_1_1_recipe.html#a5364340abec7282a2d04e105c8f78ad1">Recipe</a>
@@ -219,9 +223,6 @@ $(document).ready(function(){initNavTree('functions_vars.html','');});
 </li>
 <li>_Protein
 : <a class="el" href="db/de7/class_recipe_finder_1_1_recipe.html#aec5d220e62353c9c1cc3ab0ae96a8de7">Recipe</a>
-</li>
-<li>_RecipeID
-: <a class="el" href="db/de7/class_recipe_finder_1_1_recipe.html#ad972a22e1446c6d3e028beba09ffcf52">Recipe</a>
 </li>
 <li>_recipeList
 : <a class="el" href="d4/d03/class_recipe_finder_1_1_main_window.html#acf0e20770bdc2331e6fa227f4b97d3d2">MainWindow</a>
@@ -234,9 +235,6 @@ $(document).ready(function(){initNavTree('functions_vars.html','');});
 </li>
 <li>_Sodium
 : <a class="el" href="db/de7/class_recipe_finder_1_1_recipe.html#a6737c171025e32c049e70979302cca54">Recipe</a>
-</li>
-<li>_Temporary
-: <a class="el" href="db/de7/class_recipe_finder_1_1_recipe.html#ab2058037f5d9efd54c54ef35607e7a39">Recipe</a>
 </li>
 <li>_testAllergy
 : <a class="el" href="df/d8d/class_unit___test_1_1_unit_test___main.html#ad587eb368b077b709b87b71e5a6ab8c9">UnitTest_Main</a>
@@ -261,9 +259,6 @@ $(document).ready(function(){initNavTree('functions_vars.html','');});
 </li>
 <li>_testRecipeList
 : <a class="el" href="d4/d03/class_recipe_finder_1_1_main_window.html#ab927fee630f572eaf9d0a5cad64d0423">MainWindow</a>
-</li>
-<li>_Title
-: <a class="el" href="db/de7/class_recipe_finder_1_1_recipe.html#a993460bebf0e6be6a9a7f04ec733b229">Recipe</a>
 </li>
 <li>_TotalTime
 : <a class="el" href="db/de7/class_recipe_finder_1_1_recipe.html#a81ede87eddf0f15a0bc271820bb87fad">Recipe</a>
@@ -332,7 +327,7 @@ $(document).ready(function(){initNavTree('functions_vars.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Nov 22 2013 17:04:30 for Recipe Finder by
+    <li class="footer">Generated on Fri Nov 22 2013 20:25:54 for Recipe Finder by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

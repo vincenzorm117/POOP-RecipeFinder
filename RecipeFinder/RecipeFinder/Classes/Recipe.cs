@@ -12,7 +12,7 @@ namespace RecipeFinder
      * \author Brian McCormick
      * \todo   Change the code for storing the ingredients
      **/
-    public class Recipe
+    public class Recipe : BaseClass
     {
         /**
          * \struct ingredientData
@@ -27,7 +27,7 @@ namespace RecipeFinder
             public IngredientCategory _category;    ///< Holds the category that the ingredient is associated with
         }
         
-        private int                  _RecipeID;            ///< The ID number associated with the stored recipe
+        //private int                  _RecipeID;            ///< The ID number associated with the stored recipe
         private int                  _TotalTime;           ///< The total time for the recipe
         private int                  _PrepTime;            ///< The amount of time needed to prepare
         private int                  _Servings;            ///< How many servings the recipe makes
@@ -40,17 +40,18 @@ namespace RecipeFinder
         private int                  _Protein;             ///< How much protien per serving (g)
         private int                  _NumberOfIngredients; ///< The total number of ingredients for this recipe
 
-        private string               _Title;               ///< The title of the recipe being stored
+        //private string               _Title;               ///< The title of the recipe being stored
         private string               _Instructions;        ///< The instructions for the recipe being stored
 
         private List<ingredientData> _Ingredients;         ///< The list of ingredients for the recipe being stored
         
-        private List<List<bool>>     _Temporary;           ///< Temporarily taking the place of the 2D bool array
+        private List<List<bool>>     _BoolList;            ///< Used to represent if an ingredient is present or not
+        private List<bool>           _AllergyBools;        ///< Used to represent if an allergy is present in the recipe
 
         private CookMode             _CookingMode;         ///< The difficulty of the recipe
 
         /**
-         * \fn              public Recipe(int id, int t, int p, int srv, int c, int f, int h, int o, int a, int b, int r, int n, string l, string u, CookMode m, List<recipeIngredient> list)
+         * \fn              public Recipe(int id, int t, int p, int srv, int c, int f, int h, int o, int a, int b, int r, int n, string l, string u, List<tempIngredientStorage> list) : base(id, l)
          * \brief           Class constructor used to create a recipe.
          * \author          Ronald Hyatt
          * \author          Brian McCormick
@@ -68,17 +69,15 @@ namespace RecipeFinder
          * \param [in] n    The number of ingredients for the recipe.
          * \param [in] l    The title of the recipe.
          * \param [in] u    The instructions for the recipe.
-         * \param [in] m    The mode for the recipe.
          * \param [in] list The list of ingredient data for the stored recipe.
          * \todo            Create a bool flag list systems for Ronnie.
          * \todo            When splitting ingredient lists keep track of sizes if possible of those lists.
          *                  Alternate is setting up function to return the size of the selected list.
          **/
-        public Recipe(int id, int t, int p, int srv, int c, int f, int h, int o, int a, int b, int r, int n, string l, string u, List<tempIngredientStorage> list)
+        public Recipe(int id, int t, int p, int srv, int c, int f, int h, int o, int a, int b, int r, int n, string l, string u, List<tempIngredientStorage> list) : base(id, l)
         {
             ingredientData temporaryStorage;
 
-            _RecipeID            = id;  //Assigned based on a counter in the input function
             _TotalTime           = t;   //From file
             _PrepTime            = p;   //From file
             _Servings            = srv; //From file
@@ -89,8 +88,7 @@ namespace RecipeFinder
             _Carbs               = a;   //From file
             _Fiber               = b;   //From file
             _Protein             = r;   //From file
-            _NumberOfIngredients = n;   //Either from file or counted during input, Will only represent total number of ingredients and not ingredient per category
-            _Title               = l;   //From file
+            _NumberOfIngredients = n;   //Collect from the size of the list during input
             _Instructions        = u;   //From file
 
             //Create the ingredients data list from raw data input
@@ -114,18 +112,101 @@ namespace RecipeFinder
             else
                 _CookingMode = MainWindow.getCookMode(3);
 
-            //TEST CODE
-            _Temporary = new List<List<bool>>();
+            //Set up 2D boolean array
+            _BoolList = MainWindow.GetCategoryBoolList();
+
+            //Set a flag for which ingredients from the whole list of ingredients the recipe has
+            foreach(ingredientData i in _Ingredients)
+            {
+                int cat = MainWindow.getCategoryIndex(i._category);
+
+                _BoolList[cat][i._categoryID] = true;
+
+                if(_BoolList[cat][0] == false && _BoolList[cat][i._categoryID] == true)
+                    _BoolList[cat][0] = true;
+            }
         }
 
         /**
-         * \fn      public int getRecipeID()
-         * \brief   Function to grab the unique recipe ID.
-         * \author  Brian McCormick
+         * \fn     public int getTotalTime()
+         * \brief  Function for getting the recipes total cook time.
+         * \author Brian McCormick
          **/
-        public int getRecipeID()
-        { return _RecipeID;   }
+        public int getTotalTime()
+        { return _TotalTime; }
 
+        /**
+         * \fn     public int getPrepTime()
+         * \brief  Function for getting 
+         * \author Brian McCormick
+         **/
+        public int getPrepTime()
+        { return _PrepTime; }
+        
+        /**
+         * \fn     public int getServings()
+         * \brief  Function for getting the number of servings for the recipe.
+         * \author Brian McCormick
+         **/
+        public int getServings()
+        { return _Servings; }
+        
+        /**
+         * \fn     public int getCalories()
+         * \brief  Function for getting the recipes calories.
+         * \author Brian McCormick
+         **/
+        public int getCalories()
+        { return _Calories; }
+        
+        /**
+         * \fn     public int getFat()
+         * \brief  Function for getting the recipes fat ammount.
+         * \author Brian McCormick
+         **/
+        public int getFat()
+        { return _Fat; }
+
+        /**
+         * \fn     public int getCholestoral()
+         * \brief  Function for getting the cholestoral value of the recipe.
+         * \author Brian McCormick
+         **/
+        public int getCholestoral()
+        { return _Cholestorol; }
+        
+        /**
+         * \fn     public int getSodium()
+         * \brief  Function for getting the sodium ammount for the recipe.
+         * \author Brian McCormick
+         **/
+        public int getSodium()
+        { return _Sodium; }
+        
+        /**
+         * \fn     public int getCarbs()
+         * \brief  Function for getting the ammount of carbs for the recipe.
+         * \author Brian McCormick
+         **/
+        public int getCarbs()
+        { return _Carbs; }
+        
+        /**
+         * \fn     public int getFiber()
+         * \brief  Function for getting the ammount of fiber in the recipe.
+         * \author Brian McCormick
+         **/
+        public int getFiber()
+        { return _Fiber; }
+        
+        /**
+         * \fn     public int getProtein()
+         * \brief  Function for getting the ammount of protein in the recipe.
+         * \author Brian McCormick
+         **/
+        public int getProtein()
+        { return _Protein; }
+        
         /**
          * \fn      public CookMode getCookingMode()
          * \ brief  Function to grab the cooking mode the recipe is classified under
@@ -142,12 +223,15 @@ namespace RecipeFinder
          * \todo Fix to match allergy flag lists once complete.
          **/
         public bool getAllergy(int i)
-        { return false;        }
+        { return false; }
 
         /**
-         * 
+         * \fn     public List<List<bool>> getIngredientFlags()
+         * \brief  Function for getting the 2D list representing present ingredients in the recipe.
+         * \author Brian McCormick
+         * \return The 2D list of booleans that represent which ingredients are present in the recipe.
          **/
         public List<List<bool>> getIngredientFlags()
-        { return _Temporary;   }
+        { return _BoolList; }
     }
 }

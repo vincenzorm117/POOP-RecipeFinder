@@ -1,8 +1,8 @@
 <map id="testCurrentIngredient" name="testCurrentIngredient">
-<area shape="rect" id="node2" href="$d3/d10/class_recipe_finder_1_1_ingredient.html#aadf0f62cf1d2e89eaf79aa8b4e98a61e" title="Used for accessing the ingredients ID value. " alt="" coords="209,5,401,32"/>
-<area shape="rect" id="node3" href="$d3/d10/class_recipe_finder_1_1_ingredient.html#a4ee6a845e50140f5743f72c7f8cf0d51" title="Used for accessing the ingredients allergy ID value. " alt="" coords="215,57,395,98"/>
-<area shape="rect" id="node4" href="$d3/d10/class_recipe_finder_1_1_ingredient.html#a30ef346e0fd02313d7fdb2bda10f9f1e" title="Used for accessing the ingredients name. " alt="" coords="198,123,413,149"/>
-<area shape="rect" id="node5" href="$d3/d10/class_recipe_finder_1_1_ingredient.html#a4a36dcafedd0fab0f958d78adeb3cd87" title="Used for accessing the ingredients category id. " alt="" coords="215,174,395,215"/>
-<area shape="rect" id="node6" href="$d3/d10/class_recipe_finder_1_1_ingredient.html#aabe81cab9249da54c6f8d9ca839be085" title="Used for accessing the ingredients category value. " alt="" coords="215,239,395,281"/>
-<area shape="rect" id="node7" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#a82150f0b73c575c4baca90693d5a0d3a" title="Function for storing a result to the results array. " alt="" coords="255,305,356,332"/>
+<area shape="rect" id="node2" href="$d1/dec/class_recipe_finder_1_1_base_class.html#aadf0f62cf1d2e89eaf79aa8b4e98a61e" title="Used to get the ID value of the base class object. " alt="" coords="209,5,407,32"/>
+<area shape="rect" id="node3" href="$d3/d10/class_recipe_finder_1_1_ingredient.html#a4ee6a845e50140f5743f72c7f8cf0d51" title="Used for accessing the ingredients allergy ID value. " alt="" coords="218,57,398,98"/>
+<area shape="rect" id="node4" href="$d1/dec/class_recipe_finder_1_1_base_class.html#a30ef346e0fd02313d7fdb2bda10f9f1e" title="Function used to get the name value of the base class object. " alt="" coords="197,123,419,149"/>
+<area shape="rect" id="node5" href="$d3/d10/class_recipe_finder_1_1_ingredient.html#a4a36dcafedd0fab0f958d78adeb3cd87" title="Used for accessing the ingredients category id. " alt="" coords="218,174,398,215"/>
+<area shape="rect" id="node6" href="$d3/d10/class_recipe_finder_1_1_ingredient.html#aabe81cab9249da54c6f8d9ca839be085" title="Used for accessing the ingredients category value. " alt="" coords="218,239,398,281"/>
+<area shape="rect" id="node7" href="$df/d8d/class_unit___test_1_1_unit_test___main.html#a82150f0b73c575c4baca90693d5a0d3a" title="Function for storing a result to the results array. " alt="" coords="257,305,359,332"/>
 </map>

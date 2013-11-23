@@ -71,6 +71,29 @@ namespace RecipeFinder
         }
 
         /**
+         * \fn           public static int getCategoryIndex(IngredientCategory c)
+         * \brief        Function for getting the index value for an ingredient category enum value.
+         * \author       Brian McCormick
+         * \param [in] c The enum value to find the index value for.
+         * \return       The index value for the enum value passed in.
+         **/
+        public static int getCategoryIndex(IngredientCategory c)
+        {
+            switch(c)
+            {
+                case IngredientCategory.NONE:          return 0;
+                case IngredientCategory.VEGITABLES:    return 1;
+                case IngredientCategory.FRUITS:        return 2;
+                case IngredientCategory.DAIRY:         return 3;
+                case IngredientCategory.SEAFOOD:       return 4;
+                case IngredientCategory.MEAT:          return 5;
+                case IngredientCategory.CARBOHYDRATES: return 6;
+                case IngredientCategory.POULTRY:       return 7;
+                default:                               return 0;
+            }
+        }
+
+        /**
          * \fn           public static Measurements getMeasurement(int i)
          * \brief        Function for getting an enumerated value for the measurement category based on index value.
          * \author       Brian McCormick
