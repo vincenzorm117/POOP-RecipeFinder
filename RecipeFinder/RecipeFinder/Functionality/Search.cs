@@ -35,15 +35,13 @@ namespace RecipeFinder
          * \param      userAllergens     The user allergens that they have selected
          * \return     A list of recipes that match the user's specifications
          **/
-        public List<recipeMatches> searchForRecipies(List<bool> userAllergens)
+        public List<recipeMatches> searchForRecipies()
         {
 
             //Create a new List for the results
             List<recipeMatches> results = new List<recipeMatches>();                ///< This is the list created to hold the results
 
-            //Get the number of categories
-            int numCategories = Enum.GetNames(typeof(IngredientCategory)).Length;   
-            int numAllergens  = Enum.GetNames(typeof(Allergy)).Length;              
+            //Get the number of categories           
             int i, j, hits;
             bool skip;
             List<List<bool>> recipeIngredients;
@@ -66,12 +64,12 @@ namespace RecipeFinder
                 else
                 {
                     //If one of the alergy flags matches what the user is allergic to move on
-                    for(i = 0; i < numAllergens; i ++)
+                    for (i = 0; i < _allergyList.ToArray().Length; i++)
                     {
                         //TODO make getter for recipe allergens
                         if(current.getAllergy(0) == false)
                             break;
-                        else if (current.getAllergy(i) == userAllergens[i])
+                        else if (current.getAllergy(i) == _UsersAllergies[i])
                         {
                             skip = true;
                             break;
@@ -86,7 +84,7 @@ namespace RecipeFinder
                     newRecipe = new recipeMatches();
 
                     //Compare categories
-                    for (i = 0; i < numCategories; i++)
+                    for (i = 0; i < Enum.GetNames(typeof(IngredientCategory)).Length; i++)
                     {
                         if((_UserSelections[i][0].Equals(true)) && (recipeIngredients[i][0].Equals(true)))
                         {
