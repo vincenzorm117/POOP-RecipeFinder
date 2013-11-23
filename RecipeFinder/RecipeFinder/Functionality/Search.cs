@@ -8,10 +8,9 @@ namespace RecipeFinder
     public partial class MainWindow : Window
     {
         /**
-         * \fn                        public List<recipeMatches> searchForRecipies(List<bool> userAllergens)
+         * \fn                        public List<recipeMatches> searchForRecipies()
          * \brief                     Function for searching the recipes for users specifications
          * \author                    Ronald Hyatt
-         * \param  [in] userAllergens The user allergens that they have selected
          * \return                    A list of recipes that match the user's specifications
          **/
         public List<recipeMatches> searchForRecipies()
