@@ -17,14 +17,16 @@ namespace RecipeFinder
         public void IngredientSplit()
         {
             //Variables used for controlling the splitting process
-            IngredientCategory c = IngredientCategory.NONE;
-            IngredientCategory t = IngredientCategory.NONE;
+            IngredientCategory c         = IngredientCategory.NONE;
+            IngredientCategory t         = IngredientCategory.NONE;
+            int sizeIngredientCategories = Enum.GetValues(typeof(IngredientCategory)).Length;
 
             //Create a new 2D list of ingredients
             _CategoryLists     = new List<List<Ingredient>>();
             _TestCategoryLists = new List<List<Ingredient>>();
             _UserSelections    = new List<List<bool>>();
-            for(int i = 0; i < Enum.GetValues( typeof(IngredientCategory) ).Length; i++)
+
+            for(int i = 0; i < sizeIngredientCategories; i++)
             {
                 //Create a new list for each category
                 _CategoryLists.Add(new List<Ingredient>());
@@ -38,7 +40,7 @@ namespace RecipeFinder
             }
 
             //Loop through each category
-            for(int i = 0; i < Enum.GetValues(typeof(IngredientCategory)).Length; i++)
+            for(int i = 0; i < sizeIngredientCategories; i++)
             {
                 //Get the enumerated value for the current runthrough
                 t = getCategory(i);

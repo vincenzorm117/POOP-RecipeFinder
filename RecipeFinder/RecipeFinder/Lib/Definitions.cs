@@ -43,4 +43,16 @@ namespace RecipeFinder
         public int                ingredientID;  ///< Used to hold the ID value of the ingredient being stored.
         public IngredientCategory ingredientCat; ///< Used to hold the Category value of the ingredient being stored.
     }
+
+    /**
+     * \struct recipeMatches
+     * \brief  Struct for holding a recipe index and the number of matching ingredients
+     * \author Ronald Hyatt
+     **/
+    public struct recipeMatches
+    {
+        public int hitCounter;  ///< The number of ingredient matches for the recipe
+        public int recipeIndex; ///< The recipe index value for the recipe matches being stored
+    } 
+
 }

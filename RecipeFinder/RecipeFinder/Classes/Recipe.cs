@@ -72,6 +72,7 @@ namespace RecipeFinder
          * \todo            Create a bool flag list systems for Ronnie.
          * \todo            When splitting ingredient lists keep track of sizes if possible of those lists.
          *                  Alternate is setting up function to return the size of the selected list.
+         * \todo            Setup a means of storing allergy flags
          **/
         public Recipe(int id, int t, int p, int srv, int c, int f, int h, int o, int a, int b, int r, int n, string l, string u, List<tempIngredientStorage> list) : base(id, l)
         {

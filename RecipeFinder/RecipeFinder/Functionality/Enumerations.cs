@@ -1,4 +1,6 @@
 ﻿using System.Windows;
+using System.Collections.Generic;
+using System;
 
 namespace RecipeFinder
 {
@@ -139,5 +141,39 @@ namespace RecipeFinder
                 default: return CookMode.NONE;
             }
         }
+
+        /**
+         * \fn           public static bool compareCookMode(CookMode a, CookMode b)
+         * \brief        Function for comparing two cooking mode values.
+         * \author       Brian McCormick
+         * \param [in] a One of the cooking mode values to compare.
+         * \param [in] b One of the cooking mode values to compare.
+         * \return       A boolean value of if the two values are the same or not.
+         **/
+        public static bool compareCookMode(CookMode a, CookMode b)
+        {
+            if(a == b)
+                return true;
+            else
+                return false;
+        }
+
+        /**
+         * \fn     public static int getSizeCategory()
+         * \brief  Function for getting the size of the ingredient category enumerator.
+         * \author Brian McCormick
+         * \return The size of the ingredient category enum.
+         **/
+        public static int getSizeCategory()
+        { return Enum.GetValues(typeof(IngredientCategory)).Length; }
+
+        /**
+         * \fn     public static int getSizeMode()
+         * \brief  Function for getting the size of the cook mode enumerator.
+         * \author Brian McCormick
+         * \return The size of the cook mode enum.
+         **/
+        public static int getSizeMode()
+        { return Enum.GetValues(typeof(CookMode)).Length; }
     }
 }

@@ -201,6 +201,7 @@ namespace RecipeFinder
             string[]                    parsedLine;
             tempIngredientStorage       stagedIngredient;
 
+            //Checks if the input file exists
             if(File.Exists(path))
             {
                 //Read in the entire file
@@ -265,19 +266,17 @@ namespace RecipeFinder
                         tempInstr = l;
                         tempNumIngrd = tempIngredient.ToArray().Length;
 
-                        _recipeList.Add(new Recipe(counterID, tempTime, tempPrep, tempServings, tempCalories, tempFat, tempChol, tempSodium, tempCarb,
-                                                   tempFiber, tempProtein, tempNumIngrd, tempName, tempInstr, tempIngredient));
+                        _recipeList.Add(new Recipe(counterID, tempTime, tempPrep, tempServings, tempCalories, tempFat, tempChol, tempSodium, tempCarb, tempFiber, tempProtein, tempNumIngrd, tempName, tempInstr, tempIngredient));
                         _testRecipeList.Add(_recipeList[counterID]);
-                    }
 
+                        //Increment the counter being used 
+                        counterID++;
+                    }
 
                     //Increment the counter and reset it when needed
                     counter++;
                     if(counter >= 13)
                         counter = 0;
-
-                    //Increment the counter being used 
-                    counterID++;
                 }
                 
                 //Clean up excess memory
