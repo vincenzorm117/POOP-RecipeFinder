@@ -4,7 +4,7 @@ var searchData=
   ['search_2ecs',['Search.cs',['../d4/d20/_search_8cs.html',1,'']]],
   ['search_5finterface_2ecs',['Search_Interface.cs',['../d0/d40/_search___interface_8cs.html',1,'']]],
   ['searchbutton_5fclick',['SearchButton_Click',['../d4/d03/class_recipe_finder_1_1_main_window.html#a56ec5bab27ac2263c7b4e7f9dd4033bd',1,'RecipeFinder::MainWindow']]],
-  ['searchforrecipies',['searchForRecipies',['../d4/d03/class_recipe_finder_1_1_main_window.html#a334dae46580f249f78d22b443e7b301f',1,'RecipeFinder::MainWindow']]],
+  ['searchforrecipies',['searchForRecipies',['../d4/d03/class_recipe_finder_1_1_main_window.html#a8d7ded648318aef79988145abbec0bc1',1,'RecipeFinder::MainWindow']]],
   ['searchtests_2ecs',['SearchTests.cs',['../d7/d93/_search_tests_8cs.html',1,'']]],
   ['selectedmode',['selectedMode',['../d4/d03/class_recipe_finder_1_1_main_window.html#a56fd08a4c55b86d6f025e0fc96a93a5c',1,'RecipeFinder::MainWindow']]],
   ['setcategoryid',['setCategoryID',['../d3/d10/class_recipe_finder_1_1_ingredient.html#ac20854ce1536f64839b759ad1dc80ff4',1,'RecipeFinder::Ingredient']]],

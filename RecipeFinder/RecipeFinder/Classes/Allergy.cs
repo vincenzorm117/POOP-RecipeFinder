@@ -11,44 +11,22 @@ namespace RecipeFinder
      * \brief  Storage for a single Allergy
      * \author Brian McCormick
      **/
-    public class Allergy
+    public class Allergy : BaseClass
     {
-        private int    _ID;      ///< The associated ID number for the stored allergy
-        private string _Name;    ///< The name of the allergy stored
         private string _Message; ///< The warning message associated with the stored allergy
 
         /**
-         * \fn      public Allergy(int i, string n, string m)
+         * \fn      public Allergy(int i, string n, string m) : base(i, n)
          * \brief   Class constructor that initializes all values.
          * \author  Brian McCormick
          * \param i The allergy ID value.
          * \param n The name of the allergy.
          * \param m The warning message for the allergy.
          **/
-        public Allergy(int i, string n, string m)
+        public Allergy(int i, string n, string m) : base(i, n)
         {
-            _ID      = i;
-            _Name    = n;
             _Message = m;
         }
-
-        /**
-         * \fn     public int getID()
-         * \brief  Used for accessing the allergy ID value.
-         * \author Brian McCormick
-         * \return The ID value of the stored allergy.
-         **/
-        public int getID()
-        { return _ID;      }
-
-        /**
-         * \fn     public string getName()
-         * \brief  Used for accessing the name of the allergy.
-         * \author Brian McCormick
-         * \return The name of the stored allergy.
-         **/
-        public string getName()
-        { return _Name;    }
 
         /**
          * \fn     public string getMsg()

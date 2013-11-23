@@ -6,10 +6,10 @@ namespace RecipeFinder
 {
     public partial class MainWindow : Window
     {
-        private List<List<Ingredient>> _CategoryLists;     ///< 2D List that holds the categorized ingredient lists
-        public  List<List<Ingredient>> _TestCategoryLists; ///< 2D List that holds categorized ingredients for testing
+        private static List<List<Ingredient>> _CategoryLists;     ///< 2D List that holds the categorized ingredient lists
+        public  static List<List<Ingredient>> _TestCategoryLists; ///< 2D List that holds categorized ingredients for testing
 
-        private List<List<bool>>       _CategoryBooleans;  ///< 2D List for holding user selections
+        private static List<List<bool>>       _CategoryBooleans;  ///< 2D List for holding user selections
 
         /**
          * \fn     public void IngredientSplit()
@@ -31,9 +31,15 @@ namespace RecipeFinder
             _CategoryBooleans  = new List<List<bool>>();
             for(int i = 0; i < Enum.GetValues( typeof(IngredientCategory) ).Length; i++)
             {
+                //Create a new list for each category
                 _CategoryLists.Add(new List<Ingredient>());
                 _TestCategoryLists.Add(new List<Ingredient>());
                 _CategoryBooleans.Add(new List<bool>());
+
+                //Place buffers in each list
+                _CategoryLists[i].Add(new Ingredient());
+                _TestCategoryLists[i].Add(new Ingredient());
+                _CategoryBooleans[i].Add(false);
             }
 
             //Loop through each category
@@ -71,6 +77,28 @@ namespace RecipeFinder
             _CategoryLists.TrimExcess();
             _TestCategoryLists.TrimExcess();
             _CategoryBooleans.TrimExcess();
+        }
+
+        /**
+         * \fn     public List<List<bool>> GetCategoryBoolList()
+         * \brief  Used for getting a new 2D boolean list of the same size as the split ingredient list.
+         * \author Brian McCormick
+         * \return A new 2D boolean list thats the same size as the main boolean ingredient list.
+         * \todo   Add unit testing for this function.
+         **/
+        public static List<List<bool>> GetCategoryBoolList()
+        {
+            List<List<bool>> temp;
+            temp = new List<List<bool>>(_CategoryBooleans.ToArray().Length);
+
+            foreach(List<bool> l in _CategoryBooleans)
+                temp.Add(new List<bool>(l.ToArray().Length));
+
+            for(int i = 0; i < temp.ToArray().Length; i++)
+                for(int j = 0; j < temp[i].ToArray().Length; i++)
+                    temp[i][j] = false;
+
+            return temp;
         }
     }
 }
