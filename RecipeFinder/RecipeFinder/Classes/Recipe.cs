@@ -72,7 +72,6 @@ namespace RecipeFinder
          * \todo            Create a bool flag list systems for Ronnie.
          * \todo            When splitting ingredient lists keep track of sizes if possible of those lists.
          *                  Alternate is setting up function to return the size of the selected list.
-         * \todo            Setup a means of storing allergy flags
          **/
         public Recipe(int id, int t, int p, int srv, int c, int f, int h, int o, int a, int b, int r, int n, string l, string u, List<tempIngredientStorage> list) : base(id, l)
         {
@@ -114,17 +113,26 @@ namespace RecipeFinder
                 _CookingMode = MainWindow.getCookMode(3);
 
             //Set up 2D boolean array
-            _BoolList = MainWindow.GetCategoryBoolList();
+            _BoolList     = MainWindow.GetCategoryBoolList();
+
+            //Set up the allergy flag storage
+            _AllergyBools = new List<bool>(MainWindow.getAllergySize());
+            for(int i = 0; i < MainWindow.getAllergySize(); i++)
+                _AllergyBools[i] = false;
 
             //Set a flag for which ingredients from the whole list of ingredients the recipe has
             foreach(ingredientData i in _Ingredients)
             {
-                int cat = i._categoryID;
+                _BoolList[i._categoryID][i._categoryIndex] = true;
 
-                _BoolList[cat][i._categoryIndex] = true;
+                if(_BoolList[i._categoryID][0] == false && _BoolList[i._categoryID][i._categoryIndex] == true)
+                    _BoolList[i._categoryID][0] = true;
 
-                if(_BoolList[cat][0] == false && _BoolList[cat][i._categoryIndex] == true)
-                    _BoolList[cat][0] = true;
+                if(MainWindow.getIngredientAllergy(i._categoryID, i._categoryIndex) > 0)
+                {
+                    _AllergyBools[0] = true;
+                    _AllergyBools[MainWindow.getIngredientAllergy(i._categoryID, i._categoryIndex)] = true;
+                }
             }
         }
 
@@ -224,7 +232,7 @@ namespace RecipeFinder
          * \todo Fix to match allergy flag lists once complete.
          **/
         public bool getAllergy(int i)
-        { return false; }
+        { return _AllergyBools[i]; }
 
         /**
          * \fn     public List<List<bool>> getIngredientFlags()

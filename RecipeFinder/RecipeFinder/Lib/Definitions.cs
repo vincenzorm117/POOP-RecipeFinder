@@ -54,5 +54,4 @@ namespace RecipeFinder
         public int hitCounter;  ///< The number of ingredient matches for the recipe
         public int recipeIndex; ///< The recipe index value for the recipe matches being stored
     } 
-
 }

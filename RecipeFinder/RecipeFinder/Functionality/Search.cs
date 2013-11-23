@@ -42,21 +42,19 @@ namespace RecipeFinder
                 else
                 {
                     //If one of the alergy flags matches what the user is allergic to move on
-                    for(int i = 0; i < numAllergens; i ++)
+                    if(current.getAllergy(0) != false)
                     {
-                        //TODO make getter for recipe allergens
-                        if(current.getAllergy(0) == false)
-                            break;
-                        else if (current.getAllergy(i) == _UsersAllergies[i])
+                        for(int i = 0; i < numAllergens; i ++)
                         {
-                            skip = true;
-                            break;
+                            if (current.getAllergy(i) == _UsersAllergies[i])
+                            {
+                                skip = true;
+                                break;
+                            }
                         }
-                    }
-                    //If there is an allergen that matches then skip the recipe
-                    if (skip)
-                    {
-                        continue;
+
+                        if(skip)
+                            continue;
                     }
 
                     newRecipe = new recipeMatches();
@@ -64,6 +62,7 @@ namespace RecipeFinder
                     //Compare categories
                     for (int i = 0; i < numCategories; i++)
                     {
+                        //TODO: Rework check box functionality to alter the zero index accurately
                         if((_UserSelections[i][0].Equals(true)) && (recipeIngredients[i][0].Equals(true)))
                         {
                             //Grab that number of ingrediants for this category
