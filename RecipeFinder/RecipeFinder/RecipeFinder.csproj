@@ -57,8 +57,7 @@
     <Compile Include="Classes\BaseClass.cs" />
     <Compile Include="Functionality\CategorySplitting.cs" />
     <Compile Include="Functionality\EnumDefinitions.cs" />
-    <Compile Include="GUI\Search_Interface.cs" />
-    <Compile Include="GUI\AllergySelector_Interface.cs" />
+    <Compile Include="GUI\SearchButton_Interface.cs" />
     <Compile Include="GUI\CheckBox_Interface.cs" />
     <Compile Include="Functionality\FileInput.cs" />
     <Compile Include="Functionality\Search.cs" />
@@ -68,7 +67,7 @@
       <SubType>Designer</SubType>
     </Page>
     <Compile Include="Classes\Allergy.cs" />
-    <Compile Include="GUI\IngredientSelector_Interface.cs" />
+    <Compile Include="GUI\CheckBox_Populator.cs" />
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>

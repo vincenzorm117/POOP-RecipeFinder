@@ -20,21 +20,23 @@ namespace RecipeFinder
                 //Expanders are the collapsable panel
                 Expander e = new Expander();
                 e.Header = Enum.GetName(typeof(IngredientCategory), i);
+
+                //Takes into account when the enum value of "NONE" is reached
                 if (e.Header.ToString().Equals("NONE"))
-                {
                     e.Header = "OTHER";
-                }
-                //Expanders have content but cannot store elements directly; it needs a grid to hold items
-                //UniformGrid is the Expanders items container; what is unique about this grid is that it can columns and rows
+
+                //Create a uniform grid to hold all of the ingredients inside of the expander
+                //Sets the number of columns to 3
                 UniformGrid g = new UniformGrid();
-                g.Columns = 2;  // The number of columns are set to 2 so it has 2 columns of checkboxes
+                g.Columns = 3;
 
                 for(int j = 1; j < _CategoryLists[i].ToArray().Length; j++)
                 {
-                    IngredientCheckBox c = new IngredientCheckBox(i, j);            //CheckBox created
-                    c.Content = _CategoryLists[i][j].getName(); //Its name is set
+                    //Create a new ingredient check box for an ingredient and set it's various values
+                    IngredientCheckBox c = new IngredientCheckBox(i, j);
+                    c.Content = _CategoryLists[i][j].getName();
 
-                    //Adds actionlistener below (check_Box_Checked_Event) to current checkbox. So when the checkbox is selected that method is ran
+                    //Adds the action listeners to the check boxes for when the user selects the ingredient
                     c.Checked   += ingredient_Checked;
                     c.Unchecked += ingredient_Checked;
 
@@ -43,10 +45,27 @@ namespace RecipeFinder
 
                 }
 
-                //The Expanders content is specified to be the current grid; comment out this line and see what happens
+                //Sets the expanders shown content to be the newly created uniform grid and adds the expander to the UI
                 e.Content = g;
-                //The Current loops expander is added to the SearchFilters panel where they are placed in a stack manner because the panel is a StackPanel
                 SearchFilters.Children.Add(e);
+            }
+        }
+
+        /**
+         * \fn    public void populateAllergies()
+         * \brief Used to add allergies to the GUI.
+         **/
+        public void populateAllergies()
+        {
+            for(int i = 1; i < _allergyList.Capacity; i++)
+            {
+                AllergyCheckBox c = new AllergyCheckBox(i);
+                c.Content = _allergyList[i].getName();
+
+                c.Checked += allergy_Checked;
+                c.Unchecked += allergy_Checked;
+
+                this.Allergies.Children.Add(c);
             }
         }
     }
