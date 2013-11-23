@@ -6,13 +6,7 @@ namespace Unit_Test
 {
     public partial class UnitTest_Main
     {
-        //Objects used for testing the ingredient class
-        private static Ingredient _testIngredient;    ///< Used for holding a single ingredient object
-        private static Ingredient _testIngredientTwo; ///< Used for holding a single ingredient object
-
-        //Boolean arrays used for storing test results
-        private static int[] _ingredientBasicResults; ///< Array used for holding the number of passed tests and the total number of tests for the basic functionality test for the ingredient class
-        private static int[] _ingredientInputResults; ///< Array used for holding the number of passed tests and the total number of tests for the input test for the ingredient class
+        
 
         /**
          * \fn      private static void Ingredient_BasicTest()
@@ -180,21 +174,21 @@ namespace Unit_Test
 
                 j = i % 10;
                 if(j == 0)
-                    testCurrentIngredient(0, -1, -1, n, IngredientCategory.NONE);
+                    testCurrentIngredient(0, 0, -1, n, IngredientCategory.NONE);
                 else if(j == 1)
                     testCurrentIngredient(0, 1, -1, n, IngredientCategory.NONE);
                 else if(j == 2)
-                    testCurrentIngredient(6, -1, -1, n, IngredientCategory.SEAFOOD);
+                    testCurrentIngredient(6, 0, -1, n, IngredientCategory.SEAFOOD);
                 else if(j == 3)
                     testCurrentIngredient(6, 3, -1, n, IngredientCategory.SEAFOOD);
                 else if(j == 4)
-                    testCurrentIngredient(0, -1, -1, n, IngredientCategory.NONE);
+                    testCurrentIngredient(0, 0, -1, n, IngredientCategory.NONE);
                 else if(j == 5)
                     testCurrentIngredient(0, -1, -1, n, IngredientCategory.NONE);
                 else if(j == 6)
                     testCurrentIngredient(0, 1, -1, n, IngredientCategory.NONE);
                 else if(j == 7)
-                    testCurrentIngredient(5, -1, -1, n, IngredientCategory.NONE);
+                    testCurrentIngredient(5, 0, -1, n, IngredientCategory.NONE);
                 else if(j == 8)
                     testCurrentIngredient(234, -1, -1, n, IngredientCategory.NONE);
                 else if(j == 9)

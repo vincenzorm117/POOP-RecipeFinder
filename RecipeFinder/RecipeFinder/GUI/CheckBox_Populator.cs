@@ -34,6 +34,7 @@ namespace RecipeFinder
                 {
                     //Create a new ingredient check box for an ingredient and set it's various values
                     IngredientCheckBox c = new IngredientCheckBox(i, j);
+
                     c.Content = _CategoryLists[i][j].getName();
 
                     //Adds the action listeners to the check boxes for when the user selects the ingredient

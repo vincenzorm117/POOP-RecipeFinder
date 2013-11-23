@@ -48,6 +48,9 @@ namespace RecipeFinder
                 //Loop through each ingredient that was pulled in from file
                 foreach(Ingredient d in _ingredientList)
                 {
+                    if(d.getName() == "Blank Dummy")
+                        continue;
+
                     //Get the enumerated ingredient category for the current ingredient
                     c = d.getCategory();
 
@@ -85,15 +88,19 @@ namespace RecipeFinder
          **/
         public static List<List<bool>> GetCategoryBoolList()
         {
-            List<List<bool>> temp;
-            temp = new List<List<bool>>(_UserSelections.ToArray().Length);
+            int i = 0;
+
+            List<List<bool>> temp = new List<List<bool>>();
 
             foreach(List<bool> l in _UserSelections)
-                temp.Add(new List<bool>(l.ToArray().Length));
+            {
+                temp.Add(new List<bool>());
 
-            for(int i = 0; i < temp.ToArray().Length; i++)
-                for(int j = 0; j < temp[i].ToArray().Length; i++)
-                    temp[i][j] = false;
+                foreach(bool b in l)
+                    temp[i].Add(false);
+
+                i++;
+            }
 
             return temp;
         }

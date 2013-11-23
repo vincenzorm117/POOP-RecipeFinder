@@ -116,9 +116,9 @@ namespace RecipeFinder
             _BoolList     = MainWindow.GetCategoryBoolList();
 
             //Set up the allergy flag storage
-            _AllergyBools = new List<bool>(MainWindow.getAllergySize());
+            _AllergyBools = new List<bool>();
             for(int i = 0; i < MainWindow.getAllergySize(); i++)
-                _AllergyBools[i] = false;
+                _AllergyBools.Add(false);
 
             //Set a flag for which ingredients from the whole list of ingredients the recipe has
             foreach(ingredientData i in _Ingredients)

@@ -95,6 +95,7 @@ namespace RecipeFinder
             //Declare variables used for controlling the input process
             IngredientCategory tempEnum     = IngredientCategory.NONE;
             int                counter      = 0;
+            int                idTracker    = 0;
             int                tempID       = 0;
             int                tempCategory = 0;
             int                tempAllergy  = 0;
@@ -130,13 +131,21 @@ namespace RecipeFinder
                         {
                             int.TryParse(line, out tempAllergy);
 
-                            if(tempAllergy <= 0)
+                            while(tempID != idTracker)
+                            {
+                                _ingredientList.Add(new Ingredient("Blank Dummy"));
+                                _testIngredientList.Add(new Ingredient("Blank Dummy"));
+                                idTracker++;
+                            }
+
+                            if(tempAllergy < 0)
                                 tempIngredient = new Ingredient(tempID, tempName, tempEnum);
                             else
                                 tempIngredient = new Ingredient(tempID, tempAllergy, tempName, tempEnum);
 
                             _ingredientList.Add(tempIngredient);
                             _testIngredientList.Add(tempIngredient);
+                            idTracker++;
                         }
 
                         //Reset the counter after each ingredient object creation

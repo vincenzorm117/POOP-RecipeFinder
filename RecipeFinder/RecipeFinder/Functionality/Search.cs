@@ -52,7 +52,6 @@ namespace RecipeFinder
                                 break;
                             }
                         }
-
                         if(skip)
                             continue;
                     }

@@ -6,21 +6,10 @@ namespace Unit_Test
 {
     public partial class UnitTest_Main
     {
-        //Objects used for testing the allergy class
-        private static Allergy _testAllergy;        ///< Variable used for storing a single allergy object
-
-        //Boolean arrays used for storing test results
-        private static int[] _allergyBasicResult; ///< Array used for holding the number of passed tests and the total number of tests for the basic test
-        private static int[] _allergyInputResult; ///< Array used for holding the number of passed tests and the total number of tests for the input file test
 
         /**
-         * \fn     private static void Allergy_BasicTest()
-         * \brief  Function for testing the basic functionality of the allergy class
-         * \details This function runs through various scenarios for the allergy objects use of the constructor and getter functions.
-         *          The ID is tested to hold up to the value 5000.
-         *          The name is tested to hold single characters, single words, and multiple words.
-         *          The message is tested to hold single characters, single words, and multiple words.
-         *          With all combinations tested there are 45000 different combinations tested.
+         * \fn      private static void Allergy_BasicTest()
+         * \brief   Function for testing the basic functionality of the allergy class
          * \author Brian McCormick
          **/
         private static void Allergy_BasicTest()

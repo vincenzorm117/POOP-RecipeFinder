@@ -18,7 +18,7 @@ namespace RecipeFinder
         private int                _CategoryID; ///< Holds the position within the category list indicated by the _category value
 
         /**
-         * \fn     ppublic Ingredient() : base()
+         * \fn     public Ingredient() : base()
          * \brief  Base class constructor.
          * \author Brian McCormick
          **/
@@ -61,7 +61,7 @@ namespace RecipeFinder
         }
 
         /**
-         * \fn               pupublic Ingredient(Ingredient other) : base(other.getID(), other.getName())
+         * \fn               public Ingredient(Ingredient other) : base(other.getID(), other.getName())
          * \brief            Class constructor used for creating an ingredient object from another ingredient object.
          * \author           Brian McCormick
          * \param [in] other The ingredient object used to create the new ingredient object.
@@ -74,6 +74,19 @@ namespace RecipeFinder
         }
 
         /**
+         * \fn           public Ingredient(string n) : base(n)
+         * \brief        Class constructor used for creating an ingredient with only a name value.
+         * \author       Brian McCormick
+         * \param [in] n The name of the ingredient.
+         **/
+        public Ingredient(string n) : base(n)
+        {
+            _Allergy    = -1;
+            _Category   = IngredientCategory.NONE;
+            _CategoryID = -1;
+        }
+
+        /**
          * \fn             public void setCategoryID(int cid)
          * \brief          Used for setting the category id value for the ingredient.
          * \author         Brian McCormick
@@ -82,7 +95,11 @@ namespace RecipeFinder
          * \param [in] cid The category id to assign to the ingredient.
          **/
         public void setCategoryID(int cid)
-        { _CategoryID = cid;  }
+        {
+            //Set up this way so that the category id can only be set once.
+            if(_CategoryID == -1) 
+                _CategoryID = cid;
+        }
 
         /**
          * \fn     public int getAllergy()
@@ -112,6 +129,10 @@ namespace RecipeFinder
         { return _CategoryID; }
 
 
+        /**
+         * \fn     public void printIngredient()
+         * \author Brian McCormick
+         **/
         public void printIngredient()
         {
             Console.WriteLine();

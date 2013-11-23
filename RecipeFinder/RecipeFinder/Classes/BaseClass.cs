@@ -41,6 +41,30 @@ namespace RecipeFinder
         }
 
         /**
+         * \fn           public BaseClass(int i)
+         * \brief        Constructor for the base class when only the ID value is passed in.
+         * \author       Brian McCormick
+         * \param [in] i The index value for the base class object.
+         **/
+        public BaseClass(int i)
+        {
+            _ID   = i;
+            _Name = "";
+        }
+
+        /**
+         * \fn           public BaseClass(string n)
+         * \brief        Constructor for the base class when only the name is passed in.
+         * \author       Brian McCormick
+         * \param [in] n The name for the base class object.
+         **/
+        public BaseClass(string n)
+        {
+            _ID   = -1;
+            _Name = n;
+        }
+
+        /**
          * \fn     public int getID()
          * \brief  Used to get the ID value of the base class object.
          * \author Brian McCormick

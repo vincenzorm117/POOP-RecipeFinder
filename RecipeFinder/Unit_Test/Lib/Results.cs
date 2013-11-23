@@ -6,8 +6,6 @@ namespace Unit_Test
 {
     public partial class UnitTest_Main
     {
-        private static List<bool> _results; ///< List for holding a tests results
-
         /**
          * \fn                       private static int passCount()
          * \brief                    Function for tallying up the number of passed tests.
