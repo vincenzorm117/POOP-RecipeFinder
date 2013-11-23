@@ -32,11 +32,10 @@ namespace RecipeFinder
          * \fn         public List<Recipe> searchForRecipies(List<List<bool>> userSearchParams, CookMode cookingMode, List<bool> userAlergens)
          * \brief      Function for searching the recipes for users specifications
          * \author     Ronald Hyatt.
-         * \param      cookingMode       The cooking mode that the user has selected.
          * \param      userAllergens     The user allergens that they have selected
          * \return     A list of recipes that match the user's specifications
          **/
-        public List<recipeMatches> searchForRecipies(CookMode cookingMode, List<bool> userAllergens)
+        public List<recipeMatches> searchForRecipies(List<bool> userAllergens)
         {
 
             //Create a new List for the results
@@ -57,9 +56,9 @@ namespace RecipeFinder
                 skip = false;
                 hits = 0;
                 recipeIngredients = current.getIngredientFlags();
-
+                
                 //If the cooking mode does not match the user's then move on
-                if (!(cookingMode.Equals(current.getCookingMode())))
+                if (!(selectedMode.Equals(current.getCookingMode())))
                 {
                     continue;
                 }
