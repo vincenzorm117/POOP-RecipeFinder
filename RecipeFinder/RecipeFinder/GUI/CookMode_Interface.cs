@@ -11,22 +11,22 @@ namespace RecipeFinder
 
         private void MODENONE_Checked(object sender, RoutedEventArgs e)
         {
-            selectedMode = CookMode.NONE;
+            _selectedMode = CookMode.NONE;
         }
 
         private void MODEQUICKANDEASY_Checked(object sender, RoutedEventArgs e)
         {
-            selectedMode = CookMode.QUICKANDEASY;
+            _selectedMode = CookMode.QUICKANDEASY;
         }
 
         private void MODEINTERMEDIATE_Checked(object sender, RoutedEventArgs e)
         {
-            selectedMode = CookMode.INTERMEDIATE;
+            _selectedMode = CookMode.INTERMEDIATE;
         }
 
         private void MODECHEF_Checked(object sender, RoutedEventArgs e)
         {
-            selectedMode = CookMode.CHEF;
+            _selectedMode = CookMode.CHEF;
         }
 
     }

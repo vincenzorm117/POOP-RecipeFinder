@@ -58,7 +58,7 @@ namespace RecipeFinder
                 recipeIngredients = current.getIngredientFlags();
                 
                 //If the cooking mode does not match the user's then move on
-                if (!(selectedMode.Equals(current.getCookingMode())))
+                if(!(_selectedMode.Equals(current.getCookingMode())))
                 {
                     continue;
                 }

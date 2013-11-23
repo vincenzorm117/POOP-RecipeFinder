@@ -23,7 +23,7 @@ namespace RecipeFinder
      **/
     public partial class MainWindow : Window
     {
-        private CookMode         _selectedMode;
+        private CookMode _selectedMode;
 
         /**
          * \fn      public MainWindow()
