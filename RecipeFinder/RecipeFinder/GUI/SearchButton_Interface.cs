@@ -34,7 +34,7 @@ namespace RecipeFinder
             }
 
             //TODO: Uncomment when the search function is finished
-            //searchForRecipies(allergens);
+            searchForRecipies();
         }
 
         /**

@@ -14,7 +14,7 @@ namespace RecipeFinder
          * \param  [in] userAllergens The user allergens that they have selected
          * \return                    A list of recipes that match the user's specifications
          **/
-        public List<recipeMatches> searchForRecipies(List<bool> userAllergens)
+        public List<recipeMatches> searchForRecipies()
         {
             //Declare variables for controlling the searching process
             int              hits      = 0;
@@ -48,7 +48,7 @@ namespace RecipeFinder
                         //TODO make getter for recipe allergens
                         if(current.getAllergy(0) == false)
                             break;
-                        else if (current.getAllergy(i) == userAllergens[i])
+                        else if (current.getAllergy(i) == _UsersAllergies[i])
                         {
                             skip = true;
                             break;
