@@ -21,13 +21,13 @@ namespace RecipeFinder
          **/
         private struct ingredientData
         {
-            public string             _amount;      ///< Holds the ammount of the ingredient as pulled in from file
-            public int                _categoryID;  ///< Holds the ID value for the ingredient as stored within it's associated category
-            public Measurements       _measurement; ///< Holds the measurement ID for the ingredient
-            public IngredientCategory _category;    ///< Holds the category that the ingredient is associated with
+            public string             _amount;        ///< Holds the ammount of the ingredient as pulled in from file
+            public int                _categoryIndex; ///< Holds the index value within the category list for the ingredient
+            public int                _categoryID;    ///< Holds the ID value for the ingredients category
+            public Measurements       _measurement;   ///< Holds the measurement ID for the ingredient
+            public IngredientCategory _category;      ///< Holds the category that the ingredient is associated with
         }
         
-        //private int                  _RecipeID;            ///< The ID number associated with the stored recipe
         private int                  _TotalTime;           ///< The total time for the recipe
         private int                  _PrepTime;            ///< The amount of time needed to prepare
         private int                  _Servings;            ///< How many servings the recipe makes
@@ -40,7 +40,6 @@ namespace RecipeFinder
         private int                  _Protein;             ///< How much protien per serving (g)
         private int                  _NumberOfIngredients; ///< The total number of ingredients for this recipe
 
-        //private string               _Title;               ///< The title of the recipe being stored
         private string               _Instructions;        ///< The instructions for the recipe being stored
 
         private List<ingredientData> _Ingredients;         ///< The list of ingredients for the recipe being stored
@@ -95,10 +94,11 @@ namespace RecipeFinder
             _Ingredients = new List<ingredientData>();
             foreach(tempIngredientStorage temp in list)
             {
-                temporaryStorage._amount      = temp.quantity;
-                temporaryStorage._measurement = MainWindow.getMeasurement(temp.measurementID);
-                temporaryStorage._category    = temp.ingredientCat;
-                temporaryStorage._categoryID  = temp.ingredientID;
+                temporaryStorage._amount        = temp.quantity;
+                temporaryStorage._measurement   = MainWindow.getMeasurement(temp.measurementID);
+                temporaryStorage._category      = temp.ingredientCat;
+                temporaryStorage._categoryIndex = temp.ingredientID;
+                temporaryStorage._categoryID    = MainWindow.getCategoryIndex(temp.ingredientCat);
 
                 _Ingredients.Add(temporaryStorage);
             }
@@ -118,11 +118,11 @@ namespace RecipeFinder
             //Set a flag for which ingredients from the whole list of ingredients the recipe has
             foreach(ingredientData i in _Ingredients)
             {
-                int cat = MainWindow.getCategoryIndex(i._category);
+                int cat = i._categoryID;
 
-                _BoolList[cat][i._categoryID] = true;
+                _BoolList[cat][i._categoryIndex] = true;
 
-                if(_BoolList[cat][0] == false && _BoolList[cat][i._categoryID] == true)
+                if(_BoolList[cat][0] == false && _BoolList[cat][i._categoryIndex] == true)
                     _BoolList[cat][0] = true;
             }
         }

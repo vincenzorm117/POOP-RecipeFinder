@@ -5,19 +5,6 @@ using System.IO;
 
 namespace RecipeFinder
 {
-    /**
-     * \struct recipeIngredient
-     * \brief  Struct used for temporarily holding a recipes ingredient data.
-     * \author Brian McCormick
-     **/
-    public struct tempIngredientStorage
-    {
-        public string             quantity;      ///< Used to hold the ammount of the ingredient needed for the recipe.
-        public int                measurementID; ///< Used to hold the stored ingredients unit of measurement.
-        public int                ingredientID;  ///< Used to hold the ID value of the ingredient being stored.
-        public IngredientCategory ingredientCat; ///< Used to hold the Category value of the ingredient being stored.
-    }
-
     public partial class MainWindow : Window
     {
         /**
