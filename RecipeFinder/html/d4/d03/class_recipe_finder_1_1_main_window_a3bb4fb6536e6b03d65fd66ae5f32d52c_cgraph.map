@@ -1,11 +1,10 @@
 <map id="MainWindow" name="MainWindow">
 <area shape="rect" id="node2" href="$d4/d03/class_recipe_finder_1_1_main_window.html#a0fa27e9f6b68e3706d57e706d862bdf0" title="Function for reading allergy data in from file. " alt="" coords="197,5,288,32"/>
-<area shape="rect" id="node3" href="$d4/d03/class_recipe_finder_1_1_main_window.html#a2708b2a683614340425139aa10b9197f" title="Function for reading ingredient data in from file. " alt="" coords="189,107,296,133"/>
-<area shape="rect" id="node5" href="$d4/d03/class_recipe_finder_1_1_main_window.html#a2451d0d5d68779cb9beaa1d54245c27e" title="Function for splitting the ingredients into separate category list. " alt="" coords="191,56,295,83"/>
-<area shape="rect" id="node6" href="$d4/d03/class_recipe_finder_1_1_main_window.html#a4a9a1a53eeccf0acf6cd77acdb6aba56" title="Used to add allergies to the GUI. " alt="" coords="182,224,303,251"/>
-<area shape="rect" id="node10" href="$d4/d03/class_recipe_finder_1_1_main_window.html#aa640b5e22836e77387de6a2f0f946aa6" title="Used for creating the expanders and their check boxes. " alt="" coords="150,158,335,199"/>
-<area shape="rect" id="node4" href="$d4/d03/class_recipe_finder_1_1_main_window.html#af85b4cb8a2d6f89b6587479ffc4ceb97" title="Function for getting an enumerated value for the ingredient category based on index value..." alt="" coords="430,81,522,108"/>
-<area shape="rect" id="node7" href="$d4/d03/class_recipe_finder_1_1_main_window.html#aa7b1f034e622294117faf809b084cfc6" title="Function for handling the functionality of when a check box is checked by the user. " alt="" coords="384,165,568,192"/>
-<area shape="rect" id="node9" href="$d4/d03/class_recipe_finder_1_1_main_window.html#ad9b6d20f083e9415282e5be9ffeac829" title="Function for handling the functionality of when a check box is unchecked by the user. " alt="" coords="397,217,555,258"/>
-<area shape="rect" id="node8" href="$d3/dbf/class_recipe_finder_1_1_ingredient_check_box.html#ab2f9fce5ee9001b54a925284057b34c6" title="Function for accessing the category mapping stored in the check box. " alt="" coords="616,187,811,229"/>
+<area shape="rect" id="node3" href="$d4/d03/class_recipe_finder_1_1_main_window.html#a2708b2a683614340425139aa10b9197f" title="Function for reading ingredient data in from file. " alt="" coords="189,56,296,83"/>
+<area shape="rect" id="node5" href="$d4/d03/class_recipe_finder_1_1_main_window.html#a2451d0d5d68779cb9beaa1d54245c27e" title="Function for splitting the ingredients into separate category list. " alt="" coords="191,107,295,133"/>
+<area shape="rect" id="node6" href="$d4/d03/class_recipe_finder_1_1_main_window.html#a4a9a1a53eeccf0acf6cd77acdb6aba56" title="Used to add allergies to the GUI. " alt="" coords="182,157,303,184"/>
+<area shape="rect" id="node7" href="$d4/d03/class_recipe_finder_1_1_main_window.html#aa640b5e22836e77387de6a2f0f946aa6" title="Used for creating the expanders and their check boxes. " alt="" coords="150,209,335,250"/>
+<area shape="rect" id="node4" href="$d4/d03/class_recipe_finder_1_1_main_window.html#af85b4cb8a2d6f89b6587479ffc4ceb97" title="Function for getting an enumerated value for the ingredient category based on index value..." alt="" coords="406,81,498,108"/>
+<area shape="rect" id="node8" href="$d4/d03/class_recipe_finder_1_1_main_window.html#a14dea50a3f62d070ad1c1c1f7e1831a4" title="ingredient_Checked" alt="" coords="384,216,520,243"/>
+<area shape="rect" id="node9" href="$d3/dbf/class_recipe_finder_1_1_ingredient_check_box.html#ab2f9fce5ee9001b54a925284057b34c6" title="Function for accessing the category mapping stored in the check box. " alt="" coords="568,209,763,250"/>
 </map>

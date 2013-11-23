@@ -17,8 +17,8 @@ namespace RecipeFinder
                 IngredientCheckBox c = new IngredientCheckBox(i, i);
                 c.Content = _allergyList[i].getName();
 
-                c.Checked   += check_Box_Checked_Event;
-                c.Unchecked += check_Box_Unchecked_Event;
+                //c.Checked   += check_Box_Checked_Event;
+                //c.Unchecked += check_Box_Unchecked_Event;
 
                 this.Allergies.Children.Add(c);
             }

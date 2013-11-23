@@ -89,7 +89,7 @@ namespace RecipeFinder
                     //Compare categories
                     for (i = 0; i < numCategories; i++)
                     {
-                        if ((_CategoryBooleans[i][0].Equals(true)) && (recipeIngredients[i][0].Equals(true)))
+                        if((_UserSelections[i][0].Equals(true)) && (recipeIngredients[i][0].Equals(true)))
                         {
                             //Grab that number of ingrediants for this category
                             //TODO: grab the number of ingrediants from this specific category
@@ -99,7 +99,7 @@ namespace RecipeFinder
                             //TODO: Redo to actually compare
                             for (j = 0; j < recipeIngredients[i].ToArray().Length; j++)
                             {
-                                if ((_CategoryBooleans[i][j].Equals(true)) && (recipeIngredients[i][j].Equals(true)))
+                                if((_UserSelections[i][j].Equals(true)) && (recipeIngredients[i][j].Equals(true)))
                                 {
                                     hits = hits + 1;
                                 }

@@ -62,6 +62,7 @@
     <Compile Include="GUI\CheckBox_Interface.cs" />
     <Compile Include="Functionality\FileInput.cs" />
     <Compile Include="Functionality\Search.cs" />
+    <Compile Include="Classes\RecipeFinder_CheckBox.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

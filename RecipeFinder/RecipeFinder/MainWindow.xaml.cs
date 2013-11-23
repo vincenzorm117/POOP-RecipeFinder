@@ -23,8 +23,7 @@ namespace RecipeFinder
      **/
     public partial class MainWindow : Window
     {
-        private List<List<bool>> checkedIngredients;
-        private CookMode selectedMode;
+        private CookMode         _selectedMode;
 
         /**
          * \fn      public MainWindow()
@@ -32,7 +31,7 @@ namespace RecipeFinder
          **/
         public MainWindow()
         {   
-            selectedMode = CookMode.NONE;
+            _selectedMode = CookMode.NONE;
 
             /*File Input Functionality Here*/
             if(!AllergyInput("../../Inputs/inputAllergies.txt"))
@@ -47,7 +46,6 @@ namespace RecipeFinder
 
             /*End Input Functionality Here*/
 
-            checkedIngredients = new List<List<bool>>();
             InitializeComponent();
             populateAllergies();
             populateFilterExpandersAndCheckBoxes();

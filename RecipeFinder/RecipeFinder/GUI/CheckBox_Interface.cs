@@ -8,31 +8,19 @@ namespace RecipeFinder
     public partial class MainWindow : Window
     {
         /**
-         * \fn    void check_Box_Checked_Event(object sender, RoutedEventArgs e)
-         * \brief Function for handling the functionality of when a check box is checked by the user.
+         * \fn    void checkBox_Clicked(object sender, RoutedEventArgs e)
+         * \brief Function for handling the functionality of when a check box is unchecked or checked by the user.
          * \param sender
          * \param e
          **/
-        void check_Box_Checked_Event(object sender, RoutedEventArgs e)
+        void ingredient_Checked(object sender, RoutedEventArgs e)
         {
             IngredientCheckBox c = (IngredientCheckBox)e.Source;
-            int column = c.getColumn();
-            int row = c.getRow();
-            _CategoryBooleans[column][row] = true;
+            int column           = c.getColumn();
+            int row              = c.getRow();
+            _UserSelections[column][row] = !_UserSelections[column][row];
         }
 
-        /**
-         * \fn    void check_Box_Unchecked_Event(object sender, RoutedEventArgs e)
-         * \brief Function for handling the functionality of when a check box is unchecked by the user.
-         * \param sender
-         * \param e
-         **/
-        void check_Box_Unchecked_Event(object sender, RoutedEventArgs e)
-        {
-            IngredientCheckBox c = (IngredientCheckBox)e.Source;
-            int column = c.getColumn();
-            int row = c.getRow();
-            _CategoryBooleans[column][row] = false;
-        }
+
     }
 }

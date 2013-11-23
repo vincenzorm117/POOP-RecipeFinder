@@ -33,7 +33,7 @@ namespace RecipeFinder
                 //TODO: Update function call so that it fits with updated data storage methods
                 for (j = 0; j < _CategoryLists[i].ToArray().Length; j++)
                 {
-                    bool curr = checkedIngredients[i][j];
+                    bool curr = _UserSelections[i][j];
                     Results.Items.Add(curr);
                 }
             }

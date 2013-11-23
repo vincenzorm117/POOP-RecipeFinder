@@ -1,7 +1,3 @@
-C:/Users/mccor_000/Desktop/P.O.O.P/Code_Checkout/RecipeFinder/RecipeFinder/Functionality/Search.cs:33: warning: argument 'param' of command @param is not found in the argument list of MainWindow::searchForRecipies(List< List< bool >> userSearchParams, CookMode cookingMode, List< bool > userAlergens)
-C:/Users/mccor_000/Desktop/P.O.O.P/Code_Checkout/RecipeFinder/RecipeFinder/Functionality/Search.cs:33: warning: argument 'return' of command @param is not found in the argument list of MainWindow::searchForRecipies(List< List< bool >> userSearchParams, CookMode cookingMode, List< bool > userAlergens)
-C:/Users/mccor_000/Desktop/P.O.O.P/Code_Checkout/RecipeFinder/RecipeFinder/Functionality/Search.cs:33: warning: The following parameters of RecipeFinder.MainWindow.searchForRecipies(List< List< bool >> userSearchParams, CookMode cookingMode, List< bool > userAlergens) are not documented:
-  parameter 'userSearchParams'
-  parameter 'cookingMode'
-  parameter 'userAlergens'
-C:/Users/mccor_000/Desktop/P.O.O.P/Code_Checkout/RecipeFinder/RecipeFinder/Classes/Recipe.cs:54: warning: argument 'm' of command @param is not found in the argument list of Recipe::Recipe(int id, int t, int p, int srv, int c, int f, int h, int o, int a, int b, int r, int n, string l, string u, List< tempIngredientStorage > list)
+C:/Users/mccor_000/Desktop/P.O.O.P/Code_Checkout/RecipeFinder/RecipeFinder/Classes/Recipe.cs:229: warning: documented symbol `public List< List< bool >> getIngredientFlags()' was not declared or defined.
+C:/Users/mccor_000/Desktop/P.O.O.P/Code_Checkout/RecipeFinder/RecipeFinder/Functionality/CategorySplitting.cs:83: warning: documented symbol `public List< List< bool >> GetCategoryBoolList()' was not declared or defined.
+C:/Users/mccor_000/Desktop/P.O.O.P/Code_Checkout/RecipeFinder/RecipeFinder/GUI/CheckBox_Interface.cs:11: warning: documented symbol `void checkBox_Clicked' was not declared or defined.

@@ -9,7 +9,7 @@ namespace RecipeFinder
         private static List<List<Ingredient>> _CategoryLists;     ///< 2D List that holds the categorized ingredient lists
         public  static List<List<Ingredient>> _TestCategoryLists; ///< 2D List that holds categorized ingredients for testing
 
-        private static List<List<bool>>       _CategoryBooleans;  ///< 2D List for holding user selections
+        private static List<List<bool>>       _UserSelections;    ///< 2D List for holding user selections
 
         /**
          * \fn     public void IngredientSplit()
@@ -28,18 +28,18 @@ namespace RecipeFinder
             //Create a new 2D list of ingredients
             _CategoryLists     = new List<List<Ingredient>>();
             _TestCategoryLists = new List<List<Ingredient>>();
-            _CategoryBooleans  = new List<List<bool>>();
+            _UserSelections    = new List<List<bool>>();
             for(int i = 0; i < Enum.GetValues( typeof(IngredientCategory) ).Length; i++)
             {
                 //Create a new list for each category
                 _CategoryLists.Add(new List<Ingredient>());
                 _TestCategoryLists.Add(new List<Ingredient>());
-                _CategoryBooleans.Add(new List<bool>());
+                _UserSelections.Add(new List<bool>());
 
                 //Place buffers in each list
                 _CategoryLists[i].Add(new Ingredient());
                 _TestCategoryLists[i].Add(new Ingredient());
-                _CategoryBooleans[i].Add(false);
+                _UserSelections[i].Add(false);
             }
 
             //Loop through each category
@@ -63,20 +63,20 @@ namespace RecipeFinder
                         //Adds a new ingredient to the proper category list
                         _CategoryLists[i].Add(new Ingredient(d));
                         _TestCategoryLists[i].Add(new Ingredient(d));
-                        _CategoryBooleans[i].Add(false);
+                        _UserSelections[i].Add(false);
                     }
                 }
 
                 //Remove excess memory
                 _CategoryLists[i].TrimExcess();
                 _TestCategoryLists[i].TrimExcess();
-                _CategoryBooleans[i].TrimExcess();
+                _UserSelections[i].TrimExcess();
             }
 
             //Remove excess memory
             _CategoryLists.TrimExcess();
             _TestCategoryLists.TrimExcess();
-            _CategoryBooleans.TrimExcess();
+            _UserSelections.TrimExcess();
         }
 
         /**
@@ -89,9 +89,9 @@ namespace RecipeFinder
         public static List<List<bool>> GetCategoryBoolList()
         {
             List<List<bool>> temp;
-            temp = new List<List<bool>>(_CategoryBooleans.ToArray().Length);
+            temp = new List<List<bool>>(_UserSelections.ToArray().Length);
 
-            foreach(List<bool> l in _CategoryBooleans)
+            foreach(List<bool> l in _UserSelections)
                 temp.Add(new List<bool>(l.ToArray().Length));
 
             for(int i = 0; i < temp.ToArray().Length; i++)

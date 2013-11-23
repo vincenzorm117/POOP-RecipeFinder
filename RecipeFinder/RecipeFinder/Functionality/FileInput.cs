@@ -22,6 +22,7 @@ namespace RecipeFinder
     {
         private static List<Allergy>    _allergyList;        ///< The list used to hold the allergy list read in from file.
         public  static List<Allergy>    _testAllergyList;    ///< List used so that the unit test can have access to the data. Never gets called in the main program.
+        private static List<bool>       _UsersAllergies;     ///< List of booleans representing the users allergy filter selections.
 
         private static List<Ingredient> _ingredientList;     ///< The list used to hold the ingredient list read in from file.
         public  static List<Ingredient> _testIngredientList; ///< List used so that the unit test can have access to the data. Never gets called in the main program.
@@ -51,6 +52,7 @@ namespace RecipeFinder
             //Creates a new list of allergy objects
             _allergyList     = new List<Allergy>();
             _testAllergyList = new List<Allergy>();
+            _UsersAllergies  = new List<bool>();
 
             //If the file at the target path exists then proceed with the input from file
             if(File.Exists(path))
@@ -74,6 +76,7 @@ namespace RecipeFinder
                             tempAllergy = new Allergy(tempID, tempName, line);
                             _allergyList.Add(tempAllergy);
                             _testAllergyList.Add(tempAllergy);
+                            _UsersAllergies.Add(false);
                         }
 
                         //Reset the counter after each allergy object creation
