@@ -64,6 +64,7 @@
     <Compile Include="Functionality\Search.cs" />
     <Compile Include="Classes\RecipeFinder_CheckBox.cs" />
     <Compile Include="Functionality\Allergy_Interface.cs" />
+    <Compile Include="Classes\ResultsComparer.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

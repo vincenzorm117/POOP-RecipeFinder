@@ -25,6 +25,7 @@ namespace RecipeFinder
             _CategoryLists     = new List<List<Ingredient>>();
             _TestCategoryLists = new List<List<Ingredient>>();
             _UserSelections    = new List<List<bool>>();
+            _CategoryCounter   = new List<int>();
 
             for(int i = 0; i < sizeIngredientCategories; i++)
             {
@@ -37,6 +38,7 @@ namespace RecipeFinder
                 _CategoryLists[i].Add(new Ingredient());
                 _TestCategoryLists[i].Add(new Ingredient());
                 _UserSelections[i].Add(false);
+                _CategoryCounter.Add(0);
             }
 
             //Loop through each category

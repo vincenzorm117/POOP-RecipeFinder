@@ -19,6 +19,18 @@ namespace RecipeFinder
             int column           = i.getColumn();
             int row              = i.getRow();
             _UserSelections[column][row] = !_UserSelections[column][row];
+
+            if(_UserSelections[column][row])
+            {
+                _CategoryCounter[column]++;
+                _UserSelections[column][0] = true;
+            }
+            else
+            {
+                _CategoryCounter[column]--;
+                if(_CategoryCounter[column] <= 0)
+                    _UserSelections[column][0] = false;
+            }
         }
 
         /**

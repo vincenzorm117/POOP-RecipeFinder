@@ -17,6 +17,8 @@ namespace RecipeFinder
          **/
         private void SearchButton_Click(object sender, RoutedEventArgs e)
         {
+            List<recipeMatches> results = searchForRecipies();
+
             //Hides the initially shown panels and shows the results panel
             ControlTemp.Visibility  = System.Windows.Visibility.Hidden;
             SearchPanel.Visibility  = System.Windows.Visibility.Hidden;
@@ -24,17 +26,19 @@ namespace RecipeFinder
 
             //Current means of displaying the users selections
             //This section of code will be removed when Ronnies search function is finished
-            for (int i = 0; i < Enum.GetNames(typeof(IngredientCategory)).Length; i++)
+            /*for (int i = 0; i < Enum.GetNames(typeof(IngredientCategory)).Length; i++)
             {
                 for (int j = 0; j < _CategoryLists[i].ToArray().Length; j++)
                 {
                     bool curr = _UserSelections[i][j];
                     Results.Items.Add(curr);
                 }
-            }
+            }*/
 
-            //TODO: Uncomment when the search function is finished
-            searchForRecipies();
+            foreach(recipeMatches r in results)
+            {
+                Results.Items.Add(_recipeList[r.recipeIndex].getName());
+            }
         }
 
         /**

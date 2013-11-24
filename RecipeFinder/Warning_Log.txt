@@ -1,2 +1,2 @@
 C:/Users/mccor_000/Desktop/P.O.O.P/Code_Checkout/RecipeFinder/RecipeFinder/Classes/Recipe.cs:223: warning: documented symbol `public List< List< bool >> getIngredientFlags()' was not declared or defined.
-C:/Users/mccor_000/Desktop/P.O.O.P/Code_Checkout/RecipeFinder/RecipeFinder/Functionality/CategorySplitting.cs:83: warning: documented symbol `public List< List< bool >> GetCategoryBoolList()' was not declared or defined.
+C:/Users/mccor_000/Desktop/P.O.O.P/Code_Checkout/RecipeFinder/RecipeFinder/Functionality/CategorySplitting.cs:85: warning: documented symbol `public List< List< bool >> GetCategoryBoolList()' was not declared or defined.

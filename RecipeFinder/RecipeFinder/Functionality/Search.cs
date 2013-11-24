@@ -4,7 +4,6 @@ using System.Collections.Generic;
 
 namespace RecipeFinder
 {
-
     public partial class MainWindow : Window
     {
         /**
@@ -94,7 +93,7 @@ namespace RecipeFinder
             }
 
             //TODO Sort the results from the search
-            results.Sort();
+            results.Sort(new ResultsComparer());
 
             return results;
         }
