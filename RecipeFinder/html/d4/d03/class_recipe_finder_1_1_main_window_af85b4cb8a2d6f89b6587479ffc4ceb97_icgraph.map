@@ -1,5 +1,6 @@
 <map id="getCategory" name="getCategory">
 <area shape="rect" id="node2" href="$d4/d03/class_recipe_finder_1_1_main_window.html#a2451d0d5d68779cb9beaa1d54245c27e" title="Function for splitting the ingredients into separate category list. " alt="" coords="148,5,252,32"/>
 <area shape="rect" id="node4" href="$d4/d03/class_recipe_finder_1_1_main_window.html#a2708b2a683614340425139aa10b9197f" title="Function for reading ingredient data in from file. " alt="" coords="147,56,253,83"/>
-<area shape="rect" id="node3" href="$d4/d03/class_recipe_finder_1_1_main_window.html#a3bb4fb6536e6b03d65fd66ae5f32d52c" title="Class constructor for initializing the program. " alt="" coords="301,31,397,57"/>
+<area shape="rect" id="node5" href="$d4/d03/class_recipe_finder_1_1_main_window.html#a9fb2df2cf8378e0d66f52b56b7261804" title="Function for reading recipe data in from file. " alt="" coords="155,107,245,133"/>
+<area shape="rect" id="node3" href="$d4/d03/class_recipe_finder_1_1_main_window.html#a3bb4fb6536e6b03d65fd66ae5f32d52c" title="Class constructor for initializing the program. " alt="" coords="301,56,397,83"/>
 </map>

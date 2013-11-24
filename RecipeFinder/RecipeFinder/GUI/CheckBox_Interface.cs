@@ -8,7 +8,7 @@ namespace RecipeFinder
     public partial class MainWindow : Window
     {
         /**
-         * \fn    void checkBox_Clicked(object sender, RoutedEventArgs e)
+         * \fn    void ingredient_Checked(object sender, RoutedEventArgs e)
          * \brief Function for handling the functionality of when an ingredient check box is selected by the user.
          * \param sender
          * \param e

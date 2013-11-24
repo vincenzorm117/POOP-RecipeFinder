@@ -1,0 +1,5 @@
+<map id="RecipeInput" name="RecipeInput">
+<area shape="rect" id="node2" href="$d4/d03/class_recipe_finder_1_1_main_window.html#a873ca6061725852816deaebc283a5003" title="Function for getting the index value for an ingredient category enum value. " alt="" coords="144,5,267,32"/>
+<area shape="rect" id="node3" href="$d4/d03/class_recipe_finder_1_1_main_window.html#af85b4cb8a2d6f89b6587479ffc4ceb97" title="Function for getting an enumerated value for the ingredient category based on index value..." alt="" coords="159,56,251,83"/>
+<area shape="rect" id="node4" href="$d4/d03/class_recipe_finder_1_1_main_window.html#a0348c9536d46af751a0ea96e262e0017" title="Function for getting an enumerated value for the measurement category based on index value..." alt="" coords="146,107,265,133"/>
+</map>

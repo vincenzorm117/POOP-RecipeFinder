@@ -1,3 +1,4 @@
 <map id="IngredientSplit" name="IngredientSplit">
-<area shape="rect" id="node2" href="$d4/d03/class_recipe_finder_1_1_main_window.html#af85b4cb8a2d6f89b6587479ffc4ceb97" title="Function for getting an enumerated value for the ingredient category based on index value..." alt="" coords="158,5,250,32"/>
+<area shape="rect" id="node2" href="$d4/d03/class_recipe_finder_1_1_main_window.html#af85b4cb8a2d6f89b6587479ffc4ceb97" title="Function for getting an enumerated value for the ingredient category based on index value..." alt="" coords="222,5,314,32"/>
+<area shape="rect" id="node3" href="$d1/dec/class_recipe_finder_1_1_base_class.html#a30ef346e0fd02313d7fdb2bda10f9f1e" title="Function used to get the name value of the base class object. " alt="" coords="157,56,379,83"/>
 </map>

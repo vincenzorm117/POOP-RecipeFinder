@@ -1,0 +1,5 @@
+<map id="searchForRecipies" name="searchForRecipies">
+<area shape="rect" id="node2" href="$d4/d03/class_recipe_finder_1_1_main_window.html#aa0cbb0a2c2715007da179e5c7bda84e1" title="Function for comparing two cooking mode values. " alt="" coords="238,5,373,32"/>
+<area shape="rect" id="node3" href="$db/de7/class_recipe_finder_1_1_recipe.html#a8855009393f1a06eade57e21d15c111a" title="RecipeFinder.Recipe.getCookingMode" alt="" coords="184,56,427,83"/>
+<area shape="rect" id="node4" href="$db/de7/class_recipe_finder_1_1_recipe.html#a465dc6e5c5481c46d865ecc5785d8ad8" title="Functin to grab boolean value. " alt="" coords="203,107,407,133"/>
+</map>

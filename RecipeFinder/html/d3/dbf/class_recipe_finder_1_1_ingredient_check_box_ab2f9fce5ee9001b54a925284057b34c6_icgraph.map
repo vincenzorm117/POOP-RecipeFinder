@@ -1,5 +1,5 @@
 <map id="getColumn" name="getColumn">
-<area shape="rect" id="node2" href="$d4/d03/class_recipe_finder_1_1_main_window.html#a14dea50a3f62d070ad1c1c1f7e1831a4" title="RecipeFinder.MainWindow.ingredient\l_Checked" alt="" coords="139,5,375,46"/>
+<area shape="rect" id="node2" href="$d4/d03/class_recipe_finder_1_1_main_window.html#a14dea50a3f62d070ad1c1c1f7e1831a4" title="Function for handling the functionality of when an ingredient check box is selected by the user..." alt="" coords="139,5,375,46"/>
 <area shape="rect" id="node3" href="$d4/d03/class_recipe_finder_1_1_main_window.html#aa640b5e22836e77387de6a2f0f946aa6" title="Used for creating the expanders and their check boxes. " alt="" coords="424,5,653,46"/>
 <area shape="rect" id="node4" href="$d4/d03/class_recipe_finder_1_1_main_window.html#a3bb4fb6536e6b03d65fd66ae5f32d52c" title="Class constructor for initializing the program. " alt="" coords="702,5,882,46"/>
 </map>

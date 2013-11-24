@@ -1,7 +1,7 @@
 var class_recipe_finder_1_1_recipe =
 [
     [ "ingredientData", "d5/d69/struct_recipe_finder_1_1_recipe_1_1ingredient_data.html", "d5/d69/struct_recipe_finder_1_1_recipe_1_1ingredient_data" ],
-    [ "Recipe", "db/de7/class_recipe_finder_1_1_recipe.html#a06581a4fc9c75b571648a20e62d8801c", null ],
+    [ "Recipe", "db/de7/class_recipe_finder_1_1_recipe.html#a8021c0c98ac2c45a57dbf14fe393d5be", null ],
     [ "getAllergy", "db/de7/class_recipe_finder_1_1_recipe.html#a465dc6e5c5481c46d865ecc5785d8ad8", null ],
     [ "getCalories", "db/de7/class_recipe_finder_1_1_recipe.html#a1f9d3210fc5db4194e757f5cf227f961", null ],
     [ "getCarbs", "db/de7/class_recipe_finder_1_1_recipe.html#a664120940925824ba70ccbf6f831f641", null ],

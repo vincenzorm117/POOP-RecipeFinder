@@ -115,37 +115,35 @@ $(document).ready(function(){initNavTree('d6/d95/_results_8cs_source.html','../.
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keyword">public</span> <span class="keyword">partial class </span>UnitTest_Main</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    {</div>
-<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#a32a914a95d03daf46611d82d75492996">    9</a></span>&#160;        <span class="keyword">private</span> <span class="keyword">static</span> List&lt;bool&gt; <a class="code" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#a32a914a95d03daf46611d82d75492996">_results</a>; </div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
-<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#aa571087790b61ba2a418fbea641db2fd">   17</a></span>&#160;        <span class="keyword">private</span> <span class="keyword">static</span> <span class="keywordtype">int</span> <a class="code" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#aa571087790b61ba2a418fbea641db2fd">passCount</a>()</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        {</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;            <span class="comment">//Tally up the failed tests</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;            <span class="keywordtype">int</span> _resultCounter = 0;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;            <span class="comment">//Loop through all of the collected results</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;            <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; _results.ToArray().Length; i++)</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                <span class="keywordflow">if</span>(<a class="code" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#a32a914a95d03daf46611d82d75492996">_results</a>[i] == <span class="keyword">true</span>)</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                    _resultCounter++;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            <span class="keywordflow">return</span> _resultCounter;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        }</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
-<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#a82150f0b73c575c4baca90693d5a0d3a">   35</a></span>&#160;        <span class="keyword">private</span> <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#a82150f0b73c575c4baca90693d5a0d3a">addToResults</a>(<span class="keywordtype">bool</span> r)</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        {</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            _results.Add(r);</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        }</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    }</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;}</div>
-<div class="ttc" id="class_unit___test_1_1_unit_test___main_html_a82150f0b73c575c4baca90693d5a0d3a"><div class="ttname"><a href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#a82150f0b73c575c4baca90693d5a0d3a">Unit_Test.UnitTest_Main.addToResults</a></div><div class="ttdeci">static void addToResults(bool r)</div><div class="ttdoc">Function for storing a result to the results array. </div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d95/_results_8cs_source.html#l00035">Results.cs:35</a></div></div>
-<div class="ttc" id="class_unit___test_1_1_unit_test___main_html_a32a914a95d03daf46611d82d75492996"><div class="ttname"><a href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#a32a914a95d03daf46611d82d75492996">Unit_Test.UnitTest_Main._results</a></div><div class="ttdeci">static List&lt; bool &gt; _results</div><div class="ttdoc">List for holding a tests results. </div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d95/_results_8cs_source.html#l00009">Results.cs:9</a></div></div>
-<div class="ttc" id="class_unit___test_1_1_unit_test___main_html_aa571087790b61ba2a418fbea641db2fd"><div class="ttname"><a href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#aa571087790b61ba2a418fbea641db2fd">Unit_Test.UnitTest_Main.passCount</a></div><div class="ttdeci">static int passCount()</div><div class="ttdoc">Function for tallying up the number of passed tests. </div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d95/_results_8cs_source.html#l00017">Results.cs:17</a></div></div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#aa571087790b61ba2a418fbea641db2fd">   15</a></span>&#160;        <span class="keyword">private</span> <span class="keyword">static</span> <span class="keywordtype">int</span> <a class="code" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#aa571087790b61ba2a418fbea641db2fd">passCount</a>()</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        {</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;            <span class="comment">//Tally up the failed tests</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;            <span class="keywordtype">int</span> _resultCounter = 0;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;            <span class="comment">//Loop through all of the collected results</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;            <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; _results.ToArray().Length; i++)</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                <span class="keywordflow">if</span>(<a class="code" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#a32a914a95d03daf46611d82d75492996">_results</a>[i] == <span class="keyword">true</span>)</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                    _resultCounter++;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;            <span class="keywordflow">return</span> _resultCounter;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        }</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#a82150f0b73c575c4baca90693d5a0d3a">   33</a></span>&#160;        <span class="keyword">private</span> <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#a82150f0b73c575c4baca90693d5a0d3a">addToResults</a>(<span class="keywordtype">bool</span> r)</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        {</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;            _results.Add(r);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        }</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    }</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;}</div>
+<div class="ttc" id="class_unit___test_1_1_unit_test___main_html_a82150f0b73c575c4baca90693d5a0d3a"><div class="ttname"><a href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#a82150f0b73c575c4baca90693d5a0d3a">Unit_Test.UnitTest_Main.addToResults</a></div><div class="ttdeci">static void addToResults(bool r)</div><div class="ttdoc">Function for storing a result to the results array. </div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d95/_results_8cs_source.html#l00033">Results.cs:33</a></div></div>
+<div class="ttc" id="class_unit___test_1_1_unit_test___main_html_a32a914a95d03daf46611d82d75492996"><div class="ttname"><a href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#a32a914a95d03daf46611d82d75492996">Unit_Test.UnitTest_Main._results</a></div><div class="ttdeci">static List&lt; bool &gt; _results</div><div class="ttdoc">List for holding a tests results. </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/df0/_definitions_8cs_source.html#l00013">Definitions.cs:13</a></div></div>
+<div class="ttc" id="class_unit___test_1_1_unit_test___main_html_aa571087790b61ba2a418fbea641db2fd"><div class="ttname"><a href="../../df/d8d/class_unit___test_1_1_unit_test___main.html#aa571087790b61ba2a418fbea641db2fd">Unit_Test.UnitTest_Main.passCount</a></div><div class="ttdeci">static int passCount()</div><div class="ttdoc">Function for tallying up the number of passed tests. </div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d95/_results_8cs_source.html#l00015">Results.cs:15</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_8db9f4170b668b8324e420f7f2565ba6.html">Unit_Test</a></li><li class="navelem"><a class="el" href="../../dir_990de14fc65d47671d16cd470fb78d86.html">Lib</a></li><li class="navelem"><a class="el" href="../../d6/d95/_results_8cs.html">Results.cs</a></li>
-    <li class="footer">Generated on Fri Nov 22 2013 20:54:17 for Recipe Finder by
+    <li class="footer">Generated on Sun Nov 24 2013 02:18:31 for Recipe Finder by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
   </ul>

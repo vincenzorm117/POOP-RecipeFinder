@@ -12,5 +12,9 @@ var dir_d7d8e37291ef4c0e6872d6e9dce4df50 =
     [ "Recipe.cs", "d0/d84/_recipe_8cs.html", [
       [ "Recipe", "db/de7/class_recipe_finder_1_1_recipe.html", "db/de7/class_recipe_finder_1_1_recipe" ],
       [ "ingredientData", "d5/d69/struct_recipe_finder_1_1_recipe_1_1ingredient_data.html", "d5/d69/struct_recipe_finder_1_1_recipe_1_1ingredient_data" ]
+    ] ],
+    [ "RecipeFinder_CheckBox.cs", "dd/d37/_recipe_finder___check_box_8cs.html", [
+      [ "AllergyCheckBox", "d2/d6f/class_recipe_finder_1_1_allergy_check_box.html", "d2/d6f/class_recipe_finder_1_1_allergy_check_box" ],
+      [ "IngredientCheckBox", "d3/dbf/class_recipe_finder_1_1_ingredient_check_box.html", "d3/dbf/class_recipe_finder_1_1_ingredient_check_box" ]
     ] ]
 ];

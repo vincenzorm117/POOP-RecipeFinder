@@ -1,3 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node2" href="$d3/dbf/class_recipe_finder_1_1_ingredient_check_box.html" title="An extension of the standard checkbox to include storage of 2D list locations. " alt="" coords="136,5,275,32"/>
+<area shape="rect" id="node1" href="$d1/dec/class_recipe_finder_1_1_base_class.html" title="The base class for all of this projects classes. " alt="" coords="5,56,91,83"/>
+<area shape="rect" id="node2" href="$d0/d44/class_recipe_finder_1_1_allergy.html" title="Storage for a single Allergy. " alt="" coords="147,5,210,32"/>
+<area shape="rect" id="node3" href="$d3/d10/class_recipe_finder_1_1_ingredient.html" title="Storage for a single Ingredient. " alt="" coords="139,56,218,83"/>
+<area shape="rect" id="node4" href="$db/de7/class_recipe_finder_1_1_recipe.html" title="Storage for a single Recipe. " alt="" coords="147,107,210,133"/>
 </map>
