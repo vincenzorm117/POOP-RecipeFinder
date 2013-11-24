@@ -1,5 +1,6 @@
 <map id="SearchButton_Click" name="SearchButton_Click">
-<area shape="rect" id="node2" href="$d4/d03/class_recipe_finder_1_1_main_window.html#a334dae46580f249f78d22b443e7b301f" title="Function for searching the recipes for users specifications. " alt="" coords="192,31,323,57"/>
-<area shape="rect" id="node3" href="$db/de7/class_recipe_finder_1_1_recipe.html#a8855009393f1a06eade57e21d15c111a" title="RecipeFinder.Recipe.getCookingMode" alt="" coords="371,5,613,32"/>
-<area shape="rect" id="node4" href="$db/de7/class_recipe_finder_1_1_recipe.html#a465dc6e5c5481c46d865ecc5785d8ad8" title="Functin to grab boolean value. " alt="" coords="390,56,594,83"/>
+<area shape="rect" id="node2" href="$d4/d03/class_recipe_finder_1_1_main_window.html#a193ef0782ea8009a1938d83879edf5b4" title="Function for searching the recipes for users specifications. " alt="" coords="192,56,323,83"/>
+<area shape="rect" id="node3" href="$d4/d03/class_recipe_finder_1_1_main_window.html#aa0cbb0a2c2715007da179e5c7bda84e1" title="Function for comparing two cooking mode values. " alt="" coords="425,5,559,32"/>
+<area shape="rect" id="node4" href="$db/de7/class_recipe_finder_1_1_recipe.html#a8855009393f1a06eade57e21d15c111a" title="RecipeFinder.Recipe.getCookingMode" alt="" coords="371,56,613,83"/>
+<area shape="rect" id="node5" href="$db/de7/class_recipe_finder_1_1_recipe.html#a465dc6e5c5481c46d865ecc5785d8ad8" title="Functin to grab boolean value. " alt="" coords="390,107,594,133"/>
 </map>

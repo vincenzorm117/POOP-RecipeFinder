@@ -8,5 +8,7 @@ var searchData=
   ['recipefinder_5fcheckbox_2ecs',['RecipeFinder_CheckBox.cs',['../dd/d37/_recipe_finder___check_box_8cs.html',1,'']]],
   ['recipeinput',['RecipeInput',['../d4/d03/class_recipe_finder_1_1_main_window.html#a9fb2df2cf8378e0d66f52b56b7261804',1,'RecipeFinder::MainWindow']]],
   ['recipetests_2ecs',['RecipeTests.cs',['../d9/d90/_recipe_tests_8cs.html',1,'']]],
-  ['results_2ecs',['Results.cs',['../d6/d95/_results_8cs.html',1,'']]]
+  ['results_2ecs',['Results.cs',['../d6/d95/_results_8cs.html',1,'']]],
+  ['resultscomparer',['ResultsComparer',['../dc/dd5/class_recipe_finder_1_1_results_comparer.html',1,'RecipeFinder']]],
+  ['resultscomparer_2ecs',['ResultsComparer.cs',['../d1/d6b/_results_comparer_8cs.html',1,'']]]
 ];

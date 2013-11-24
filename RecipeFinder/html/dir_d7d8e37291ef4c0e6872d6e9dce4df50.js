@@ -16,5 +16,8 @@ var dir_d7d8e37291ef4c0e6872d6e9dce4df50 =
     [ "RecipeFinder_CheckBox.cs", "dd/d37/_recipe_finder___check_box_8cs.html", [
       [ "AllergyCheckBox", "d2/d6f/class_recipe_finder_1_1_allergy_check_box.html", "d2/d6f/class_recipe_finder_1_1_allergy_check_box" ],
       [ "IngredientCheckBox", "d3/dbf/class_recipe_finder_1_1_ingredient_check_box.html", "d3/dbf/class_recipe_finder_1_1_ingredient_check_box" ]
+    ] ],
+    [ "ResultsComparer.cs", "d1/d6b/_results_comparer_8cs.html", [
+      [ "ResultsComparer", "dc/dd5/class_recipe_finder_1_1_results_comparer.html", "dc/dd5/class_recipe_finder_1_1_results_comparer" ]
     ] ]
 ];

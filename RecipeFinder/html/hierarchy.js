@@ -7,6 +7,9 @@ var hierarchy =
       [ "AllergyCheckBox", "d2/d6f/class_recipe_finder_1_1_allergy_check_box.html", null ],
       [ "IngredientCheckBox", "d3/dbf/class_recipe_finder_1_1_ingredient_check_box.html", null ]
     ] ],
+    [ "Comparer< recipeMatches >", null, [
+      [ "ResultsComparer", "dc/dd5/class_recipe_finder_1_1_results_comparer.html", null ]
+    ] ],
     [ "BaseClass", "d1/dec/class_recipe_finder_1_1_base_class.html", [
       [ "Allergy", "d0/d44/class_recipe_finder_1_1_allergy.html", null ],
       [ "Ingredient", "d3/d10/class_recipe_finder_1_1_ingredient.html", null ],
