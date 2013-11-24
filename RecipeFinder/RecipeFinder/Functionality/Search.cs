@@ -26,12 +26,11 @@ namespace RecipeFinder
 
             //Get the number of categories
             int numCategories = Enum.GetNames(typeof(IngredientCategory)).Length;
-            int numAllergens  = Enum.GetNames(typeof(Allergy)).Length;
+            int numAllergens  = _allergyList.ToArray().Length;
 
             //Loop through each recipe
             foreach(Recipe current in _recipeList)
             {
-                skip = false;
                 hits = 0;
                 recipeIngredients = current.getIngredientFlags();
                 
@@ -42,14 +41,16 @@ namespace RecipeFinder
                 else
                 {
                     //If one of the alergy flags matches what the user is allergic to move on
-                    if(current.getAllergy(0) != false)
+                    if ((current.getAllergy(0) != false) && (_UsersAllergies[0].Equals(true)))
                     {
+                        skip = false;
+
                         for(int i = 0; i < numAllergens; i ++)
                         {
-                            if (current.getAllergy(i) == _UsersAllergies[i])
+                            if ((current.getAllergy(i).Equals(true)) && (_UsersAllergies[i].Equals(true)))
                             {
                                 skip = true;
-                                break;
+                                continue;
                             }
                         }
                         if(skip)
