@@ -5,7 +5,7 @@
 
 
 1
-small acorn squash
+medium acorn squash
 1
 0
 
@@ -35,7 +35,7 @@ packaged dried fettuccine
 
 
 6
-garlic, chopped
+garlic
 1
 0
 
@@ -67,7 +67,7 @@ black pepper
 
 
 11
-grated parmesan cheese
+grated Parmesan cheese
 3
 1
 
@@ -199,7 +199,7 @@ mojo marinade
 
 
 33
-sweet onion
+onion
 1
 0
 
@@ -289,8 +289,8 @@ mini sweet peppers
 
 
 48
-garlic, whole clove
-1
+dried oregano
+0
 0
 
 
@@ -355,7 +355,7 @@ apples, sliced
 
 
 59
-sugar
+granulated sugar
 0
 0
 
@@ -403,9 +403,9 @@ vanilla bean
 
 
 67
-zest of one lemon
-2
-0
+packaged dried linguine
+6
+0 
 
 
 68
@@ -427,8 +427,8 @@ tilapia fillets
 
 
 71
-italian parsley, chopped
-0
+parsley
+1
 0
 
 
@@ -487,15 +487,15 @@ medium lobster tails
 
 
 81
-lemon, halved
+lemon
 2
 0
 
 
 82
-lemon, quartered
+canned chopped clams
+4
 2
-0
 
 
 83
@@ -517,7 +517,9 @@ jumbo shrimp
 
 
 86
-long skewers
+powdered sugar
+0
+0
 
 
 87
@@ -527,8 +529,8 @@ greek seasoning
 
 
 88
-linguine pasta
-6
+mixed fruit
+2
 0
 
 
@@ -779,8 +781,8 @@ fryer chicken
 
 
 130
-Lemon
-2
+white bread
+6
 0
 
 
@@ -842,3 +844,63 @@ cornstarch
 milk
 3
 1
+
+
+141
+raisins
+2
+0
+
+
+142
+raspberries
+2
+0
+
+
+143
+avocado
+2
+0
+
+
+144
+dairy sour cream
+3
+1
+
+
+145
+lime juice
+0
+0
+
+
+146
+frozen edamame
+1
+0
+
+
+147
+walnuts
+0
+0
+
+
+148
+Italian salad dressing
+0
+0
+
+
+149
+spinach
+1
+0
+
+
+150
+asparagus
+1
+0

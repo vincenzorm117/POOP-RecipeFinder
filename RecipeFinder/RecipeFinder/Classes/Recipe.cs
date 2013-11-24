@@ -19,7 +19,7 @@ namespace RecipeFinder
          * \brief  Struct for holding ingredient data
          * \author Brian McCormick
          **/
-        private struct ingredientData
+        public struct ingredientData
         {
             public string             _amount;        ///< Holds the ammount of the ingredient as pulled in from file
             public int                _categoryIndex; ///< Holds the index value within the category list for the ingredient
@@ -73,10 +73,8 @@ namespace RecipeFinder
          * \todo            When splitting ingredient lists keep track of sizes if possible of those lists.
          *                  Alternate is setting up function to return the size of the selected list.
          **/
-        public Recipe(int id, int t, int p, int srv, int c, int f, int h, int o, int a, int b, int r, int n, string l, string u, List<tempIngredientStorage> list) : base(id, l)
+        public Recipe(int id, int t, int p, int srv, int c, int f, int h, int o, int a, int b, int r, int n, string l, string u, List<ingredientData> list) : base(id, l)
         {
-            ingredientData temporaryStorage;
-
             _TotalTime           = t;   //From file
             _PrepTime            = p;   //From file
             _Servings            = srv; //From file
@@ -89,20 +87,7 @@ namespace RecipeFinder
             _Protein             = r;   //From file
             _NumberOfIngredients = n;   //Collect from the size of the list during input
             _Instructions        = u;   //From file
-
-            //Create the ingredients data list from raw data input
-            _Ingredients = new List<ingredientData>();
-            foreach(tempIngredientStorage temp in list)
-            {
-                temporaryStorage._amount        = temp.quantity;
-                temporaryStorage._measurement   = MainWindow.getMeasurement(temp.measurementID);
-                temporaryStorage._category      = temp.ingredientCat;
-                temporaryStorage._categoryIndex = temp.ingredientID;
-                temporaryStorage._categoryID    = MainWindow.getCategoryIndex(temp.ingredientCat);
-
-                _Ingredients.Add(temporaryStorage);
-            }
-            _Ingredients.TrimExcess();
+            _Ingredients         = list;   
 
             //Apply the cooking mode for the recipe
             if(_TotalTime < 20)

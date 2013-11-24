@@ -1,5 +1,11 @@
-﻿1
-medium acorn squash
+﻿<Ingredient ID>
+<Name>
+<Category ID> (0=other , 1=vegetables, 2=fruits, 3=dairy, 4=seafood, 5=meat, 6=carbohydrates)
+<Allergy ID> (0 if none)
+
+
+1
+small acorn squash
 1
 0
 
@@ -29,7 +35,7 @@ packaged dried fettuccine
 
 
 6
-garlic
+garlic, chopped
 1
 0
 
@@ -61,7 +67,7 @@ black pepper
 
 
 11
-grated Parmesan cheese
+grated parmesan cheese
 3
 1
 
@@ -193,7 +199,7 @@ mojo marinade
 
 
 33
-onion
+sweet onion
 1
 0
 
@@ -283,8 +289,8 @@ mini sweet peppers
 
 
 48
-dried oregano
-0
+garlic, whole clove
+1
 0
 
 
@@ -349,7 +355,7 @@ apples, sliced
 
 
 59
-granulated sugar
+sugar
 0
 0
 
@@ -397,9 +403,9 @@ vanilla bean
 
 
 67
-packaged dried linguine
-6
-0 
+zest of one lemon
+2
+0
 
 
 68
@@ -421,8 +427,8 @@ tilapia fillets
 
 
 71
-parsley
-1
+italian parsley, chopped
+0
 0
 
 
@@ -481,15 +487,15 @@ medium lobster tails
 
 
 81
-lemon
+lemon, halved
 2
 0
 
 
 82
-canned chopped clams
-4
+lemon, quartered
 2
+0
 
 
 83
@@ -511,9 +517,7 @@ jumbo shrimp
 
 
 86
-powdered sugar
-0
-0
+long skewers
 
 
 87
@@ -523,8 +527,8 @@ greek seasoning
 
 
 88
-mixed fruit
-2
+linguine pasta
+6
 0
 
 
@@ -775,8 +779,8 @@ fryer chicken
 
 
 130
-white bread
-6
+Lemon
+2
 0
 
 
@@ -838,63 +842,3 @@ cornstarch
 milk
 3
 1
-
-
-141
-raisins
-2
-0
-
-
-142
-raspberries
-2
-0
-
-
-143
-avocado
-2
-0
-
-
-144
-dairy sour cream
-3
-1
-
-
-145
-lime juice
-0
-0
-
-
-146
-frozen edamame
-1
-0
-
-
-147
-walnuts
-0
-0
-
-
-148
-Italian salad dressing
-0
-0
-
-
-149
-spinach
-1
-0
-
-
-150
-asparagus
-1
-0

@@ -184,6 +184,10 @@ namespace RecipeFinder
          **/
         public static bool RecipeInput(string path)
         {
+            //Create a new recipe list
+            _recipeList     = new List<Recipe>();
+            _testRecipeList = new List<Recipe>();
+
             //Declare variables used in controlling the input process
             int                         counter        = 0;
             int                         counterTwo     = 0;
@@ -201,14 +205,14 @@ namespace RecipeFinder
             int                         tempNumIngrd   = 0;
             int                         tempMeasure    = 0;
             int                         tempID         = 0;
-            List<tempIngredientStorage> tempIngredient = new List<tempIngredientStorage>();
+            List<Recipe.ingredientData> tempIngredient = new List<Recipe.ingredientData>();
             char[]                      delimiters     = { ' ' };
             string                      tempQuantity   = "";
             string                      tempName       = "";
             string                      tempInstr      = "";
             string[]                    lines;
             string[]                    parsedLine;
-            tempIngredientStorage       stagedIngredient;
+            Recipe.ingredientData       stagedIngredient;
 
             //Checks if the input file exists
             if(File.Exists(path))
@@ -221,71 +225,77 @@ namespace RecipeFinder
 
                 foreach(string l in lines)
                 {
-                    if(counter == 0)
-                        tempName = l;
-                    else if(counter == 1)
-                        int.TryParse(l, out tempTime);
-                    else if(counter == 2)
-                        int.TryParse(l, out tempPrep);
-                    else if(counter == 3)
-                        int.TryParse(l, out tempServings);
-                    else if(counter == 4)
-                        int.TryParse(l, out tempCalories);
-                    else if(counter == 5)
-                        int.TryParse(l, out tempFat);
-                    else if(counter == 6)
-                        int.TryParse(l, out tempChol);
-                    else if(counter == 7)
-                        int.TryParse(l, out tempSodium);
-                    else if(counter == 8)
-                        int.TryParse(l, out tempCarb);
-                    else if(counter == 9)
-                        int.TryParse(l, out tempFiber);
-                    else if(counter == 10)
-                        int.TryParse(l, out tempProtein);
-                    else if(counter == 11)
+                    if(l != "")
                     {
-                        counterTwo = 0;
-                        parsedLine = l.Split(delimiters);
-
-                        foreach(string x in parsedLine)
+                        if(counter == 0)
+                            tempName = l;
+                        else if(counter == 1)
+                            int.TryParse(l, out tempTime);
+                        else if(counter == 2)
+                            int.TryParse(l, out tempPrep);
+                        else if(counter == 3)
+                            int.TryParse(l, out tempServings);
+                        else if(counter == 4)
+                            int.TryParse(l, out tempCalories);
+                        else if(counter == 5)
+                            int.TryParse(l, out tempFat);
+                        else if(counter == 6)
+                            int.TryParse(l, out tempChol);
+                        else if(counter == 7)
+                            int.TryParse(l, out tempSodium);
+                        else if(counter == 8)
+                            int.TryParse(l, out tempCarb);
+                        else if(counter == 9)
+                            int.TryParse(l, out tempFiber);
+                        else if(counter == 10)
+                            int.TryParse(l, out tempProtein);
+                        else if(counter == 11)
                         {
-                            if(counterTwo == 0)
-                                tempQuantity = x;
-                            else if(counterTwo == 1)
-                                int.TryParse(x, out tempMeasure);
-                            else if(counterTwo == 2)
+                            counterTwo = 0;
+                            parsedLine = l.Split(delimiters);
+                            tempIngredient = new List<Recipe.ingredientData>();
+
+                            foreach(string x in parsedLine)
                             {
-                                int.TryParse(x, out tempID);
+                                if(counterTwo == 0)
+                                    tempQuantity = x;
+                                else if(counterTwo == 1)
+                                    int.TryParse(x, out tempMeasure);
+                                else if(counterTwo == 2)
+                                {
+                                    int.TryParse(x, out tempID);
 
-                                stagedIngredient.quantity      = tempQuantity;
-                                stagedIngredient.measurementID = tempMeasure;
-                                stagedIngredient.ingredientID  = _ingredientList[tempID].getCategoryID();
-                                stagedIngredient.ingredientCat = _ingredientList[tempID].getCategory();
-                                tempIngredient.Add(stagedIngredient);
+                                    stagedIngredient._amount        = tempQuantity;
+                                    stagedIngredient._category      = _ingredientList[tempID].getCategory();
+                                    stagedIngredient._categoryID    = getCategoryIndex(_ingredientList[tempID].getCategory());
+                                    stagedIngredient._categoryIndex = _ingredientList[tempID].getCategoryID();
+                                    stagedIngredient._measurement   = getMeasurement(tempMeasure);
+
+                                    tempIngredient.Add(stagedIngredient);
+                                }
+
+                                counterTwo++;
+                                if(counterTwo >= 3)
+                                    counterTwo = 0;
                             }
-
-                            counterTwo++;
-                            if(counterTwo >= 3)
-                                counterTwo = 0;
                         }
+                        else if(counter == 12)
+                        {
+                            tempInstr = l;
+                            tempNumIngrd = tempIngredient.ToArray().Length;
+
+                            _recipeList.Add(new Recipe(counterID, tempTime, tempPrep, tempServings, tempCalories, tempFat, tempChol, tempSodium, tempCarb, tempFiber, tempProtein, tempNumIngrd, tempName, tempInstr, tempIngredient));
+                            //_testRecipeList.Add(_recipeList[counterID]);
+
+                            //Increment the counter being used 
+                            counterID++;
+                        }
+
+                        //Increment the counter and reset it when needed
+                        counter++;
+                        if(counter >= 13)
+                            counter = 0;
                     }
-                    else if(counter == 12)
-                    {
-                        tempInstr = l;
-                        tempNumIngrd = tempIngredient.ToArray().Length;
-
-                        _recipeList.Add(new Recipe(counterID, tempTime, tempPrep, tempServings, tempCalories, tempFat, tempChol, tempSodium, tempCarb, tempFiber, tempProtein, tempNumIngrd, tempName, tempInstr, tempIngredient));
-                        _testRecipeList.Add(_recipeList[counterID]);
-
-                        //Increment the counter being used 
-                        counterID++;
-                    }
-
-                    //Increment the counter and reset it when needed
-                    counter++;
-                    if(counter >= 13)
-                        counter = 0;
                 }
                 
                 //Clean up excess memory

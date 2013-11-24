@@ -25,7 +25,7 @@ Fettuccine Alfredo
 4
 26
 8 5 5 2 4 6 2 2 7 1 3 8 1/2 1 9 1/8 1 10 1/2 3 11
-In a large saucepan cook pasta according to package instructions; drain. Meanwhile, in a large saucepan, cook minced garlic in hot butter over medium-high heat for 1 minute. Add cream, salt, and pepper. Bring to boiling; reduce heat. Boil gently, uncovered, about 3 minutes or until mixture begins to thicken. Remove from heat and stir in 1/2 cup parmesan cheese. Add pasta to hot sauce. Toss to combine.
+In a large saucepan cook pasta according to package instructions; drain. Meanwhile, in a large saucepan, cook minced garlic in hot butter over medium-high heat for 1 minute. Add cream, salt, and pepper. Bring to boiling; reduce heat. Boil gently, uncovered, about 3 minutes or until mixture begins to thicken. Remove from heat and stir in 1/2 cup Parmesan cheese. Add pasta to hot sauce. Toss to combine.
 
 
 Pumpkin Pie
@@ -40,7 +40,7 @@ Pumpkin Pie
 3
 8
 1 0 12 15 5 13 3/4 3 2 1_1/4 1 14 1 1 15 1/2 1 9 1/4 1 16 4 0 17 1_1/2 3 18
-Preheat oven to 400F. Prepare and roll out pie crust. Line 9-inch pie plate with pastry circle and trim. Line pastry with double thickness of foil. Bake for 15 minutes. Remove foil. Meanwhile, in a large bowl combine pumkin, brown sugar, cinnamon, ginger, salt, and cloves. Lightly beat eggs; then add. Beat lightly with a fork until combined. Gradually add half-and-half; stir until just combined. Carefully pour pumpkin mixture into partially baked crust. To prevent overbrowning, cover edge of pie with foil. Bake for 20 minutes. Remove foil. Bake for 25 to 30 minutes more. Cool on a wire rack. Cover and chill within 2 hours.
+Preheat oven to 400F. Prepare and roll out pie crust. Line 9-inch pie plate with pastry circle and trim. Line pastry with double thickness of foil. Bake for 15 minutes. Remove foil. Meanwhile, in a large bowl combine pumpkin, brown sugar, cinnamon, ginger, salt, and cloves. Lightly beat eggs; then add. Beat lightly with a fork until combined. Gradually add half-and-half; stir until just combined. Carefully pour pumpkin mixture into partially baked crust. To prevent over browning, cover edge of pie with foil. Bake for 20 minutes. Remove foil. Bake for 25 to 30 minutes more. Cool on a wire rack. Cover and chill within 2 hours.
 
 
 Pumpkin-Spiced Risotto
@@ -69,7 +69,7 @@ Grilled Potato Salad
 27
 4
 2
-6 0 23 3 2 24 1 3 25 1 3 26 1/2 3 27 0.33 3 28 1/2 1 9 1/2 1 10
+6 0 23 3 2 24 1 3 25 1 3 26 1/2 3 27 1/3 3 28 1/2 1 9 1/2 1 10
 Preheat grill or grill pan, toss potatoes with oil, salt, and pepper. Grill potatoes over indirect heat 5-6 minutes on each side or until tender, turning often. Combine potatoes with dressing, red onion, celery, and cooked bacon pieces, toss to coat. Serve potato salad warm or cold. Add crumbled blue cheese for additional flavor.
 
 
@@ -125,7 +125,8 @@ Watermelon and Summer Tomato Salad
 120
 8
 10
-31010
+310
+10
 1
 3
 2 3 41 2 0 42 5 5 43 1/2 3 44 1/2 3 45
@@ -158,7 +159,7 @@ Pickled Peppers
 18
 2
 2
-15 0 47 1 0 33 0.25 3 19 1/2 1 9 3 48 1 3 51 1 3 49 0.66 3 50
+15 0 47 1 0 33 1/4 3 19 1/2 1 9 3 4 6 1 3 51 1 3 49 2/3 3 50
 Place all ingredients in saucepan, except orange juice, on medium. Simmer and stir 20-30 minutes or until peppers are fork tender. Remove mixture from pan; stir in orange juice. Place mixture in refrigerator and chill overnight. Place in an airtight container until ready to serve.
 
 
@@ -233,7 +234,7 @@ Garlic Herb Tomatoes
 6
 1
 4
-4 0 42 3 0 48 1 2 63 1/2 3 44
+4 0 42 3 4 6 1 2 63 1/2 3 44
 Preheat oven to 400 F. Quarter tomatoes; place on baking sheet and top with chopped garlic. Bake 10-12 minutes or until softened. Place in medium bowl and top with basil and feta cheese.
 
 
@@ -248,8 +249,8 @@ Sweet Wine Poached Pears With Cream Sauce
 33
 6
 3
-6 0 64 750 7 65 1 0 66 2 0 67 8 5 68
-Preheat large stockpot on medium-high 2-3 minutes. Place pears, wine, vanilla bean, and zest in pot. Bring to boil, reduce to simmer. Cover and simmer 20-25 minutes or until pears are tender. Remove pears, whisk cheese into wine and bring to rolling boil until reduced by half. Serve pear in bowl with sauce.
+6 0 64 750 7 65 1 0 66 2 0 81 8 5 68
+Preheat large stockpot on medium-high 2-3 minutes. Place pears, wine, vanilla bean, and lemon zest in pot. Bring to boil, reduce to simmer. Cover and simmer 20-25 minutes or until pears are tender. Remove pears, whisk cheese into wine and bring to rolling boil until reduced by half. Serve pear in bowl with sauce.
 
 
 Butter-Broiled Tilapia
@@ -293,7 +294,7 @@ Clams in Garlic-Wine Broth
 5
 0
 14
-1 2 4 1 2 48 3 6 74 14_5 5 75 1 3 76
+1 2 4 1 2 62 3 6 74 14_5 5 75 1 3 76
 Preheat large saute pan on medium. Place butter in pan, then add garlic and clams; cook 2-3 minutes or until garlic becomes fragrant. Add chicken broth and white wine; cook 6-8 minutes or until reduced by one-half and clam shells are open. Discard clams that remain closed after cooking.
 
 
@@ -309,7 +310,7 @@ Teriyaki Scallops
 1
 57
 2 2 24 1 2 6 1 0 77 1 0 33 1_1/2 6 78 1/4 3 79
-Preheat oil in large saute pan on medium-high. Place garlic, peppers, and onions in pan; cook 3-5 minutes or until vegetables begin to soften. Add scallops and teriyaki; cook and stir 3-4 minutes or until scallops are opaque and firm.
+Preheat oil in large saute pan on medium-high. Place chopped garlic, peppers, and onions in pan; cook 3-5 minutes or until vegetables begin to soften. Add scallops and teriyaki; cook and stir 3-4 minutes or until scallops are opaque and firm.
 
 
 Broiled Buttered Lobster Tails
@@ -324,7 +325,7 @@ Broiled Buttered Lobster Tails
 0
 23
 4 0 80 1/4 3 4 1/4 1 9 1/8 1 10 1 0 81
-Preheat oven to broil. With a sharp knife cut lobster tail in half lengthwise. Spread butter over flesh and season with salt and pepper. Place cut side up on baking sheet; broil 5-8 minutes or until flesh is opaque and firm. Squeeze lemon juice over lobster.
+Preheat oven to broil. With a sharp knife cut lobster tail in half lengthwise. Spread butter over flesh and season with salt and pepper. Place cut side up on baking sheet; broil 5-8 minutes or until flesh is opaque and firm. Halve lemon, and squeeze lemon juice over lobster.
 
 
 Seasoned Steamed Crab Legs
@@ -338,8 +339,8 @@ Seasoned Steamed Crab Legs
 1
 0
 54
-3 3 30 1 0 82 2 2 83 1/2 1 10 2 6 84
-Combine water, lemon, seasoning, and pepper in large stockpot. Place steam ring or steamer basket in pot. Cover and bring to boil. Add crab clusters to pot; steam 4-5 minutes or until thoroughly heated. Serve with melted butter.
+3 3 30 1 0 81 2 2 83 1/2 1 10 2 6 84
+Combine water, quartered lemon, seasoning, and pepper in large stockpot. Place steam ring or steamer basket in pot. Cover and bring to boil. Add crab clusters to pot; steam 4-5 minutes or until thoroughly heated. Serve with melted butter.
 
 
 Shrimp Kabobs
@@ -353,8 +354,8 @@ Shrimp Kabobs
 4
 0
 31
-1_1/2 6 85 8 0 86 8 5 35 1 2 24 1 2 87
-Preheat grill. Place shrimp and mushrooms on skewers; brush with oil and sprinkle with Greek seasoning.Grill 3-4 minutes on each side or until shrimp are pink and opaque, and mushrooms are tender.
+1_1/2 6 85 8 5 35 1 2 24 1 2 87
+Preheat grill and set out 8 skewers. Place shrimp and mushrooms on skewers; brush with oil and sprinkle with Greek seasoning.Grill 3-4 minutes on each side or until shrimp are pink and opaque, and mushrooms are tender.
 
 
 Blackened Shrimp Alfredo
@@ -368,7 +369,7 @@ Blackened Shrimp Alfredo
 61
 2
 31
-16 5 88 1 2 19 1_1/2 0 89 2 2 90 15 5 91
+16 5 67 1 2 19 1_1/2 0 89 2 2 90 15 5 91
 Prepare pasta following package instructions. Heat olive oil in large saute pan on medium; season shrimp with blackening seasoning and cook 4-5 minutes or until pink and opaque. Reduce heat to low; add sauce and cook 2-3 minutes or until thoroughly heated. Serve over pasta.
 
 
@@ -398,7 +399,7 @@ Carolina-Style Pulled Pork
 24
 0
 21
-2_1/2 6 94 1 1 95 8 4 48 2 2 96 2 3 97
+2_1/2 6 94 1 1 95 8 4 6 2 2 96 2 3 97
 Preheat oven to 350 degrees fahrenheit. Season pork with garlic herb seasoning. Pierce pork with a knife, and stuff garlic cloves in holes. Rub pork with mustard; place in baking pan and cover with foil. Bake 2-3 hours or until pork pulls apart with a fork (190 degrees fahrenheit). Remove from heat and shred pork; stir in barbecue sauce.
 
 
@@ -414,7 +415,7 @@ Steamed Mussels with Lemon and White Wine
 0
 81
 2 3 76 1/2 3 98 3 6 99 2 2 4 2 2 71
-Preheat large saute pan on medium-high. Combine wine and lemon juice in pan and bring to boil. Add mussels and cover; cook 6-8 minutes or until mussels open. Discard mussels that remain closed after cooking. Stir butter into broth until melted. Sprinkle with parsley.
+Preheat large saute pan on medium-high. Combine wine and lemon juice in pan and bring to boil. Add mussels and cover; cook 6-8 minutes or until mussels open. Discard mussels that remain closed after cooking. Stir butter into broth until melted. Sprinkle with chopped parsley.
 
 
 Barbeque Back Ribs
@@ -428,7 +429,6 @@ Barbeque Back Ribs
 40
 0
 78
-3
 3 6 100 2 3 97 1 2 101
 Preheat oven to 350 degrees. Season ribs, wrap in aluminum foil, and place on baking sheet. Bake 2 hours. Open foil and expose ribes; brush with barbecue sauce and bake 30-45 minutes or until meat is fork tender.
 
@@ -444,7 +444,6 @@ Grill Grouper Sandwich
 60
 2
 53
-5
 1 2 90 3/2 5 102 1/4 3 103 3 2 104 4 0 105
 Season grouper. Combine mayonnaise and ranch dressing; set aside. Preheat grill to medium. Grill fish 4-5 minutes on each side or until opaque and separates easily. Place grouper in rolls, top with mayonnaise mixture and your favorite sandwich toppings.
 
@@ -461,7 +460,7 @@ Peanut Butter Fudge
 0
 1
 2 3 59 2/3 3 106 1/2 3 7 3/4 3 107 3/4 3 108 1/2 1 109
-Line 9x9x2-inch baking pan with foil. Butter the foil; set pan aside. Butter sides of a 1 ½ to 2 quart heavy saucepan. In saucepan combine sugar, milk, and butter. Cook and stir over medium-high heat until mixture boils. Reduce heat to medium; continue boiling at moderate, steady rate for 12 minutes. Stir occasionally. Remove saucepan from heat. Add peanut butter, marshmallow cream, and vanilla; stir until mixture is combined. Spread fudge evenly into the prepared pan. Let stand for 1 to 2 hours or until firm. When fudge is firm, use foil to lift it out of pan. Cut fudge into squares. Store fudge, tightly covered, at room temperature for up to 2 days or in the refridgerator for up to 1 month.  
+Line 9x9x2-inch baking pan with foil. Butter the foil; set pan aside. Butter sides of a 1 1/2 to 2 quart heavy saucepan. In saucepan combine sugar, milk, and butter. Cook and stir over medium-high heat until mixture boils. Reduce heat to medium; continue boiling at moderate, steady rate for 12 minutes. Stir occasionally. Remove saucepan from heat. Add peanut butter, marshmallow cream, and vanilla; stir until mixture is combined. Spread fudge evenly into the prepared pan. Let stand for 1 to 2 hours or until firm. When fudge is firm, use foil to lift it out of pan. Cut fudge into squares. Store fudge, tightly covered, at room temperature for up to 2 days or in the refrigerator for up to 1 month.  
 
 
 Herbed Mahi Mahi
@@ -604,7 +603,7 @@ Lemon Baked Chicken
 1
 29
 4
-1 0 129 1/2 1 9 1/4 1 10 1 0 130
+1 0 129 1/2 1 9 1/4 1 10 1 0 81
 Preheat oven to 350 degrees. Season skin and body cavity of chicken liberally with salt and pepper. Pierce lemon several times with a fork and place inside the chicken. Tie legs together to close cavity as tightly as possible. Place breast-side down in a baking dish; bake 20 min. Turn chicken breast-side up and bake 20 more min. Increase oven temperature to 400 degrees and bake 30-35 more min or until chicken is golden and internal temperature is 165 degrees.
 
 
@@ -652,3 +651,168 @@ Vanilla Pudding
 9
 3/4 3 59 3 2 139 3 3 140 4 0 17 1 2 7 1_1/2 1 109
 In a medium heavy saucepan, combine sugar and cornstarch. Stir in milk. Cook and stir over medium heat until thickened and bubbly. Cook and stir 2 minutes more. Remove from heat. In a separate mixing bowl, lightly beat together egg yolks. Gradually stir in 1 cup of the milk mixture into egg yolks. Add egg mixture to milk mixture in saucepan. Bring to a gentle boil; reduce heat. Cook and stir for 2 minutes more. Remove from heat. Stir in butter and vanilla. Pour pudding into a bowl. Cover surface of pudding with plastic wrap. Cool slightly and serve warm, or chill.
+
+
+Pasta with White Clam Sauce
+30
+30
+4
+680
+24
+125
+430
+72
+3
+40
+10 5 67 13 5 82 2 3 18 2 4 6 2 2 7 1/4 3 118 1/2 1 48 1/4 1 9 1/8 1 10 1/4 3 71 1/4 3 75 1/4 3 11
+In a large saucepan cook pasta according to package directions. Drain; keep warm. Meanwhile, drain canned clams, reserving 1/2 cup juice. Add half-and-half. Set clams and clam juice mixture aside. In a medium saucepan cook onion and minced garlic in hot butter over medium heat until tender but not brown. Stir in flour, oregano, salt and pepper. Add all clam juice mixture. Cook and stir until thickened and bubbly. Cook and stir for 1 minute more. Stir in drained clams, parsley and broth. Heat through, and serve over hot pasta. Sprinkle with Parmesan cheese.
+
+
+Lemon Bars
+60
+25
+36
+115
+5
+34
+52
+17
+0
+2
+2 3 118 1/2 3 86 2 2 139 1/4 1 9 1/4 3 7 4 0 17 1_1/2 3 59 3 2 118 1 0 81 3/4 3 98 1/4 3 18 
+Preheat oven to 350F. Line a 13x9x2-inch baking pan with foil, extending the foil over the edges. Grease foil; set aside. In a large bowl combine the 2 cups flour, the 1/2 cup powdered sugar, cornstarch and salt. Cut in butter until mixture resembles coarse crumbs. Press mixture into the bottom of the prepared pan. Bake for 18 to 20 minutes or until edges are light brown. Meanwhile, for filling, in a bowl stir together the eggs, granulated sugar, 3 tablespoons flour, 1 tsp lemon peel, lemon juice, and half-and-half. Pour filling over hot crust. Bake for 15 to 20 minutes more or until center is set. Cool completely in pan on a wire rack. Use foil to lift uncut bars out of pan. Cut into bars, Just before serving sprinkle powdered sugar over tops. Cover and store in the refrigerator. 
+
+
+Mixed-Fruit Calafouti
+95
+30
+8
+204
+13
+116
+98
+19
+1
+4
+1 1 7 2/3 3 8 1/3 3 140 3 0 17 1/3 3 118 1/4 3 59 2 2 7 1 1 109 1/8 1 9 3 3 88 1 2 86
+Preheat oven to 375F. Butter a 9-inch pie plate with the 1 tbs. butter; set aside. In a medium mixing bowl combine whipping cream, milk, eggs, flour, granulated sugar, 2 tbs. butter melted, vanilla, and salt. Beat with an electric mixer on low speed until smooth. Arrange mixed fruit in prepared pie plate. Pour cream mixture over fruit. Bake for 50 to 55 minutes or until puffed and light brown. Cool for 15 to 20 minutes on a wire rack. Sift powdered sugar over tops. Serve warm. 
+
+
+Bread Pudding
+80
+30
+8
+299
+16
+73
+228
+36
+2
+6
+7 8 130 1/3 3 141 2 0 17 2 3 140 1/4 3 7 1/2 3 59 1 1 14 1/2 1 3 1 1 109
+Preheat oven to 300F. Cut bread into 1/2-inch cubes. Spread in a 15x10x10-inch baking pan; bake for 10 to 15 minutes or until dry, stirring twice. Increase oven to 350F. Grease a 1 1/2 quart casserole dish; set aside. In a large bowl combine bread cubes and raisins. In a medium bowl combine eggs, milk, melted butter, sugar, cinnamon, nutmeg and vanilla. Stir into bread mixture. Pour into prepared casserole dish. Bake uncovered for 50 to 55 minutes or until puffed and a knife inserted near the center comes out clean. Cool slightly, and serve.
+
+
+Raspberry Sorbet
+85
+30
+9
+94
+0
+0
+1
+28
+3
+1
+1 3 59 1 3 30 2 2 98 3 3 142 2 2 50
+For syrup, in a medium saucepan, heat and stir the sugar and water over medium heat until just simmering, stirring to dissolve sugar. Remove from heat; stir in lemon juice. Transfer to a medium bowl; cover and chill completely.Place raspberries and orange juice in a blender. Cover and process until smooth. Press mixture through a fine mesh sieve; Discard seeds. Stir puree into chilled syrup. Pour raspberry mixture into a 2-quart square baking dish. Cover; freeze 4 hours or until firm. Break up mixture with a fork; place in blender. Cover and process for 30 to 60 seconds or until smooth. Spoon back into same dish; cover and freeze 6 to 8 hours or until firm. To serve, let stand at room temperature for 5 minutes before scooping. 
+
+
+Guacamole
+15
+15
+20
+25
+2
+1
+17
+1
+1
+0 
+2 0 143 2 2 144 2 2 40 1 2 145 1/4 1 9
+Cut avocado lengthwise around seed. Twist two halve to separate. Place the avocado half on a clean dish towel and carefully strike the pit with a knife. Use the knife to twist and pull out the pit of the avocado. Using a spoon, scrape the avocado meat into a large resealable bag. Seal bag and use hands to mash the avocado. In a medium bowl, combine mashed avocado with all other ingredients. Cover surface with plastic wrap; chill up to 8 hours until ready to use.
+
+
+Pasta with Spinach and Edamame
+20
+20
+4
+534
+33
+50
+525
+43
+7
+20
+9 5 5 2 3 146 1/2 3 147 2/3 3 148 1/4 1 10 4 3 149
+In a large pot, cook pasta and edamame according to pasta package directions. Drain; return pasta and edamame to pan. Meanwhile, in a medium skillet toast broken walnuts over medium heat for 3 to 4 minutes. Remove from heat; set aside. Stir salad dressing and pepper into hot pasta mixture in pan. Add spinach and nuts; cook and toss over medium heat for 1 minute more.
+
+
+Roasted Asparagus
+30
+15
+6
+57
+3
+2
+107
+5
+2
+4
+2 6 150 1 2 19 1/4 1 9 1/4 1 10 1/4 3 11
+Preheat oven to 400F. Snap off and discard woody bases from asparagus. If desired, scrape off scales. Place asparagus in a 15x10x1-inch baking pan. Drizzle with olive oil; toss to coat. Spread in a single layer. Sprinkle with salt and pepper. Roast uncovered for 15 to 20 minutes or until asparagus is crisp-tender, turning once. Transfer to serving platter; sprinkle with cheese.
+
+
+Baked Potatoes
+45
+5
+4
+131
+0
+0
+10
+30
+4
+3
+4 0 23
+Preheat oven to 425F. Scrub potatoes thoroughly with a brush; pat dry. Prick potatoes with a fork. Bake for 40 to 50 minutes or until tender. To serve, roll each potato gently under a towel. Using a knife, cut an x in the top of each potato. Press in and up on the ends of each potato. 
+
+
+Hash Brown Potatoes
+28
+10
+4
+202
+9
+23
+214
+30
+2
+3
+4 0 23 1/4 3 33 1/4 1 9 1/8 1 10 3 2 7
+Peel potatoes; coarsely shred to make 4 1/2 cups. Rinse shredded potatoes and pat dry. Combine potatoes, chopped onion, salt, and pepper. In a large skillet melt butter over medium-low heat. Using a pancake turner, pat potato mixture into skillet. Cook about 10 minutes or until bottom of mixture is crisp. With the pancake turner, turn over potato mixture in large sections. COok for 8 to 10 minutes more or until golden.
+
+
+Creamy Spinach
+20
+20
+4
+312
+29
+97
+345
+11
+4
+7
+18 5 149 1/2 3 33 2 4 6 2 2 7 1 3 8 1/2 1 10 1/4 1 9 1/4 1 3
+In a large pot cook fresh spinach in rapidly boiling salted water for 1 minute. Drain well, squeezing out excess liquid. Pat dry with paper towels. Using kitchen shears, coarsely snip spinach; set aside. Chop onion and mince garlic. In a large skillet cook onion and garlic in hot butter about 5 minutes or until onion is tender. Stir in cream, pepper, salt and nutmeg. Bring to boiling; cook for 3 to 5 minutes or until cream starts to thicken. Add spinach. Simmer until mixture reaches desired consistency, stirring occasionally. Serve immediately.

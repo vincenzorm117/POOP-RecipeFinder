@@ -58,7 +58,7 @@ namespace RecipeFinder
                     if(c == t)
                     {   
                         //Set the category id of the ingredient
-                        d.setCategoryID(_CategoryLists[i].Capacity);
+                        d.setCategoryID(_CategoryLists[i].ToArray().Length);
 
                         //Adds a new ingredient to the proper category list
                         _CategoryLists[i].Add(new Ingredient(d));

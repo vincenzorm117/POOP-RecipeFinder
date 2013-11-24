@@ -39,8 +39,8 @@ namespace RecipeFinder
                 return;
             IngredientSplit();
 
-            /*if(!RecipeInput("../../Inputs/inputRecipes.txt"))
-                return;*/
+            if(!RecipeInput("../../Inputs/inputRecipes.txt"))
+                return;
 
             //Recipe input functionality will be placed here.....WHEN I FUCKING FEEL LIKE IT.
             //  Sincerely, The Coding Taskmaster!
