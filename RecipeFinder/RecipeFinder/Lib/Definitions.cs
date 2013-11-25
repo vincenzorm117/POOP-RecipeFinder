@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows;
 using System.Collections.Generic;
+using System.Collections;
 
 namespace RecipeFinder
 {
@@ -18,6 +19,9 @@ namespace RecipeFinder
         private static List<bool>             _UsersAllergies;  ///< Boolean list of the users allergy selections
         private static List<Recipe>           _recipeList;      ///< The list used to hold the recipe list read in from file
         private static CookMode               _selectedMode;    ///< Variable used to hold the users cooking mode selection
+        private static Hashtable              _selections;
+        RecipeFinder.GUI.FoodSafetyModule     p;
+
 
         /*****************************/
         /* PUBLIC VALUE DECLARATIONS */

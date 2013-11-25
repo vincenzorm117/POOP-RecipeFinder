@@ -15,6 +15,7 @@ using System.Windows.Shapes;
 using System.Windows.Controls.Primitives;
 using System.IO;
 
+
 namespace RecipeFinder
 {
     /**
@@ -57,19 +58,42 @@ namespace RecipeFinder
          * \param sender
          * \param e
          **/
-        private void updateRecipeSelection(object sender, SelectionChangedEventArgs e)
-        {
-            RecipeDisplayed.Document.Blocks.Clear();
+        private void updateRecipeSelection(object sender, SelectionChangedEventArgs e) {
             ListBox s = (ListBox)e.Source;
 
-            if(s != null)
-                if (s.Items.Count > 0)
-                {
-                    //TODO: fix it so that if a box is selected make it true
+            if (s != null)
+                if (s.Items.Count > 0) {
+                    
                     String x = s.SelectedItem.ToString();
-                    RecipeDisplayed.Document.Blocks.Add(new Paragraph(new Run(x)));
+                    DisplayTitle.Text = x;
+
+                    Recipe r = (Recipe)_selections[x];
+
+                    DisplayTime.Text = String.Format("Total Time: {0}  Preparation Time: {1}", r.getTotalTime(), r.getPrepTime());
+
+                    StringBuilder displayedIngredients = new StringBuilder();
+
+                    foreach (RecipeFinder.Recipe.ingredientData d in r.getIngredients()) {
+                       displayedIngredients.Append(String.Format("{0} {1} {2}\n", d._amount, getTextMeasurement(d._measurement), _CategoryLists[d._categoryID][d._categoryIndex].getName()));
+                    }
+                    DisplayIngredients.Text = displayedIngredients.ToString();
+
+                    DisplayServings.Text    = String.Format("{0}", r.getServings());
+                    DisplayCalories.Text    = String.Format("{0} (kcal)", r.getCalories());
+                    DisplayFat.Text         = String.Format("{0} (g)", r.getFat());
+                    DisplayCholeterol.Text  = String.Format("{0} (mg)", r.getCholestoral());
+                    DisplaySodium.Text      = String.Format("{0} (g)", r.getSodium());
+                    DisplayCarbs.Text       = String.Format("{0} (g)", r.getCarbs());
+                    DisplayFiber.Text       = String.Format("{0} (g)", r.getFiber());
+                    DisplayProtein.Text     = String.Format("{0} (g)", r.getProtein());
+
+                    DispLayInstructions.Text = r.getInstructions();
+
                 }
         }
+
+
+
 
         /**
          * \fn private void print(object sender, RoutedEventArgs e)
@@ -78,5 +102,18 @@ namespace RecipeFinder
          **/
         private void print(object sender, RoutedEventArgs e)
         { /*Don't Touch this unless your handling view*/ }
+
+        private void showFoodSafetyModule(object sender, RoutedEventArgs e) {
+            if (p == null || !p.IsVisible) {
+                p = new RecipeFinder.GUI.FoodSafetyModule();
+                p.Show();
+            }
+        }
+
+
+
+        
+
+        
     }
 }

@@ -18,7 +18,10 @@ namespace RecipeFinder
         private void SearchButton_Click(object sender, RoutedEventArgs e)
         {
             List<recipeMatches> results = searchForRecipies();
+            if (_selections == null)
+                _selections = new System.Collections.Hashtable();
 
+            _selections.Clear();
             //Hides the initially shown panels and shows the results panel
             ControlTemp.Visibility  = System.Windows.Visibility.Hidden;
             SearchPanel.Visibility  = System.Windows.Visibility.Hidden;
@@ -34,10 +37,12 @@ namespace RecipeFinder
                     Results.Items.Add(curr);
                 }
             }*/
+            
 
             foreach(recipeMatches r in results)
             {
                 Results.Items.Add(_recipeList[r.recipeIndex].getName());
+                _selections[_recipeList[r.recipeIndex].getName()] = _recipeList[r.recipeIndex];
             }
         }
 

@@ -175,5 +175,25 @@ namespace RecipeFinder
          **/
         public static int getSizeMode()
         { return Enum.GetValues(typeof(CookMode)).Length; }
+
+
+
+
+
+        public static String getTextMeasurement(Measurements m) {
+
+            switch (m) {
+                case Measurements.TEASPOON: return "teaspoon(s)";
+                case Measurements.TABLESPOON: return "tablespoon(s)";
+                case Measurements.CUP: return "cup(s)";
+                case Measurements.CLOVES: return "clove(s)";
+                case Measurements.OUNCE: return "ounce(s)";
+                case Measurements.POUND: return "pound(s)";
+                case Measurements.M_LITRE: return "M Litre(s)";
+                case Measurements.SLICES: return "slice(s)";
+                default: return "";
+            }
+        }
+
     }
 }

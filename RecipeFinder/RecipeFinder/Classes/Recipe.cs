@@ -227,5 +227,14 @@ namespace RecipeFinder
          **/
         public List<List<bool>> getIngredientFlags()
         { return _BoolList; }
+
+
+        public String getInstructions() 
+        { return _Instructions; }
+
+
+        public List<ingredientData> getIngredients() 
+        { return _Ingredients; }
+
     }
 }
