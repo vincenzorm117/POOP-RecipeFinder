@@ -16,6 +16,7 @@ namespace RecipeFinder
         private static List<Ingredient>                      _ingredientList;  ///< List for holding the ingredients read in from file
         private static List<List<bool>>                      _UserSelections;  ///< 2D list for holding user selections
         private static List<int>                             _CategoryCounter; ///< Tracks how many selections for a category there are
+        private static int                                   _AllergyCounter;  ///< Tracks how many selections for the allergys there are
         private static List<bool>                            _UsersAllergies;  ///< Boolean list of the users allergy selections
         private static List<Recipe>                          _recipeList;      ///< The list used to hold the recipe list read in from file
         private static CookMode                              _selectedMode;    ///< Variable used to hold the users cooking mode selection

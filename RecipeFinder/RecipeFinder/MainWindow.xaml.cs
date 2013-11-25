@@ -31,6 +31,7 @@ namespace RecipeFinder
         public MainWindow()
         {   
             _selectedMode = CookMode.NONE;
+            _AllergyCounter = 0;
 
             /*File Input Functionality Here*/
             if(!AllergyInput("../../Inputs/inputAllergies.txt"))
@@ -42,10 +43,6 @@ namespace RecipeFinder
 
             if(!RecipeInput("../../Inputs/inputRecipes.txt"))
                 return;
-
-            //Recipe input functionality will be placed here.....WHEN I FUCKING FEEL LIKE IT.
-            //  Sincerely, The Coding Taskmaster!
-
             /*End Input Functionality Here*/
 
             InitializeComponent();
