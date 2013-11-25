@@ -16,7 +16,7 @@ Group Members
 -------------
 
 Brian McCormick
-Vincenzo Marconi
+Vincenzo R Marconi
 Matt Bald
 Rachel Kinner
 Josh Barnett

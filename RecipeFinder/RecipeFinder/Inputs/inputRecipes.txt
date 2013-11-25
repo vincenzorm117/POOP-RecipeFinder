@@ -10,7 +10,7 @@
 6
 2
 2 0 1 1/4 3 2 1/4 1 3 4 2 4
-Preheat oven to 425F. Halve squash lengthwise and discard seeds and strings. Arrange halves, cut side down in a shallow baking dish and cover with foil; bake 30 minutes. Turn squash cut side up; top each half with 1 tbs butter and 1 tbs brown sugar then sprinkle with nutmeg. Bake 30 minutes or until squash is tender. Scoop flesh from skin and serve.
+Preheat oven to 425˚F. Halve squash lengthwise and discard seeds and strings. Arrange halves, cut side down in a shallow baking dish and cover with foil; bake 30 minutes. Turn squash cut side up; top each half with 1 tbs butter and 1 tbs brown sugar then sprinkle with nutmeg. Bake 30 minutes or until squash is tender. Scoop flesh from skin and serve.
 
 
 Fettuccine Alfredo
@@ -40,7 +40,7 @@ Pumpkin Pie
 3
 8
 1 0 12 15 5 13 3/4 3 2 1_1/4 1 14 1 1 15 1/2 1 9 1/4 1 16 4 0 17 1_1/2 3 18
-Preheat oven to 400F. Prepare and roll out pie crust. Line 9-inch pie plate with pastry circle and trim. Line pastry with double thickness of foil. Bake for 15 minutes. Remove foil. Meanwhile, in a large bowl combine pumpkin, brown sugar, cinnamon, ginger, salt, and cloves. Lightly beat eggs; then add. Beat lightly with a fork until combined. Gradually add half-and-half; stir until just combined. Carefully pour pumpkin mixture into partially baked crust. To prevent over browning, cover edge of pie with foil. Bake for 20 minutes. Remove foil. Bake for 25 to 30 minutes more. Cool on a wire rack. Cover and chill within 2 hours.
+Preheat oven to 400˚F. Prepare and roll out pie crust. Line 9-inch pie plate with pastry circle and trim. Line pastry with double thickness of foil. Bake for 15 minutes. Remove foil. Meanwhile, in a large bowl combine pumpkin, brown sugar, cinnamon, ginger, salt, and cloves. Lightly beat eggs; then add. Beat lightly with a fork until combined. Gradually add half-and-half; stir until just combined. Carefully pour pumpkin mixture into partially baked crust. To prevent over browning, cover edge of pie with foil. Bake for 20 minutes. Remove foil. Bake for 25 to 30 minutes more. Cool on a wire rack. Cover and chill within 2 hours.
 
 
 Pumpkin-Spiced Risotto
@@ -55,7 +55,7 @@ Pumpkin-Spiced Risotto
 1
 11
 2 6 13 1 2 19 1/2 1 20 1 3 21 32 5 22 2 2 4 1/2 3 11 1/2 1 9
-Preheat oven to 400F. Toss pumpkin with oil and allspice. Place on baking sheet. Bake 25-30 minutes or until pumpkin is tender. Prepare rice, while pumpkin bakes, by placing rice, broth, and butter in large microwave-safe bowl. and cover; microwave on HIGH 10 minutes. Stir rice once, then microwave 12-15 more minutes (stirring once halfway) or until rice is softened and broth has been absorbed. Stir pumpkin, cheese, and salt into rice. Serve.
+Preheat oven to 400˚F. Toss pumpkin with oil and allspice. Place on baking sheet. Bake 25-30 minutes or until pumpkin is tender. Prepare rice, while pumpkin bakes, by placing rice, broth, and butter in large microwave-safe bowl. and cover; microwave on HIGH 10 minutes. Stir rice once, then microwave 12-15 more minutes (stirring once halfway) or until rice is softened and broth has been absorbed. Stir pumpkin, cheese, and salt into rice. Serve.
 
 
 Grilled Potato Salad
@@ -84,7 +84,7 @@ Buttered Yuca With Olives
 47
 3
 2
-1.5 6 29 12 3 30 3 5 4 0.75 3 31 0.75 3 32 1/2 0 33
+1_1/2 6 29 12 3 30 3 5 4 3/4 3 31 3/4 3 32 1/2 0 33
 Cut yuca into 4-inch pieces, peel, then cut each piece lengthwise into quarters (remove core if needed). Place yuca in a large stock pot, add water to cover and bring to a boil. Boil 30 minutes or until very tender; drain and set aside. In same pot, melt butter, stir in olives, mojo, and onions. Add yuca back to pot, stir to coat. Serve warm.
 
 
@@ -190,7 +190,7 @@ Easy Ratatouille
 5
 3
 2 0 56 1 0 57 14 5 37 1/2 1 9 1/2 1 10
-Preheat oven to 400F. Layer slices of zucchini and eggplant in a 9x9 inch baking dish. Top slices with tomatoes, salt, and pepper. Bake 15-17 minutes or until vegetables are tender. Serve.
+Preheat oven to 400˚F. Layer slices of zucchini and eggplant in a 9x9 inch baking dish. Top slices with tomatoes, salt, and pepper. Bake 15-17 minutes or until vegetables are tender. Serve.
 
 
 Baked Cinnamon Apples
@@ -205,7 +205,7 @@ Baked Cinnamon Apples
 2
 0
 4 2 4 1/2 3 2 14 5 58 1 2 14 1 2 59
-Preheat oven to 425F. Melt butter in saucepan over medium heat; whisk in brown sugar until smooth. Combine apples with mixture. Arrange apple slices in a 9X13 inch baking dish; top with cinnamon and sugar. Bake 25-30 minutes or until apples are soft and dark brown.
+Preheat oven to 425˚F. Slice apples. Melt butter in saucepan over medium heat; whisk in brown sugar until smooth. Combine apples with mixture. Arrange apple slices in a 9X13 inch baking dish; top with cinnamon and sugar. Bake 25-30 minutes or until apples are soft and dark brown.
 
 
 Dry Rub Grilled Steaks
@@ -220,7 +220,7 @@ Dry Rub Grilled Steaks
 0
 49
 1_1/2 6 60 1/2 1 9 1 1 61 1/2 1 62
-Preheat grill. Dry each steak with a paper towel and season on both sides with salt, steak seasoning, and garlic powder. Place each steak on grill over direct heat 5-6 minutes on each side or until internal temperature is 145F. Let rest 5 minutes before slicing.
+Preheat grill. Dry each steak with a paper towel and season on both sides with salt, steak seasoning, and garlic powder. Place each steak on grill over direct heat 5-6 minutes on each side or until internal temperature is 145˚F. Let rest 5 minutes before slicing.
 
 
 Garlic Herb Tomatoes
@@ -235,7 +235,7 @@ Garlic Herb Tomatoes
 1
 4
 4 0 42 3 4 6 1 2 63 1/2 3 44
-Preheat oven to 400 F. Quarter tomatoes; place on baking sheet and top with chopped garlic. Bake 10-12 minutes or until softened. Place in medium bowl and top with basil and feta cheese.
+Preheat oven to 400˚F. Quarter tomatoes; place on baking sheet and top with chopped garlic. Bake 10-12 minutes or until softened. Place in medium bowl and top with basil and feta cheese.
 
 
 Sweet Wine Poached Pears With Cream Sauce
@@ -400,7 +400,7 @@ Carolina-Style Pulled Pork
 0
 21
 2_1/2 6 94 1 1 95 8 4 6 2 2 96 2 3 97
-Preheat oven to 350 degrees fahrenheit. Season pork with garlic herb seasoning. Pierce pork with a knife, and stuff garlic cloves in holes. Rub pork with mustard; place in baking pan and cover with foil. Bake 2-3 hours or until pork pulls apart with a fork (190 degrees fahrenheit). Remove from heat and shred pork; stir in barbecue sauce.
+Preheat oven to 350˚F. Season pork with garlic herb seasoning. Pierce pork with a knife, and stuff garlic cloves in holes. Rub pork with mustard; place in baking pan and cover with foil. Bake 2-3 hours or until pork pulls apart with a fork (190˚F). Remove from heat and shred pork; stir in barbecue sauce.
 
 
 Steamed Mussels with Lemon and White Wine
@@ -430,7 +430,7 @@ Barbeque Back Ribs
 0
 78
 3 6 100 2 3 97 1 2 101
-Preheat oven to 350 degrees. Season ribs, wrap in aluminum foil, and place on baking sheet. Bake 2 hours. Open foil and expose ribes; brush with barbecue sauce and bake 30-45 minutes or until meat is fork tender.
+Preheat oven to 350˚F. Season ribs, wrap in aluminum foil, and place on baking sheet. Bake 2 hours. Open foil and expose ribes; brush with barbecue sauce and bake 30-45 minutes or until meat is fork tender. 
 
 
 Grill Grouper Sandwich
@@ -476,7 +476,7 @@ Herbed Mahi Mahi
 40
 5
 2 2 4 1 1 110 1_1/2 6 111 1/4 1 9 1/8 1 10
-Preheat oven to 400 degrees. Combine butter and herb paste; set aside. Season fish with salt and pepper; place on baking sheet. Bake 8-10 minutes or until opaque and separates easily. Top fish with butter mixture and allow to melt.
+Preheat oven to 400˚F. Combine butter and herb paste; set aside. Season fish with salt and pepper; place on baking sheet. Bake 8-10 minutes or until opaque and separates easily. Top fish with butter mixture and allow to melt.
 
 
 Oven Baked Salmon
@@ -492,7 +492,7 @@ Oven Baked Salmon
 33
 4
 1_1/2 5 112 1 2 19 1 2 83 1/4 1 10
-Preheat oven to 400 degrees. Line baking sheet with foil; brush fish with olive oil, sprinkle with seasoning and pepper. Bake 12-15 minutes or until opaque and separates easily.
+Preheat oven to 400˚F. Line baking sheet with foil; brush fish with olive oil, sprinkle with seasoning and pepper. Bake 12-15 minutes or until opaque and separates easily.
 
 
 Baked Snapper With Peach Mango Salsa
@@ -508,7 +508,7 @@ Baked Snapper With Peach Mango Salsa
 34
 6
 1/4 1 9 1/8 1 10 3/2 6 113 1 6 114 1 3 115 1 2 40
-Preheat oven to 400F. Season fish with salt and pepper and place on baking sheet. Top with salsa; bake 12-14 minutes or until opaque and separates easily. Top fish with fresh mango and sprinkle with cilantro.
+Preheat oven to 400˚F. Season fish with salt and pepper and place on baking sheet. Top with salsa; bake 12-14 minutes or until opaque and separates easily. Top fish with fresh mango and sprinkle with cilantro.
 
 
 Sauteed Flounder with Orange Butter
@@ -572,7 +572,7 @@ Ground Turkey Burgers
 54
 5
 3/2 6 122 1 2 69 1 1 123 4 0 124 4 0 125
-Preheat grill. Place ground turkey in a medium bowl; add seasoning and Worcestershire sauce and mix thoroughly. Form into four 1/2 inch thick patties; place on grill over direct heat. Grill 4-6 minutes on each side or until internal temperature reaches 165 degrees. Top each patty with a slice of cheese. Serve on buns.
+Preheat grill. Place ground turkey in a medium bowl; add seasoning and Worcestershire sauce and mix thoroughly. Form into four 1/2 inch thick patties; place on grill over direct heat. Grill 4-6 minutes on each side or until internal temperature reaches 165˚F. Top each patty with a slice of cheese. Serve on buns.
 
 
 Chicken Sloppy Joes
@@ -604,7 +604,7 @@ Lemon Baked Chicken
 29
 4
 1 0 129 1/2 1 9 1/4 1 10 1 0 81
-Preheat oven to 350 degrees. Season skin and body cavity of chicken liberally with salt and pepper. Pierce lemon several times with a fork and place inside the chicken. Tie legs together to close cavity as tightly as possible. Place breast-side down in a baking dish; bake 20 min. Turn chicken breast-side up and bake 20 more min. Increase oven temperature to 400 degrees and bake 30-35 more min or until chicken is golden and internal temperature is 165 degrees.
+Preheat oven to 350˚F. Season skin and body cavity of chicken liberally with salt and pepper. Pierce lemon several times with a fork and place inside the chicken. Tie legs together to close cavity as tightly as possible. Place breast-side down in a baking dish; bake 20 min. Turn chicken breast-side up and bake 20 more min. Increase oven temperature to 400˚F and bake 30-35 more min or until chicken is golden and internal temperature is 165˚F.
 
 
 Oven-Fried Chicken Wings
@@ -620,7 +620,7 @@ Oven-Fried Chicken Wings
 33
 5
 1 3 4 1 3 131 2 1 132 1_1/2 1 127 4 6 133
-Preheat oven to 400 degrees. Line two 1-inch-deep baking sheets with foil. Melt half a stick of butter on each pan in the oven. Combine baking mix, paprika, and seasoned salt; dredge chicken in mixture, then place on pans in single layer 1/2-inch apart. Bake 30-35 minutes, turning once halfway through, or until chicken is 165 degrees and crispy. Serve.
+Preheat oven to 400˚F. Line two 1-inch-deep baking sheets with foil. Melt half a stick of butter on each pan in the oven. Combine baking mix, paprika, and seasoned salt; dredge chicken in mixture, then place on pans in single layer 1/2-inch apart. Bake 30-35 minutes, turning once halfway through, or until chicken is 165˚F and crispy. Serve.
 
 
 Carrot Cake
@@ -635,7 +635,7 @@ Carrot Cake
 1
 6
 4 0 17 2 3 118 2 3 59 2 1 134 1 1 14 1/2 1 9 1/2 1 135 3 3 136 3/4 3 137 1 0 138 
-Allow eggs to stand at room temperature for 30 minutes. Meanwhile, grease two 8x1 1/2-inch round cake pans. Line bottom of pans with wax paper; grease the paper. Set pans aside. Preheat oven to 350F. In a large bowl, stir together flour, sugar, baking powder, cinnamon, salt, and baking soda; set aside. Finely shred carrots. In another bowl, combine eggs, carrots, and oil. Add egg mixture to flour mixture. Stir until combined. Spread batter evenly into prepared pans. Bake for 35 to 40 minutes or until a wooden toothpick inserted into center comes out clean. Cool layers in pans on wire racks for 10 minutes. Remove layers from pans; peel off wax paper. Cool for at least 2 hours on wire racks. Frost with cream cheese frosting. Cover and store in the refrigerator for up to 3 days.
+Allow eggs to stand at room temperature for 30 minutes. Meanwhile, grease two 8x1 1/2-inch round cake pans. Line bottom of pans with wax paper; grease the paper. Set pans aside. Preheat oven to 350˚F. In a large bowl, stir together flour, sugar, baking powder, cinnamon, salt, and baking soda; set aside. Finely shred carrots. In another bowl, combine eggs, carrots, and oil. Add egg mixture to flour mixture. Stir until combined. Spread batter evenly into prepared pans. Bake for 35 to 40 minutes or until a wooden toothpick inserted into center comes out clean. Cool layers in pans on wire racks for 10 minutes. Remove layers from pans; peel off wax paper. Cool for at least 2 hours on wire racks. Frost with cream cheese frosting. Cover and store in the refrigerator for up to 3 days.
 
 
 Vanilla Pudding
@@ -680,7 +680,7 @@ Lemon Bars
 0
 2
 2 3 118 1/2 3 86 2 2 139 1/4 1 9 1/4 3 7 4 0 17 1_1/2 3 59 3 2 118 1 0 81 3/4 3 98 1/4 3 18 
-Preheat oven to 350F. Line a 13x9x2-inch baking pan with foil, extending the foil over the edges. Grease foil; set aside. In a large bowl combine the 2 cups flour, the 1/2 cup powdered sugar, cornstarch and salt. Cut in butter until mixture resembles coarse crumbs. Press mixture into the bottom of the prepared pan. Bake for 18 to 20 minutes or until edges are light brown. Meanwhile, for filling, in a bowl stir together the eggs, granulated sugar, 3 tablespoons flour, 1 tsp lemon peel, lemon juice, and half-and-half. Pour filling over hot crust. Bake for 15 to 20 minutes more or until center is set. Cool completely in pan on a wire rack. Use foil to lift uncut bars out of pan. Cut into bars, Just before serving sprinkle powdered sugar over tops. Cover and store in the refrigerator. 
+Preheat oven to 350˚F. Line a 13x9x2-inch baking pan with foil, extending the foil over the edges. Grease foil; set aside. In a large bowl combine the 2 cups flour, the 1/2 cup powdered sugar, cornstarch and salt. Cut in butter until mixture resembles coarse crumbs. Press mixture into the bottom of the prepared pan. Bake for 18 to 20 minutes or until edges are light brown. Meanwhile, for filling, in a bowl stir together the eggs, granulated sugar, 3 tablespoons flour, 1 tsp lemon peel, lemon juice, and half-and-half. Pour filling over hot crust. Bake for 15 to 20 minutes more or until center is set. Cool completely in pan on a wire rack. Use foil to lift uncut bars out of pan. Cut into bars, Just before serving sprinkle powdered sugar over tops. Cover and store in the refrigerator. 
 
 
 Mixed-Fruit Calafouti
@@ -695,7 +695,7 @@ Mixed-Fruit Calafouti
 1
 4
 1 1 7 2/3 3 8 1/3 3 140 3 0 17 1/3 3 118 1/4 3 59 2 2 7 1 1 109 1/8 1 9 3 3 88 1 2 86
-Preheat oven to 375F. Butter a 9-inch pie plate with the 1 tbs. butter; set aside. In a medium mixing bowl combine whipping cream, milk, eggs, flour, granulated sugar, 2 tbs. butter melted, vanilla, and salt. Beat with an electric mixer on low speed until smooth. Arrange mixed fruit in prepared pie plate. Pour cream mixture over fruit. Bake for 50 to 55 minutes or until puffed and light brown. Cool for 15 to 20 minutes on a wire rack. Sift powdered sugar over tops. Serve warm. 
+Preheat oven to 375˚F. Butter a 9-inch pie plate with the 1 tbs. butter; set aside. In a medium mixing bowl combine whipping cream, milk, eggs, flour, granulated sugar, 2 tbs. butter melted, vanilla, and salt. Beat with an electric mixer on low speed until smooth. Arrange mixed fruit in prepared pie plate. Pour cream mixture over fruit. Bake for 50 to 55 minutes or until puffed and light brown. Cool for 15 to 20 minutes on a wire rack. Sift powdered sugar over tops. Serve warm. 
 
 
 Bread Pudding
@@ -710,7 +710,7 @@ Bread Pudding
 2
 6
 7 8 130 1/3 3 141 2 0 17 2 3 140 1/4 3 7 1/2 3 59 1 1 14 1/2 1 3 1 1 109
-Preheat oven to 300F. Cut bread into 1/2-inch cubes. Spread in a 15x10x10-inch baking pan; bake for 10 to 15 minutes or until dry, stirring twice. Increase oven to 350F. Grease a 1 1/2 quart casserole dish; set aside. In a large bowl combine bread cubes and raisins. In a medium bowl combine eggs, milk, melted butter, sugar, cinnamon, nutmeg and vanilla. Stir into bread mixture. Pour into prepared casserole dish. Bake uncovered for 50 to 55 minutes or until puffed and a knife inserted near the center comes out clean. Cool slightly, and serve.
+Preheat oven to 300˚F. Cut bread into 1/2-inch cubes. Spread in a 15x10x10-inch baking pan; bake for 10 to 15 minutes or until dry, stirring twice. Increase oven to 350F. Grease a 1 1/2 quart casserole dish; set aside. In a large bowl combine bread cubes and raisins. In a medium bowl combine eggs, milk, melted butter, sugar, cinnamon, nutmeg and vanilla. Stir into bread mixture. Pour into prepared casserole dish. Bake uncovered for 50 to 55 minutes or until puffed and a knife inserted near the center comes out clean. Cool slightly, and serve.
 
 
 Raspberry Sorbet
@@ -770,7 +770,7 @@ Roasted Asparagus
 2
 4
 2 6 150 1 2 19 1/4 1 9 1/4 1 10 1/4 3 11
-Preheat oven to 400F. Snap off and discard woody bases from asparagus. If desired, scrape off scales. Place asparagus in a 15x10x1-inch baking pan. Drizzle with olive oil; toss to coat. Spread in a single layer. Sprinkle with salt and pepper. Roast uncovered for 15 to 20 minutes or until asparagus is crisp-tender, turning once. Transfer to serving platter; sprinkle with cheese.
+Preheat oven to 400˚F. Snap off and discard woody bases from asparagus. If desired, scrape off scales. Place asparagus in a 15x10x1-inch baking pan. Drizzle with olive oil; toss to coat. Spread in a single layer. Sprinkle with salt and pepper. Roast uncovered for 15 to 20 minutes or until asparagus is crisp-tender, turning once. Transfer to serving platter; sprinkle with cheese.
 
 
 Baked Potatoes
@@ -785,7 +785,7 @@ Baked Potatoes
 4
 3
 4 0 23
-Preheat oven to 425F. Scrub potatoes thoroughly with a brush; pat dry. Prick potatoes with a fork. Bake for 40 to 50 minutes or until tender. To serve, roll each potato gently under a towel. Using a knife, cut an x in the top of each potato. Press in and up on the ends of each potato. 
+Preheat oven to 425˚F. Scrub potatoes thoroughly with a brush; pat dry. Prick potatoes with a fork. Bake for 40 to 50 minutes or until tender. To serve, roll each potato gently under a towel. Using a knife, cut an x in the top of each potato. Press in and up on the ends of each potato. 
 
 
 Hash Brown Potatoes
@@ -800,7 +800,7 @@ Hash Brown Potatoes
 2
 3
 4 0 23 1/4 3 33 1/4 1 9 1/8 1 10 3 2 7
-Peel potatoes; coarsely shred to make 4 1/2 cups. Rinse shredded potatoes and pat dry. Combine potatoes, chopped onion, salt, and pepper. In a large skillet melt butter over medium-low heat. Using a pancake turner, pat potato mixture into skillet. Cook about 10 minutes or until bottom of mixture is crisp. With the pancake turner, turn over potato mixture in large sections. COok for 8 to 10 minutes more or until golden.
+Peel potatoes; coarsely shred to make 4 1/2 cups. Rinse shredded potatoes and pat dry. Combine potatoes, chopped onion, salt, and pepper. In a large skillet melt butter over medium-low heat. Using a pancake turner, pat potato mixture into skillet. Cook about 10 minutes or until bottom of mixture is crisp. With the pancake turner, turn over potato mixture in large sections. Cook for 8 to 10 minutes more or until golden.
 
 
 Creamy Spinach
@@ -816,3 +816,243 @@ Creamy Spinach
 7
 18 5 149 1/2 3 33 2 4 6 2 2 7 1 3 8 1/2 1 10 1/4 1 9 1/4 1 3
 In a large pot cook fresh spinach in rapidly boiling salted water for 1 minute. Drain well, squeezing out excess liquid. Pat dry with paper towels. Using kitchen shears, coarsely snip spinach; set aside. Chop onion and mince garlic. In a large skillet cook onion and garlic in hot butter about 5 minutes or until onion is tender. Stir in cream, pepper, salt and nutmeg. Bring to boiling; cook for 3 to 5 minutes or until cream starts to thicken. Add spinach. Simmer until mixture reaches desired consistency, stirring occasionally. Serve immediately.
+
+
+Beef Stew
+70
+10
+4
+670
+40
+205
+810
+23
+3
+59
+2 2 24 1/2 6  151 1 1 9 2 2 118 1 0 33 1 0 23 1 3 136 1 3 27 32 5 152
+Preheat oil in medium stockpot on medium-high. Season beef and coat with flour; add beef (in batches) and cook 2-3 minutes or until browned. Dice potato and slice carrots and celery. Add vegetables and cook 2-3 minutes or until onions are tender. Add broth and bring to a boil. Reduce heat to medium-low, cover and cook 50-60 minutes or until beef is tender, stirring often.
+
+
+Veal Chops with Wine and Apples
+30
+10
+4
+310
+15
+90
+190
+13
+2
+20
+1 2 24 4 0 153 1/2 1 9 1/4 1 10 1 3 76 2 0 58 2 2 4
+Preheat oven to 400˚F. Use chops approximately 6oz. Peel and thinly slice apples. Preheat oil in large sauté pan on medium-high 2-3 minutes. Season veal chops with salt and pepper. Add veal chops to pan; cook 2-3 minutes on each side or until browned. Add wine and apples to pan. Transfer to oven and cook, turning once, 10-12 minutes or until 145˚F. Stir butter into sauce until melted.
+
+
+Country Fried Steak
+20
+10
+4
+650
+32
+105
+730
+45
+2
+43
+1/4 3 24 1_1/2 6 154 1/2 3 118 1 0 17 3 3 155 1/4 1 9 1/4 1 9 1/4  1 10
+Preheat oil in a large sauté pan on medium 2-3 minutes. Dip cubed steaks in flour (coating both sides) then dip into egg (allowing excess to drip off). Finally, dip into crushed saltines. Place cubed steaks in oil and cook 4-6 minutes on each side or until internal temperature reaches 160˚F. Season with salt and pepper.
+
+
+Meatloaf
+50
+10
+4
+430
+23
+195
+690
+17
+2
+37
+1_1/2 6 156 2 0 17 1/2 3 33 2 2 69 1/2 3 157 1 3 158
+Preheat oven to 350˚F. Combine ground beef, eggs, chopped onion, Italian seasoning, and bread crumbs in medium bowl and mix until well blended; place in load pan. Bake 35-40 minutes or until internal temperature reaches 160˚F. Remove from oven and top with tomato sauce.
+
+
+Grilled Lamb Chops
+20
+10
+4
+540
+44
+130
+240
+1
+1
+33
+1/4 3 19 1 2 159 2 1 160 1/4 1 10 1/2 1 9 2 6 161 
+Preheat grill. Combine olive oil and seasonings. Turn chops in oil mixture until well coated. Place lamb chops on grill over direct heat; cook 3-4 minutes on each side or until 145˚F (for medium-rare).
+
+
+Grilled Pork Chops
+20
+5
+4
+320
+13
+100
+450
+16
+0
+30
+1_1/2 6 162 1/4 3 79 2 2 2 1/2 1 15 1 3 163 
+Place all ingredients in large zip-top bag marinate overnight. Preheat grill. Place pork chops on grill over direct heat 4-6 minutes on each side or until internal temperature reaches 145˚F. Let rest 5 minutes before serving.
+
+
+Barbecue Baked Pork Tenderloin
+30
+5
+4
+260
+7
+80
+1020
+20
+0
+25
+1 6 164 1 2 165 1 1 6 1 3 97
+Preheat oven to 400˚F. Season pork tenderloin with mesquite seasoning and minced garlic on all sides. Place in baking dish and bake 20-25 minutes or until internal temperature reaches 145˚F. Let pork rest for 5 minutes before slicing and serve with barbecue sauce.
+
+
+Grilled Teriyaki Chuck Steak
+20
+5
+4
+400
+23
+140
+740
+2
+0
+43
+1 3 72 1 1 6 1_1/2 6 60
+Combine marinade and minced garlic in zip-top bag. Add steak to bag and refrigerate 6 hours or up to 24 hours. Preheat grill. Place on grill over direct heat 6-8 minutes on each side or until internal temperature reaches 145˚F. Let stand 5 minutes before slicing.
+
+
+Oven Roast with Leeks and Red Potatoes
+120
+5
+6
+410
+9
+115
+560
+32
+2
+47
+2 6 166 1 2 61 2 0 167 2 6 168 1/2 1 160 2 3 152  
+Preheat oven to 350˚F. Season roast with Montreal seasoning. Place roast in a roasting rack and leeks, potatoes, thyme, and beef broth. Bake 2 hours or until tender. Serve over rice.
+
+
+Beef Fajitas
+15
+5
+4
+700
+28
+145
+980
+353
+3
+52
+1_1/2 6 169 2 2 170 1 2 24 14 5 171 2 2 145 8 0 172
+Slice skirt steak against the grain into 1/2-inch thick slices. Place in medium bowl and season with fajita seasoning. Preheat oil in large sauté pan over medium-high 2-3 minutes. Add meat to pan; cook and stir 2-3 minutes or until beef has browned. Stir in stir-fry peppers and onions and cook 2-3 minutes or until pepper mixture is hot. Remove and squeeze lime over top; serve with warm tortillas.
+
+
+Swiss Steak
+120
+5
+4
+680
+35
+235
+1200
+22
+3
+74
+2 6 60 1 1 127 3 2 118 3 2 24 1 0 33 1 1 69 2 3 173 1_1/2 3 152
+Season beef with seasoned salt and coat with flour. Preheat stockpot on medium-high. Place oil in pot; add steaks and cook 1-2 minutes on each side or until well browned. Add sliced onions and Italian seasoning; cook and stir 1-2 minutes or until onions are tender. Reduce heat to low; add tomato puree and beef broth. Cover and simmer 2 hours or until steaks are tender.
+
+
+Squash, Corn and Barley Succotash
+60
+20
+12
+106
+2
+0
+250
+22
+4
+3
+4 3 30 1/2 3 174 1 1 9 1 2 19 1 3 33 2 6 1 1 3 75 1/4 1 10 1/8 1 160 16 5 175 1/4 3 71
+In a medium saucepan bring water to a boil. Add barley and 1/2 teaspoon of salt. Return to boiling; reduce heat. Cover and simmer about 40 minutes or until barley is tender; stirring occasionally. Drain and set aside. Meanwhile, in a very large skillet heat oil over medium high heat. Chop onion, peel squash, and cut into ½-inch cubes. Add onion; cook and stir about 5 minutes or until tender. Stir in the remaining 1/2 teaspoon of salt, squash, broth, pepper, and thyme. Bring to boiling; reduce heat. Cover and simmer 10 to 15 minutes or until squash is just tender. Stir in corn; cover and cook 5 minutes more. Stir in barley and snipped parsley; heat through.
+
+
+Apple Cake with Buttery Caramel Sauce
+80
+35
+16
+369
+17
+59
+188
+23
+2
+4
+2 3 118 1 1 134 1/2 1 9 1/2 1 3 1/2 1 14 1/4 1 135 1/2 3 7 2 3 59 2 0 17 6 3 58 1 3 147 1/3 3 7 1/3 3 2 1/3 3 59 1/3 3 8 1/2 1 109
+Preheat oven to 350˚F. Grease a 13x9x2-inch baking pan; set pan aside. In a medium bowl, stir together the flour, baking powder, 1/2 tsp salt, nutmeg, cinnamon, and baking soda; set aside. In a large mixing bowl beat butter with an electric mixer on medium speed for 30 seconds. Gradually add 2 cups sugar, 1/4 cup at a time, beating on medium speed until well combined. Scrape sides of bowl; beat 2 minutes more. Add eggs one at a time, beating after each addition. Add flour mixture to butter mixture, beating on low speed just until combined. Peel and chop apples. Chop walnuts. Fold in apples and walnuts. Spread batter into prepared pan. Bake for 45 to 50 minutes or until a toothpick inserted near the middle comes out clean. Cool in pan for 45 minutes. For sauce, in a small saucepan melt 1/3 cup butter over medium heat. Stir in 1/3 cup granulated sugar, 1/3 cup packed brown sugar, and whipping cream. Bring to boiling, stirring constantly. Remove from heat; stir in vanilla. Serve warm over apple cake.
+
+
+Angel Food Cake
+90
+50
+12
+172
+0
+0
+51
+39
+0
+4
+1_1/2 3 176 1_1/2 3 86 1 3 118 1_1/2 1 177 1 1 109 1 3 59
+In a very large mixing bowl allow egg whites to stand at room temperature for 30 minutes. Meanwhile, sift powdered sugar and flour together three times; set aside. Adjust baking rack to the lowest position in the oven. Preheat oven to 350˚F. Add cream of tartar and vanilla to egg whites. Beat with an electric mixer on medium speed until soft peaks form. Add granulated sugar, 2 tablespoons at a time, beating until stiff peaks form. Sift one-fourth of the flour mixture over the egg whites; fold gently. Repeat, folding remaining flour mixture by fourth. Pour into an ungreased 10-inch tube pan. Gently cut through batter to remove any large air pockets. Bake on the lowest rack for 40 to 45 minutes or until top springs back when lightly touched. Immediately invert cake; cool thoroughly in pan. Loosen sides of cake from pan; remove cake from pan.
+
+
+Peanut Clusters
+20
+15
+48
+133
+9
+1
+23
+10
+1
+3
+12 5 178 12 5 179 1 6 180
+Line a tray or baking sheet with waxed paper; set aside. In a medium heavy saucepan stir the milk chocolate candy and chopped candy coating over low until chocolate melts and is smooth. Stir in peanuts. Drop from teaspoons onto prepared tray. Chill about 15 minutes or until set. Store tightly covered in the refrigerator for up to 1 week or freeze for up to 2 months. 
+
+
+Ground Beef Chili
+30
+30
+8
+310
+11
+50
+1160
+29
+7
+22
+1 0 33 1_1/2 6 156 3 2 181 1/2 1 127 1/2 1 10 10_3/4 5 182 14_1/2 5 37 10 5 55 1 6 128 15 5 183
+Chop onion. Preheat large saucepan on medium-high 2–3 minutes. Place beef, chili powder, seasoned salt, pepper, and one-half of the onions in pan; cook 4–5 minutes, stirring to crumble meat, or until meat is brown and no pink remains. Stir in remaining ingredients, including remaining one-half onions. Bring to a boil, stirring often. Reduce heat to low; cook and stir 10 more minutes to blend flavors. Serve.

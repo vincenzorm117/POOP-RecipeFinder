@@ -1,5 +1,5 @@
 ﻿1
-medium acorn squash
+acorn squash
 1
 0
 
@@ -69,7 +69,7 @@ grated Parmesan cheese
 12
 Pillsbury pie crust
 0
-0
+5
 
 
 13
@@ -97,7 +97,7 @@ ground cloves
 
 
 17
-eggs
+egg
 5
 0
 
@@ -133,8 +133,8 @@ broth
 
 
 23
-potatoes
-6
+potato
+1
 0
 
 
@@ -165,7 +165,7 @@ celery
 28
 cooked bacon pieces
 5
-0
+4
 
 
 29
@@ -218,7 +218,7 @@ chopped pineapple
 
 37
 diced tomato
-1
+2
 0
 
 
@@ -343,7 +343,7 @@ eggplant, sliced
 
 
 58
-apples, sliced
+apples
 2
 0
 
@@ -357,7 +357,7 @@ granulated sugar
 60
 steak, 1-inch thick
 5
-0
+4
 
 
 61
@@ -367,7 +367,7 @@ steak seasoning
 
 
 62
-garlic, powder
+garlic powder
 0
 0
 
@@ -417,7 +417,7 @@ italian seasoning
 70
 tilapia fillets
 4
-0
+6
 
 
 71
@@ -435,7 +435,7 @@ teriyaki marinade
 73
 tuna steaks (3/4 inch-thick)
 4
-2
+6
 
 
 74
@@ -531,7 +531,7 @@ mixed fruit
 89
 medium shrimp. peeled and deveined, tail off
 6
-0
+2
 
 
 90
@@ -577,7 +577,7 @@ dijon mustard
 
 
 97
-Carolina-style barbecue sauce
+barbecue sauce
 0
 0
 
@@ -597,7 +597,7 @@ mussels, rinsed
 100
 pork back ribs
 5
-0
+4
 
 
 101
@@ -609,7 +609,7 @@ barbeque seasoning
 102
 grouper fillets
 4
-0
+6
 
 
 103
@@ -627,7 +627,7 @@ ranch dressing
 105
 hoagie rolls
 6
-0
+5
 
 
 106
@@ -663,19 +663,19 @@ Italian herb paste
 111
 mahi mahi fillets 
 4
-0
+6
 
 
 112
 salmon, skin removed
 4
-0
+6
 
 
 113
 snapper fillets
 4
-0
+6
 
 
 114
@@ -693,31 +693,31 @@ fresh mango, diced
 116
 flounder fillets
 4
-0
+6
 
 
 117
 cod fillet
 4
-0
+6
 
 
 118
 flour
 0
-0
+5
 
 
 119
 panko bread crumbs
 6
-0
+5
 
 
 120
 catfish fillet
 4
-0
+6
 
 
 121
@@ -729,7 +729,7 @@ cornmeal
 122
 ground turkey breast
 5
-0
+4
 
 
 123 
@@ -741,19 +741,19 @@ worcestershire sauce
 124
 slice of american cheese
 3
-0
+1
 
 
 125
 hamburger buns
 6
-0
+5
 
 
 126
 ground chicken
 5
-0
+4
 
 
 127
@@ -771,19 +771,19 @@ chili sauce
 129
 fryer chicken
 5
-0
+4
 
 
 130
 white bread
 6
-0
+5
 
 
 131
 biscuit baking mix
 6
-0
+5
 
 
 132
@@ -795,7 +795,7 @@ paprika
 133
 chicken wings
 5
-0
+4
 
 
 134
@@ -873,13 +873,13 @@ lime juice
 146
 frozen edamame
 1
-0
+7
 
 
 147
 walnuts
 0
-0
+3
 
 
 148
@@ -897,4 +897,202 @@ spinach
 150
 asparagus
 1
+0
+
+
+151
+beef stew meat
+5
+4
+
+
+152
+beef broth
+0
+0
+
+
+153
+veal chops
+5
+4
+
+
+154
+beef cubed steak
+5
+4
+
+
+155
+saltine crackers
+0
+0
+
+
+156
+ground beef
+5
+4
+
+
+157
+Italian bread crumbs
+6
+5
+
+
+158
+tomato sauce
+0
+0
+
+
+159
+dried rosemary
+0
+0
+
+
+160
+dried thyme
+0
+0
+
+
+161
+lamb loin chops
+5
+4
+
+
+162
+boneless pork chops
+5
+4
+
+
+163
+light beer
+0
+5
+
+
+164
+pork tenderloin
+5
+4
+
+
+165
+mesquite seasoning
+0
+0
+
+
+166
+oven roast
+5
+4
+
+
+167
+large leek
+1
+0
+
+
+168
+baby red potatoes
+1
+0
+
+
+169
+beef skirt steak
+5
+4
+
+
+170
+fajita seasoning
+0
+0
+
+
+171
+frozen stir fry peppers and onions
+1
+0
+
+
+172
+flour tortillas
+6
+5
+
+
+173
+tomato puree
+2
+0
+
+
+174
+barley
+0
+5
+
+
+175
+frozen whole kernel corn
+1
+0
+
+
+176
+egg whites
+0
+1
+
+
+177
+cream of tartar
+0
+0
+
+
+178
+semisweet chocolate pieces
+0
+0
+
+
+179
+vanilla-flavored candy coating
+0
+0
+
+
+180
+peanuts
+0
+3 
+
+
+181
+Chili Powder
+0
+0
+
+
+182
+Condensed Tomato Soup
+0
+0
+
+
+183
+Black Beans
+0
 0
