@@ -51,75 +51,18 @@ namespace RecipeFinder
         }
 
         /**
-         * \fn private void updateRecipeSelection(object sender, SelectionChangedEventArgs e)
-         * \param sender
-         * \param e
+         * \fn         private void showFoodSafetyModule(object sender, RoutedEventArgs e)
+         * \brief      Function used for showing the user the food safety module.
+         * \author     Vincenzo Marconi
+         * \param [in] sender
+         * \param [in] e
          **/
-        private void updateRecipeSelection(object sender, SelectionChangedEventArgs e) {
-            ListBox s = (ListBox)e.Source;
-
-            if (s != null)
-                if (s.Items.Count > 0) {
-                    
-                    String x = s.SelectedItem.ToString();
-                    DisplayTitle.Text = x;
-
-                    Recipe r = (Recipe)_selections[x];
-
-                    DisplayTime.Text = String.Format("Total Time: {0}  Preparation Time: {1}", r.getTotalTime(), r.getPrepTime());
-
-                    StringBuilder displayedIngredients = new StringBuilder();
-
-                    foreach (RecipeFinder.Recipe.ingredientData d in r.getIngredients()) {
-                       displayedIngredients.Append(String.Format("{0} {1} {2}\n", d._amount, getTextMeasurement(d._measurement), _CategoryLists[d._categoryID][d._categoryIndex].getName()));
-                    }
-                    DisplayIngredients.Text = displayedIngredients.ToString();
-
-                    DisplayServings.Text    = String.Format("{0}", r.getServings());
-                    DisplayCalories.Text    = String.Format("{0} (kcal)", r.getCalories());
-                    DisplayFat.Text         = String.Format("{0} (g)", r.getFat());
-                    DisplayCholeterol.Text  = String.Format("{0} (mg)", r.getCholestoral());
-                    DisplaySodium.Text      = String.Format("{0} (g)", r.getSodium());
-                    DisplayCarbs.Text       = String.Format("{0} (g)", r.getCarbs());
-                    DisplayFiber.Text       = String.Format("{0} (g)", r.getFiber());
-                    DisplayProtein.Text     = String.Format("{0} (g)", r.getProtein());
-
-                    DispLayInstructions.Text = r.getInstructions();
-
-                }
-        }
-
-
-
-
-        /**
-         * \fn private void print(object sender, RoutedEventArgs e)
-         * \param sender
-         * \param e
-         **/
-        private void print(object sender, RoutedEventArgs e) {
-            PrintDialog dialog = new PrintDialog();
-
-            if (dialog.ShowDialog() == true) {
-                _printThickness.Left = 10;
-                RecipeInformation.Margin = _printThickness;
-
-                dialog.PrintVisual(RecipeInformation, DisplayTitle.Text);
-                
-                _printThickness.Left = 190;
-                RecipeInformation.Margin = _printThickness;
-
-            }
-            
-        }
-
-
-
-
-        private void showFoodSafetyModule(object sender, RoutedEventArgs e) {
-            if (p == null || !p.IsVisible) {
-                p = new RecipeFinder.GUI.FoodSafetyModule();
-                p.Show();
+        private void showFoodSafetyModule(object sender, RoutedEventArgs e)
+        {
+            if (_p == null || !_p.IsVisible)
+            {
+                _p = new RecipeFinder.GUI.FoodSafetyModule();
+                _p.Show();
             }
         }
 

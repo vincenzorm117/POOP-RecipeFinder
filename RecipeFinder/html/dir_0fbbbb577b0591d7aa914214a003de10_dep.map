@@ -1,6 +1,7 @@
 <map id="RecipeFinder" name="RecipeFinder">
-<area shape="rect" id="node2" href="dir_d7d8e37291ef4c0e6872d6e9dce4df50.html" title="Classes" alt="" coords="243,27,315,75"/>
-<area shape="rect" id="node3" href="dir_b3235e7f3aa0928e0db2c77b9202398a.html" title="Functionality" alt="" coords="123,27,219,75"/>
-<area shape="rect" id="node4" href="dir_dfaf1fb3ddc42a649901ff63c5106c52.html" title="GUI" alt="" coords="27,27,99,75"/>
-<area shape="rect" id="clust1" href="dir_0fbbbb577b0591d7aa914214a003de10.html" alt="" coords="16,16,448,85"/>
+<area shape="rect" id="node2" href="dir_d7d8e37291ef4c0e6872d6e9dce4df50.html" title="Classes" alt="" coords="339,27,411,75"/>
+<area shape="rect" id="node3" href="dir_b3235e7f3aa0928e0db2c77b9202398a.html" title="Functionality" alt="" coords="219,27,315,75"/>
+<area shape="rect" id="node4" href="dir_dfaf1fb3ddc42a649901ff63c5106c52.html" title="GUI" alt="" coords="123,27,195,75"/>
+<area shape="rect" id="node5" href="dir_3c5b9c2ecb8c66ddb9de454a2e38d9e4.html" title="Lib" alt="" coords="27,27,99,75"/>
+<area shape="rect" id="clust1" href="dir_0fbbbb577b0591d7aa914214a003de10.html" alt="" coords="16,16,544,85"/>
 </map>

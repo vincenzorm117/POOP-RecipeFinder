@@ -20,9 +20,9 @@ namespace RecipeFinder
         private static List<bool>                            _UsersAllergies;  ///< Boolean list of the users allergy selections
         private static List<Recipe>                          _recipeList;      ///< The list used to hold the recipe list read in from file
         private static CookMode                              _selectedMode;    ///< Variable used to hold the users cooking mode selection
-        private static Hashtable                             _selections;
-        private static RecipeFinder.GUI.FoodSafetyModule     p;
-        private static Thickness                             _printThickness = new Thickness(10);
+        private static Hashtable                             _selections;      ///< Used for holding the users selections in the results page
+        private static RecipeFinder.GUI.FoodSafetyModule     _p;               ///< Used for holding the food safety module
+        private static Thickness                             _printThickness;  ///< Used for storing a setting for printing
 
 
         /*****************************/

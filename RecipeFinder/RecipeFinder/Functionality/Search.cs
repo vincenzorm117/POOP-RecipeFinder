@@ -40,16 +40,16 @@ namespace RecipeFinder
                 else
                 {
                     //If one of the alergy flags matches what the user is allergic to move on
-                    if ((current.getAllergy(0) != false) && (_UsersAllergies[0].Equals(true)))
+                    if (current.getAllergy(0) && _UsersAllergies[0])
                     {
                         skip = false;
 
-                        for(int i = 0; i < numAllergens; i ++)
+                        for(int i = 1; i < numAllergens; i ++)
                         {
-                            if ((current.getAllergy(i).Equals(true)) && (_UsersAllergies[i].Equals(true)))
+                            if (current.getAllergy(i) && _UsersAllergies[i])
                             {
                                 skip = true;
-                                continue;
+                                break;
                             }
                         }
                         if(skip)
@@ -61,18 +61,12 @@ namespace RecipeFinder
                     //Compare categories
                     for (int i = 0; i < numCategories; i++)
                     {
-                        //TODO: Rework check box functionality to alter the zero index accurately
-                        if((_UserSelections[i][0].Equals(true)) && (recipeIngredients[i][0].Equals(true)))
+                        if(_UserSelections[i][0] && recipeIngredients[i][0])
                         {
-                            //Grab that number of ingrediants for this category
-                            //TODO: grab the number of ingrediants from this specific category
-                            //TODO: Redo when recipe has way of passing it's number of ingredients
-
                             //If the category is true then loop through the ingredients within
-                            //TODO: Redo to actually compare
                             for (int j = 1; j < recipeIngredients[i].ToArray().Length; j++)
                             {
-                                if((_UserSelections[i][j].Equals(true)) && (recipeIngredients[i][j].Equals(true)))
+                                if(_UserSelections[i][j] && recipeIngredients[i][j])
                                 {
                                     hits = hits + 1;
                                 }
@@ -92,9 +86,7 @@ namespace RecipeFinder
 
             }
 
-            //TODO Sort the results from the search
             results.Sort(new ResultsComparer());
-
             return results;
         }
     }

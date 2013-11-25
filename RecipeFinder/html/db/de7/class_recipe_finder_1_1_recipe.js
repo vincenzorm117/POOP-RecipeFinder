@@ -11,6 +11,8 @@ var class_recipe_finder_1_1_recipe =
     [ "getFiber", "db/de7/class_recipe_finder_1_1_recipe.html#afb5736f107a6e3f5d34486a58ccad613", null ],
     [ "getID", "db/de7/class_recipe_finder_1_1_recipe.html#aadf0f62cf1d2e89eaf79aa8b4e98a61e", null ],
     [ "getIngredientFlags", "db/de7/class_recipe_finder_1_1_recipe.html#a6d4c005a71907aa3857c0a0ca76f816a", null ],
+    [ "getIngredients", "db/de7/class_recipe_finder_1_1_recipe.html#a7f337333f3641665224f5967f7b902bc", null ],
+    [ "getInstructions", "db/de7/class_recipe_finder_1_1_recipe.html#a3e077c9638305d4eb629d1bf506d7893", null ],
     [ "getName", "db/de7/class_recipe_finder_1_1_recipe.html#a30ef346e0fd02313d7fdb2bda10f9f1e", null ],
     [ "getPrepTime", "db/de7/class_recipe_finder_1_1_recipe.html#ae1f2d0f6ffc0d8e4673ff9e59e1ccf98", null ],
     [ "getProtein", "db/de7/class_recipe_finder_1_1_recipe.html#aeb1c77c67e0ee3f6128f1dc8ddafddc9", null ],

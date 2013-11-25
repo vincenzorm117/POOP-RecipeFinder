@@ -16,8 +16,13 @@ var hierarchy =
       [ "Recipe", "db/de7/class_recipe_finder_1_1_recipe.html", null ]
     ] ],
     [ "Recipe.ingredientData", "d5/d69/struct_recipe_finder_1_1_recipe_1_1ingredient_data.html", null ],
+    [ "recipeMatches", "d6/dbf/struct_recipe_finder_1_1recipe_matches.html", null ],
     [ "UnitTest_Main", "df/d8d/class_unit___test_1_1_unit_test___main.html", null ],
     [ "Window", null, [
+      [ "FoodSafetyModule", "d9/d6c/class_recipe_finder_1_1_g_u_i_1_1_food_safety_module.html", null ],
+      [ "MainWindow", "d4/d03/class_recipe_finder_1_1_main_window.html", null ],
+      [ "MainWindow", "d4/d03/class_recipe_finder_1_1_main_window.html", null ],
+      [ "MainWindow", "d4/d03/class_recipe_finder_1_1_main_window.html", null ],
       [ "MainWindow", "d4/d03/class_recipe_finder_1_1_main_window.html", null ],
       [ "MainWindow", "d4/d03/class_recipe_finder_1_1_main_window.html", null ],
       [ "MainWindow", "d4/d03/class_recipe_finder_1_1_main_window.html", null ],

@@ -1,4 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node2" href="$d2/d6f/class_recipe_finder_1_1_allergy_check_box.html" title="AllergyCheckBox" alt="" coords="144,5,267,32"/>
+<area shape="rect" id="node2" href="$d2/d6f/class_recipe_finder_1_1_allergy_check_box.html" title="An extension of the standard checkbox to include storage of an idex value that maps to a boolean..." alt="" coords="144,5,267,32"/>
 <area shape="rect" id="node3" href="$d3/dbf/class_recipe_finder_1_1_ingredient_check_box.html" title="An extension of the standard checkbox to include storage of 2D list locations. " alt="" coords="136,56,275,83"/>
 </map>

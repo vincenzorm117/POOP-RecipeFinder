@@ -9,13 +9,12 @@ var _enumerations_8cs =
     ] ],
     [ "IngredientCategory", "d5/d21/_enumerations_8cs.html#aaf7de33908dd1712e0950d770d83d074", [
       [ "NONE", "d5/d21/_enumerations_8cs.html#aaf7de33908dd1712e0950d770d83d074ab50339a10e1de285ac99d4c3990b8693", null ],
-      [ "VEGITABLES", "d5/d21/_enumerations_8cs.html#aaf7de33908dd1712e0950d770d83d074addd001af8517240666d9ab8c6cda9898", null ],
+      [ "VEGETABLES", "d5/d21/_enumerations_8cs.html#aaf7de33908dd1712e0950d770d83d074a52e54a67da093b35cf56aea45266bdf7", null ],
       [ "FRUITS", "d5/d21/_enumerations_8cs.html#aaf7de33908dd1712e0950d770d83d074a0e008a0ebc15fd0e979f32c8d1427874", null ],
       [ "DAIRY", "d5/d21/_enumerations_8cs.html#aaf7de33908dd1712e0950d770d83d074a2a89f86141d5ef9f23a02400ef18f15f", null ],
       [ "SEAFOOD", "d5/d21/_enumerations_8cs.html#aaf7de33908dd1712e0950d770d83d074ae4f6dbf7199f3cd4618b88f5b2e3438d", null ],
       [ "MEAT", "d5/d21/_enumerations_8cs.html#aaf7de33908dd1712e0950d770d83d074a943233397793df009f80f10b6fcaccf9", null ],
-      [ "CARBOHYDRATES", "d5/d21/_enumerations_8cs.html#aaf7de33908dd1712e0950d770d83d074aad485c42286ee1e01ae3af30428fc57d", null ],
-      [ "POULTRY", "d5/d21/_enumerations_8cs.html#aaf7de33908dd1712e0950d770d83d074ad7c5487afed896fecc1d633b4ffeeab3", null ]
+      [ "CARBOHYDRATES", "d5/d21/_enumerations_8cs.html#aaf7de33908dd1712e0950d770d83d074aad485c42286ee1e01ae3af30428fc57d", null ]
     ] ],
     [ "Measurements", "d5/d21/_enumerations_8cs.html#a1eb801ce77a3bcebbbb9b1c885f0b819", [
       [ "NONE", "d5/d21/_enumerations_8cs.html#a1eb801ce77a3bcebbbb9b1c885f0b819ab50339a10e1de285ac99d4c3990b8693", null ],

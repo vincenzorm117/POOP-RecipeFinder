@@ -733,7 +733,7 @@ WARN_LOGFILE           = ./Warning_Log.txt
 # spaces.
 # Note: If this tag is empty the current directory is searched.
 
-INPUT                  = ./RecipeFinder/Classes/ ./RecipeFinder/Functionality/ ./RecipeFinder/GUI/ ./RecipeFinder/MainWindow.xaml.cs ./RecipeFinder/App.xaml.cs ./Unit_Test/Class_Tests/ ./Unit_Test/UnitTest_Main.cs ./Unit_Test/Lib/ ./Unit_Test/Functionality_Tests/
+INPUT                  = ./RecipeFinder/Classes/ ./RecipeFinder/Functionality/ ./RecipeFinder/GUI/ ./RecipeFinder/Lib/ ./RecipeFinder/MainWindow.xaml.cs ./RecipeFinder/App.xaml.cs ./Unit_Test/Class_Tests/ ./Unit_Test/UnitTest_Main.cs ./Unit_Test/Lib/ ./Unit_Test/Functionality_Tests/
 
 # This tag can be used to specify the character encoding of the source files
 # that doxygen parses. Internally doxygen uses the UTF-8 encoding. Doxygen uses

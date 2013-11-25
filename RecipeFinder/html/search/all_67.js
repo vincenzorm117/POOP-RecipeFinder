@@ -18,6 +18,8 @@ var searchData=
   ['getindex',['getIndex',['../d2/d6f/class_recipe_finder_1_1_allergy_check_box.html#a6b41ee989573cd2569c79c50ee82ba58',1,'RecipeFinder::AllergyCheckBox']]],
   ['getingredientallergy',['getIngredientAllergy',['../d4/d03/class_recipe_finder_1_1_main_window.html#a7a36bd219c92d43ec014d5f791fa1782',1,'RecipeFinder::MainWindow']]],
   ['getingredientflags',['getIngredientFlags',['../db/de7/class_recipe_finder_1_1_recipe.html#a6d4c005a71907aa3857c0a0ca76f816a',1,'RecipeFinder::Recipe']]],
+  ['getingredients',['getIngredients',['../db/de7/class_recipe_finder_1_1_recipe.html#a7f337333f3641665224f5967f7b902bc',1,'RecipeFinder::Recipe']]],
+  ['getinstructions',['getInstructions',['../db/de7/class_recipe_finder_1_1_recipe.html#a3e077c9638305d4eb629d1bf506d7893',1,'RecipeFinder::Recipe']]],
   ['getmeasurement',['getMeasurement',['../d4/d03/class_recipe_finder_1_1_main_window.html#a0348c9536d46af751a0ea96e262e0017',1,'RecipeFinder::MainWindow']]],
   ['getmsg',['getMsg',['../d0/d44/class_recipe_finder_1_1_allergy.html#a718a12063575796f8530790e010aff78',1,'RecipeFinder::Allergy']]],
   ['getname',['getName',['../d1/dec/class_recipe_finder_1_1_base_class.html#a30ef346e0fd02313d7fdb2bda10f9f1e',1,'RecipeFinder::BaseClass']]],
@@ -28,5 +30,6 @@ var searchData=
   ['getsizecategory',['getSizeCategory',['../d4/d03/class_recipe_finder_1_1_main_window.html#a4fb57d0c834be7cf1474868eb74abeea',1,'RecipeFinder::MainWindow']]],
   ['getsizemode',['getSizeMode',['../d4/d03/class_recipe_finder_1_1_main_window.html#a3d049fbd41abc60e285cd44842463263',1,'RecipeFinder::MainWindow']]],
   ['getsodium',['getSodium',['../db/de7/class_recipe_finder_1_1_recipe.html#a27f58101d7454ee8302aadb04c28bf1f',1,'RecipeFinder::Recipe']]],
+  ['gettextmeasurement',['getTextMeasurement',['../d4/d03/class_recipe_finder_1_1_main_window.html#a4c79e7c17b67676e1c7d2d588eae81ce',1,'RecipeFinder::MainWindow']]],
   ['gettotaltime',['getTotalTime',['../db/de7/class_recipe_finder_1_1_recipe.html#a7fe7d26b6d848a79aeaac9451728bff1',1,'RecipeFinder::Recipe']]]
 ];

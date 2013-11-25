@@ -1,5 +1,5 @@
 <map id="BaseClass" name="BaseClass">
-<area shape="rect" id="node2" href="$d0/d44/class_recipe_finder_1_1_allergy.html" title="Storage for a single Allergy. " alt="" coords="5,381,96,473"/>
-<area shape="rect" id="node3" href="$d3/d10/class_recipe_finder_1_1_ingredient.html" title="Storage for a single Ingredient. " alt="" coords="121,307,244,546"/>
-<area shape="rect" id="node4" href="$db/de7/class_recipe_finder_1_1_recipe.html" title="Storage for a single Recipe. " alt="" coords="269,219,416,634"/>
+<area shape="rect" id="node2" href="$d0/d44/class_recipe_finder_1_1_allergy.html" title="Storage for a single Allergy. " alt="" coords="5,358,96,450"/>
+<area shape="rect" id="node3" href="$d3/d10/class_recipe_finder_1_1_ingredient.html" title="Storage for a single Ingredient. " alt="" coords="121,285,244,523"/>
+<area shape="rect" id="node4" href="$db/de7/class_recipe_finder_1_1_recipe.html" title="Storage for a single Recipe. " alt="" coords="269,219,416,589"/>
 </map>

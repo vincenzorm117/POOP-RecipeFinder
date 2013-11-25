@@ -1,0 +1,5 @@
+<map id="updateRecipeSelection" name="updateRecipeSelection">
+<area shape="rect" id="node2" href="$db/de7/class_recipe_finder_1_1_recipe.html#ae1f2d0f6ffc0d8e4673ff9e59e1ccf98" title="Function for getting. " alt="" coords="212,5,431,32"/>
+<area shape="rect" id="node3" href="$db/de7/class_recipe_finder_1_1_recipe.html#a7f337333f3641665224f5967f7b902bc" title="Returns a list of ingredient data for the recipe. " alt="" coords="208,56,435,83"/>
+<area shape="rect" id="node4" href="$d4/d03/class_recipe_finder_1_1_main_window.html#a4c79e7c17b67676e1c7d2d588eae81ce" title="Used to get a formatted string output for an enumerated value. " alt="" coords="249,107,393,133"/>
+</map>
