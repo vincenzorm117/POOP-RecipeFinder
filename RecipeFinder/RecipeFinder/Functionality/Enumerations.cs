@@ -10,7 +10,7 @@ namespace RecipeFinder
      * \author Brian McCormick
      **/
     public enum IngredientCategory { NONE,          ///< Index: 0
-                                     VEGITABLES,    ///< Index: 1
+                                     VEGETABLES,    ///< Index: 1
                                      FRUITS,        ///< Index: 2
                                      DAIRY,         ///< Index: 3
                                      SEAFOOD,       ///< Index: 4
@@ -61,7 +61,7 @@ namespace RecipeFinder
             switch(i)
             {
                 case 0:  return IngredientCategory.NONE;
-                case 1:  return IngredientCategory.VEGITABLES;
+                case 1:  return IngredientCategory.VEGETABLES;
                 case 2:  return IngredientCategory.FRUITS;
                 case 3:  return IngredientCategory.DAIRY;
                 case 4:  return IngredientCategory.SEAFOOD;
@@ -84,7 +84,7 @@ namespace RecipeFinder
             switch(c)
             {
                 case IngredientCategory.NONE:          return 0;
-                case IngredientCategory.VEGITABLES:    return 1;
+                case IngredientCategory.VEGETABLES:    return 1;
                 case IngredientCategory.FRUITS:        return 2;
                 case IngredientCategory.DAIRY:         return 3;
                 case IngredientCategory.SEAFOOD:       return 4;
