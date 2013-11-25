@@ -44,6 +44,18 @@ namespace RecipeFinder
             AllergyCheckBox a = (AllergyCheckBox)e.Source;
             int index         = a.getIndex();
             _UsersAllergies[index] = !_UsersAllergies[index];
+
+            if(_UsersAllergies[index])
+            {
+                _AllergyCounter++;
+                _UsersAllergies[0] = true;
+            }
+            else
+            {
+                _AllergyCounter--;
+                if(_AllergyCounter == 0)
+                    _UsersAllergies[0] = false;
+            }
         }
     }
 }

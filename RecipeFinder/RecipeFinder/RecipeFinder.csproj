@@ -85,7 +85,7 @@
     <Compile Include="Classes\RecipeFinder_CheckBox.cs" />
     <Compile Include="Functionality\Allergy_Interface.cs" />
     <Compile Include="Classes\ResultsComparer.cs" />
-    <Compile Include="Settings.cs" />
+    <Compile Include="Lib\Settings.cs" />
     <Page Include="GUI\FoodSafetyModule.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
