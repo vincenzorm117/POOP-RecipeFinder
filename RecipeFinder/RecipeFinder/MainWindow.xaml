@@ -1,7 +1,7 @@
-﻿<Window x:Class="RecipeFinder.MainWindow"
+﻿<Window x:Name="TheWindow" x:Class="RecipeFinder.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Recipe Finder" Height="531" Width="816" MinWidth="816" MinHeight="531">
+        Title="Recipe Finder" Height="531" Width="816" MinWidth="816" MinHeight="531" MaxWidth="816">
     <Grid>
         
         
@@ -12,14 +12,14 @@
                 
                 <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="97" VerticalAlignment="Top" Width="209"/>
                 <Label Content="Modes" Width="56" Canvas.Left="75"/>
-                <RadioButton x:Name="NONE" Content="None" Canvas.Top="27" Canvas.Left="17" Checked="MODENONE_Checked"/>
+                <RadioButton x:Name="NONE" Content="None" Canvas.Top="27" Canvas.Left="17" Checked="MODENONE_Checked" IsChecked="True"/>
                 <RadioButton x:Name="MODEQUICKANDEASY" Content="Quick and Easy" Canvas.Top="43" Canvas.Left="17" Checked="MODEQUICKANDEASY_Checked"/>
                 <RadioButton x:Name="MODEINTERMEDIATE" Content="Intermediate" Canvas.Top="60" Canvas.Left="17" Checked="MODEINTERMEDIATE_Checked"/>
                 <RadioButton x:Name="MODECHEF" Content="Chef" Canvas.Top="75" Canvas.Left="17" Checked="MODECHEF_Checked"/>
                 
                 
                 <Border BorderBrush="Black" BorderThickness="1" Height="304" Width="209" Canvas.Top="106">
-                    <Button Content="Food Safety Module" Margin="9,259,9,9" Click="showFoodSafetyModule" />
+                    <Label Content="Allergens" Margin="78,-1,78,274"/>
                 </Border>
                 <StackPanel x:Name="Allergies" Height="217" Canvas.Left="10" Canvas.Top="135" Width="189"/>
                 
@@ -47,47 +47,47 @@
                 <Button Content="Print" HorizontalAlignment="Left" VerticalAlignment="Top" Width="67" Height="29" Click="print" Canvas.Left="98" Canvas.Top="421"/>
 
             </Canvas>
-            <Canvas Margin="190,10,10,42" Background="#FFECECEC" MinWidth="603" MinHeight="475">
+            <Canvas x:Name="RecipeInformation" Margin="190,10,10,42" Background="#FFECECEC" MinWidth="603" MinHeight="475">
                 <TextBox x:Name="DisplayTitle" Canvas.Left="10" Canvas.Top="10" Height="34" Width="588" FontSize="24" Text="Label" IsReadOnly="True" Background="{x:Null}" BorderBrush="{x:Null}"/>
                 <TextBlock x:Name="DisplayTime" Canvas.Left="10" TextWrapping="Wrap" Text="Time" Canvas.Top="49" Height="22" Width="289" FontSize="14"/>
                 <Label Content="Ingredients" Canvas.Left="64" Canvas.Top="76" FontWeight="Bold"/>
-                <TextBox x:Name="DisplayIngredients" Height="156" Canvas.Left="10" TextWrapping="Wrap" Text="TextBox" Canvas.Top="107" Width="251"/>
-                <Label Content="Nutritional Facts" FontWeight="Bold" Canvas.Left="421" Canvas.Top="59" />
+                <TextBox x:Name="DisplayIngredients" Height="156" Canvas.Left="10" TextWrapping="Wrap" Text="TextBox" Canvas.Top="107" Width="251" IsReadOnly="True"/>
+                <Label Content="Nutritional Facts" FontWeight="Bold" Canvas.Left="384" Canvas.Top="76" />
                 <UniformGrid Rows="4" Columns="4">
                     
                 </UniformGrid>
                 <Grid Height="207" Canvas.Left="280" Canvas.Top="107" Width="306">
                    
                     <Label Content="Servings:" Margin="16,10,232,171" />
-                    <TextBox x:Name="DisplayServings" Canvas.Left="331" Canvas.Top="136" Margin="79,10,152,170" Background="White" BorderBrush="{x:Null}" Height="27" Width="75" />
+                    <TextBox x:Name="DisplayServings" Canvas.Left="331" Canvas.Top="136" Margin="79,10,152,170" Background="White" BorderBrush="{x:Null}" Height="27" Width="75" IsReadOnly="True" TextAlignment="Center" />
 
                     <Label Content="Calories:" Margin="159,10,90,171" />
-                    <TextBox  x:Name="DisplayCalories" Canvas.Left="331" Canvas.Top="136" Margin="221,10,10,170" Background="White" BorderBrush="{x:Null}" Height="27" Width="75" />
+                    <TextBox  x:Name="DisplayCalories" Canvas.Left="331" Canvas.Top="136" Margin="221,10,10,170" Background="White" BorderBrush="{x:Null}" Height="27" Width="75" IsReadOnly="True" TextAlignment="Center" />
 
                     
                     <Label Content="Fat:" Margin="184,41,90,143" />
-                    <TextBox x:Name="DisplayFat"  Canvas.Left="331" Canvas.Top="136" Margin="221,42,10,138" Background="White" BorderBrush="{x:Null}" Height="27" Width="75" />
+                    <TextBox x:Name="DisplayFat"  Canvas.Left="331" Canvas.Top="136" Margin="221,42,10,138" Background="White" BorderBrush="{x:Null}" Height="27" Width="75" IsReadOnly="True" TextAlignment="Center" />
 
                     <Label Content="Cholesterol:" Margin="0,42,232,134" />
-                    <TextBox x:Name="DisplayCholeterol"  Canvas.Left="331" Canvas.Top="136" Margin="79,42,152,138" Background="White" BorderBrush="{x:Null}" Height="27" Width="75" />
+                    <TextBox x:Name="DisplayCholeterol"  Canvas.Left="331" Canvas.Top="136" Margin="79,42,152,138" Background="White" BorderBrush="{x:Null}" Height="27" Width="75" IsReadOnly="True" TextAlignment="Center" />
 
                     
                     <Label Content="Sodium:" Margin="163,77,90,106" />
-                    <TextBox x:Name="DisplaySodium"  Canvas.Left="331" Canvas.Top="136" Margin="221,74,10,106" Background="White" BorderBrush="{x:Null}" Height="27" Width="75" />
+                    <TextBox x:Name="DisplaySodium"  Canvas.Left="331" Canvas.Top="136" Margin="221,74,10,106" Background="White" BorderBrush="{x:Null}" Height="27" Width="75" IsReadOnly="True" TextAlignment="Center" />
 
                     <Label Content="Carbs:" Margin="26,73,234,107" />
-                    <TextBox x:Name="DisplayCarbs"  Canvas.Left="331" Canvas.Top="136" Margin="80,74,152,106" Background="White" BorderBrush="{x:Null}" Height="27" Width="75" />
+                    <TextBox x:Name="DisplayCarbs"  Canvas.Left="331" Canvas.Top="136" Margin="80,74,152,106" Background="White" BorderBrush="{x:Null}" Height="27" Width="75" IsReadOnly="True" TextAlignment="Center" />
 
                     
                     <Label Content="Fiber:" Margin="175,106,90,75" />
-                    <TextBox x:Name="DisplayFiber"  Canvas.Left="331" Canvas.Top="136" Margin="221,106,10,74" Background="White" BorderBrush="{x:Null}" Height="27" Width="75" />
+                    <TextBox x:Name="DisplayFiber"  Canvas.Left="331" Canvas.Top="136" Margin="221,106,10,74" Background="White" BorderBrush="{x:Null}" Height="27" Width="75" IsReadOnly="True" TextAlignment="Center" />
                     
                     <Label Content="Protein:" Margin="16,105,232,76" />
-                    <TextBox x:Name="DisplayProtein"  Canvas.Left="331" Canvas.Top="136" Margin="80,106,151,74" Background="White" BorderBrush="{x:Null}" Height="27" Width="75" />
+                    <TextBox x:Name="DisplayProtein"  Canvas.Left="331" Canvas.Top="136" Margin="80,106,151,74" Background="White" BorderBrush="{x:Null}" Height="27" Width="75" IsReadOnly="True" TextAlignment="Center" />
 
                 </Grid>
                 <Label Content="Instructions" Canvas.Left="64" Canvas.Top="288" Width="100" FontWeight="Bold" />
-                <TextBox x:Name="DispLayInstructions" Height="146" Canvas.Left="10" TextWrapping="Wrap" Text="TextBox" Canvas.Top="319" Width="576"/>
+                <TextBox x:Name="DispLayInstructions" Height="146" Canvas.Left="10" TextWrapping="Wrap" Text="TextBox" Canvas.Top="319" Width="576" IsReadOnly="True"/>
             </Canvas>
         </Grid>
 

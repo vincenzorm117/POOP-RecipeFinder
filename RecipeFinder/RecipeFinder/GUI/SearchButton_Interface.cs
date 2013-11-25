@@ -18,32 +18,45 @@ namespace RecipeFinder
         private void SearchButton_Click(object sender, RoutedEventArgs e)
         {
             List<recipeMatches> results = searchForRecipies();
-            if (_selections == null)
-                _selections = new System.Collections.Hashtable();
 
-            _selections.Clear();
-            //Hides the initially shown panels and shows the results panel
-            ControlTemp.Visibility  = System.Windows.Visibility.Hidden;
-            SearchPanel.Visibility  = System.Windows.Visibility.Hidden;
-            ResultsPanel.Visibility = System.Windows.Visibility.Visible;
+            if (results.Count > 0) {
 
-            //Current means of displaying the users selections
-            //This section of code will be removed when Ronnies search function is finished
-            /*for (int i = 0; i < Enum.GetNames(typeof(IngredientCategory)).Length; i++)
-            {
-                for (int j = 0; j < _CategoryLists[i].ToArray().Length; j++)
+                TheWindow.Height = 531;
+                TheWindow.MaxHeight = 531;
+
+
+                if (_selections == null)
+                    _selections = new System.Collections.Hashtable();
+
+                _selections.Clear();
+                //Hides the initially shown panels and shows the results panel
+                ControlTemp.Visibility = System.Windows.Visibility.Hidden;
+                SearchPanel.Visibility = System.Windows.Visibility.Hidden;
+                ResultsPanel.Visibility = System.Windows.Visibility.Visible;
+
+                //Current means of displaying the users selections
+                //This section of code will be removed when Ronnies search function is finished
+                /*for (int i = 0; i < Enum.GetNames(typeof(IngredientCategory)).Length; i++)
                 {
-                    bool curr = _UserSelections[i][j];
-                    Results.Items.Add(curr);
-                }
-            }*/
-            
+                    for (int j = 0; j < _CategoryLists[i].ToArray().Length; j++)
+                    {
+                        bool curr = _UserSelections[i][j];
+                        Results.Items.Add(curr);
+                    }
+                }*/
 
-            foreach(recipeMatches r in results)
-            {
-                Results.Items.Add(_recipeList[r.recipeIndex].getName());
-                _selections[_recipeList[r.recipeIndex].getName()] = _recipeList[r.recipeIndex];
+
+                foreach (recipeMatches r in results) {
+                    Results.Items.Add(_recipeList[r.recipeIndex].getName());
+                    _selections[_recipeList[r.recipeIndex].getName()] = _recipeList[r.recipeIndex];
+                }
+
+                Results.SelectedIndex = 0;
             }
+            else {
+                MessageBox.Show("No Results");
+            }
+
         }
 
         /**
@@ -54,6 +67,8 @@ namespace RecipeFinder
          **/
         private void Back_Click(object sender, RoutedEventArgs e)
         {
+
+            TheWindow.MaxHeight = Double.PositiveInfinity;
             //Sets the views back to the original view the program had when it first started up
             ControlTemp.Visibility  = System.Windows.Visibility.Visible;
             SearchPanel.Visibility  = System.Windows.Visibility.Visible;

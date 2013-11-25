@@ -100,8 +100,24 @@ namespace RecipeFinder
          * \param sender
          * \param e
          **/
-        private void print(object sender, RoutedEventArgs e)
-        { /*Don't Touch this unless your handling view*/ }
+        private void print(object sender, RoutedEventArgs e) {
+            PrintDialog dialog = new PrintDialog();
+
+            if (dialog.ShowDialog() == true) {
+                _printThickness.Left = 10;
+                RecipeInformation.Margin = _printThickness;
+
+                dialog.PrintVisual(RecipeInformation, DisplayTitle.Text);
+                
+                _printThickness.Left = 190;
+                RecipeInformation.Margin = _printThickness;
+
+            }
+            
+        }
+
+
+
 
         private void showFoodSafetyModule(object sender, RoutedEventArgs e) {
             if (p == null || !p.IsVisible) {
