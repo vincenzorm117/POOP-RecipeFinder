@@ -49,6 +49,11 @@ namespace RecipeFinder
         { return _row; }
     }
 
+    /**
+     * \class  AllergyCheckBox
+     * \brief  An extension of the standard checkbox to include storage of an idex value that maps to a boolean.
+     * \author Brian McCormick
+     **/
     public class AllergyCheckBox : CheckBox
     {
         private int _index; ///< The index value of the allergy mapped to this check box

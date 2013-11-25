@@ -176,22 +176,26 @@ namespace RecipeFinder
         public static int getSizeMode()
         { return Enum.GetValues(typeof(CookMode)).Length; }
 
-
-
-
-
-        public static String getTextMeasurement(Measurements m) {
-
-            switch (m) {
-                case Measurements.TEASPOON: return "teaspoon(s)";
+        /**
+         * \fn           public static String getTextMeasurement(Measurements m)
+         * \brief        Used to get a formatted string output for an enumerated value.
+         * \author       Vincenzo Marconi
+         * \param [in] m The enumerated value to map to a string.
+         * \return       The formatted string value for the enumerator.
+         **/
+        public static String getTextMeasurement(Measurements m)
+        {
+            switch(m)
+            {
+                case Measurements.TEASPOON:   return "teaspoon(s)";
                 case Measurements.TABLESPOON: return "tablespoon(s)";
-                case Measurements.CUP: return "cup(s)";
-                case Measurements.CLOVES: return "clove(s)";
-                case Measurements.OUNCE: return "ounce(s)";
-                case Measurements.POUND: return "pound(s)";
-                case Measurements.M_LITRE: return "M Litre(s)";
-                case Measurements.SLICES: return "slice(s)";
-                default: return "";
+                case Measurements.CUP:        return "cup(s)";
+                case Measurements.CLOVES:     return "clove(s)";
+                case Measurements.OUNCE:      return "ounce(s)";
+                case Measurements.POUND:      return "pound(s)";
+                case Measurements.M_LITRE:    return "M Litre(s)";
+                case Measurements.SLICES:     return "slice(s)";
+                default:                      return "";
             }
         }
 

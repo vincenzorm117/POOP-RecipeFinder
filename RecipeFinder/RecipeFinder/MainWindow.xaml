@@ -19,7 +19,7 @@
                 
                 
                 <Border BorderBrush="Black" BorderThickness="1" Height="304" Width="209" Canvas.Top="106">
-                    <Label Content="Allergens" Margin="78,-1,78,274"/>
+                    <Label Content="Allergens" Margin="63,-1,63,274" HorizontalAlignment="Center"/>
                 </Border>
                 <StackPanel x:Name="Allergies" Height="217" Canvas.Left="10" Canvas.Top="135" Width="189"/>
                 

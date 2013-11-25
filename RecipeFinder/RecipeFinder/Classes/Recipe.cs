@@ -229,10 +229,22 @@ namespace RecipeFinder
         { return _BoolList; }
 
 
-        public String getInstructions() 
+        /**
+         * \fn     public string getInstructions()
+         * \brief  Functions for getting the recipes instructions.
+         * \author Vincenzo Marconi
+         * \return The recipes instructions.
+         **/
+        public string getInstructions() 
         { return _Instructions; }
 
 
+        /**
+         * \fn     public List<ingredientData> getIngredients()
+         * \brief  Returns a list of ingredient data for the recipe.
+         * \author Vincenzo Marconi
+         * \return The list of ingredient data structs.
+         **/
         public List<ingredientData> getIngredients() 
         { return _Ingredients; }
 

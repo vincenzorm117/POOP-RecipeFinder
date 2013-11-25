@@ -15,7 +15,7 @@ namespace RecipeFinder
         public void populateFilterExpandersAndCheckBoxes()
         {
             //First for loop creates the expanders with its corresponding UniformGrid
-            for(int i = 0; i < Enum.GetNames(typeof(IngredientCategory)).Length; i++)
+            for(int i = 1; i < Enum.GetNames(typeof(IngredientCategory)).Length; i++)
             {
                 //Expanders are the collapsable panel
                 Expander e = new Expander();
