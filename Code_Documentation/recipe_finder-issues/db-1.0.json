@@ -1,0 +1,1920 @@
+{
+  "milestones": [
+    {
+      "name": "Initial Release"
+    }
+  ],
+  "attachments": [
+    {
+      "path": "attachments\/97323ee9d0f44f0d8655f50e996a30b2",
+      "issue": 11,
+      "user": "joshuabarnett",
+      "filename": "foodsafety.doc"
+    },
+    {
+      "path": "attachments\/0ccaffd483d34274a5fdf6141155c2b1",
+      "issue": 17,
+      "user": "joshuabarnett",
+      "filename": "TestCaseResults.doc"
+    },
+    {
+      "path": "attachments\/53cc8e369ad44dabb29ea0f08dc208e2",
+      "issue": 3,
+      "user": "rhyatt",
+      "filename": "searchAlgorithm PseudoCode.txt"
+    },
+    {
+      "path": "attachments\/40c0cc002eb84563886f5f5cf1e407ec",
+      "issue": 3,
+      "user": "rhyatt",
+      "filename": "searchAlgorithm.jpg"
+    }
+  ],
+  "versions": [
+    {
+      "name": "1.0"
+    },
+    {
+      "name": "1.1"
+    }
+  ],
+  "comments": [
+    {
+      "content": "Anybody wanting to see the current auto generated code documentation only needs to open the html folder in the project location and open the index.html file.\n\nThere is also an .rtf formatted version in the rtf folder.",
+      "created_on": "2013-11-24T21:20:17.899835+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 1,
+      "id": 7035081
+    },
+    {
+      "content": "Changed priority due to it's due date not coming up soon and it doesn't block any sort of development.",
+      "created_on": "2013-11-06T18:01:12.978807+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 1,
+      "id": 6779515
+    },
+    {
+      "content": "Added a version to the issue to associate the issue with a release version.",
+      "created_on": "2013-11-06T16:49:40.554039+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 1,
+      "id": 6778539
+    },
+    {
+      "content": "This issues is now assigned to Brian and is being worked on.",
+      "created_on": "2013-11-06T16:40:28.059897+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 1,
+      "id": 6778388
+    },
+    {
+      "content": null,
+      "created_on": "2013-11-25T03:37:33.313410+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 2,
+      "id": 7037590
+    },
+    {
+      "content": "There was an issue found with the ingredient file, there were ingredients in wrong categories.\n\nAlso there was an ingredient for skewers that did not have the same formatting as the rest of the ingredients. We need to either keep it and change it to match the formatting, or remove it entirely.",
+      "created_on": "2013-11-20T18:08:36.665130+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 2,
+      "id": 6983354
+    },
+    {
+      "content": "Files edited... ingredient quantity not yet added to recipe format. More recipes to be entered.",
+      "created_on": "2013-11-17T19:37:40.032704+00:00",
+      "user": "rkinner",
+      "updated_on": null,
+      "issue": 2,
+      "id": 6932184
+    },
+    {
+      "content": null,
+      "created_on": "2013-11-15T07:10:45.788310+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 2,
+      "id": 6906500
+    },
+    {
+      "content": "Rachel editing current input on google document. She will update the edited current one to the repository. Then when the recipes are complete she will update the entire file.",
+      "created_on": "2013-11-13T16:49:58.620190+00:00",
+      "user": "rhyatt",
+      "updated_on": null,
+      "issue": 2,
+      "id": 6880643
+    },
+    {
+      "content": null,
+      "created_on": "2013-11-13T16:30:39.532326+00:00",
+      "user": "rhyatt",
+      "updated_on": null,
+      "issue": 2,
+      "id": 6880279
+    },
+    {
+      "content": "Reopen for Rachel to input.",
+      "created_on": "2013-11-13T16:29:33.457227+00:00",
+      "user": "rhyatt",
+      "updated_on": null,
+      "issue": 2,
+      "id": 6880255
+    },
+    {
+      "content": "Transfer competed on 11\/11\/13",
+      "created_on": "2013-11-12T16:53:45.316457+00:00",
+      "user": "rhyatt",
+      "updated_on": null,
+      "issue": 2,
+      "id": 6861993
+    },
+    {
+      "content": "Finished",
+      "created_on": "2013-11-13T16:25:16.339399+00:00",
+      "user": "rhyatt",
+      "updated_on": null,
+      "issue": 3,
+      "id": 6880173
+    },
+    {
+      "content": "When you start working on an issue assign it to yourself.\r\nThe issue can always be reassigned later if someone else has to take up the task.",
+      "created_on": "2013-11-07T00:44:29.609115+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 3,
+      "id": 6783875
+    },
+    {
+      "content": "When you've started work on any issue don't forget to set it to \"open\" on the workflow.",
+      "created_on": "2013-11-07T00:43:06.309719+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 3,
+      "id": 6783869
+    },
+    {
+      "content": "Pseudo Code for search algorithm.",
+      "created_on": "2013-11-06T23:21:34.909099+00:00",
+      "user": "rhyatt",
+      "updated_on": null,
+      "issue": 3,
+      "id": 6783209
+    },
+    {
+      "content": "Picture of search algorithm being worked on.",
+      "created_on": "2013-11-06T23:21:05.502342+00:00",
+      "user": "rhyatt",
+      "updated_on": null,
+      "issue": 3,
+      "id": 6783204
+    },
+    {
+      "content": "Input functionality is now finished.",
+      "created_on": "2013-11-22T21:02:02.710467+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 4,
+      "id": 7019438
+    },
+    {
+      "content": "Will be worked on along side with task: https:\/\/bitbucket.org\/shadowpockets2036\/recipe_finder\/issue\/7\/input-code\n\nDocumentation will be added once completed.",
+      "created_on": "2013-11-15T07:16:15.230993+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 4,
+      "id": 6906542
+    },
+    {
+      "content": null,
+      "created_on": "2013-11-15T07:15:47.782560+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 4,
+      "id": 6906539
+    },
+    {
+      "content": "Not needed since input files only affect individual user's application.",
+      "created_on": "2013-11-17T19:34:48.780688+00:00",
+      "user": "rkinner",
+      "updated_on": null,
+      "issue": 5,
+      "id": 6932166
+    },
+    {
+      "content": "Perhaps making them decrypt files to a temp file and then destroying the temp file?",
+      "created_on": "2013-11-06T19:18:24.211853+00:00",
+      "user": "rhyatt",
+      "updated_on": null,
+      "issue": 5,
+      "id": 6780505
+    },
+    {
+      "content": "The search function is currently working and it seems to be giving proper results back.",
+      "created_on": "2013-11-25T03:26:32.259386+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 6,
+      "id": 7037443
+    },
+    {
+      "content": "DEBUGGING IS NEEDED!!!!",
+      "created_on": "2013-11-24T21:19:09.709147+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 6,
+      "id": 7035073
+    },
+    {
+      "content": "Just uploaded code to the repository that has recipe input implemented. Feel free to start working on getting the search function finalized.",
+      "created_on": "2013-11-24T07:22:41.342270+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 6,
+      "id": 7029507
+    },
+    {
+      "content": "Just an F.Y.I. but I've commented out the entire search function so that I can build and run the project on my computer.",
+      "created_on": "2013-11-16T07:35:53.331047+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 6,
+      "id": 6919736
+    },
+    {
+      "content": null,
+      "created_on": "2013-11-15T07:04:21.394005+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 6,
+      "id": 6906452
+    },
+    {
+      "content": null,
+      "created_on": "2013-11-15T07:04:13.319741+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 6,
+      "id": 6906451
+    },
+    {
+      "content": "Cleaned up code and tried to fit in new classes where able.",
+      "created_on": "2013-11-15T07:03:43.458035+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 6,
+      "id": 6906446
+    },
+    {
+      "content": "Coded up the search function and added it to the repository. Errors at present.",
+      "created_on": "2013-11-14T18:57:00.262920+00:00",
+      "user": "rhyatt",
+      "updated_on": null,
+      "issue": 6,
+      "id": 6899772
+    },
+    {
+      "content": "The last of the input code is finished.\nThere is now functionality for all three data types.",
+      "created_on": "2013-11-22T21:01:18.164176+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 7,
+      "id": 7019433
+    },
+    {
+      "content": "Finished adding implementation for reading in ingredient data from file along with performing testing on both the class and the input code.",
+      "created_on": "2013-11-20T00:46:59.619580+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 7,
+      "id": 6970862
+    },
+    {
+      "content": "Finished adding implementation for reading in allergy data from file along with performing testing on both the class and the input code.",
+      "created_on": "2013-11-16T07:31:54.654206+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 7,
+      "id": 6919714
+    },
+    {
+      "content": "Added pseudo code documentation for reading in allergy data from file to the repository.",
+      "created_on": "2013-11-16T03:53:23.762360+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 7,
+      "id": 6919030
+    },
+    {
+      "content": "Currently being worked on.",
+      "created_on": "2013-11-15T07:16:43.336614+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 7,
+      "id": 6906546
+    },
+    {
+      "content": null,
+      "created_on": "2013-11-15T07:14:29.579549+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 7,
+      "id": 6906527
+    },
+    {
+      "content": "Resolving issue since the program is currently functioning with check box input being accepted.",
+      "created_on": "2013-11-25T03:25:28.845338+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 8,
+      "id": 7037432
+    },
+    {
+      "content": "Setting to open since Ronnie is working  on it already.",
+      "created_on": "2013-11-22T22:01:54.481796+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 8,
+      "id": 7019886
+    },
+    {
+      "content": "Assigning to Ronnie since he's taking over coding of the background GUI code.\r\n\r\nMost of the initial setup has been taken care of and we are getting close to integrating all of the code together.",
+      "created_on": "2013-11-22T22:01:28.941800+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 8,
+      "id": 7019884
+    },
+    {
+      "content": null,
+      "created_on": "2013-11-15T07:12:15.559206+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 8,
+      "id": 6906507
+    },
+    {
+      "content": "This has been taken care of Ronnie and all GUI check boxes are populating from the input files.",
+      "created_on": "2013-11-22T22:03:16.432208+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 9,
+      "id": 7019894
+    },
+    {
+      "content": "Used check boxes instead of text boxes in the description. Corrected.",
+      "created_on": "2013-11-15T07:11:46.713302+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 9,
+      "id": 6906505
+    },
+    {
+      "content": null,
+      "created_on": "2013-11-15T07:10:10.791569+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 9,
+      "id": 6906496
+    },
+    {
+      "content": null,
+      "created_on": "2013-11-25T03:35:29.874277+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 10,
+      "id": 7037561
+    },
+    {
+      "content": "Reassigned to vincenzo",
+      "created_on": "2013-11-17T19:31:51.051547+00:00",
+      "user": "rkinner",
+      "updated_on": null,
+      "issue": 10,
+      "id": 6932141
+    },
+    {
+      "content": null,
+      "created_on": "2013-11-15T07:08:40.927275+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 10,
+      "id": 6906481
+    },
+    {
+      "content": null,
+      "created_on": "2013-11-25T03:38:23.939663+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 11,
+      "id": 7037602
+    },
+    {
+      "content": null,
+      "created_on": "2013-11-24T18:24:43.979106+00:00",
+      "user": "joshuabarnett",
+      "updated_on": null,
+      "issue": 11,
+      "id": 7033708
+    },
+    {
+      "content": "I don't remember who it was but to assign the issue to someone else you just edit the issue and change the assigned to field to who ever is to work on the  issue.",
+      "created_on": "2013-11-24T06:52:42.024868+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 11,
+      "id": 7029400
+    },
+    {
+      "content": "How do I do that, and was it Matt or Vincenzo who was going to do that?",
+      "created_on": "2013-11-23T18:05:36.732259+00:00",
+      "user": "joshuabarnett",
+      "updated_on": null,
+      "issue": 11,
+      "id": 7026458
+    },
+    {
+      "content": "Josh needs to send this task off to the person that will be adding it to the program.",
+      "created_on": "2013-11-22T23:52:02.321377+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 11,
+      "id": 7020716
+    },
+    {
+      "content": "This word file contains everything that we need to include in the program as far as risk management goes, I believe.",
+      "created_on": "2013-11-22T23:49:21.298725+00:00",
+      "user": "joshuabarnett",
+      "updated_on": null,
+      "issue": 11,
+      "id": 7020692
+    },
+    {
+      "content": null,
+      "created_on": "2013-11-15T07:06:34.994432+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 11,
+      "id": 6906466
+    },
+    {
+      "content": "The recipe class has been created.\nA new issue will be created if any changes need to be made.\nAlso testing needs to occur now.",
+      "created_on": "2013-11-24T21:21:06.260839+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 12,
+      "id": 7035092
+    },
+    {
+      "content": "The recipe class has been created and implemented but since it hasn't been tested yet there still could be more functionality that needs to be added.",
+      "created_on": "2013-11-24T07:23:53.943609+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 12,
+      "id": 7029514
+    },
+    {
+      "content": null,
+      "created_on": "2013-11-15T07:28:52.608396+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 12,
+      "id": 6906637
+    },
+    {
+      "content": "There is currently a class with variables to store data in.\nThe next step is to add in the required methods and try to improve the ingredient storage.",
+      "created_on": "2013-11-15T07:20:39.788644+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 12,
+      "id": 6906575
+    },
+    {
+      "content": null,
+      "created_on": "2013-11-15T07:26:41.778720+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 13,
+      "id": 6906623
+    },
+    {
+      "content": "The class has been created and will be waiting on testing results.",
+      "created_on": "2013-11-15T07:22:18.220057+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 13,
+      "id": 6906584
+    },
+    {
+      "content": null,
+      "created_on": "2013-11-15T07:27:04.470034+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 14,
+      "id": 6906625
+    },
+    {
+      "content": "The class has been created and is waiting on testing.",
+      "created_on": "2013-11-15T07:23:30.243491+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 14,
+      "id": 6906596
+    },
+    {
+      "content": "There is a basic functionality and input unit tests created and pushed to the repository.",
+      "created_on": "2013-11-20T00:46:17.769467+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 15,
+      "id": 6970856
+    },
+    {
+      "content": null,
+      "created_on": "2013-11-20T00:45:41.922178+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 15,
+      "id": 6970851
+    },
+    {
+      "content": "When the testing is performed on this class there is a Unit Test project present for performing the testing with.",
+      "created_on": "2013-11-16T07:32:55.034267+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 15,
+      "id": 6919721
+    },
+    {
+      "content": null,
+      "created_on": "2013-11-15T07:26:25.299311+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 15,
+      "id": 6906620
+    },
+    {
+      "content": "The allergy class has been tested as well as the code for reading data in from file for allergy data.\n\nThese tests can be performed by running the Unit Test project.",
+      "created_on": "2013-11-16T07:31:00.221028+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 16,
+      "id": 6919709
+    },
+    {
+      "content": "Assigning to myself since I needed to test some input code anyways.",
+      "created_on": "2013-11-16T07:29:59.654514+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 16,
+      "id": 6919702
+    },
+    {
+      "content": "Forgot to set this to task for the issue type.",
+      "created_on": "2013-11-16T03:54:20.255943+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 16,
+      "id": 6919034
+    },
+    {
+      "content": null,
+      "created_on": "2013-11-25T03:35:13.267691+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 17,
+      "id": 7037557
+    },
+    {
+      "content": "Ok Josh give it a whirl.\nJust as an FYI we already know that the ground chicken ingredient doesn't seem to be working.",
+      "created_on": "2013-11-25T03:28:12.712849+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 17,
+      "id": 7037458
+    },
+    {
+      "content": "You can give it a test run now Josh but I'm warning you now that the results aren't going to be correct. Also when you select a result there isn't going to be anything other than the name of the recipe in the viewer.",
+      "created_on": "2013-11-24T21:18:44.748765+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 17,
+      "id": 7035070
+    },
+    {
+      "content": "Search function still crashes gives an error on this line: \n            int numAllergens  = Enum.GetNames(typeof(Allergy)).Length;\n\nsays that type must be Enum? Crashes regardless of how many\/if allergens are checked.",
+      "created_on": "2013-11-24T18:29:12.042324+00:00",
+      "user": "joshuabarnett",
+      "updated_on": null,
+      "issue": 17,
+      "id": 7033750
+    },
+    {
+      "content": "I fixed your crash for you Josh. It was just a case of not having the time to go back and redo some of the code after having to implement a workaround. The allergy check boxes now click and unclick properly.",
+      "created_on": "2013-11-22T06:26:43.738334+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 17,
+      "id": 7007928
+    },
+    {
+      "content": "I can confirm that case 5 is needing to be fixed but the check boxes will fail due to the code implementing them are currently scheduled to be finished in the next couple of days. As of right now Ronnie and I have gotten the allergy and ingredient check boxes populating without actually being connected with any functionality.",
+      "created_on": "2013-11-22T04:39:03.632198+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 17,
+      "id": 7006135
+    },
+    {
+      "content": "I've been working on the test plan, and although I want to take care of a few more test cases before uploading an updated version, I just wanted to throw it out there right now that 2 test cases are failing: Test case 1 and test case 5. Test case 1 is ensuring that checkboxes work, and unchecking an allergen causes a program crash. Test case 5 is for the maximize option; the program maximizes but the GUI does not scale with it.",
+      "created_on": "2013-11-21T19:29:58.866866+00:00",
+      "user": "joshuabarnett",
+      "updated_on": null,
+      "issue": 17,
+      "id": 7001420
+    },
+    {
+      "content": "To compile anything you're going to have to comment out the search function since it's currently under construction.",
+      "created_on": "2013-11-20T03:47:37.705882+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 17,
+      "id": 6972142
+    },
+    {
+      "content": "Here is the template. I haven't been able to begin actual testing yet, since I cannot get the project to compile right now.",
+      "created_on": "2013-11-20T02:53:36.000518+00:00",
+      "user": "joshuabarnett",
+      "updated_on": null,
+      "issue": 17,
+      "id": 6971805
+    },
+    {
+      "content": "I already have am automated test created for the Allergy class with an output to the screen if it's of any interest to anybody.",
+      "created_on": "2013-11-17T23:42:40.423665+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 17,
+      "id": 6934209
+    },
+    {
+      "content": null,
+      "created_on": "2013-11-17T19:33:46.084438+00:00",
+      "user": "rkinner",
+      "updated_on": null,
+      "issue": 17,
+      "id": 6932158
+    },
+    {
+      "content": null,
+      "created_on": "2013-11-25T03:36:53.424212+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 18,
+      "id": 7037582
+    },
+    {
+      "content": "Most of the code documentation has already been auto generated by doxygen and can be updated at any time requested.",
+      "created_on": "2013-11-25T03:36:44.446598+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 18,
+      "id": 7037580
+    },
+    {
+      "content": null,
+      "created_on": "2013-11-25T03:37:15.344601+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 19,
+      "id": 7037587
+    },
+    {
+      "content": null,
+      "created_on": "2013-11-25T03:37:58.867354+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 20,
+      "id": 7037596
+    },
+    {
+      "content": null,
+      "created_on": "2013-11-25T03:39:03.043049+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 21,
+      "id": 7037607
+    },
+    {
+      "content": null,
+      "created_on": "2013-11-25T03:34:41.996078+00:00",
+      "user": "shadowpockets2036",
+      "updated_on": null,
+      "issue": 22,
+      "id": 7037550
+    }
+  ],
+  "meta": {
+    "default_milestone": null,
+    "default_assignee": null,
+    "default_kind": "bug",
+    "default_component": null,
+    "default_version": null
+  },
+  "components": [
+    
+  ],
+  "issues": [
+    {
+      "status": "new",
+      "priority": "major",
+      "kind": "task",
+      "content_updated_on": null,
+      "voters": [
+        
+      ],
+      "title": "Test Input Code",
+      "reporter": "shadowpockets2036",
+      "component": null,
+      "watchers": [
+        "shadowpockets2036"
+      ],
+      "content": "There needs to be testing for the input code.\r\n\r\nThere is already automated unit tests for the ingredient and allergy input.\r\nIf these tests need to be expanded upon then make mention of it in the comments so that the person in charge knows of this.\r\n\r\nTesting needs to be added for the recipe input code.",
+      "assignee": "shadowpockets2036",
+      "created_on": "2013-11-22T21:04:06.809722+00:00",
+      "version": "1.1",
+      "edited_on": null,
+      "milestone": null,
+      "updated_on": "2013-11-25T03:37:58.849428+00:00",
+      "id": 20
+    },
+    {
+      "status": "new",
+      "priority": "major",
+      "kind": "bug",
+      "content_updated_on": null,
+      "voters": [
+        
+      ],
+      "title": "Ingredient Selection Bug",
+      "reporter": "shadowpockets2036",
+      "component": null,
+      "watchers": [
+        "shadowpockets2036"
+      ],
+      "content": "Most of the results given by the programs search functionality seems to be correct.\r\n\r\nThere is still an ingredient selection issue however. When the ground chicken ingredient is selected there are no results returned from the search function. This suggests that there is a bug in either the search function or in the code that stores the ingredient information inside of the recipes.\r\n\r\nWhile this appears to be the only issue present other problems associated with this bug should be looked for as well.",
+      "assignee": null,
+      "created_on": "2013-11-25T03:34:28.903317+00:00",
+      "version": "1.1",
+      "edited_on": null,
+      "milestone": null,
+      "updated_on": "2013-11-25T03:34:41.980882+00:00",
+      "id": 22
+    },
+    {
+      "status": "new",
+      "priority": "major",
+      "kind": "task",
+      "content_updated_on": null,
+      "voters": [
+        
+      ],
+      "title": "Test Recipe Class",
+      "reporter": "shadowpockets2036",
+      "component": null,
+      "watchers": [
+        "shadowpockets2036"
+      ],
+      "content": "There needs to be testing done on the recipe class and all of it's functionality.",
+      "assignee": null,
+      "created_on": "2013-11-24T21:35:52.258556+00:00",
+      "version": "1.1",
+      "edited_on": null,
+      "milestone": null,
+      "updated_on": "2013-11-25T03:39:03.022565+00:00",
+      "id": 21
+    },
+    {
+      "status": "open",
+      "priority": "major",
+      "kind": "task",
+      "content_updated_on": "2013-11-15T07:06:34.966181+00:00",
+      "voters": [
+        
+      ],
+      "title": "Safety food module",
+      "reporter": "rhyatt",
+      "component": null,
+      "watchers": [
+        "shadowpockets2036",
+        "rhyatt",
+        "vmarconi",
+        "joshuabarnett"
+      ],
+      "content": "The program needs to have the safety food module created and implemented.\r\n\r\nAs of right now the main thought is to add it into the program by having a button in the lower corner of the main window GUI or to have it as a menubar option.",
+      "assignee": "vmarconi",
+      "created_on": "2013-11-13T16:53:05.518077+00:00",
+      "version": "1.0",
+      "edited_on": null,
+      "milestone": "Initial Release",
+      "updated_on": "2013-11-25T03:38:23.922859+00:00",
+      "id": 11
+    },
+    {
+      "status": "resolved",
+      "priority": "critical",
+      "kind": "task",
+      "content_updated_on": null,
+      "voters": [
+        
+      ],
+      "title": "Change check box functionality",
+      "reporter": "rhyatt",
+      "component": null,
+      "watchers": [
+        "shadowpockets2036",
+        "rhyatt",
+        "vmarconi"
+      ],
+      "content": "Change the check box to add to discussed boolean array based on category and ingredient. For the search to work faster.",
+      "assignee": "rhyatt",
+      "created_on": "2013-11-13T16:43:28.254079+00:00",
+      "version": "1.0",
+      "edited_on": null,
+      "milestone": null,
+      "updated_on": "2013-11-25T03:25:28.827876+00:00",
+      "id": 8
+    },
+    {
+      "status": "new",
+      "priority": "major",
+      "kind": "task",
+      "content_updated_on": null,
+      "voters": [
+        
+      ],
+      "title": "Test Ingredient List Splitter Code",
+      "reporter": "shadowpockets2036",
+      "component": null,
+      "watchers": [
+        "shadowpockets2036"
+      ],
+      "content": "There needs to be a unit test created to test the functionality and correctness of it's results.",
+      "assignee": "shadowpockets2036",
+      "created_on": "2013-11-20T18:05:08.215899+00:00",
+      "version": "1.1",
+      "edited_on": null,
+      "milestone": null,
+      "updated_on": "2013-11-25T03:37:15.326444+00:00",
+      "id": 19
+    },
+    {
+      "status": "open",
+      "priority": "major",
+      "kind": "task",
+      "content_updated_on": null,
+      "voters": [
+        
+      ],
+      "title": "Test Results",
+      "reporter": "rkinner",
+      "component": null,
+      "watchers": [
+        "shadowpockets2036",
+        "rkinner",
+        "joshuabarnett"
+      ],
+      "content": "This is the test plan with the results of the testing. Begin testing the GUI features, and then add in those once input function & search added.",
+      "assignee": "joshuabarnett",
+      "created_on": "2013-11-17T19:33:19.471381+00:00",
+      "version": "1.0",
+      "edited_on": null,
+      "milestone": "Initial Release",
+      "updated_on": "2013-11-25T03:35:13.244018+00:00",
+      "id": 17
+    },
+    {
+      "status": "resolved",
+      "priority": "major",
+      "kind": "task",
+      "content_updated_on": "2013-11-15T07:26:25.285084+00:00",
+      "voters": [
+        
+      ],
+      "title": "Test The Ingredient Class",
+      "reporter": "shadowpockets2036",
+      "component": null,
+      "watchers": [
+        "shadowpockets2036"
+      ],
+      "content": "Testing needs to be performed on the ingredient class to make sure that it is functioning as it should be.\r\n\r\nTesting should include:\r\n\r\n-->Building objects with all constructors and seeing that the data is correct\r\n\r\n--> Testing the getter functions\r\n\r\n--> Testing that no code can directly access the class variables\r\n\r\n--> Any other testing not mentioned above\r\n\r\nThis issue is in response to the following resolved issue: https:\/\/bitbucket.org\/shadowpockets2036\/recipe_finder\/issue\/13\/create-ingredient-class",
+      "assignee": "shadowpockets2036",
+      "created_on": "2013-11-15T07:25:59.055760+00:00",
+      "version": "1.0",
+      "edited_on": null,
+      "milestone": null,
+      "updated_on": "2013-11-20T00:46:17.749889+00:00",
+      "id": 15
+    },
+    {
+      "status": "new",
+      "priority": "major",
+      "kind": "task",
+      "content_updated_on": null,
+      "voters": [
+        
+      ],
+      "title": "Build Instructions",
+      "reporter": "rkinner",
+      "component": null,
+      "watchers": [
+        "shadowpockets2036",
+        "rkinner"
+      ],
+      "content": "Instructions for how to build and edit the application. Technical document for other cs persons.",
+      "assignee": null,
+      "created_on": "2013-11-17T19:36:07.352761+00:00",
+      "version": "1.0",
+      "edited_on": null,
+      "milestone": "Initial Release",
+      "updated_on": "2013-11-25T03:36:53.405366+00:00",
+      "id": 18
+    },
+    {
+      "status": "new",
+      "priority": "critical",
+      "kind": "task",
+      "content_updated_on": "2013-11-15T07:08:40.904219+00:00",
+      "voters": [
+        
+      ],
+      "title": "User's manual",
+      "reporter": "rhyatt",
+      "component": null,
+      "watchers": [
+        "shadowpockets2036",
+        "rhyatt",
+        "rkinner",
+        "vmarconi"
+      ],
+      "content": "We are in need of a user manual for the program.\r\n\r\nAs of right now there is a shell GUI without implementation. Creation of the users manual shouldn't need too much of that implementation to start with so it's development can begin at any time.\r\n\r\nImages and screenshots would be nice but are by NO means required.",
+      "assignee": "vmarconi",
+      "created_on": "2013-11-13T16:52:02.165120+00:00",
+      "version": "1.0",
+      "edited_on": null,
+      "milestone": "Initial Release",
+      "updated_on": "2013-11-25T03:35:29.849952+00:00",
+      "id": 10
+    },
+    {
+      "status": "resolved",
+      "priority": "blocker",
+      "kind": "task",
+      "content_updated_on": "2013-11-15T07:14:29.556342+00:00",
+      "voters": [
+        
+      ],
+      "title": "Input Code",
+      "reporter": "rhyatt",
+      "component": null,
+      "watchers": [
+        "shadowpockets2036",
+        "rhyatt",
+        "rkinner"
+      ],
+      "content": "Implementation of input code is needed for reading the projects data in from file.\r\n\r\nThere are three files:\r\n--> Ingredients\r\n--> Allergies\r\n--> Recipes\r\n\r\nEach of these files must be read in and the code must account for all data variations that occur.",
+      "assignee": "shadowpockets2036",
+      "created_on": "2013-11-13T16:28:42.014877+00:00",
+      "version": "1.0",
+      "edited_on": null,
+      "milestone": null,
+      "updated_on": "2013-11-22T21:01:18.135661+00:00",
+      "id": 7
+    },
+    {
+      "status": "resolved",
+      "priority": "major",
+      "kind": "task",
+      "content_updated_on": null,
+      "voters": [
+        
+      ],
+      "title": "Test The Allergy Class",
+      "reporter": "shadowpockets2036",
+      "component": null,
+      "watchers": [
+        "shadowpockets2036"
+      ],
+      "content": "Testing needs to be performed on the Allergy class to make sure that it is functioning as it should be.\r\n\r\nTesting should include:\r\n\r\n-->Building objects with all constructors and seeing that the data is correct\r\n\r\n--> Testing the getter functions\r\n\r\n--> Testing that no code can directly access the class variables\r\n\r\n--> Any other testing not mentioned above\r\n\r\nThis issue is in response to the following resolved issue: https:\/\/bitbucket.org\/shadowpockets2036\/recipe_finder\/issue\/14\/create-allergy-class",
+      "assignee": "shadowpockets2036",
+      "created_on": "2013-11-15T07:28:18.725068+00:00",
+      "version": "1.0",
+      "edited_on": null,
+      "milestone": null,
+      "updated_on": "2013-11-16T07:31:00.202971+00:00",
+      "id": 16
+    },
+    {
+      "status": "resolved",
+      "priority": "blocker",
+      "kind": "task",
+      "content_updated_on": "2013-11-15T07:27:04.454022+00:00",
+      "voters": [
+        
+      ],
+      "title": "Create Allergy Class",
+      "reporter": "shadowpockets2036",
+      "component": null,
+      "watchers": [
+        "shadowpockets2036"
+      ],
+      "content": "An allergy class is needed for storing allergy data.\r\n\r\nFor information about the data being stored please refer to the projects allergy documentation.\r\n\r\nThis class must include:\r\n\r\n--> Constructors for all used combinations of allergy storage\r\n\r\n--> Getter functions so that the data can be accessed\r\n\r\n--> Any special function needed for data manipulation\r\n\r\n--> NO setter functions due to the constructor will handle all of the data initializing",
+      "assignee": "shadowpockets2036",
+      "created_on": "2013-11-15T07:23:11.695065+00:00",
+      "version": "1.0",
+      "edited_on": null,
+      "milestone": null,
+      "updated_on": "2013-11-15T07:27:04.452429+00:00",
+      "id": 14
+    },
+    {
+      "status": "resolved",
+      "priority": "blocker",
+      "kind": "task",
+      "content_updated_on": "2013-11-15T07:26:41.759860+00:00",
+      "voters": [
+        
+      ],
+      "title": "Create Ingredient Class",
+      "reporter": "shadowpockets2036",
+      "component": null,
+      "watchers": [
+        "shadowpockets2036"
+      ],
+      "content": "An ingredient class is needed for storing ingredient data.\r\n\r\nFor information about the data being stored please refer to the projects ingredient documentation.\r\n\r\nThis class must include:\r\n\r\n--> Constructors for all used combinations of ingredient storage\r\n\r\n--> Getter functions so that the data can be accessed\r\n\r\n--> Any special function needed for data manipulation\r\n\r\n--> NO setter functions due to the constructor will handle all of the data initializing",
+      "assignee": "shadowpockets2036",
+      "created_on": "2013-11-15T07:21:38.446881+00:00",
+      "version": "1.0",
+      "edited_on": null,
+      "milestone": null,
+      "updated_on": "2013-11-15T07:26:41.757692+00:00",
+      "id": 13
+    },
+    {
+      "status": "resolved",
+      "priority": "major",
+      "kind": "task",
+      "content_updated_on": "2013-11-15T07:28:52.590531+00:00",
+      "voters": [
+        
+      ],
+      "title": "Create Recipe Class",
+      "reporter": "shadowpockets2036",
+      "component": null,
+      "watchers": [
+        "shadowpockets2036"
+      ],
+      "content": "A recipe class is needed for storing recipe data.\r\n\r\nFor information about the data being stored please refer to the projects recipe documentation.\r\n\r\nThis class must include:\r\n\r\n--> Constructors for all used combinations of recipe storage\r\n\r\n--> Getter functions so that the data can be accessed\r\n\r\n--> Any special function needed for data manipulation\r\n\r\n--> NO setter functions due to the constructor will handle all of the data initializing",
+      "assignee": "shadowpockets2036",
+      "created_on": "2013-11-15T07:19:45.051495+00:00",
+      "version": "1.0",
+      "edited_on": null,
+      "milestone": null,
+      "updated_on": "2013-11-24T21:21:06.242418+00:00",
+      "id": 12
+    },
+    {
+      "status": "resolved",
+      "priority": "blocker",
+      "kind": "task",
+      "content_updated_on": null,
+      "voters": [
+        
+      ],
+      "title": "Create input algorithm and algorithm documentation",
+      "reporter": "shadowpockets2036",
+      "component": null,
+      "watchers": [
+        "shadowpockets2036",
+        "rhyatt"
+      ],
+      "content": "There needs to be an algorithm for reading in the data from file created.\r\n\r\nOnce the algorithm is created it's documentation needs to be added to the \"Code_Documentation\" folder in the main repository.",
+      "assignee": "shadowpockets2036",
+      "created_on": "2013-11-06T17:46:40.031747+00:00",
+      "version": "1.0",
+      "edited_on": null,
+      "milestone": null,
+      "updated_on": "2013-11-22T21:02:02.689008+00:00",
+      "id": 4
+    },
+    {
+      "status": "open",
+      "priority": "critical",
+      "kind": "task",
+      "content_updated_on": null,
+      "voters": [
+        
+      ],
+      "title": "Add input file data to the repository",
+      "reporter": "shadowpockets2036",
+      "component": null,
+      "watchers": [
+        "shadowpockets2036",
+        "rhyatt",
+        "rkinner"
+      ],
+      "content": "There is a need to transfer the recipe input files from google docs to the repository.\r\n\r\nInitially the files need to be added to their own directory so that we do not have too many files in the project code folders.\r\n\r\nNo changes should be made to those files before transferring them to the repository and no changes should be ported over from google docs after the transfer is completed.",
+      "assignee": "rkinner",
+      "created_on": "2013-11-06T17:03:52.856648+00:00",
+      "version": "1.0",
+      "edited_on": null,
+      "milestone": "Initial Release",
+      "updated_on": "2013-11-25T03:37:33.296502+00:00",
+      "id": 2
+    },
+    {
+      "status": "resolved",
+      "priority": "blocker",
+      "kind": "task",
+      "content_updated_on": "2013-11-15T07:11:46.697432+00:00",
+      "voters": [
+        
+      ],
+      "title": "Recode population of text boxes",
+      "reporter": "rhyatt",
+      "component": null,
+      "watchers": [
+        "shadowpockets2036",
+        "rhyatt"
+      ],
+      "content": "Once the input code has been implemented the code used for populating the programs text boxes will need to be edited to account for the new data storage methods.",
+      "assignee": "shadowpockets2036",
+      "created_on": "2013-11-13T16:51:29.898396+00:00",
+      "version": "1.0",
+      "edited_on": null,
+      "milestone": null,
+      "updated_on": "2013-11-22T22:03:16.414468+00:00",
+      "id": 9
+    },
+    {
+      "status": "resolved",
+      "priority": "blocker",
+      "kind": "task",
+      "content_updated_on": null,
+      "voters": [
+        
+      ],
+      "title": "Search Function",
+      "reporter": "rhyatt",
+      "component": null,
+      "watchers": [
+        "shadowpockets2036",
+        "rhyatt"
+      ],
+      "content": "Add search functionality based on pseudo code.",
+      "assignee": "rhyatt",
+      "created_on": "2013-11-13T16:27:46.301813+00:00",
+      "version": "1.0",
+      "edited_on": null,
+      "milestone": null,
+      "updated_on": "2013-11-25T03:26:32.234161+00:00",
+      "id": 6
+    },
+    {
+      "status": "resolved",
+      "priority": "major",
+      "kind": "task",
+      "content_updated_on": null,
+      "voters": [
+        
+      ],
+      "title": "Add documented search algorithm to repository",
+      "reporter": "shadowpockets2036",
+      "component": null,
+      "watchers": [
+        "shadowpockets2036",
+        "rhyatt"
+      ],
+      "content": "There needs to be a document added to the repository containing the documented process for the search recipe search algorithm.\r\n\r\nThere will be a folder in the main repository directory called \"Code_Documentation\" that this new file will be added to.",
+      "assignee": "rhyatt",
+      "created_on": "2013-11-06T17:36:05.824445+00:00",
+      "version": "1.0",
+      "edited_on": null,
+      "milestone": null,
+      "updated_on": "2013-11-13T16:25:16.252853+00:00",
+      "id": 3
+    },
+    {
+      "status": "resolved",
+      "priority": "minor",
+      "kind": "task",
+      "content_updated_on": null,
+      "voters": [
+        
+      ],
+      "title": "Input File Decryption",
+      "reporter": "rhyatt",
+      "component": null,
+      "watchers": [
+        "rhyatt",
+        "rkinner"
+      ],
+      "content": "Create a small easy to use native c# encryption algorithm to encrypt the input files as well as a function that can be placed in the project to decrypt those same files.",
+      "assignee": "rhyatt",
+      "created_on": "2013-11-06T19:17:44.928893+00:00",
+      "version": null,
+      "edited_on": null,
+      "milestone": null,
+      "updated_on": "2013-11-17T19:34:48.751410+00:00",
+      "id": 5
+    },
+    {
+      "status": "open",
+      "priority": "minor",
+      "kind": "task",
+      "content_updated_on": null,
+      "voters": [
+        
+      ],
+      "title": "Code Documentation",
+      "reporter": "shadowpockets2036",
+      "component": null,
+      "watchers": [
+        "shadowpockets2036"
+      ],
+      "content": "The code needs to be documented internally with block style comments.\r\n\r\nThese comments need to be in a Javadoc style formatting that's specific to doxygen's C# format.\r\n\r\nFor reference look at the doxygen manual site here: http:\/\/www.stack.nl\/~dimitri\/doxygen\/manual\/docblocks.html",
+      "assignee": "shadowpockets2036",
+      "created_on": "2013-11-06T16:38:07.784714+00:00",
+      "version": "1.0",
+      "edited_on": null,
+      "milestone": null,
+      "updated_on": "2013-11-24T21:20:17.903658+00:00",
+      "id": 1
+    }
+  ],
+  "logs": [
+    {
+      "comment": 6880255,
+      "changed_to": "open",
+      "field": "status",
+      "created_on": "2013-11-13T16:29:33.466100+00:00",
+      "user": "rhyatt",
+      "issue": 2,
+      "changed_from": "resolved"
+    },
+    {
+      "comment": 6906542,
+      "changed_to": "open",
+      "field": "status",
+      "created_on": "2013-11-15T07:16:15.236117+00:00",
+      "user": "shadowpockets2036",
+      "issue": 4,
+      "changed_from": "new"
+    },
+    {
+      "comment": 6906481,
+      "changed_to": "1.0",
+      "field": "version",
+      "created_on": "2013-11-15T07:08:40.935733+00:00",
+      "user": "shadowpockets2036",
+      "issue": 10,
+      "changed_from": ""
+    },
+    {
+      "comment": 6906481,
+      "changed_to": "critical",
+      "field": "priority",
+      "created_on": "2013-11-15T07:08:40.933977+00:00",
+      "user": "shadowpockets2036",
+      "issue": 10,
+      "changed_from": "major"
+    },
+    {
+      "comment": 6906481,
+      "changed_to": "We are in need of a user manual for the program.\r\n\r\nAs of right now there is a shell GUI without implementation. Creation of the users manual shouldn't need too much of that implementation to start with so it's development can begin at any time.\r\n\r\nImage",
+      "field": "content",
+      "created_on": "2013-11-15T07:08:40.931931+00:00",
+      "user": "shadowpockets2036",
+      "issue": 10,
+      "changed_from": ""
+    },
+    {
+      "comment": 6970856,
+      "changed_to": "resolved",
+      "field": "status",
+      "created_on": "2013-11-20T00:46:17.774759+00:00",
+      "user": "shadowpockets2036",
+      "issue": 15,
+      "changed_from": "new"
+    },
+    {
+      "comment": 7029514,
+      "changed_to": "major",
+      "field": "priority",
+      "created_on": "2013-11-24T07:23:53.949637+00:00",
+      "user": "shadowpockets2036",
+      "issue": 12,
+      "changed_from": "blocker"
+    },
+    {
+      "comment": 6906527,
+      "changed_to": "Input Code",
+      "field": "title",
+      "created_on": "2013-11-15T07:14:29.591242+00:00",
+      "user": "shadowpockets2036",
+      "issue": 7,
+      "changed_from": "Input files"
+    },
+    {
+      "comment": 6906527,
+      "changed_to": "1.0",
+      "field": "version",
+      "created_on": "2013-11-15T07:14:29.589429+00:00",
+      "user": "shadowpockets2036",
+      "issue": 7,
+      "changed_from": ""
+    },
+    {
+      "comment": 6906527,
+      "changed_to": "blocker",
+      "field": "priority",
+      "created_on": "2013-11-15T07:14:29.587603+00:00",
+      "user": "shadowpockets2036",
+      "issue": 7,
+      "changed_from": "major"
+    },
+    {
+      "comment": 6906527,
+      "changed_to": "Implementation of input code is needed for reading the projects data in from file.\r\n\r\nThere are three files:\r\n--> Ingredients\r\n--> Allergies\r\n--> Recipes\r\n\r\nEach of these files must be read in and the code must account for all data variations that occur.",
+      "field": "content",
+      "created_on": "2013-11-15T07:14:29.585129+00:00",
+      "user": "shadowpockets2036",
+      "issue": 7,
+      "changed_from": ""
+    },
+    {
+      "comment": 7019894,
+      "changed_to": "resolved",
+      "field": "status",
+      "created_on": "2013-11-22T22:03:16.437569+00:00",
+      "user": "shadowpockets2036",
+      "issue": 9,
+      "changed_from": "new"
+    },
+    {
+      "comment": 6906620,
+      "changed_to": "Testing needs to be performed on the ingredient class to make sure that it is functioning as it should be.\r\n\r\nTesting should include:\r\n\r\n-->Building objects with all constructors and seeing that the data is correct\r\n\r\n--> Testing the getter functions\r\n\r\n",
+      "field": "content",
+      "created_on": "2013-11-15T07:26:25.303839+00:00",
+      "user": "shadowpockets2036",
+      "issue": 15,
+      "changed_from": "Testing needs to be performed on the ingredient class to make sure that it is functioning as it should be.\r\n\r\nTesting should include:\r\n--> Building objects with all constructors and seeing that the data is correct\r\n--> Testing the getter functions\r\n--> T"
+    },
+    {
+      "comment": 6906625,
+      "changed_to": "An allergy class is needed for storing allergy data.\r\n\r\nFor information about the data being stored please refer to the projects allergy documentation.\r\n\r\nThis class must include:\r\n\r\n--> Constructors for all used combinations of allergy storage\r\n\r\n--> Ge",
+      "field": "content",
+      "created_on": "2013-11-15T07:27:04.473726+00:00",
+      "user": "shadowpockets2036",
+      "issue": 14,
+      "changed_from": "An allergy class is needed for storing allergy data.\r\n\r\nFor information about the data being stored please refer to the projects allergy documentation.\r\n\r\nThis class must include:\r\n--> Constructors for all used combinations of allergy storage\r\n--> Getter"
+    },
+    {
+      "comment": 6906637,
+      "changed_to": "A recipe class is needed for storing recipe data.\r\n\r\nFor information about the data being stored please refer to the projects recipe documentation.\r\n\r\nThis class must include:\r\n\r\n--> Constructors for all used combinations of recipe storage\r\n\r\n--> Getter ",
+      "field": "content",
+      "created_on": "2013-11-15T07:28:52.612724+00:00",
+      "user": "shadowpockets2036",
+      "issue": 12,
+      "changed_from": "A recipe class is needed for storing recipe data.\r\n\r\nFor information about the data being stored please refer to the projects recipe documentation.\r\n\r\nThis class must include:\r\n--> Constructors for all used combinations of recipe storage\r\n--> Getter func"
+    },
+    {
+      "comment": 6783875,
+      "changed_to": "rhyatt",
+      "field": "responsible",
+      "created_on": "2013-11-07T00:44:29.614154+00:00",
+      "user": "shadowpockets2036",
+      "issue": 3,
+      "changed_from": ""
+    },
+    {
+      "comment": 7020692,
+      "changed_to": "foodsafety.doc",
+      "field": "attachment",
+      "created_on": "2013-11-22T23:49:21.298622+00:00",
+      "user": "joshuabarnett",
+      "issue": 11,
+      "changed_from": "\/shadowpockets2036\/recipe_finder\/issue-attachment\/11\/shadowpockets2036\/recipe_finder\/1385164161.16\/11\/foodsafety.doc"
+    },
+    {
+      "comment": 6906539,
+      "changed_to": "shadowpockets2036",
+      "field": "responsible",
+      "created_on": "2013-11-15T07:15:47.789239+00:00",
+      "user": "shadowpockets2036",
+      "issue": 4,
+      "changed_from": ""
+    },
+    {
+      "comment": 6906539,
+      "changed_to": "blocker",
+      "field": "priority",
+      "created_on": "2013-11-15T07:15:47.786881+00:00",
+      "user": "shadowpockets2036",
+      "issue": 4,
+      "changed_from": "major"
+    },
+    {
+      "comment": 7035070,
+      "changed_to": "open",
+      "field": "status",
+      "created_on": "2013-11-24T21:18:44.755004+00:00",
+      "user": "shadowpockets2036",
+      "issue": 17,
+      "changed_from": "new"
+    },
+    {
+      "comment": 7037550,
+      "changed_to": "1.1",
+      "field": "version",
+      "created_on": "2013-11-25T03:34:41.999571+00:00",
+      "user": "shadowpockets2036",
+      "issue": 22,
+      "changed_from": ""
+    },
+    {
+      "comment": 7019438,
+      "changed_to": "resolved",
+      "field": "status",
+      "created_on": "2013-11-22T21:02:02.714683+00:00",
+      "user": "shadowpockets2036",
+      "issue": 4,
+      "changed_from": "open"
+    },
+    {
+      "comment": 6783204,
+      "changed_to": "searchAlgorithm.jpg",
+      "field": "attachment",
+      "created_on": "2013-11-06T23:21:05.502239+00:00",
+      "user": "rhyatt",
+      "issue": 3,
+      "changed_from": "\/shadowpockets2036\/recipe_finder\/issue-attachment\/3\/shadowpockets2036\/recipe_finder\/1383780065.22\/3\/searchAlgorithm.jpg"
+    },
+    {
+      "comment": 6783209,
+      "changed_to": "searchAlgorithm PseudoCode.txt",
+      "field": "attachment",
+      "created_on": "2013-11-06T23:21:34.908962+00:00",
+      "user": "rhyatt",
+      "issue": 3,
+      "changed_from": "\/shadowpockets2036\/recipe_finder\/issue-attachment\/3\/shadowpockets2036\/recipe_finder\/1383780094.74\/3\/searchAlgorithm%20PseudoCode.txt"
+    },
+    {
+      "comment": 7019884,
+      "changed_to": "rhyatt",
+      "field": "responsible",
+      "created_on": "2013-11-22T22:01:28.958461+00:00",
+      "user": "shadowpockets2036",
+      "issue": 8,
+      "changed_from": "vmarconi"
+    },
+    {
+      "comment": 7019884,
+      "changed_to": "critical",
+      "field": "priority",
+      "created_on": "2013-11-22T22:01:28.954212+00:00",
+      "user": "shadowpockets2036",
+      "issue": 8,
+      "changed_from": "major"
+    },
+    {
+      "comment": 7037557,
+      "changed_to": "Initial Release",
+      "field": "milestone",
+      "created_on": "2013-11-25T03:35:13.274017+00:00",
+      "user": "shadowpockets2036",
+      "issue": 17,
+      "changed_from": ""
+    },
+    {
+      "comment": 7037557,
+      "changed_to": "1.0",
+      "field": "version",
+      "created_on": "2013-11-25T03:35:13.271976+00:00",
+      "user": "shadowpockets2036",
+      "issue": 17,
+      "changed_from": ""
+    },
+    {
+      "comment": 6779515,
+      "changed_to": "minor",
+      "field": "priority",
+      "created_on": "2013-11-06T18:01:12.985109+00:00",
+      "user": "shadowpockets2036",
+      "issue": 1,
+      "changed_from": "major"
+    },
+    {
+      "comment": 7019886,
+      "changed_to": "open",
+      "field": "status",
+      "created_on": "2013-11-22T22:01:54.485762+00:00",
+      "user": "shadowpockets2036",
+      "issue": 8,
+      "changed_from": "new"
+    },
+    {
+      "comment": 6906623,
+      "changed_to": "An ingredient class is needed for storing ingredient data.\r\n\r\nFor information about the data being stored please refer to the projects ingredient documentation.\r\n\r\nThis class must include:\r\n\r\n--> Constructors for all used combinations of ingredient stora",
+      "field": "content",
+      "created_on": "2013-11-15T07:26:41.783924+00:00",
+      "user": "shadowpockets2036",
+      "issue": 13,
+      "changed_from": "An ingredient class is needed for storing ingredient data.\r\n\r\nFor information about the data being stored please refer to the projects ingredient documentation.\r\n\r\nThis class must include:\r\n--> Constructors for all used combinations of ingredient storage"
+    },
+    {
+      "comment": 7037607,
+      "changed_to": "1.1",
+      "field": "version",
+      "created_on": "2013-11-25T03:39:03.048229+00:00",
+      "user": "shadowpockets2036",
+      "issue": 21,
+      "changed_from": "1.0"
+    },
+    {
+      "comment": 7037432,
+      "changed_to": "resolved",
+      "field": "status",
+      "created_on": "2013-11-25T03:25:28.849538+00:00",
+      "user": "shadowpockets2036",
+      "issue": 8,
+      "changed_from": "open"
+    },
+    {
+      "comment": 7037587,
+      "changed_to": "1.1",
+      "field": "version",
+      "created_on": "2013-11-25T03:37:15.348751+00:00",
+      "user": "shadowpockets2036",
+      "issue": 19,
+      "changed_from": "1.0"
+    },
+    {
+      "comment": 6906500,
+      "changed_to": "critical",
+      "field": "priority",
+      "created_on": "2013-11-15T07:10:45.792151+00:00",
+      "user": "shadowpockets2036",
+      "issue": 2,
+      "changed_from": "major"
+    },
+    {
+      "comment": 6880279,
+      "changed_to": "rkinner",
+      "field": "responsible",
+      "created_on": "2013-11-13T16:30:39.537684+00:00",
+      "user": "rhyatt",
+      "issue": 2,
+      "changed_from": "rhyatt"
+    },
+    {
+      "comment": 7020716,
+      "changed_to": "open",
+      "field": "status",
+      "created_on": "2013-11-22T23:52:02.327139+00:00",
+      "user": "shadowpockets2036",
+      "issue": 11,
+      "changed_from": "new"
+    },
+    {
+      "comment": 7033708,
+      "changed_to": "vmarconi",
+      "field": "responsible",
+      "created_on": "2013-11-24T18:24:43.982633+00:00",
+      "user": "joshuabarnett",
+      "issue": 11,
+      "changed_from": "joshuabarnett"
+    },
+    {
+      "comment": 6783869,
+      "changed_to": "open",
+      "field": "status",
+      "created_on": "2013-11-07T00:43:06.315652+00:00",
+      "user": "shadowpockets2036",
+      "issue": 3,
+      "changed_from": "new"
+    },
+    {
+      "comment": 6906546,
+      "changed_to": "open",
+      "field": "status",
+      "created_on": "2013-11-15T07:16:43.340523+00:00",
+      "user": "shadowpockets2036",
+      "issue": 7,
+      "changed_from": "new"
+    },
+    {
+      "comment": 6906575,
+      "changed_to": "open",
+      "field": "status",
+      "created_on": "2013-11-15T07:20:39.792654+00:00",
+      "user": "shadowpockets2036",
+      "issue": 12,
+      "changed_from": "new"
+    },
+    {
+      "comment": 6906584,
+      "changed_to": "resolved",
+      "field": "status",
+      "created_on": "2013-11-15T07:22:18.226152+00:00",
+      "user": "shadowpockets2036",
+      "issue": 13,
+      "changed_from": "new"
+    },
+    {
+      "comment": 7037561,
+      "changed_to": "Initial Release",
+      "field": "milestone",
+      "created_on": "2013-11-25T03:35:29.879518+00:00",
+      "user": "shadowpockets2036",
+      "issue": 10,
+      "changed_from": ""
+    },
+    {
+      "comment": 7037596,
+      "changed_to": "1.1",
+      "field": "version",
+      "created_on": "2013-11-25T03:37:58.870927+00:00",
+      "user": "shadowpockets2036",
+      "issue": 20,
+      "changed_from": "1.0"
+    },
+    {
+      "comment": 6778539,
+      "changed_to": "1.0",
+      "field": "version",
+      "created_on": "2013-11-06T16:49:40.559697+00:00",
+      "user": "shadowpockets2036",
+      "issue": 1,
+      "changed_from": ""
+    },
+    {
+      "comment": 6932158,
+      "changed_to": "task",
+      "field": "kind",
+      "created_on": "2013-11-17T19:33:46.089491+00:00",
+      "user": "rkinner",
+      "issue": 17,
+      "changed_from": "bug"
+    },
+    {
+      "comment": 6906496,
+      "changed_to": "1.0",
+      "field": "version",
+      "created_on": "2013-11-15T07:10:10.798854+00:00",
+      "user": "shadowpockets2036",
+      "issue": 9,
+      "changed_from": ""
+    },
+    {
+      "comment": 6906496,
+      "changed_to": "blocker",
+      "field": "priority",
+      "created_on": "2013-11-15T07:10:10.797186+00:00",
+      "user": "shadowpockets2036",
+      "issue": 9,
+      "changed_from": "major"
+    },
+    {
+      "comment": 6906496,
+      "changed_to": "Once the input code has been implemented the code used for populating the programs checkboxes will need to be edited to account for the new data storage methods.",
+      "field": "content",
+      "created_on": "2013-11-15T07:10:10.795290+00:00",
+      "user": "shadowpockets2036",
+      "issue": 9,
+      "changed_from": ""
+    },
+    {
+      "comment": 6906596,
+      "changed_to": "resolved",
+      "field": "status",
+      "created_on": "2013-11-15T07:23:30.247902+00:00",
+      "user": "shadowpockets2036",
+      "issue": 14,
+      "changed_from": "new"
+    },
+    {
+      "comment": 7037590,
+      "changed_to": "Initial Release",
+      "field": "milestone",
+      "created_on": "2013-11-25T03:37:33.317205+00:00",
+      "user": "shadowpockets2036",
+      "issue": 2,
+      "changed_from": ""
+    },
+    {
+      "comment": 7037602,
+      "changed_to": "Initial Release",
+      "field": "milestone",
+      "created_on": "2013-11-25T03:38:23.943519+00:00",
+      "user": "shadowpockets2036",
+      "issue": 11,
+      "changed_from": ""
+    },
+    {
+      "comment": 6919702,
+      "changed_to": "shadowpockets2036",
+      "field": "responsible",
+      "created_on": "2013-11-16T07:29:59.660243+00:00",
+      "user": "shadowpockets2036",
+      "issue": 16,
+      "changed_from": ""
+    },
+    {
+      "comment": 6932166,
+      "changed_to": "resolved",
+      "field": "status",
+      "created_on": "2013-11-17T19:34:48.786685+00:00",
+      "user": "rkinner",
+      "issue": 5,
+      "changed_from": "new"
+    },
+    {
+      "comment": 6861993,
+      "changed_to": "resolved",
+      "field": "status",
+      "created_on": "2013-11-12T16:53:45.321664+00:00",
+      "user": "rhyatt",
+      "issue": 2,
+      "changed_from": "new"
+    },
+    {
+      "comment": 6778388,
+      "changed_to": "open",
+      "field": "status",
+      "created_on": "2013-11-06T16:40:28.065202+00:00",
+      "user": "shadowpockets2036",
+      "issue": 1,
+      "changed_from": "new"
+    },
+    {
+      "comment": 6906451,
+      "changed_to": "1.0",
+      "field": "version",
+      "created_on": "2013-11-15T07:04:13.328655+00:00",
+      "user": "shadowpockets2036",
+      "issue": 6,
+      "changed_from": ""
+    },
+    {
+      "comment": 6906451,
+      "changed_to": "blocker",
+      "field": "priority",
+      "created_on": "2013-11-15T07:04:13.325398+00:00",
+      "user": "shadowpockets2036",
+      "issue": 6,
+      "changed_from": "major"
+    },
+    {
+      "comment": 6880173,
+      "changed_to": "resolved",
+      "field": "status",
+      "created_on": "2013-11-13T16:25:16.358833+00:00",
+      "user": "rhyatt",
+      "issue": 3,
+      "changed_from": "open"
+    },
+    {
+      "comment": 6919034,
+      "changed_to": "task",
+      "field": "kind",
+      "created_on": "2013-11-16T03:54:20.260324+00:00",
+      "user": "shadowpockets2036",
+      "issue": 16,
+      "changed_from": "bug"
+    },
+    {
+      "comment": 6906466,
+      "changed_to": "1.0",
+      "field": "version",
+      "created_on": "2013-11-15T07:06:35.002151+00:00",
+      "user": "shadowpockets2036",
+      "issue": 11,
+      "changed_from": ""
+    },
+    {
+      "comment": 6906466,
+      "changed_to": "The program needs to have the safety food module created and implemented.\r\n\r\nAs of right now the main thought is to add it into the program by having a button in the lower corner of the main window GUI or to have it as a menubar option.",
+      "field": "content",
+      "created_on": "2013-11-15T07:06:34.999547+00:00",
+      "user": "shadowpockets2036",
+      "issue": 11,
+      "changed_from": ""
+    },
+    {
+      "comment": 6906507,
+      "changed_to": "1.0",
+      "field": "version",
+      "created_on": "2013-11-15T07:12:15.562555+00:00",
+      "user": "shadowpockets2036",
+      "issue": 8,
+      "changed_from": ""
+    },
+    {
+      "comment": 6906452,
+      "changed_to": "open",
+      "field": "status",
+      "created_on": "2013-11-15T07:04:21.400130+00:00",
+      "user": "shadowpockets2036",
+      "issue": 6,
+      "changed_from": "new"
+    },
+    {
+      "comment": 7019433,
+      "changed_to": "resolved",
+      "field": "status",
+      "created_on": "2013-11-22T21:01:18.171167+00:00",
+      "user": "shadowpockets2036",
+      "issue": 7,
+      "changed_from": "open"
+    },
+    {
+      "comment": 7035092,
+      "changed_to": "resolved",
+      "field": "status",
+      "created_on": "2013-11-24T21:21:06.265008+00:00",
+      "user": "shadowpockets2036",
+      "issue": 12,
+      "changed_from": "open"
+    },
+    {
+      "comment": 6971805,
+      "changed_to": "TestCaseResults.doc",
+      "field": "attachment",
+      "created_on": "2013-11-20T02:53:36.000379+00:00",
+      "user": "joshuabarnett",
+      "issue": 17,
+      "changed_from": "\/shadowpockets2036\/recipe_finder\/issue-attachment\/17\/shadowpockets2036\/recipe_finder\/1384916015.86\/17\/TestCaseResults.doc"
+    },
+    {
+      "comment": 6906505,
+      "changed_to": "Once the input code has been implemented the code used for populating the programs text boxes will need to be edited to account for the new data storage methods.",
+      "field": "content",
+      "created_on": "2013-11-15T07:11:46.718150+00:00",
+      "user": "shadowpockets2036",
+      "issue": 9,
+      "changed_from": "Once the input code has been implemented the code used for populating the programs checkboxes will need to be edited to account for the new data storage methods."
+    },
+    {
+      "comment": 6919709,
+      "changed_to": "resolved",
+      "field": "status",
+      "created_on": "2013-11-16T07:31:00.224784+00:00",
+      "user": "shadowpockets2036",
+      "issue": 16,
+      "changed_from": "new"
+    },
+    {
+      "comment": 7037443,
+      "changed_to": "resolved",
+      "field": "status",
+      "created_on": "2013-11-25T03:26:32.264598+00:00",
+      "user": "shadowpockets2036",
+      "issue": 6,
+      "changed_from": "open"
+    },
+    {
+      "comment": 7037582,
+      "changed_to": "Initial Release",
+      "field": "milestone",
+      "created_on": "2013-11-25T03:36:53.429523+00:00",
+      "user": "shadowpockets2036",
+      "issue": 18,
+      "changed_from": ""
+    },
+    {
+      "comment": 6970851,
+      "changed_to": "shadowpockets2036",
+      "field": "responsible",
+      "created_on": "2013-11-20T00:45:41.928309+00:00",
+      "user": "shadowpockets2036",
+      "issue": 15,
+      "changed_from": ""
+    },
+    {
+      "comment": 6932141,
+      "changed_to": "vmarconi",
+      "field": "responsible",
+      "created_on": "2013-11-17T19:31:51.055692+00:00",
+      "user": "rkinner",
+      "issue": 10,
+      "changed_from": "rkinner"
+    }
+  ]
+}
