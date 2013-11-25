@@ -57,7 +57,7 @@ namespace Unit_Test
             {
                 case 0: if(_testCetegoryEnum != IngredientCategory.NONE) tempControl = false;
                     break;
-                case 1: if(_testCetegoryEnum != IngredientCategory.VEGITABLES) tempControl = false;
+                case 1: if(_testCetegoryEnum != IngredientCategory.VEGETABLES) tempControl = false;
                     break;
                 case 2: if(_testCetegoryEnum != IngredientCategory.FRUITS) tempControl = false;
                     break;
