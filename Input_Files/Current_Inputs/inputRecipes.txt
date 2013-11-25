@@ -443,7 +443,6 @@ Barbeque Back Ribs
 40
 0
 78
-3
 3 6 100 2 3 97 1 2 101
 Preheat oven to 350 degrees. Season ribs, wrap in aluminum foil, and place on baking sheet. Bake 2 hours. Open foil and expose ribes; brush with barbecue sauce and bake 30-45 minutes or until meat is fork tender.
 
@@ -459,7 +458,6 @@ Grill Grouper Sandwich
 60
 2
 53
-5
 1 2 90 3/2 5 102 1/4 3 103 3 2 104 4 0 105
 Season grouper. Combine mayonnaise and ranch dressing; set aside. Preheat grill to medium. Grill fish 4-5 minutes on each side or until opaque and separates easily. Place grouper in rolls, top with mayonnaise mixture and your favorite sandwich toppings.
 
@@ -490,7 +488,6 @@ Herbed Mahi Mahi
 0
 0
 40
-5
 2 2 4 1 1 110 1_1/2 6 111 1/4 1 9 1/8 1 10
 Preheat oven to 400 degrees. Combine butter and herb paste; set aside. Season fish with salt and pepper; place on baking sheet. Bake 8-10 minutes or until opaque and separates easily. Top fish with butter mixture and allow to melt.
 
@@ -506,7 +503,6 @@ Oven Baked Salmon
 0
 0
 33
-4
 1_1/2 5 112 1 2 19 1 2 83 1/4 1 10
 Preheat oven to 400 degrees. Line baking sheet with foil; brush fish with olive oil, sprinkle with seasoning and pepper. Bake 12-15 minutes or until opaque and separates easily.
 
@@ -522,7 +518,6 @@ Baked Snapper With Peach Mango Salsa
 14
 1
 34
-6
 1/4 1 9 1/8 1 10 3/2 6 113 1 6 114 1 3 115 1 2 40
 Preheat oven to 400F. Season fish with salt and pepper and place on baking sheet. Top with salsa; bake 12-14 minutes or until opaque and separates easily. Top fish with fresh mango and sprinkle with cilantro.
 
@@ -538,7 +533,6 @@ Sauteed Flounder with Orange Butter
 3
 0
 18
-54
 2 2 4 1 2 83 3/2 6 116 1/4 3 50 1 2 63
 Preheat large saute pan on medium; place 1 tablespoon butter in pan. Season fish and add half to pan; cook 2-3 minutes on each side or until opaque and separates easily. Remove fish from pan; cover to keep warm. Repeat with remaining fillets. Add remaining 1 tablespoon butter, orange juice, and basil to pan; cook and stir until melted and hot. Serve sauce over fish.
 
@@ -554,7 +548,6 @@ Pan-Fried Cod
 16
 2
 26
-5
 1_1/2 6 117 1/4 3 118 1 0 17 1 3 119 1/4 3 24
 Preheat large saute pan on medium. Beat egg. Dip fish in flour (coat both sides), then dip into egg mixture (allowing excess to drip off), and coat with panko. Place oil in pan, then add fish; cook 4-5 minutes on each side or until crust is golden and flesh is flaky. Drain on paper towel and season with salt and pepper to taste. Optional: Serve with lemon.
 
@@ -570,7 +563,6 @@ Pan-Fried Catfish
 6
 1
 34
-6
 3/2 6 120 1/4 1 9 1/4 1 10 1 0 17 1/4 3 121 2 2 24
 Preheat large saute pan on medium. Beat egg. Season fish with salt and pepper. Dip fish in egg and coat with cornmeal. Place oil in pan, then add fish; cook 3-5 minutes on each side or until crust is golden and flesh is flaky. Drain on paper towel.
 
@@ -586,7 +578,6 @@ Ground Turkey Burgers
 23
 1
 54
-5
 3/2 6 122 1 2 69 1 1 123 4 0 124 4 0 125
 Preheat grill. Place ground turkey in a medium bowl; add seasoning and Worcestershire sauce and mix thoroughly. Form into four 1/2 inch thick patties; place on grill over direct heat. Grill 4-6 minutes on each side or until internal temperature reaches 165 degrees. Top each patty with a slice of cheese. Serve on buns.
 
@@ -602,7 +593,6 @@ Chicken Sloppy Joes
 47
 1
 44
-6
 1 2 24 1_1/2 6 126 1/2 1 127 12 5 128 1/3 3 26 4 0 125
 Preheat large saute pan on medium-high. Chop onions. Place oil in pan. Add chicken and seasoned salt to pan; cook and stir 5-7 minutes or until 165 degrees. Stir in chili sauce and chopped onions. Reduce heat to medium-low and cook 5-7 minutes for onions to soften. Serve on buns.
 
@@ -618,7 +608,6 @@ Lemon Baked Chicken
 3
 1
 29
-4
 1 0 129 1/2 1 9 1/4 1 10 1 0 81
 Preheat oven to 350 degrees. Season skin and body cavity of chicken liberally with salt and pepper. Pierce lemon several times with a fork and place inside the chicken. Tie legs together to close cavity as tightly as possible. Place breast-side down in a baking dish; bake 20 min. Turn chicken breast-side up and bake 20 more min. Increase oven temperature to 400 degrees and bake 30-35 more min or until chicken is golden and internal temperature is 165 degrees.
 
@@ -634,7 +623,6 @@ Oven-Fried Chicken Wings
 8
 0
 33
-5
 1 3 4 1 3 131 2 1 132 1_1/2 1 127 4 6 133
 Preheat oven to 400 degrees. Line two 1-inch-deep baking sheets with foil. Melt half a stick of butter on each pan in the oven. Combine baking mix, paprika, and seasoned salt; dredge chicken in mixture, then place on pans in single layer 1/2-inch apart. Bake 30-35 minutes, turning once halfway through, or until chicken is 165 degrees and crispy. Serve.
 
@@ -649,7 +637,6 @@ Carrot Cake
 350
 108
 1
-6
 4 0 17 2 3 118 2 3 59 2 1 134 1 1 14 1/2 1 9 1/2 1 135 3 3 136 3/4 3 137 1 0 138 
 Allow eggs to stand at room temperature for 30 minutes. Meanwhile, grease two 8x1 1/2-inch round cake pans. Line bottom of pans with wax paper; grease the paper. Set pans aside. Preheat oven to 350F. In a large bowl, stir together flour, sugar, baking powder, cinnamon, salt, and baking soda; set aside. Finely shred carrots. In another bowl, combine eggs, carrots, and oil. Add egg mixture to flour mixture. Stir until combined. Spread batter evenly into prepared pans. Bake for 35 to 40 minutes or until a wooden toothpick inserted into center comes out clean. Cool layers in pans on wire racks for 10 minutes. Remove layers from pans; peel off wax paper. Cool for at least 2 hours on wire racks. Frost with cream cheese frosting. Cover and store in the refrigerator for up to 3 days.
 
@@ -832,3 +819,454 @@ Creamy Spinach
 7
 18 5 149 1/2 3 33 2 4 6 2 2 7 1 3 8 1/2 1 10 1/4 1 9 1/4 1 3
 In a large pot cook fresh spinach in rapidly boiling salted water for 1 minute. Drain well, squeezing out excess liquid. Pat dry with paper towels. Using kitchen shears, coarsely snip spinach; set aside. Chop onion and mince garlic. In a large skillet cook onion and garlic in hot butter about 5 minutes or until onion is tender. Stir in cream, pepper, salt and nutmeg. Bring to boiling; cook for 3 to 5 minutes or until cream starts to thicken. Add spinach. Simmer until mixture reaches desired consistency, stirring occasionally. Serve immediately.
+
+
+Beef Stew
+70
+10
+4
+670
+40
+205
+810
+23
+3
+59
+2 2 24 1/2 6  151 1 1 9 2 2 118 1 0 33 1 0 23 1 3 136 1 3 27 32 5 152
+Preheat oil in medium stockpot on medium-high. Season beef and coat with flour; add beef (in batches) and cook 2-3 minutes or until browned. Dice potato and slice carrots and celery. Add vegetables and cook 2-3 minutes or until onions are tender. Add broth and bring to a boil. Reduce heat to medium-low, cover and cook 50-60 minutes or until beef is tender, stirring often.
+
+
+Veal Chops with Wine and Apples
+30
+10
+4
+310
+15
+90
+190
+13
+2
+20
+1 2 24 4 0 153 1/2 1 9 1/4 1 10 1 3 76 2 0 58 2 2 4
+Preheat oven to 400˚F. Use chops approximately 6oz. Peel and thinly slice apples. Preheat oil in large sauté pan on medium-high 2-3 minutes. Season veal chops with salt and pepper. Add veal chops to pan; cook 2-3 minutes on each side or until browned. Add wine and apples to pan. Transfer to oven and cook, turning once, 10-12 minutes or until 145˚F. Stir butter into sauce until melted.
+
+
+Country Fried Steak
+20
+10
+4
+650
+32
+105
+730
+45
+2
+43
+1/4 3 24 1_1/2 6 154 1/2 3 118 1 0 17 3 3 155 1/4 1 9 1/4 1 9 1/4  1 10
+Preheat oil in a large sauté pan on medium 2-3 minutes. Dip cubed steaks in flour (coating both sides) then dip into egg (allowing excess to drip off). Finally, dip into crushed saltines. Place cubed steaks in oil and cook 4-6 minutes on each side or until internal temperature reaches 160˚F. Season with salt and pepper.
+
+
+Meatloaf
+50
+10
+4
+430
+23
+195
+690
+17
+2
+37
+1_1/2 6 156 2 0 17 1/2 3 33 2 2 69 1/2 3 157 1 3 158
+Preheat oven to 350˚F. Combine ground beef, eggs, chopped onion, Italian seasoning, and bread crumbs in medium bowl and mix until well blended; place in load pan. Bake 35-40 minutes or until internal temperature reaches 160˚F. Remove from oven and top with tomato sauce.
+
+
+Grilled Lamb Chops
+20
+10
+4
+540
+44
+130
+240
+1
+1
+33
+1/4 3 19 1 2 159 2 1 160 1/4 1 10 1/2 1 9 2 6 161 
+Preheat grill. Combine olive oil and seasonings. Turn chops in oil mixture until well coated. Place lamb chops on grill over direct heat; cook 3-4 minutes on each side or until 145˚F (for medium-rare).
+
+
+Grilled Pork Chops
+20
+5
+4
+320
+13
+100
+450
+16
+0
+30
+1_1/2 6 162 1/4 3 79 2 2 2 1/2 1 15 1 3 163 
+Place all ingredients in large zip-top bag marinate overnight. Preheat grill. Place pork chops on grill over direct heat 4-6 minutes on each side or until internal temperature reaches 145˚F. Let rest 5 minutes before serving.
+
+
+Barbecue Baked Pork Tenderloin
+30
+5
+4
+260
+7
+80
+1020
+20
+0
+25
+1 6 164 1 2 165 1 1 6 1 3 97
+Preheat oven to 400˚F. Season pork tenderloin with mesquite seasoning and minced garlic on all sides. Place in baking dish and bake 20-25 minutes or until internal temperature reaches 145˚F. Let pork rest for 5 minutes before slicing and serve with barbecue sauce.
+
+
+Grilled Teriyaki Chuck Steak
+20
+5
+4
+400
+23
+140
+740
+2
+0
+43
+1 3 72 1 1 6 1_1/2 6 60
+Combine marinade and minced garlic in zip-top bag. Add steak to bag and refrigerate 6 hours or up to 24 hours. Preheat grill. Place on grill over direct heat 6-8 minutes on each side or until internal temperature reaches 145˚F. Let stand 5 minutes before slicing.
+
+
+Oven Roast with Leeks and Red Potatoes
+120
+5
+6
+410
+9
+115
+560
+32
+2
+47
+2 6 166 1 2 61 2 0 167 2 6 168 1/2 1 160 2 3 152  
+Preheat oven to 350˚F. Season roast with Montreal seasoning. Place roast in a roasting rack and leeks, potatoes, thyme, and beef broth. Bake 2 hours or until tender. Serve over rice.
+
+
+Beef Fajitas
+15
+5
+4
+700
+28
+145
+980
+353
+3
+52
+1_1/2 6 169 2 2 170 1 2 24 14 5 171 2 2 145 8 0 172
+Slice skirt steak against the grain into 1/2-inch thick slices. Place in medium bowl and season with fajita seasoning. Preheat oil in large sauté pan over medium-high 2-3 minutes. Add meat to pan; cook and stir 2-3 minutes or until beef has browned. Stir in stir-fry peppers and onions and cook 2-3 minutes or until pepper mixture is hot. Remove and squeeze lime over top; serve with warm tortillas.
+
+
+Swiss Steak
+120
+5
+4
+680
+35
+235
+1200
+22
+3
+74
+2 6 60 1 1 127 3 2 118 3 2 24 1 0 33 1 1 69 2 3 173 1_1/2 3 152
+Season beef with seasoned salt and coat with flour. Preheat stockpot on medium-high. Place oil in pot; add steaks and cook 1-2 minutes on each side or until well browned. Add sliced onions and Italian seasoning; cook and stir 1-2 minutes or until onions are tender. Reduce heat to low; add tomato puree and beef broth. Cover and simmer 2 hours or until steaks are tender.
+
+
+Squash, Corn and Barley Succotash
+60
+20
+12
+106
+2
+0
+250
+22
+4
+3
+4 3 30 1/2 3 174 1 1 9 1 2 19 1 3 33 2 6 1 1 3 75 1/4 1 10 1/8 1 160 16 5 175 1/4 3 71
+In a medium saucepan bring water to a boil. Add barley and 1/2 teaspoon of salt. Return to boiling; reduce heat. Cover and simmer about 40 minutes or until barley is tender; stirring occasionally. Drain and set aside. Meanwhile, in a very large skillet heat oil over medium high heat. Chop onion, peel squash, and cut into ½-inch cubes. Add onion; cook and stir about 5 minutes or until tender. Stir in the remaining 1/2 teaspoon of salt, squash, broth, pepper, and thyme. Bring to boiling; reduce heat. Cover and simmer 10 to 15 minutes or until squash is just tender. Stir in corn; cover and cook 5 minutes more. Stir in barley and snipped parsley; heat through.
+
+
+Apple Cake with Buttery Caramel Sauce
+80
+35
+16
+369
+17
+59
+188
+23
+2
+4
+2 3 118 1 1 134 1/2 1 9 1/2 1 3 1/2 1 14 1/4 1 135 1/2 3 7 2 3 59 2 0 17 6 3 58 1 3 147 1/3 3 7 1/3 3 2 1/3 3 59 1/3 3 8 1/2 1 109
+Preheat oven to 350˚F. Grease a 13x9x2-inch baking pan; set pan aside. In a medium bowl, stir together the flour, baking powder, 1/2 tsp salt, nutmeg, cinnamon, and baking soda; set aside. In a large mixing bowl beat butter with an electric mixer on medium speed for 30 seconds. Gradually add 2 cups sugar, 1/4 cup at a time, beating on medium speed until well combined. Scrape sides of bowl; beat 2 minutes more. Add eggs one at a time, beating after each addition. Add flour mixture to butter mixture, beating on low speed just until combined. Peel and chop apples. Chop walnuts. Fold in apples and walnuts. Spread batter into prepared pan. Bake for 45 to 50 minutes or until a toothpick inserted near the middle comes out clean. Cool in pan for 45 minutes. For sauce, in a small saucepan melt 1/3 cup butter over medium heat. Stir in 1/3 cup granulated sugar, 1/3 cup packed brown sugar, and whipping cream. Bring to boiling, stirring constantly. Remove from heat; stir in vanilla. Serve warm over apple cake.
+
+
+Angel Food Cake
+90
+50
+12
+172
+0
+0
+51
+39
+0
+4
+1_1/2 3 176 1_1/2 3 86 1 3 118 1_1/2 1 177 1 1 109 1 3 59
+In a very large mixing bowl allow egg whites to stand at room temperature for 30 minutes. Meanwhile, sift powdered sugar and flour together three times; set aside. Adjust baking rack to the lowest position in the oven. Preheat oven to 350˚F. Add cream of tartar and vanilla to egg whites. Beat with an electric mixer on medium speed until soft peaks form. Add granulated sugar, 2 tablespoons at a time, beating until stiff peaks form. Sift one-fourth of the flour mixture over the egg whites; fold gently. Repeat, folding remaining flour mixture by fourth. Pour into an ungreased 10-inch tube pan. Gently cut through batter to remove any large air pockets. Bake on the lowest rack for 40 to 45 minutes or until top springs back when lightly touched. Immediately invert cake; cool thoroughly in pan. Loosen sides of cake from pan; remove cake from pan.
+
+
+Peanut Clusters
+20
+15
+48
+133
+9
+1
+23
+10
+1
+3
+12 5 178 12 5 179 1 6 180
+Line a tray or baking sheet with waxed paper; set aside. In a medium heavy saucepan stir the milk chocolate candy and chopped candy coating over low until chocolate melts and is smooth. Stir in peanuts. Drop from teaspoons onto prepared tray. Chill about 15 minutes or until set. Store tightly covered in the refrigerator for up to 1 week or freeze for up to 2 months. 
+
+
+Ground Beef Chili
+30
+30
+8
+310
+11
+50
+1160
+29
+7
+22
+1 0 33 1_1/2 6 156 3 2 181 1/2 1 127 1/2 1 10 10_3/4 5 182 14_1/2 5 37 10 5 55 1 6 128 15 5 183
+Chop onion. Preheat large saucepan on medium-high 2–3 minutes. Place beef, chili powder, seasoned salt, pepper, and one-half of the onions in pan; cook 4–5 minutes, stirring to crumble meat, or until meat is brown and no pink remains. Stir in remaining ingredients, including remaining one-half onions. Bring to a boil, stirring often. Reduce heat to low; cook and stir 10 more minutes to blend flavors. Serve.
+
+
+Mustard and Brown Sugar Salmon
+15
+5
+4
+470
+29
+105
+600
+13
+1
+34
+4 0 112 1/2 3 103 1 2 110 1/4 3 2 2 2 96 1/4 1 184 0 0 19
+Preheat Grill, check fish for bones. Combine mayonnaise and herb paste; chill until ready to serve. Combine sugar, mustard, and curry powder. Coat both sides of salmon with olive oil (wash hands). Place salmon on grill; grill 2–3 minutes without turning.Turn salmon; then brush with mustard mixture. Close lid; grill 2–3 more minutes or until flesh is opaque and separates easily. Serve herb mayonnaise over salmon.
+
+
+Herbed Rice
+15
+5
+4
+170
+1
+0
+250
+34
+2
+4
+2 2 71 20 5 21 1 2 110 1/2 1 9 1/4 1 10
+Preheat large saute pan on medium-high 2-3 minutes. Chop parsley. Combine rice, seasoning paste, salt, pepper in pan; cook and stir 3-4 minutes or until thoroughly heated. Stir in parsley; cover and reduce heat to lowest setting until ready to serve.
+
+
+Caribbean Chicken Wings
+30
+5
+4
+480
+25
+110
+1200
+27
+0
+35
+3 6 133 2 2 186 1/2 3 185 1/2 3 187 2 1 123 2 2 145
+Preheat oven to 450°F. Line large baking sheet with foil. Place wings on pan; coat chicken with spray and sprinkle with seasoning. Place in oven on middle rack; bake 10–12 minutes, turning wings halfway through cook time, or until chicken is 165°F. Remove wings from oven; increase heat to broil. Combine remaining ingredients (except lime juice). Reserve one-third of the sauce for final coating. Brush wings with one-half of the remaining sauce; broil 3–4 minutes. Turn wings over and brush with other half of sauce; broil 3–4 more minutes or until browned. Coat chicken with reserved sauce. Squeeze lime juice over wings and serve.
+
+
+Roasted Tropical Potatoes
+55
+5
+4
+250
+3.5
+0
+140
+47
+3
+6
+28 5 168 8 5 188 1 0 33 6 4 6 6 5 189 1 2 24 2 1 186
+Preheat oven to 450°F. Halve potatoes; slice peppers. Chop onion and garlic. Combine all ingredients; place in 13- x 9-inch baking pan. Bake 30 minutes, stirring often. Move to top rack and bake 15–20 more minutes or until potatoes are tender. Serve.
+
+
+Cavalier Couscous
+10
+5
+4
+180
+4
+10
+550
+32
+2
+6
+1_1/2 3 30 1 2 7 6 5 193 7 5 35 1 1 96
+Combine in small saucepan: water, butter, spice pack (from couscous mix), and mushrooms; cover and bring to boil on high. Place couscous and mustard in serving dish; pour boiling spice mixture over couscous. Stir to mix; cover and let stand 5 minutes. Fluff with fork and serve.
+
+
+Basil Chicken with Fresh Tomato Sauce
+25
+10
+4
+210
+9
+65
+360
+7
+1
+27
+25 9 63 2 0 42 4 10 129 1 1 9 1/2 1 10 2 2 19 2 2 6 4 1 194
+Preheat 2-sided tabletop grill. Chop basil (about 6 tablespoons) and tomatoes coarsely. Place tomatoes and 2 tablespoons of the basil in food processor (or blender); set aside. Season both sides of chicken with 1/2 teaspoon of the salt and 1/4 teaspoon of the pepper (wash hands). Combine in shallow bowl: 1 tablespoon of the oil, 2 teaspoons of the garlic, and remaining 4 tablespoons basil. Add chicken (wash hands); turn to coat evenly. Marinate 10 minutes, turning occasionally. Place chicken on grill (wash hands); discard any remaining marinade. Close lid and grill 5–7 minutes, or until internal temperature of chicken reaches 165°F. Use a meat thermometer to accurately ensure doneness. (If using regular grill, double cooking time, turning once.) Meanwhile, process tomato-basil mixture with remaining 1 tablespoon oil 10 seconds or until smooth. Add vinegar and remaining 1 tablespoon garlic, 1/2 teaspoon salt, and 1/4 teaspoon pepper; pulse 2–3 times or until just blended. Serve sauce with chicken.
+
+
+Chicken-Fried Chicken
+20
+10
+4
+380
+35
+80
+710
+45
+1
+43
+1 3 118 2 0 17 1 0 190 1/4 3 11 1 6 129 1/2 1 9 1/4 1 10 1 2 62 1/4 3 24
+Place flour in shallow bowl and eggs in second bowl. Crush croutons finely; combine with Parmesan cheese in third bowl. Season chicken on both sides with salt, pepper, and garlic powder. Dredge chicken in flour (coating both sides); dip into egg (allowing excess to drip off). Finally, coat chicken with crouton mixture; press with fingertips to evenly coat (wash hands). Place oil in large sauté pan; preheat on medium 2–3 minutes. Add chicken; cook 4–5 minutes on each side or until chicken is 165°F. Serve.
+
+
+Herb Roasted Pork Tenderloin
+40
+20
+4
+220
+8
+85
+760
+10
+1
+27
+1 2 7 1 6 164 1/2 1 9 1/8 1 10 1/4 3 157 2 2 11 1/4 3 173 1 2 96
+Preheat oven to 400°F. Line baking sheet with foil (for ease of cleanup). Preheat large sauté pan on medium-high 2–3 minutes. Place butter in large sauté pan; swirl to coat. Sprinkle pork with salt and pepper. Place in pan (wash hands); cover and cook 8–10 minutes, turning occasionally, to brown all sides. Remove large stems from herbs; place in food processor. Add bread crumbs and cheese; pulse until finely chopped.
+4. Combine tomato paste and mustard in small bowl. Place pork on baking sheet. Coat pork with mustard mixture, using rubber spatula, and then coat with herb mixture. Bake 18–20 minutes or until internal temperature reaches 160°F (for medium). Use a meat thermometer to accurately ensure doneness. Slice and serve.
+
+
+Fresh Broccoli
+10
+5
+4
+35
+1.5
+5
+220
+4
+2
+3
+12 5 191 1/3 3 30 1/2 2 7 1/4 1 98 1/2 1 127
+Break broccoli into bite-size pieces; place in microwave-safe bowl. Add water, cover, and microwave on HIGH 4 minutes, stirring once, or until desired tenderness. Drain. Stir in remaining ingredients and serve.
+
+
+Broccoli Couscous
+10
+5
+4
+190
+4
+10
+480
+31
+2
+8
+1 3 191 1_1/4 3 75 1 2 7 6 5 193 1 1 96
+Cut broccoli into bite-size pieces; place in microwave-safe bowl. Cover and microwave on HIGH 3–4 minutes or until desired tenderness. Meanwhile, place broth, butter, and couscous seasoning (from packet) in medium saucepan; cover and bring to boil on medium-high. Place couscous and mustard in serving dish. Stir broccoli into boiling broth and return to boil; remove from heat and pour over couscous. Stir once, cover, and let stand 5 minutes. Stir and serve.
+
+
+Grilled Tilapia
+10
+5
+4
+280
+9
+85
+410
+12
+1
+36
+1/4 3 192 1/2 3 157 1_1/2 6 70
+Preheat 2-sided tabletop grill. Pour lemon dill sauce in medium bowl. Place bread crumbs on plate (may be paper). Dip fish in lemon dill sauce, then coat both sides with bread crumbs (wash hands). Coat top and bottom of grill with cooking spray. Place fish on grill (wash hands); close lid and grill 3–4 minutes or until fish is opaque and separates easily with fork.
+
+
+Mango Chicken
+25
+10
+4
+355
+11
+124
+509
+16
+1
+47
+2 3 191 1 3 115 1_1/2 6 129 1 1 127 1 2 195 4 0 124
+Place broccoli in microwave-safe bowl, cover, and microwave on HIGH 3–4 minutes or until desired tenderness. Coarsely chop mango. (If using fresh mango, peel before chopping.) Set mango and broccoli aside. Preheat large sauté pan on medium-high 2–3 minutes. Sprinkle both sides of chicken with seasoned salt. Wash hands. Place butter in pan; swirl to coat. Add chicken (wash hands); cook 3–4 minutes on each side or until internal temperature reaches 170°F. Use a meat thermometer to accurately ensure doneness. Top each cutlet with mango, broccoli, and then 1 cheese slice. Cover and cook 2 more minutes or until cheese is melted.
+
+
+Salt Cod with Tomatoes
+140
+20
+6
+340
+22
+40
+2070
+15
+3
+19
+1 6 117 1/2 3 71 6 4 6 1 0 77 1 0 33 2 0 37 1/2 3 76 1 3 49
+Soak and rinse cod fillets by placing in bowl and covering with water for 2 hours. Chop parsley and garlic. Chop green pepper, onion, and tomatoes; cut fish into large pieces. Preheat large saute pan on medium-high 2-3 minutes. Place oil in pan, then add fish; cook and stir 3-4 minutes or until fish is tender and begins to brown slightly. Add peppers, onions, parsley, and garlic; cook and stir 2-3 minutes or until vegetables are tender. Stir in other ingredients. Reduce heat to medium and cover; cook 5-8 more minutes or until sauce thickens slighty. Remove from head; can stand covered until ready to serve.
+
+
+Margarita Fish
+35
+10
+4
+190
+4
+55
+400
+1
+0
+35
+4 0 111 1/2 1 9 1/8 1 10 1 2 145 1 2 76
+Preheat oven to 350F. Coat 2-quart baking dish with cooking spray; add fish. Season fish with salt and pepper; (Optional: add 1 tablespoon of jalapeno slices over top). Sprinkle with lime juice and wine. Bake 25 minutes or until flesh is opaque and separates easily with a fork. 
