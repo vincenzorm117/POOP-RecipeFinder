@@ -1,0 +1,85 @@
+//This is the inital algorithm for searching the recipe list
+
+//This is where we would set of predefinded ingredients
+bool_list ingredientList = (the name of the ingredient input);
+
+//This list will have all the possible ingredients marked as true/false
+//perhaps we could use 1/0?...
+bool_list searchInput = (the name of the users parameters);
+
+//This is the list of all the recipes
+//Not sure what kind of object this would be
+recipe recipeList[] = (the name of the recipe input);
+
+//This will be our return list; set to 100 in case everything is returned
+//Perhaps have a struct so we can keep track of the hit counter
+struct recipeMatches{
+	recipe result;
+	int hitCounter;
+	}
+
+//Array of structs
+recipeMatches recipeReturn[100];
+
+//This will be our top 10 sorted list
+recipe results[10];
+
+//Variable to grab the list of ingredients for each recipe
+bool_list recipeIngredients;
+
+//This could be an integer as it is hard coded...
+string cookingMode = (string that has the correct mode);
+
+//i for loop
+int i;
+//j for looping ingredient list
+int j;
+//match count
+int k;
+//number of inputs (ingredient number the user has inputed)
+int s;
+//keep a count of the number of results we have gathered
+int t;
+
+//First, use the filters to remove any that match (ie. milk alergy skip that record
+//Loop Throught the list of recipes
+for (i = 0; i < recipeList.length(); i ++){
+	
+	//reset counter
+	k = 0;
+	
+	//check if the recipe has the alergen
+	if (recipeList[i].alergen == true){
+		continue;
+	}
+	
+	//check to see if the recipe meets the 'mode'
+	else if (recipeList[i].mode.matches(cookingMode)){
+		
+		//Grab the current recipe's list of ingredients (again full list with true/false)
+		recipeIngredients = recipeList[i].ingredientList;
+		
+		//as we have filterd out the recipes that we didn't want so we continue on filtering
+		for (j = 0; j < ingredientList.lenght(); j ++){
+			//If we get a hit then add it to the counter
+			k = k + 1;
+		}
+		
+		//Just to make sure we have grabbed have at least half matches of users input
+		if(k >= s/2){
+			//Set the one we have found into the results list
+			results[t].recipe = recipeList[i];
+			results[t].hitCounter = k;
+			t ++;
+			
+			//Here we should order the results list based on hit counter
+			//Or we could do it after this loop so we only have to sort it once...
+			
+		}
+	}
+	
+	//We have hit things we don't want so we continue
+	else {
+		continue;
+	}
+}
