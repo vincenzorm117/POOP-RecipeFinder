@@ -15,8 +15,7 @@ namespace RecipeFinder
                                      DAIRY,         ///< Index: 3
                                      SEAFOOD,       ///< Index: 4
                                      MEAT,          ///< Index: 5
-                                     CARBOHYDRATES, ///< Index: 6
-                                     POULTRY        ///< Index: 7
+                                     CARBOHYDRATES ///< Index: 6
                                    };
 
     /**
@@ -67,7 +66,6 @@ namespace RecipeFinder
                 case 4:  return IngredientCategory.SEAFOOD;
                 case 5:  return IngredientCategory.MEAT;
                 case 6:  return IngredientCategory.CARBOHYDRATES;
-                case 7:  return IngredientCategory.POULTRY;
                 default: return IngredientCategory.NONE;
             }
         }
@@ -90,7 +88,6 @@ namespace RecipeFinder
                 case IngredientCategory.SEAFOOD:       return 4;
                 case IngredientCategory.MEAT:          return 5;
                 case IngredientCategory.CARBOHYDRATES: return 6;
-                case IngredientCategory.POULTRY:       return 7;
                 default:                               return 0;
             }
         }
