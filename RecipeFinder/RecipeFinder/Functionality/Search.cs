@@ -70,7 +70,7 @@ namespace RecipeFinder
 
                             //If the category is true then loop through the ingredients within
                             //TODO: Redo to actually compare
-                            for (int j = 0; j < recipeIngredients[i].ToArray().Length; j++)
+                            for (int j = 1; j < recipeIngredients[i].ToArray().Length; j++)
                             {
                                 if((_UserSelections[i][j].Equals(true)) && (recipeIngredients[i][j].Equals(true)))
                                 {
