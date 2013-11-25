@@ -904,3 +904,274 @@ spinach
 asparagus
 1
 0
+
+
+151
+beef stew meat
+5
+4
+
+
+152
+beef broth
+0
+0
+
+
+153
+veal chops
+5
+4
+
+
+154
+beef cubed steak
+5
+4
+
+
+155
+saltine crackers
+0
+0
+
+
+156
+ground beef
+5
+4
+
+
+157
+Italian bread crumbs
+6
+5
+
+
+158
+tomato sauce
+0
+0
+
+
+159
+dried rosemary
+0
+0
+
+
+160
+dried thyme
+0
+0
+
+
+161
+lamb loin chops
+5
+4
+
+
+162
+boneless pork chops
+5
+4
+
+
+163
+light beer
+0
+5
+
+
+164
+pork tenderloin
+5
+4
+
+
+165
+mesquite seasoning
+0
+0
+
+
+166
+oven roast
+5
+4
+
+
+167
+large leek
+1
+0
+
+
+168
+baby red potatoes
+1
+0
+
+
+169
+beef skirt steak
+5
+4
+
+
+170
+fajita seasoning
+0
+0
+
+
+171
+frozen stir fry peppers and onions
+1
+0
+
+
+172
+flour tortillas
+6
+5
+
+
+173
+tomato puree
+2
+0
+
+
+174
+barley
+0
+5
+
+
+175
+frozen whole kernel corn
+1
+0
+
+
+176
+egg whites
+0
+1
+
+
+177
+cream of tartar
+0
+0
+
+
+178
+semisweet chocolate pieces
+0
+0
+
+
+179
+vanilla-flavored candy coating
+0
+0
+
+
+180
+peanuts
+0
+3 
+
+
+181
+Chili Powder
+0
+0
+
+
+182
+Condensed Tomato Soup
+0
+0
+
+
+183
+Black Beans
+6
+0
+
+
+184
+Curry Powder
+0
+0
+
+
+185
+Chicken Wing Sauce
+0
+0
+
+
+186
+Sazon tropical seasoning
+0
+0
+
+
+187
+Mango Jam
+0
+0
+
+
+188
+Baby bell peppers
+2
+0
+
+
+189
+Pineapple Juice
+0
+0
+
+
+190
+box cheese and garlic croutons
+0
+0
+
+
+191
+Broccoli
+2
+0
+
+
+192
+lemon butter dill sauce
+0
+0
+
+
+193
+couscous mix
+0
+0
+
+
+194
+balsamic vinegar
+0
+0
+
+
+195
+garlic butter
+0
+0
+
