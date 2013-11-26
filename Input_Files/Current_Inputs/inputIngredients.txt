@@ -1242,3 +1242,28 @@ cubed ham
 mushrooms
 1
 0
+
+211
+white rice, pre-cooked
+0
+0
+
+212
+pink beans
+0
+8
+
+213
+bacon
+5
+4
+
+214
+shredded Cheddar and Monterey Jack cheese
+3
+1
+
+215
+vegetable seasoning blend
+0
+0
