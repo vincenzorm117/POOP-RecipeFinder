@@ -1,11 +1,5 @@
-﻿<Ingredient ID>
-<Name>
-<Category ID> (0=other , 1=vegetables, 2=fruits, 3=dairy, 4=seafood, 5=meat, 6=carbohydrates)
-<Allergy ID> (0 if none)
-
-
-1
-medium acorn squash
+﻿1
+acorn squash
 1
 0
 
@@ -75,7 +69,7 @@ grated Parmesan cheese
 12
 Pillsbury pie crust
 0
-0
+5
 
 
 13
@@ -103,7 +97,7 @@ ground cloves
 
 
 17
-eggs
+egg
 5
 0
 
@@ -139,8 +133,8 @@ broth
 
 
 23
-potatoes
-6
+potato
+1
 0
 
 
@@ -171,7 +165,7 @@ celery
 28
 cooked bacon pieces
 5
-0
+4
 
 
 29
@@ -224,7 +218,7 @@ chopped pineapple
 
 37
 diced tomato
-1
+2
 0
 
 
@@ -283,7 +277,7 @@ plantains
 
 
 47
-mini sweet pepper
+mini sweet peppers
 2
 0
 
@@ -349,7 +343,7 @@ eggplant, sliced
 
 
 58
-apples, sliced
+apples
 2
 0
 
@@ -363,7 +357,7 @@ granulated sugar
 60
 steak, 1-inch thick
 5
-0
+4
 
 
 61
@@ -373,7 +367,7 @@ steak seasoning
 
 
 62
-garlic, powder
+garlic powder
 0
 0
 
@@ -423,7 +417,7 @@ italian seasoning
 70
 tilapia fillets
 4
-0
+6
 
 
 71
@@ -441,7 +435,7 @@ teriyaki marinade
 73
 tuna steaks (3/4 inch-thick)
 4
-2
+6
 
 
 74
@@ -463,7 +457,7 @@ white wine
 
 
 77
-green bell pepper, chopped
+green bell pepper, thinly sliced
 2
 0
 
@@ -537,7 +531,7 @@ mixed fruit
 89
 medium shrimp. peeled and deveined, tail off
 6
-0
+2
 
 
 90
@@ -567,7 +561,7 @@ large shrimp, peeled and deveined
 94
 Boston butt
 5
-0
+4
 
 
 95
@@ -583,7 +577,7 @@ dijon mustard
 
 
 97
-Carolina-style barbecue sauce
+barbecue sauce
 0
 0
 
@@ -603,7 +597,7 @@ mussels, rinsed
 100
 pork back ribs
 5
-0
+4
 
 
 101
@@ -615,7 +609,7 @@ barbeque seasoning
 102
 grouper fillets
 4
-0
+6
 
 
 103
@@ -633,7 +627,7 @@ ranch dressing
 105
 hoagie rolls
 6
-0
+5
 
 
 106
@@ -669,19 +663,19 @@ Italian herb paste
 111
 mahi mahi fillets 
 4
-0
+6
 
 
 112
 salmon, skin removed
 4
-0
+6
 
 
 113
 snapper fillets
 4
-0
+6
 
 
 114
@@ -699,31 +693,31 @@ fresh mango, diced
 116
 flounder fillets
 4
-0
+6
 
 
 117
 cod fillet
 4
-0
+6
 
 
 118
 flour
 0
-0
+5
 
 
 119
 panko bread crumbs
 6
-0
+5
 
 
 120
 catfish fillet
 4
-0
+6
 
 
 121
@@ -735,7 +729,7 @@ cornmeal
 122
 ground turkey breast
 5
-0
+4
 
 
 123 
@@ -747,19 +741,19 @@ worcestershire sauce
 124
 slice of american cheese
 3
-0
+1
 
 
 125
 hamburger buns
 6
-0
+5
 
 
 126
 ground chicken
 5
-0
+4
 
 
 127
@@ -777,19 +771,19 @@ chili sauce
 129
 fryer chicken
 5
-0
+4
 
 
 130
 white bread
 6
-0
+5
 
 
 131
 biscuit baking mix
 6
-0
+5
 
 
 132
@@ -801,7 +795,7 @@ paprika
 133
 chicken wings
 5
-0
+4
 
 
 134
@@ -879,13 +873,13 @@ lime juice
 146
 frozen edamame
 1
-0
+7
 
 
 147
 walnuts
 0
-0
+3
 
 
 148
@@ -1087,20 +1081,20 @@ peanuts
 
 
 181
-chili powder
+Chili Powder
 0
 0
 
 
 182
-condensed tomato soup
+Condensed Tomato Soup
 0
 0
 
 
 183
-black beans
-6
+Black Beans
+0
 0
 
 
