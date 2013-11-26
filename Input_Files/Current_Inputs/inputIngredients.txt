@@ -1229,3 +1229,22 @@ shredded cheddar cheese
 3
 1
 
+207
+shredded American cheese
+3
+1
+
+208
+green onion
+1
+0
+
+209
+cubed ham
+5
+5
+
+210
+mushrooms
+1
+0
