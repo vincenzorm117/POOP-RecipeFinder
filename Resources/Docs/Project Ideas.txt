@@ -1,0 +1,23 @@
+GAMES:
+Comets
+Text base choose your own adventure with server
+Drag and drop towers of hanoi
+Triangle with pegs cracker barrel
+Brain games
+Block slide
+Photo Camera puzzle
+Camera Shooter
+
+
+UTILITIES:
+Budgeting application
+Recipe Finder
+Choose recipe based on fridge
+Cocktail maker (bartender)
+When to stop drinking
+
+
+
+Knights Recipes:
+-Search Recipe from prebuilt library
+-

@@ -1,0 +1,38 @@
+﻿0
+None
+None
+
+
+1
+Dairy
+This recipe contains ingredients with dairy.
+
+
+2
+Shellfish
+This recipe contains shellfish.
+
+
+3
+Nuts
+This recipe contains nuts.
+
+
+4
+Meat
+This recipe contains meat.
+
+
+5
+Gluten
+This recipe contains gluten products.
+
+
+6
+Fish
+This recipe contains fish.
+
+
+7
+Soy
+This recipe contains soy-based ingredients.

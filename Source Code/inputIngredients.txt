@@ -1,0 +1,1225 @@
+﻿1
+acorn squash
+1
+0
+
+
+2
+brown sugar
+0
+0
+
+
+3
+ground nutmeg
+0
+0
+
+
+4
+unsalted butter
+3
+1
+
+
+5
+packaged dried fettuccine
+6
+0
+
+
+6
+garlic
+1
+0
+
+
+
+
+7
+butter
+3
+1
+
+
+8
+whipping cream
+0
+1
+
+
+9
+salt
+0
+0
+
+
+10
+black pepper
+0
+0
+
+
+11
+grated Parmesan cheese
+3
+1
+
+
+12
+Pillsbury pie crust
+0
+5
+
+
+13
+pumpkin
+1
+0
+
+
+14
+ground cinnamon
+0
+0
+
+
+15
+ground ginger
+0
+0
+
+
+16
+ground cloves
+0
+0
+
+
+17
+egg
+5
+0
+
+
+18
+half-and-half
+3
+1
+
+
+19
+olive oil
+0
+0
+
+
+20
+ground allspice
+0
+0
+
+
+21
+rice
+0
+0
+
+
+22
+broth
+0
+0
+
+
+23
+potato
+1
+0
+
+
+24
+canola oil
+0
+0
+
+
+25
+blue cheese dressing
+3
+1
+
+
+26
+red onion
+1
+0
+
+
+27
+celery
+1
+0
+
+
+28
+cooked bacon pieces
+5
+4
+
+
+29
+yuca
+1
+0
+
+
+30
+water
+0
+0
+
+
+31
+salad olives
+2
+0
+
+
+32
+mojo marinade
+0
+0
+
+
+33
+onion
+1
+0
+
+
+34
+green cabbage
+1
+0
+
+
+35
+baby portabello mushrooms, sliced
+1
+0
+
+
+36
+chopped pineapple
+2
+0
+
+
+37
+diced tomato
+2
+0
+
+
+38 
+chopped red pepper
+2
+0
+
+
+39
+lime
+2
+0
+
+
+40
+chopped cilantro
+1
+0
+
+
+41
+watermelon
+2
+0
+
+
+42
+medium whole tomato
+2
+0
+
+
+43
+salad greens
+1
+0
+
+
+44
+feta cheese
+3
+1
+
+
+45
+vinaigrette
+0
+0
+
+
+46
+plantains
+2
+0
+
+
+47
+mini sweet peppers
+2
+0
+
+
+48
+dried oregano
+0
+0
+
+
+49
+stuffed green olives
+2
+0
+
+
+50
+orange juice
+0
+0
+
+
+51
+rice vinegar
+0
+0
+
+
+52
+corn kernels
+1
+0
+
+
+53
+sweet potato, cubed
+1
+0
+
+
+54
+jicama, cubed
+1
+0
+
+
+55
+diced tomatoes with chilies
+2
+0
+
+
+56
+zucchini squash, sliced
+1
+0
+
+
+57
+eggplant, sliced
+2
+0
+
+
+58
+apples
+2
+0
+
+
+59
+granulated sugar
+0
+0
+
+
+60
+steak, 1-inch thick
+5
+4
+
+
+61
+steak seasoning
+0
+0
+
+
+62
+garlic powder
+0
+0
+
+
+63
+basil, chopped
+1
+0
+
+
+64
+medium whole pears
+2
+0
+
+
+65
+sweet white wine
+0
+0
+
+
+66
+vanilla bean
+0
+0
+
+
+67
+packaged dried linguine
+6
+0 
+
+
+68
+mascarpone cheese
+3
+1
+
+
+69
+italian seasoning
+0
+0
+
+
+70
+tilapia fillets
+4
+6
+
+
+71
+parsley
+1
+0
+
+
+72
+teriyaki marinade
+0
+0
+
+
+73
+tuna steaks (3/4 inch-thick)
+4
+6
+
+
+74
+littleneck clams, rinsed
+4
+2
+
+
+75
+chicken broth
+0
+0
+
+
+76
+white wine
+0
+0
+
+
+77
+green bell pepper, thinly sliced
+2
+0
+
+
+78
+patagonian scallops
+4
+2
+
+
+79
+teriyaki sauce
+0
+0
+
+
+80
+medium lobster tails
+4
+2
+
+
+81
+lemon
+2
+0
+
+
+82
+canned chopped clams
+4
+2
+
+
+83
+seafood seasoning
+0
+0
+
+
+84
+snow crab clusters
+4
+2
+
+
+85
+jumbo shrimp
+4
+2
+
+
+86
+powdered sugar
+0
+0
+
+
+87
+greek seasoning
+0
+0
+
+
+88
+mixed fruit
+2
+0
+
+
+89
+medium shrimp. peeled and deveined, tail off
+6
+2
+
+
+90
+blackening seasoning
+0
+0
+
+
+91
+can alfredo sauce
+3
+1
+
+
+92
+garlic herb butter
+3
+1
+
+
+93
+large shrimp, peeled and deveined
+4
+2
+
+
+94
+Boston butt
+5
+4
+
+
+95
+garlic herb seasoning
+0
+0
+
+
+96
+dijon mustard
+0
+0
+
+
+97
+barbecue sauce
+0
+0
+
+
+98
+lemon juice
+2
+0
+
+
+99
+mussels, rinsed
+4
+2
+
+
+100
+pork back ribs
+5
+4
+
+
+101
+barbeque seasoning
+0
+0
+
+
+102
+grouper fillets
+4
+6
+
+
+103
+mayonnaise
+0
+0
+
+
+104
+ranch dressing
+0
+0
+
+
+105
+hoagie rolls
+6
+5
+
+
+106
+evaporated milk
+0
+1
+
+
+107
+peanut butter
+0
+3
+
+
+108
+marshmallow creme
+0
+0
+
+
+109
+vanilla
+0
+0
+
+
+110
+Italian herb paste
+0
+0
+
+
+111
+mahi mahi fillets 
+4
+6
+
+
+112
+salmon, skin removed
+4
+6
+
+
+113
+snapper fillets
+4
+6
+
+
+114
+peach mango salsa
+0
+0
+
+
+115
+fresh mango, diced
+2
+0
+
+
+116
+flounder fillets
+4
+6
+
+
+117
+cod fillet
+4
+6
+
+
+118
+flour
+0
+5
+
+
+119
+panko bread crumbs
+6
+5
+
+
+120
+catfish fillet
+4
+6
+
+
+121
+cornmeal
+0
+0
+
+
+122
+ground turkey breast
+5
+4
+
+
+123 
+worcestershire sauce
+0
+0
+
+
+124
+slice of american cheese
+3
+1
+
+
+125
+hamburger buns
+6
+5
+
+
+126
+ground chicken
+5
+4
+
+
+127
+seasoned salt
+0
+0
+
+
+128
+chili sauce
+0
+0
+
+
+129
+fryer chicken
+5
+4
+
+
+130
+white bread
+6
+5
+
+
+131
+biscuit baking mix
+6
+5
+
+
+132
+paprika
+0
+0
+
+
+133
+chicken wings
+5
+4
+
+
+134
+baking powder
+0
+0
+
+
+135
+baking soda
+0
+0
+
+
+136
+carrots
+1
+0
+
+
+137
+vegetable oil
+0
+0
+
+
+138
+cream cheese frosting
+0
+1
+
+
+139
+cornstarch
+0
+0
+
+
+140
+milk
+3
+1
+
+
+141
+raisins
+2
+0
+
+
+142
+raspberries
+2
+0
+
+
+143
+avocado
+2
+0
+
+
+144
+dairy sour cream
+3
+1
+
+
+145
+lime juice
+0
+0
+
+
+146
+frozen edamame
+1
+7
+
+
+147
+walnuts
+0
+3
+
+
+148
+Italian salad dressing
+0
+0
+
+
+149
+spinach
+1
+0
+
+
+150
+asparagus
+1
+0
+
+
+151
+beef stew meat
+5
+4
+
+
+152
+beef broth
+0
+0
+
+
+153
+veal chops
+5
+4
+
+
+154
+beef cubed steak
+5
+4
+
+
+155
+saltine crackers
+0
+0
+
+
+156
+ground beef
+5
+4
+
+
+157
+Italian bread crumbs
+6
+5
+
+
+158
+tomato sauce
+0
+0
+
+
+159
+dried rosemary
+0
+0
+
+
+160
+dried thyme
+0
+0
+
+
+161
+lamb loin chops
+5
+4
+
+
+162
+boneless pork chops
+5
+4
+
+
+163
+light beer
+0
+5
+
+
+164
+pork tenderloin
+5
+4
+
+
+165
+mesquite seasoning
+0
+0
+
+
+166
+oven roast
+5
+4
+
+
+167
+large leek
+1
+0
+
+
+168
+baby red potatoes
+1
+0
+
+
+169
+beef skirt steak
+5
+4
+
+
+170
+fajita seasoning
+0
+0
+
+
+171
+frozen stir fry peppers and onions
+1
+0
+
+
+172
+flour tortillas
+6
+5
+
+
+173
+tomato puree
+2
+0
+
+
+174
+barley
+0
+5
+
+
+175
+frozen whole kernel corn
+1
+0
+
+
+176
+egg whites
+0
+1
+
+
+177
+cream of tartar
+0
+0
+
+
+178
+semisweet chocolate pieces
+0
+0
+
+
+179
+vanilla-flavored candy coating
+0
+0
+
+
+180
+peanuts
+0
+3 
+
+
+181
+Chili Powder
+0
+0
+
+
+182
+Condensed Tomato Soup
+0
+0
+
+
+183
+Black Beans
+0
+0
+
+
+184
+curry powder
+0
+0
+
+
+185
+chicken wing sauce
+0
+0
+
+
+186
+sazon tropical seasoning
+0
+0
+
+
+187
+mango jam
+0
+0
+
+
+188
+baby bell peppers
+2
+0
+
+
+189
+pineapple juice
+0
+0
+
+
+190
+box cheese and garlic croutons
+0
+0
+
+
+191
+broccoli
+2
+0
+
+
+192
+lemon butter dill sauce
+0
+0
+
+
+193
+couscous mix
+0
+0
+
+
+194
+balsamic vinegar
+0
+0
+
+195
+garlic butter
+0
+0
+
+196
+shallots
+1
+0
+
+197
+sugar snap peas
+1
+0
+
+198
+bok choy
+1
+0
+
+199
+sun-dried tomatoes
+2
+0
+
+200
+broccoli rabe
+1
+0
+
+201
+brussel sprouts
+1
+0
+
+202
+medium butternut squash
+1
+0
+
+203
+pecans
+0
+3
+
+204
+mini marshmallows
+0
+0
+
+205
+dried elbow macaroni
+6
+0
+
+206
+shredded cheddar cheese
+3
+1
+

@@ -1,0 +1,75 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="ProofOfConcept.MainWindow"
+        Title="MainWindow" Height="377" Width="563">
+    <Canvas HorizontalAlignment="Left" Height="323" Margin="-4,0,0,0" VerticalAlignment="Top" Width="518">
+        <Canvas x:Name="ResultsPage" Height="323" Width="518" Canvas.Left="10" Canvas.Top="10" d:IsHidden="True">
+            <ScrollViewer x:Name="RecipeViewer" BorderThickness="5,5,5,4" BorderBrush="#FFCCCCCC" Background="White" OpacityMask="Black" Height="238" Canvas.Left="122" Canvas.Top="10" Width="386"/>
+            <Button Content="Go Back" Height="49" VerticalAlignment="Bottom" Width="144" Canvas.Left="187" Canvas.Top="266" Click="Go_Back_Button_Click"/>
+            <ListBox x:Name="RecipeList" Height="295" Canvas.Left="10" Canvas.Top="10" Width="103" SelectionChanged="RecipeList_SelectionChanged" BorderThickness="0"/>
+            <Border BorderBrush="#FF1B9DB9" BorderThickness="3" HorizontalAlignment="Left" Height="319" VerticalAlignment="Top" Width="117" CornerRadius="3"/>
+            <Border BorderBrush="#FF1B9DB9" BorderThickness="0,3,3,3" HorizontalAlignment="Left" Height="260" VerticalAlignment="Top" Width="400" CornerRadius="3" Canvas.Left="117"/>
+            <Button x:Name="Print" Content="Print" Canvas.Left="350" Canvas.Top="266" Width="146" Height="49" Click="Print_Click"/>
+        </Canvas>
+        <Grid x:Name="SearchPage" Height="319" Width="517" Canvas.Left="11" Canvas.Top="4">
+            <Border BorderBrush="#FF1B9DB9" BorderThickness="3" HorizontalAlignment="Left" Height="319" VerticalAlignment="Top" Width="117" CornerRadius="3"/>
+            <Label Content="Ingredients:" Margin="142,11,26,282"/>
+            <Button Content="Search" Height="49" VerticalAlignment="Bottom" Margin="187,0,186,4" Click="Search_Button_Click"/>
+            <CheckBox Content="Quick and Easy" HorizontalAlignment="Left" Margin="9,42,0,0" VerticalAlignment="Top"/>
+            <CheckBox Content="Intermediate" HorizontalAlignment="Left" Margin="9,62,0,0" VerticalAlignment="Top"/>
+            <CheckBox Content="Chef Mode" HorizontalAlignment="Left" Margin="9,82,0,0" VerticalAlignment="Top"/>
+            <Label Content="Modes:" HorizontalAlignment="Left" Margin="5,11,0,0" VerticalAlignment="Top" Width="99"/>
+            <CheckBox Content="Soy" HorizontalAlignment="Left" Margin="10,266,0,0" VerticalAlignment="Top"/>
+            <CheckBox Content="Wheat" HorizontalAlignment="Left" Margin="10,286,0,0" VerticalAlignment="Top"/>
+            <CheckBox Content="Tree nuts" HorizontalAlignment="Left" Margin="10,205,0,0" VerticalAlignment="Top"/>
+            <CheckBox Content="Shellfish" HorizontalAlignment="Left" Margin="10,245,0,0" VerticalAlignment="Top"/>
+            <CheckBox Content="Fish" HorizontalAlignment="Left" Margin="10,225,0,0" VerticalAlignment="Top"/>
+            <CheckBox Content="Milk" HorizontalAlignment="Left" Margin="10,145,0,0" VerticalAlignment="Top"/>
+            <CheckBox Content="Peanuts" HorizontalAlignment="Left" Margin="10,185,0,0" VerticalAlignment="Top"/>
+            <CheckBox Content="Eggs" HorizontalAlignment="Left" Margin="10,165,0,0" VerticalAlignment="Top"/>
+            <Label Content="Allergies:" HorizontalAlignment="Left" Margin="7,114,0,0" VerticalAlignment="Top" Width="98"/>
+            <Border BorderBrush="#FF1B9DB9" BorderThickness="0,3,3,3" HorizontalAlignment="Left" Height="260" Margin="117,0,0,0" VerticalAlignment="Top" Width="400" CornerRadius="3"/>
+            <CheckBox Content="Soy" HorizontalAlignment="Left" Margin="146,163,0,0" VerticalAlignment="Top"/>
+            <CheckBox Content="Wheat" HorizontalAlignment="Left" Margin="146,183,0,0" VerticalAlignment="Top"/>
+            <CheckBox Content="Tree nuts" HorizontalAlignment="Left" Margin="146,102,0,0" VerticalAlignment="Top"/>
+            <CheckBox Content="Shellfish" HorizontalAlignment="Left" Margin="146,142,0,0" VerticalAlignment="Top"/>
+            <CheckBox Content="Fish" HorizontalAlignment="Left" Margin="146,122,0,0" VerticalAlignment="Top"/>
+            <CheckBox Content="Milk" HorizontalAlignment="Left" Margin="146,42,0,0" VerticalAlignment="Top"/>
+            <CheckBox Content="Peanuts" HorizontalAlignment="Left" Margin="146,82,0,0" VerticalAlignment="Top"/>
+            <CheckBox Content="Eggs" HorizontalAlignment="Left" Margin="146,62,0,0" VerticalAlignment="Top"/>
+            <CheckBox Content="Soy" HorizontalAlignment="Left" Margin="246,163,0,0" VerticalAlignment="Top"/>
+            <CheckBox Content="Wheat" HorizontalAlignment="Left" Margin="246,183,0,0" VerticalAlignment="Top"/>
+            <CheckBox Content="Tree nuts" HorizontalAlignment="Left" Margin="246,102,0,0" VerticalAlignment="Top"/>
+            <CheckBox Content="Shellfish" HorizontalAlignment="Left" Margin="246,142,0,0" VerticalAlignment="Top"/>
+            <CheckBox Content="Fish" HorizontalAlignment="Left" Margin="246,122,0,0" VerticalAlignment="Top"/>
+            <CheckBox Content="Milk" HorizontalAlignment="Left" Margin="246,42,0,0" VerticalAlignment="Top"/>
+            <CheckBox Content="Peanuts" HorizontalAlignment="Left" Margin="246,82,0,0" VerticalAlignment="Top"/>
+            <CheckBox Content="Eggs" HorizontalAlignment="Left" Margin="246,62,0,0" VerticalAlignment="Top"/>
+            <CheckBox Content="Soy" HorizontalAlignment="Left" Margin="339,163,0,0" VerticalAlignment="Top"/>
+            <CheckBox Content="Wheat" HorizontalAlignment="Left" Margin="339,183,0,0" VerticalAlignment="Top"/>
+            <CheckBox Content="Tree nuts" HorizontalAlignment="Left" Margin="339,102,0,0" VerticalAlignment="Top"/>
+            <CheckBox Content="Shellfish" HorizontalAlignment="Left" Margin="339,142,0,0" VerticalAlignment="Top"/>
+            <CheckBox Content="Fish" HorizontalAlignment="Left" Margin="339,122,0,0" VerticalAlignment="Top"/>
+            <CheckBox Content="Milk" HorizontalAlignment="Left" Margin="339,42,0,0" VerticalAlignment="Top"/>
+            <CheckBox Content="Peanuts" HorizontalAlignment="Left" Margin="339,82,0,0" VerticalAlignment="Top"/>
+            <CheckBox Content="Eggs" HorizontalAlignment="Left" Margin="339,62,0,0" VerticalAlignment="Top"/>
+            <CheckBox Content="Soy" HorizontalAlignment="Left" Margin="424,163,0,0" VerticalAlignment="Top"/>
+            <CheckBox Content="Wheat" HorizontalAlignment="Left" Margin="424,183,0,0" VerticalAlignment="Top"/>
+            <CheckBox Content="Tree nuts" HorizontalAlignment="Left" Margin="424,102,0,0" VerticalAlignment="Top"/>
+            <CheckBox Content="Shellfish" HorizontalAlignment="Left" Margin="424,142,0,0" VerticalAlignment="Top"/>
+            <CheckBox Content="Fish" HorizontalAlignment="Left" Margin="424,122,0,0" VerticalAlignment="Top"/>
+            <CheckBox Content="Milk" HorizontalAlignment="Left" Margin="424,42,0,0" VerticalAlignment="Top"/>
+            <CheckBox Content="Peanuts" HorizontalAlignment="Left" Margin="424,82,0,0" VerticalAlignment="Top"/>
+            <CheckBox Content="Eggs" HorizontalAlignment="Left" Margin="424,62,0,0" VerticalAlignment="Top"/>
+            <CheckBox Content="Soy" HorizontalAlignment="Left" Margin="146,205,0,0" VerticalAlignment="Top"/>
+            <CheckBox Content="Wheat" HorizontalAlignment="Left" Margin="146,225,0,0" VerticalAlignment="Top"/>
+            <CheckBox Content="Soy" HorizontalAlignment="Left" Margin="246,205,0,0" VerticalAlignment="Top"/>
+            <CheckBox Content="Wheat" HorizontalAlignment="Left" Margin="246,225,0,0" VerticalAlignment="Top"/>
+            <CheckBox Content="Soy" HorizontalAlignment="Left" Margin="339,205,0,0" VerticalAlignment="Top"/>
+            <CheckBox Content="Wheat" HorizontalAlignment="Left" Margin="339,225,0,0" VerticalAlignment="Top"/>
+            <CheckBox Content="Soy" HorizontalAlignment="Left" Margin="424,205,0,0" VerticalAlignment="Top"/>
+            <CheckBox Content="Wheat" HorizontalAlignment="Left" Margin="424,225,0,0" VerticalAlignment="Top"/>
+        </Grid>
+    </Canvas>
+</Window>

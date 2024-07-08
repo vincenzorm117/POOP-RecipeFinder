@@ -1,0 +1,771 @@
+<html>
+
+<head>
+	<title>Concepts of Operations</title>
+
+	<style>
+		
+		#bod{
+			margin-left: 40px;
+			margin-right: 40px;
+		}
+		
+		#header {
+			text-align: center;
+		}
+		
+		
+		.blue {
+			color: #3167b9;
+		}
+		th {
+			background: #e0e0e0;
+			border: 1px solid black;
+			padding: 6px;
+		}
+		
+		.Comment {
+			text-align: left;
+		}
+		
+		td {
+			border: 1px solid black;
+			padding: 6px;
+			text-align: center;
+		}
+		table {
+			border: 1px groove black;
+			margin-bottom: 40px;
+			margin-left: auto;
+			margin-right: auto;
+			width: 50%;
+		}
+		.center{
+			text-align: center;
+		}
+		h4{
+			color: #be1616;
+			padding-left: 30px;
+		}
+		caption{
+			padding-bottom: 15px;
+		}
+		li{
+			padding-top: 10px;
+		}
+		.small{
+			font-size: small;
+		}
+	
+	
+		@font-face{
+			font-family: selected;
+			src: url(./CSS/ColabThi.otf);
+		}
+		
+		*{ font-family: selected; }
+		
+		
+		.marginTop{
+			margin-top: 50px;
+		}
+		
+		body{
+			margin-top: 40px;
+			margin-bottom: 200px;
+		}
+		.linkHead{
+			text-decoration: none;
+			color: #000000;
+		}
+		.boot{
+			margin-left:  200px;
+			margin-right: 200px;
+		}
+		a{
+			text-decoration: none;
+		}
+		ul{
+			margin-left: 30px;
+		}
+	</style>
+</head>
+
+
+
+
+
+
+
+
+<body>
+
+<div class="center">
+	<h1 class="blue"> Test Plan </h1>
+	<p class="small">Recipe Finder by Team Recipe Bytes</p>
+
+	<table style="width: 300px;">
+		<tr>
+			<td>COP4331</td>
+			<td>Fall</td>
+			<td>2013</td>
+		</tr>
+	</table>
+	
+	<a href="./2TeamPage.html">Home</a> &nbsp;&nbsp;&nbsp; <a style="color:red" href="../Templates/9 TestPlanTemplate.html">Template</a>
+	
+</div>
+<hr>
+
+<div>
+	<table class="center marginTop">
+		<caption class="blue">Modification History</caption>
+		<thead>
+				<th style="width: 5%;">Version</th>
+				<th style="width: 8%;">Date</th> 
+				<th style="width: 15%;">Who</th>
+				<th style="width: 72%;">Comment</th>
+			</thead>
+		<tbody>
+			<tr>
+				<td class="Week"> v1.0 </td>
+				<td class="Date"> 09/13/13</td>
+				<td class="Activity">M. Bald</td>
+				<td class="Comment"> Initial entry of Introduction and Description of Test Environment</td>
+			</tr>
+			<tr>
+				<td class="Week"> v1.1 </td>
+				<td class="Date"> 09/14/13</td>
+				<td class="Activity">M. Bald, J. Barnett</td>
+				<td class="Comment"> Updated Introduction and Description of Test Environment sections. Initial entry of Stopping Criteria and Test Cases</td>
+			</tr>
+			<tr>
+				<td class="Week"> v1.2 </td>
+				<td class="Date"> 09/19/13</td>
+				<td class="Activity">M. Bald</td>
+				<td class="Comment"> Added test cases 5 thru 13</td>
+			</tr>
+			<tr>
+				<td class="Week"> v1.3 </td>
+				<td class="Date"> 09/23/13</td>
+				<td class="Activity">M.Bald</td>
+				<td class="Comment"> Added test cases 14 thru 20</td>
+			</tr>
+			<tr>
+				<td class="Week"> v1.4 </td>
+				<td class="Date"> 09/24/13</td>
+				<td class="Activity">J. Barnett</td>
+				<td class="Comment"> Formatted Document</td>
+			</tr>
+		</tbody>
+	</table>
+	
+	<div>
+
+		
+		<table class="marginalize marginTop" id="teamMembers">
+			<caption class="blue"> Team Members</caption>
+			<thead>
+				<th>Name</th>
+				<th>Email</th>
+				<th>Number</th>
+				<th>Web-Page</th>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Vincenzo Marconi</td>
+					<td>vincenzorm117@knights.ucf.edu</td>
+					<td>(954)778-0251</td>
+					<td> <a href="./Vincenzo'sWebPage.html">LINK</a></td>
+				<tr>
+				<tr>
+					<td>Rachel Kinner</td>
+					<td>rachel.kinner@knights.ucf.edu</td>
+					<td>(321)345-3215</td>
+					<td> <a href="./Rachel'sWebPage.html">LINK</a></td>
+				<tr>
+				<tr>
+					<td>Ronald Hyatt</td>
+					<td>enishi@knights.ucf.edu</td>
+					<td>(321)298-0459</td>
+					<td> <a href="./Ronald'sWebPage.html">LINK</a></td>
+				<tr>
+				<tr>
+					<td>Matt Bald</td>
+					<td>matt.e.bald@gmail.com</td>
+					<td>(941)914-4487</td>
+					<td> <a href="./Matt'sWebPage.html">LINK</a></td>
+				<tr>
+				<tr>
+					<td>Brian McCormick</td>
+					<td>mccor140@knights.ucf.edu</td>
+					<td>(850)363-1052</td>
+					<td> <a href="./Brian'sWebPage.html">LINK</a></td>
+				<tr>
+				<tr>
+					<td>Josh Barnett</td>
+					<td>jbarnett@knights.ucf.edu</td>
+					<td>(612)709-3144</td>
+					<td> <a href="./Josh'sWebPage.html">LINK</a></td>
+				<tr>
+			</tbody>
+		</table>	
+	
+	</div>
+	
+	<hr>
+	
+	
+	<div class="boot">
+		<h3 class="center"> Content of this Document</h3>
+		
+		<ul>
+			<caption><a class="linkHead" href="#intro">Introduction</a></caption>
+			<li><a href="#objective">Overall Objective for Software Test Activity</a></li>
+			<li><a href="#reference">Reference Documents</a></li>
+		</ul>
+		<ul>
+			<li><a href="#description">Description of Test Environment</a></li>
+			<li><a href="#stoppingCriteria">Overall Stopping Criteria</a></li>
+			<li><a href="#individualTestCases">Description of Individual Test Cases</a></li>
+		</ul>
+		
+		
+		
+	</div>
+	
+	<hr>
+	
+	<div class="boot">
+		
+		<h3 id="intro">Section 1. Introduction</h3>
+		
+		<h4 id="objective">Overall Objective for Software Test Activity</h4>
+		<div>
+			<ul>
+				<li>
+					The software test should include a comprehensive list of all possible scenarios involving a user interacting with the application
+					<ul><li>At the very minimum, it should test all scenarios where an error is possible (other than end-user errors).</li></ul>
+				</li>
+				<li>
+					 We should design tests that involve scenarios involving “strange” user interactions. This may lead to more test-case scenarios being formulated as the program design becomes more concrete.
+				</li>
+			</ul>
+		</div>
+		
+		<h4 id="reference">Reference Documents</h4>
+		<div>
+			<ul>
+				<li><a class="noStyle" href="./3ConOps.html">Concepts of Operations</a></li>
+				<li><a class="noStyle" href="./4SRS.html">Software Requirements Specification</a></li>
+				<li><a class="noStyle" href="./5ProjectPlan.html">Project Management Plan</a></li>
+			</ul>
+		</div>
+			
+	</div>
+	
+	<hr>
+	
+	<div class="boot">
+		
+		<h3 id="description">Section 2. Description of Test Environment</h3>
+		
+		<ul>
+			<li>
+			Software will be a Windows Platform Application
+			</li>
+			<li>
+			The testing environment will be on a Windows OS, which is the only platform supported
+by our software
+			</li>
+			<li>
+			We will test on various Windows based machines
+			<ul><li>The slowest machine it will be tested with will have a 2.33Ghz Dual Core Processor, 1GB RAM, and Windows 7.</li></ul>
+			</li>
+			<li>
+			Main testers will be Matthew Bald and Josh Barnett
+			</li>
+			<li>
+			Secondary testers will be Rachel Kinner, Vincenzo Marconi, Brian McCormick, Ronald
+Hyatt
+			</li>
+			<li>
+				Several people unaffiliated with the program production will assist with new-user testing.
+			</li>
+			
+		</ul>			
+	</div>
+	
+	<hr>
+	
+	<div class="boot">
+		
+		<h3 id="stoppingCriteria">Section 3. Stopping Criteria</h3>
+		
+		<ul>
+			<li>
+			In the event of finding an error:
+			
+				<ul>
+					<li>
+						Log the error and move on, unless it prevents us from proceeding to our other tests. In that case, testing ceases and all error logs are posted to the repository.
+					</li>
+					<li>
+						If the error is in an isolated case, where we can still run other tests, we will log the error and proceed through our other tests.
+					</li>
+				</ul>
+			</li>
+			<li>
+			In the case of a minor error, such as a typo or cosmetic flaw, the tester will fix the error. However, if the error is related to a sensitive section of the software, we will send the error to the programming team.
+			</li>
+			<li>
+			If we have run through all of our test cases without error, we can conclude that the product is ready for delivery.
+			</li>
+			<li>
+			We define “good enough to deliver” as having no known bugs after running all of our test cases.
+			<ul><li>
+				However, if we are close to the product delivery deadline, and there is an error with a well-defined workaround or the error is purely cosmetic, we will still consider the software “good enough to deliver”.
+			</li></ul>
+			</li>
+			
+		</ul>
+	</div>
+	
+	<hr>
+	
+	<div class="boot">
+		
+		<h3 id="individualTestCases">Section 4. Description of Individual Test Cases</h3>
+		
+		<h4 id="objective">Test 0</h4>
+		<div>
+			<ul>
+				<li>
+				Objective: To ensure that all recipes are in the database.
+				</li>
+				<li>
+				Test description: Run a search with no checkboxes selected.
+				</li>
+				<li>
+				Test conditions: no modes selected.
+				</li>
+				<li>
+				Expected results: All recipe results should be displayed on the results screen.
+				</li>
+			</ul>
+		</div>
+		
+		
+		<h4 id="objective">Test 1</h4>
+		<div>
+			<ul>
+				<li>
+				Objective: To ensure that all checkboxes are selectable.
+				</li>
+				<li>
+				Test description: Run a search with all checkboxes selected.
+				</li>
+				<li>
+				Test conditions: Run in On-the-Go, Quick and Easy and Chef mode.
+				</li>
+				<li>
+				Expected results: No results will be displayed with a message prompting the user that there were no results.
+				</li>
+			</ul>
+		</div>
+		
+		
+		<h4 id="objective">Test 2</h4>
+		<div>
+			<ul>
+				<li>
+				Objective: Test application installation.
+				</li>
+				<li>
+				Test description: Download the executable file and run the program.
+				</li>
+				<li>
+				Test conditions: N/A.
+				</li>
+				<li>
+				Expected results: Application will open.
+				</li>
+			</ul>
+		</div>
+		
+		
+		<h4 id="objective">Test 3</h4>
+		<div>
+			<ul>
+				<li>
+				Objective Test application close option.
+				</li>
+				<li>
+				Test description: Run the program and close the program.
+				</li>
+				<li>
+				Test conditions: N/A.
+				</li>
+				<li>
+				Expected results: The program will exit.
+				</li>
+			</ul>
+		</div>
+		
+		
+		<h4 id="objective">Test 4</h4>
+		<div>
+			<ul>
+				<li>
+				Objective: Test application minimize option.
+				</li>
+				<li>
+				Test description: Run the program and click the minimize button.
+				</li>
+				<li>
+				Test conditions: N/A.
+				</li>
+				<li>
+				Expected results: The program will minimize.
+				</li>
+			</ul>
+		</div>
+		
+		
+		<h4 id="objective">Test 5</h4>
+		<div>
+			<ul>
+				<li>
+				Objective: Test application maximize option.
+				</li>
+				<li>
+				Test description: Run the program and click the maximize button.
+				</li>
+				<li>
+				Test conditions: N/A.
+				</li>
+				<li>
+				Expected results: The program will maximize.
+				</li>
+			</ul>
+		</div>
+		
+		
+		<h4 id="objective">Test 6</h4>
+		<div>
+			<ul>
+				<li>
+				Objective: Test GUI tabs.
+				</li>
+				<li>
+				Test description: Click all tabs in the program.
+				</li>
+				<li>
+				Test conditions: N/A.
+				</li>
+				<li>
+				Expected results: The tabs function properly.
+				</li>
+			</ul>
+		</div>
+		
+		
+		<h4 id="objective">Test 7</h4>
+		<div>
+			<ul>
+				<li>
+				Objective: Test every combination of checkboxes.
+				</li>
+				<li>
+				Test description: To test if results are found for each combination.
+				</li>
+				<li>
+				Test conditions: N/A.
+				</li>
+				<li>
+				Expected results: All combinations return some result, even a "no recipe found" result.
+				</li>
+			</ul>
+		</div>
+		
+		
+		<h4 id="objective">Test 8</h4>
+		<div>
+			<ul>
+				<li>
+				Objective: Confirm that quick and easy mode functions properly.
+				</li>
+				<li>
+				Test description: Check the quick and easy mode checkbox and no other checkboxes.
+				</li>
+				<li>
+				Test conditions: N/A.
+				</li>
+				<li>
+				Expected results: No recipes involving a preparation and cook-time greater than 30 minutes will be shown.
+				</li>
+			</ul>
+		</div>
+		
+		
+		<h4 id="objective">Test 9</h4>
+		<div>
+			<ul>
+				<li>
+				Objective: Confirm that intermediate mode functions properly.
+				</li>
+				<li>
+				Test description: Check the intermediate mode checkbox and no other checkboxes.
+				</li>
+				<li>
+				Test conditions: N/A.
+				</li>
+				<li>
+				Expected results: No recipes involving a preparation and cook-time greater than 30 minutes will be shown.
+				</li>
+			</ul>
+		</div>
+		
+		
+		<h4 id="objective">Test 10</h4>
+		<div>
+			<ul>
+				<li>
+				Objective: Confirm that chef mode functions properly.
+				</li>
+				<li>
+				Test description: Check the chef mode checkbox and no other checkboxes.
+				</li>
+				<li>
+				Test conditions: N/A.
+				</li>
+				<li>
+				Expected results: All recipes will be shown.
+				</li>
+			</ul>
+		</div>
+		
+		
+		<h4 id="objective">Test 11</h4>
+		<div>
+			<ul>
+				<li>
+				Objective: Confirm that all recipe links send the user to the correct recipe.
+				</li>
+				<li>
+				Test description: Check no boxes to return every recipe. Individually test each recipe link.
+				</li>
+				<li>
+				Test conditions: N/A.
+				</li>
+				<li>
+				Expected results: All recipe results will link to the correct recipe.
+				</li>
+			</ul>
+		</div>
+		
+		
+		<h4 id="objective">Test 12</h4>
+		<div>
+			<ul>
+				<li>
+				Objective: To test vegetarian mode and the system handles a zero recipe result properly.
+				</li>
+				<li>
+				Test description: Run a search in vegetarian mode with a meat ingredient selected.
+				</li>
+				<li>
+				Test conditions: Run in all modes.
+				</li>
+				<li>
+				Expected results: There should be 0 search results and a message prompting the user there were no results.
+				</li>
+			</ul>
+		</div>
+		
+		
+		<h4 id="objective">Test 13</h4>
+		<div>
+			<ul>
+				<li>
+				Objective: To test that the no nut safety feature is functioning.
+				</li>
+				<li>
+				Description: Run a search with no nuts and a nut ingredient selected.
+				</li>
+				<li>
+				Test conditions: Run in all modes.
+				</li>
+				<li>
+				Test expectations: There should be no results and a message prompting the user there were no results.
+				</li>
+			</ul>
+		</div>
+		
+		
+		<h4 id="objective">Test 14</h4>
+		<div>
+			<ul>
+				<li>
+				Objective: To test that the no dairy safety feature is functioning.
+				</li>
+				<li>
+				Test description: Run a search with no dairy and dairy ingredient selected.
+				</li>
+				<li>
+				Test conditions: Run in all modes.
+				</li>
+				<li>
+				Test expectations: There should be no results and a message prompting the user there were no results.
+				</li>
+			</ul>
+		</div>
+		
+		
+		<h4 id="objective">Test 15</h4>
+		<div>
+			<ul>
+				<li>
+				Objective: To test the no gluten safety feature.
+				</li>
+				<li>
+				Description: Run a search with no gluten mode and an ingredient containing gluten selected.
+				</li>
+				<li>
+				Conditions: Run in all modes.
+				</li>
+				<li>
+				Expectations: There should be no results and a message prompting the user there were no results.
+				</li>
+			</ul>
+		</div>
+		
+		
+		<h4 id="objective">Test 16</h4>
+		<div>
+			<ul>
+				<li>
+				Objective: To test the no egg safety feature.
+				</li>
+				<li>
+				Description: Run a search with no egg mode and egg ingredient selected.
+				</li>
+				<li>
+				Conditions: Run in all modes.
+				</li>
+				<li>
+				Expectations: There should be no results and a message prompting the user there were no results.
+				</li>
+			</ul>
+		</div>
+		
+		
+		<h4 id="objective">Test 17</h4>
+		<div>
+			<ul>
+				<li>
+				Objective: Test the no wheat safety feature.
+				</li>
+				<li>
+				Description: Run a search with no wheat mode and a wheat ingredient selected.
+				</li>
+				<li>
+				Conditions: Run in all modes.
+				</li>
+				<li>
+				Expectations: There should be no results and a message prompting the user there were no results.
+				</li>
+			</ul>
+		</div>
+		
+		
+		<h4 id="objective">Test 18</h4>
+		<div>
+			<ul>
+				<li>
+				Objective: Test the no fish safety feature.
+				</li>
+				<li>
+				Description: Run a search with no fish mode and a fish ingredient selected.
+				</li>
+				<li>
+				Conditions: Run in all modes.
+				</li>
+				<li>
+				Expectations: There should be no results and a message prompting the user there were no results.
+				</li>
+			</ul>
+		</div>
+		
+		
+		<h4 id="objective">Test 19</h4>
+		<div>
+			<ul>
+				<li>
+				Objective: Test the no shellfish safety feature.
+				</li>
+				<li>
+				Description: Run a search with no shellfish mode and a shellfish ingredient selected.
+				</li>
+				<li>
+				Conditions: Run in all modes.
+				</li>
+				<li>
+				Expectations: There should be no results and a message prompting the user there were no results.
+				</li>
+			</ul>
+		</div>
+		
+		
+		<h4 id="objective">Test 20</h4>
+		<div>
+			<ul>
+				<li>
+				Objective: Test the no soy safety feature.
+				</li>
+				<li>
+				Description: Run a search with no soy mode and a soy ingredient selected.
+				</li>
+				<li>
+				Conditions: Run in all modes.
+				</li>
+				<li>
+				Expectations: There should be no results and a message prompting the user there were no results.
+				</li>
+			</ul>
+		</div>
+		
+		
+		
+			
+			
+	</div>
+	
+	
+</div>
+
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

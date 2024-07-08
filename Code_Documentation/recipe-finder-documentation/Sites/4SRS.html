@@ -1,0 +1,604 @@
+<html>
+
+<head>
+	<title>Software Requirements Specification</title>
+
+	<style>
+		
+		#bod{
+			margin-left: 40px;
+			margin-right: 40px;
+		}
+		
+		#header {
+			text-align: center;
+		}
+		
+		
+		.blue {
+			color: #3167b9;
+		}
+		.red{
+			color: #be1616;
+		}
+		th {
+			background: #e0e0e0;
+			border: 1px solid black;
+			padding: 6px;
+		}
+		
+		.Comment {
+			text-align: left;
+		}
+		
+		td {
+			border: 1px solid black;
+			padding: 6px;
+			text-align: center;
+		}
+		table {
+			border: 1px groove black;
+			margin-bottom: 40px;
+			margin-left: auto;
+			margin-right: auto;
+			width: 50%;
+		}
+		.center{
+			text-align: center;
+		}
+		h4{
+			color: #be1616;
+			padding-left: 30px;
+		}
+		caption{
+			padding-bottom: 15px;
+		}
+		li{
+			padding-top: 10px;
+		}
+		.small{
+			font-size: small;
+		}
+	
+	
+		@font-face{
+			font-family: selected;
+			src: url(./CSS/ColabThi.otf);
+		}
+		
+		*{ font-family: selected; }
+		
+		
+		.marginTop{
+			margin-top: 50px;
+		}
+		
+		body{
+			margin-top: 40px;
+			margin-bottom: 200px;
+		}
+		.boot{
+			margin-left:  400px;
+			margin-right: 400px;
+		}
+		.indent{
+			margin-left: 30px;
+		}
+		.linkHead{
+			text-decoration: none;
+			color: #000000;
+		}
+		.bubble{
+			margin-top: 10px;
+		}
+		
+		.noStyle{
+			text-decoration: none;
+		}
+		.imp{
+			color: red;
+		}
+		a{
+			text-decoration: none;
+		}
+	</style>
+</head>
+
+
+
+
+
+
+
+
+<body>
+
+<div class="center">
+	<h1 class="blue"> Software Requirements Specification</h1>
+	<p class="small">Recipe Finder by Team Recipe Bytes</p>
+
+	<table style="width: 300px;">
+		<tr>
+			<td>COP4331</td>
+			<td>Fall</td>
+			<td>2013</td>
+		</tr>
+	</table>
+	
+	<a href="./2TeamPage.html">Home</a> &nbsp;&nbsp;&nbsp; <a style="color:red" href="../Templates/4 SRSTemplate.html">Template</a>
+	
+</div>
+<hr>
+
+<div>
+	<table class="center marginTop">
+		<caption class="blue">Modification History</caption>
+		<thead>
+				<th style="width: 5%;">Version</th>
+				<th style="width: 8%;">Date</th> 
+				<th style="width: 15%;">Who</th>
+				<th style="width: 72%;">Comment</th>
+			</thead>
+		<tbody>
+			<tr>
+				<td class="Week"> v1.0 </td>
+				<td class="Date"> 09/10/2013</td>
+				<td class="Activity">V. Marconi</td>
+				<td class="Comment"> Setup Document and Formatting.</td>
+			</tr>
+			<tr>
+				<td class="Week"> v1.1 </td>
+				<td class="Date"> 09/13/2013</td>
+				<td class="Activity">V. Marconi</td>
+				<td class="Comment"> Filled Section 1 and developed Coding standards.</td>
+			</tr>
+			<tr>
+				<td class="Week"> v1.2 </td>
+				<td class="Date"> 09/14/2013</td>
+				<td class="Activity">V. Marconi</td>
+				<td class="Comment"> Filled out Section 2 and assigned Ronald and Brian to fill out Event Table, and make Use Case Diagram.</td>
+			</tr>
+			<tr>
+				<td class="Week"> v1.3 </td>
+				<td class="Date"> 09/16/2013</td>
+				<td class="Activity">V. Marconi</td>
+				<td class="Comment"> Filled out Section 3.</td>
+			</tr>
+			<tr>
+				<td class="Week"> v1.4 </td>
+				<td class="Date"> 09/16/2013</td>
+				<td class="Activity">V. Marconi</td>
+				<td class="Comment"> Adjusted the Applicable Standards and Changed the Coding standards to our designed standard.</td>
+			</tr>
+			<tr>
+				<td class="Week"> v1.5 </td>
+				<td class="Date"> 09/18/2013</td>
+				<td class="Activity">V. Marconi</td>
+				<td class="Comment"> Filled in Event Table and Use Case Diagram from Ronald and Brian's work.</td>
+			</tr>
+			<tr>
+				<td class="Week"> v1.6 </td>
+				<td class="Date"> 09/20/2013</td>
+				<td class="Activity">V. Marconi</td>
+				<td class="Comment"> Reviewed and adjusted Section 3.</td>
+			</tr>
+			<tr>
+				<td class="Week"> v1.7 </td>
+				<td class="Date"> 09/21/2013</td>
+				<td class="Activity">V. Marconi</td>
+				<td class="Comment"> Filled in Use Case Description.</td>
+			</tr>
+			<tr>
+				<td class="Week"> v1.8 </td>
+				<td class="Date"> 09/21/2013</td>
+				<td class="Activity">V. Marconi</td>
+				<td class="Comment"> Adjusted Document Formatting.</td>
+			</tr>
+		</tbody>
+	</table>
+	
+	<div>
+
+		
+		<table class="marginalize marginTop" id="teamMembers">
+			<caption class="blue"> Team Members</caption>
+			<thead>
+				<th>Name</th>
+				<th>Email</th>
+				<th>Number</th>
+				<th>Web-Page</th>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Vincenzo Marconi</td>
+					<td>vincenzorm117@knights.ucf.edu</td>
+					<td>(954)778-0251</td>
+					<td> <a href="./Vincenzo'sWebPage.html">LINK</a></td>
+				<tr>
+				<tr>
+					<td>Rachel Kinner</td>
+					<td>rachel.kinner@knights.ucf.edu</td>
+					<td>(321)345-3215</td>
+					<td> <a href="./Rachel'sWebPage.html">LINK</a></td>
+				<tr>
+				<tr>
+					<td>Ronald Hyatt</td>
+					<td>enishi@knights.ucf.edu</td>
+					<td>(321)298-0459</td>
+					<td> <a href="./Ronald'sWebPage.html">LINK</a></td>
+				<tr>
+				<tr>
+					<td>Matt Bald</td>
+					<td>matt.e.bald@gmail.com</td>
+					<td>(941)914-4487</td>
+					<td> <a href="./Matt'sWebPage.html">LINK</a></td>
+				<tr>
+				<tr>
+					<td>Brian McCormick</td>
+					<td>mccor140@knights.ucf.edu</td>
+					<td>(850)363-1052</td>
+					<td> <a href="./Brian'sWebPage.html">LINK</a></td>
+				<tr>
+				<tr>
+					<td>Josh Barnett</td>
+					<td>jbarnett@knights.ucf.edu</td>
+					<td>(612)709-3144</td>
+					<td> <a href="./Josh'sWebPage.html">LINK</a></td>
+				<tr>
+			</tbody>
+		</table>	
+	
+	</div>
+	
+	<hr>
+	
+	<h3 class="center" style="margin-bottom: 40px;"> Content of this Document</h3>	
+	<div class="boot" style="margin-left: 400px;">
+
+		
+		
+		<ul>
+			<caption><a class="linkHead" href="#intro">Introduction</a></caption>
+			<li><a href="#softwareToBeProduced">Software to be Produced</a></li>
+			<li><a href="#referenceDocuments">Reference Documents</a></li>
+			<li><a href="#applicableStandards">Applicable Standards</a></li>
+			<li><a href="#definitions">Definitions, Acronyms, and Abbreviations</a></li>
+		</ul>
+		<ul>
+			<caption><a class="linkHead" href="#productOverview">Product Overview</a></caption>
+			<li><a href="#assumptions">Assumptions</a></li>
+			<li><a href="#stakeholders">Stakeholders</a></li>
+			<li><a href="#eventTable">Event Table</a></li>
+			<li><a href="#useCaseDiagram">Use Case Diagram</a></li>
+			<li><a href="#useCaseDescriptions">Use Case Descriptions</a></li>
+		</ul>
+		<ul>
+			<caption><a class="linkHead" href="#specificReq">Specific Requirements</a></caption>			
+			<li><a href="#functionalRequirements">Functional Requirements</a></li>
+			<li><a href="#interfaceRequirements">Interface Requirements</a></li>
+			<li><a href="#physicalEnvReq">Physical Environment Requirements</a></li>
+			<li><a href="#usersAndEnvReq">Users and Human Factors Requirements</a></li>
+			<li><a href="#documentationReq">Documentation Requirements</a></li>
+			<li><a href="#dataReq">Data Requirements</a></li>
+			<li><a href="#resourceReq">Resource Requirements</a></li>
+			<li><a href="#securityReq">Security Requirements</a></li>
+			<li><a href="#qualityAssuranceReq">Quality Assurance Requirements</a></li>
+		</ul>
+		<ul>
+			<caption><u>Supporting Material</u></caption>
+		</ul>
+
+	</div>
+	<hr>
+	
+	<div class="boot" style="margin-top: 50px;">
+		
+		<div id="intro">
+			<div class="red bubble">1: INTRODUCTION</div>
+			<div class="indent">
+				<div id="softwareToBeProduced" class="blue bubble">Software to be Produced</div>
+				<div class="indent bubble">
+				Based on the epicurious food software, we are developing a recipe finder that appeals to college students. The application will provide a variety of of common college foods. The application will provide a food safety warnings against allergens. It will include a button search that enables users to narrow down their choices quickly into several classifications. The main filtering criteria will be the type of recipe to be produced categorized by the amount of time it takes to cook given by the categories: On-the-Go, Quick and Easy, and Chef. Finally, we are also adding an exclude feature to the search so users can get just the food they want. For more information see the <a class="noStyle" href="./3ConOps.html">Concept of Operations</a>.
+				</div>
+				<div id="referenceDocuments" class="blue bubble">Reference Documents</div>
+				<div class="indent bubble">
+					<ul>
+						<li><a class="noStyle" href="./3ConOps.html">Concept of Operations</a></li>
+						<li><a class="noStyle" href="./5ProjectPlan.html">Project Management Plan</a></li>
+					</ul>
+				</div>
+				
+				
+				<div id="applicableStandards" class="blue bubble">Applicable Standards</div>
+				<div class="indent bubble">
+					<ul>
+						<li><a href="../HtmlCodingStandard.html">Html Coding Standard</a>: chosen to maintain the same structure for all documents. Same colors to maintain the same flow.</li>
+						<li><a href="../C%23CodingStandard.cs">C# Coding Standard</a>: Chosen so everybodies code is readable, easier to maintain, and it reduces the chance of producing errors.</li>
+					</ul>
+				</div>
+				
+				
+				<div id="definitions" class="blue bubble">Definitions, Acronyms, and Abbreviations</div>
+				<div class="indent bubble">
+					OS - Operating System HTML - Hyper Text Markup Language CSS - Cascading Style Scripts
+				</div>
+			</div>
+		</div>
+		
+		
+		
+
+		<div id="productOverview">
+			
+			<div class="red bubble">2: PRODUCT OVERVIEW</div>
+			<div class="indent">
+								
+				<div id="assumptions" class="blue bubble">Assumptions</div>
+				<div class="indent bubble">
+					<ul>
+						<li><b>Availability:</b> It is assumed that users will have access to a computer with a Windows OS.</li>
+						<li><b>Capability:</b> It is assumed that users have access to a computer with at least a Dual Core 2.33 Ghz Processor, including 1 GB RAM, and Windows 7 </li>
+					</ul>
+				
+				</div>
+				
+				
+				
+				
+				<div id="stakeholders" class="blue bubble">Stakeholders</div>
+				<div class="indent bubble">
+					<ul>
+						<li><b>Developers:</b> The developers have invested time and energy into creating the product. </li>
+						<li><b>Busy College Student:</b> The product will enable the busy student to have easy access to quick, on-the-go recipes.</li>
+						<li><b>Health Concerned Student:</b> The product will enable the health concerned student to have access to healthy recipes with detailed nutritional facts.</li>
+						<li><b>Adventurous Student:</b> The product will enable the adventurous student to have access to a wide variety of recipes.</li>
+					</lu>
+				</div>
+				
+				
+				
+				
+				<div id="eventTable" class="blue bubble">Event Table</div>
+				<div class="indent bubble">
+				
+					<table style="width: 900px;">
+						<thead>
+							<tr>
+								<th>Event Name</th>
+								<th>External Stimuli</th>
+								<th>External Responses</th>
+								<th>Internal data and state</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Select Ingredient</td>
+								<td>Mouse Click</td>
+								<td>Change In Checkbox Visual</td>
+								<td>Ingredient value set to True or False</td>
+							</tr>
+							<tr>
+								<td>Start Search</td>
+								<td>Mouse Click</td>
+								<td>Button Depresses</td>
+								<td>Filter's recipe results based on user's selections and displays results on tab/window</td>
+							</tr>
+							<tr>
+								<td>View Recipe</td>
+								<td>Double Click</td>
+								<td>New View Appears</td>
+								<td>Fetches selected recipes data from storage</td>
+							</tr>
+							<tr>
+								<td>Print to File</td>
+								<td>Mouse Click</td>
+								<td>File Dialog Box Appears</td>
+								<td>Creates new text file at save location for all selected recipes</td>
+							</tr>
+							<tr>
+								<td>Multi-Select Recipes</td>
+								<td>Mouse Click</td>
+								<td>Highlighting Line and Change in Checkbox Visual</td>
+								<td>Set selected value for selected recipes to true</td>
+							</tr>
+							<tr>
+								<td>Select Filters</td>
+								<td>Mouse Click</td>
+								<td>Change in Checkbox Visual</td>
+								<td>Filter value set to True or False</td>
+							</tr>
+							<tr>
+								<td>Program Startup</td>
+								<td>Double Click</td>
+								<td>Application Window Appears</td>
+								<td>Loads all recipe data before execution begins</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				
+				
+				
+				
+				<div id="useCaseDiagram" class="blue bubble">Use Case Diagram</div>
+				<div class="indent bubble">
+					
+					<img style="width: 800px;" src="./CSS/UseCase.png" />
+				</div>
+				
+				
+				<div id="useCaseDescriptions" class="blue bubble">Use Case Descriptions</div>
+				<div class="indent bubble">
+					<ul>
+						<caption><u>Typical Use Cases</u></caption>
+						<li>
+							User opens application and makes a selection of the food he/she is looking for, and the application returns the results.
+						</li>
+						<li>
+							User opens the application and then closes the application.
+						</li>
+						<li>
+							User opens the application, runs a search, selects an individual recipe and prints the result.
+						</li>
+					</ul>
+					<ul>
+						<caption><u>Some possible Exceptions</u></caption>
+						<li>
+							User runs a search with several selections and filters and the application crashes due to excessive use of memory and processing power.
+						</li>
+						<li>
+							User goes to print result and the program fails to communicate with the printer software to print the file.
+						</li>
+					</ul>
+				</div>
+			
+			
+			</div>			
+		</div>
+	
+
+		<div id="specificReq">
+			
+			<div class="red bubble">3: SPECIFIC REQUIREMENTS</div>
+			<div class="indent">
+				
+				
+				
+				<div id="functionalRequirements" class="blue bubble">Functional Requirements</div>
+				<div class="indent bubble">
+					<ul>
+						<li>No validation or parameters required. All input is managed through selection of buttons.</li>
+						<li>Appropriate results are presented when the corresponding selections are made; the correspondence being the selected ingredients and filters are matched to recipes.</li>
+					</lu>
+				</div>
+			
+			
+				<div id="interfaceRequirements" class="blue bubble">Interface Requirements</div>
+				<div class="indent bubble">
+					<ul>
+						<li>Data input: combination of button presses to select ingredients</li>
+						<li>Data output: recipe from ingredient selections</li>
+						<li>Domain: set of ingredients</li>
+						<li>The data set should not be too specific. Each ingredient would be a generic of its species like Apple instead of Green Apple</li>
+						<li>Each item sent will be very accurate for the program: its just a simple combinations permutations algorithm</li>
+						<li>Ingredients list will be the most frequently accessed resource, then the recipes themselves would be second</li>
+						<li>No timing issues will exist as the system is independent, it carries its resources, and the number of resources will be a small population.</li>
+						<li>No data will sent or received, all data will exist within the program as it is stand-alone.</li>
+						<li>Search data must be very accurate for the system to find its results.</li>
+					</lu>
+				</div>
+			
+			
+				<div id="physicalEnvReq" class="blue bubble">Physical Environmental Requirements</div>
+				<div class="indent bubble">
+					Software must run on a platform supporting the Windows Operating System. All other external environmental concerns affect the computer, and not the software directly. The user just needs to keep his computer safe.
+				</div>
+			
+			
+				<div id="usersAndEnvReq" class="blue bubble">Users and Human Factors Requirements</div>
+				<div class="indent bubble">
+					<ul>
+						<li>Support: The system should support all types of users who speak the English language</li>
+						<li>Skill: The minimum amount skill required to operate the software is that of a 6 year-old. The program is moreso a food picker as it is a finder; the only operational skill required is button pressing and reading.
+						</li>
+						<li>The application will only provide visual stimuli, so the only accommodations provided to particular users would be the font-size and font color for those who might be visually impaired</li>
+						<li>The system cannot be misused in any way, unless infected by a virus which at that point there is really nothing that can be done</li>
+					</lu>
+				</div>
+			
+			
+				<div id="documentationReq" class="blue bubble">Documentation Requirements</div>
+				<div class="indent bubble">
+					The level of documentation will be moderate (done by back-end coders) and it will be all online on the repo or the linked by the website. The user must have moderate to advance knowledge of C# mainly. Other programming documentation will not be too difficult to follow, and following these documents involves SE knowledge: which is a lot of common sense
+				</div>
+			
+			
+				<div id="dataReq" class="blue bubble">Data Requirements</div>
+				<div class="indent bubble">
+					The only function used is a combinations function that matches button selections to recipes. The data retained will be the recipes, ingredients, nutritional facts, and health hazards. All of this data will be kept within the program as encrypted resources.
+				</div>
+			
+			
+				<div id="resourceReq" class="blue bubble">Resource Requirements</div>
+				<div class="indent bubble">
+					<ul>
+						<li>Maintenance: With a Phased Life cycle model, developers will be developing and sustaining the application over time until project is terminated at which point maintenance will not be issued anymore.</li>
+						<li>Space: This program will probably occupy at most 60 MB of space on the hard drive. Users will be notified so they can prepare their computers to have enough space.</li>
+						<li>Performance: This program will use very little of the CPU so no air conditioning, heating, cooling, or power is required.</li>
+						<li>Funding: Small budget because application is small little funding is required</li>
+						<li>No hardware/software tools external to a Window platform will be required</li>
+					</lu>
+				</div>
+			
+			
+				<div id="securityReq" class="blue bubble">Security Requirements</div>
+				<div class="indent bubble">
+					<ul>
+						<li>Access: No authentication required. Program is free, freely accessible, and offers complete control</li>
+						<li>If we have enough time: One of the implementations to add is a taste feature that based on your past recipe selections, the system will try to determine which foods you prefer</li>
+						<li>The program thread will be ran from a user id and will only execute (no read and write)</li>
+						<li>No direct precautions should be taken apart from the keeping your computers hardware and software safe like you normally would</li>
+						<li>Recovery Plan: store backup executable so that if the program fails to run, the backup will be run</li>
+					</lu>
+				</div>
+			
+			
+				<div id="qualityAssuranceReq" class="blue bubble">Quality Assurance Requirements</div>
+				<div class="indent bubble">
+					<ul>
+						<li>Reliability: depends on the condition of its OS and computer hardware, and the accuracy of its recipes and nutritional facts</li>
+						<li>Availability: depends on users ability to access the program either on their computer or a download link</li>
+						<li>Maintainability: Since Phased Model is used maintenance will be reflected on the development stages</li>
+						<li>Security: No concerns</li>
+						<li>Portability: depends solely on portability of users laptop or access to a Windows platform</li>
+						<li>Quality: Demonstrated on how effective recipes are in nourishing students and saving them time</li>
+						<li>Faults: the system will have little faults as it will be constantly worked on, but faults will be isolated by good old fashion debugging and feedback</li>
+						<li>No prescribed mean time between failures, failures will never show up on the production side, they will only show on the development side</li>
+						<li>No prescribe time the system must be available; application is completely stand-alone so it has no dependencies</li>
+					</lu>
+				</div>
+			
+			
+				
+			
+			
+			
+			</div>
+			
+		</div>
+	</div>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

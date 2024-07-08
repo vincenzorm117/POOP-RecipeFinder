@@ -1,0 +1,9 @@
+﻿<Window x:Class="RecipeFinder.GUI.FoodSafetyModule"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="FoodSafetyModule" Height="765" Width="592" ShowInTaskbar="False" WindowStyle="ToolWindow">
+    <Window.Background>
+        <ImageBrush ImageSource="/RecipeFinder;component/Resources/Splash.png"/>
+    </Window.Background>
+
+</Window>

@@ -1,0 +1,27 @@
+W1  = Aug 19 - Aug 23
+W2  = Aug 26 - Aug 30
+W3  = Sep 2  - Sep 6
+W4  = Sep 9  - Sep 13
+W5  = Sep 16 - Sep 20
+W6  = Sep 23 - Sep 27  **Delv I  Current
+W7  = Sep 30 - Oct 4
+W8  = Oct 7  - Oct 11
+W9  = Oct 14 - Oct 18
+W10 = Oct 21 - Oct 25
+W11 = Oct 28 - Nov 1   **Delv II
+W12 = Nov 4  - Nov 8
+W13 = Nov 11 - Nov 15
+W14 = Nov 18 - Nov 22
+W15 = Nov 25 - Nov 29  **Delv Fin
+W16 = Dec 2  - Dec 6
+END 12-4 
+
+Today's Agenda:
+Establish Websites
+Draft System Requirements
+
+
+Purpose:
+better advanced search
+allergy disclaimers
+broader selection of common recipes
