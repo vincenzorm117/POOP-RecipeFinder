@@ -34,14 +34,14 @@ namespace RecipeFinder
             _AllergyCounter = 0;
 
             /*File Input Functionality Here*/
-            if(!AllergyInput("../../Inputs/inputAllergies.txt"))
+            if(!AllergyInput("inputAllergies.txt"))
                 return;
 
-            if(!IngredientInput("../../Inputs/inputIngredients.txt"))
+            if(!IngredientInput("inputIngredients.txt"))
                 return;
             IngredientSplit();
 
-            if(!RecipeInput("../../Inputs/inputRecipes.txt"))
+            if(!RecipeInput("inputRecipes.txt"))
                 return;
             /*End Input Functionality Here*/
 
